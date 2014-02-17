@@ -1,3 +1,13 @@
-name: Your New Jekyll Site
-markdown: redcarpet
+# General Jekyll Config
+name: Kyle's Wiki
+description: My personal notebook
 pygments: true
+url: http://wiki.xkyle.com
+lsi: false
+exclude: [LICENSE, CNAME, README.md, .gitignore]
+
+repository: https://github.com/solarkennedy/wiki.xkyle.com
+theme:
+  highlight_color: '#00007b'
+
+permalink: /:title/
