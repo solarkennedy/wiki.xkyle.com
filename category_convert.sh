@@ -10,9 +10,10 @@ do
 #  echo "categories:
 #$CATEGORIES"
 
-  sed  -e '1i ---' $EACH
-  sed  -e "1i $CATEGORIES" $EACH
-  sed  -e "1i categories:" $EACH
-  sed  -e '1i ---' $EACH
+  sed -i -e '1i ---' $EACH
+  sed -i -e "1i $CATEGORIES" $EACH
+  sed -i -e "1i categories:" $EACH
+  sed -i  -e '1i ---' $EACH
+  sed -i 'd/<Category:>' $EACH
 
 done
