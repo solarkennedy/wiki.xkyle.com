@@ -14,6 +14,6 @@ do
   sed -i -e "1i $CATEGORIES" $EACH
   sed -i -e "1i categories:" $EACH
   sed -i -e '1i ---' $EACH
-  sed -i '/<Category:>/d' $EACH
+  sed -i '/<Category:/d' $EACH
 
 done
