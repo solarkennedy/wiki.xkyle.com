@@ -1,3 +1,10 @@
+---
+categories:
+ - CFEngine
+ - IPv6
+ - Sysadmin
+ - Linux
+---
 Cfengine can work over <IPv6>, here are some example configurations.
 
 #### cfservd.conf
@@ -30,4 +37,3 @@ until I added this line in to /etc/gai.conf on my Ubuntu server.
 
     label ::/0          1
 
-<Category:CFEngine> <Category:IPv6> <Category:Sysadmin> <Category:Linux>

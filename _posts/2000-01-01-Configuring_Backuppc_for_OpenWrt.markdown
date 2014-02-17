@@ -1,3 +1,10 @@
+---
+categories:
+ - Sysadmin
+ - Linux
+ - OpenWrt
+ - BackupPC
+---
 It's good to backup your OpenWRTs, and it's really cool to do it with
 <BackupPC>!
 
@@ -29,5 +36,3 @@ is my config:
 That seems to be it really, it's just like backing up any other Linux
 server I guess...
 
-<Category:Sysadmin> <Category:Linux> <Category:OpenWrt>
-<Category:BackupPC>

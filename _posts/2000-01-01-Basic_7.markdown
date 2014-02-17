@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 This mission requires basic knowledge of linux shell commands and
 operators. The command "ls" lists the contents of a directory, while the
 semicolon (";") character ends one command without requiring a newline /

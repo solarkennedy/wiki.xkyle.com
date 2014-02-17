@@ -1,3 +1,8 @@
+---
+categories:
+ - Linux
+ - Sysadmin
+---
 It is not straight forward how to check out the health of the drives
 behind a 3ware raid controller, but here is a nice script that I wrote
 to check the health of all 8 behind a 9xxx:
@@ -35,4 +40,3 @@ to check the health of all 8 behind a 9xxx:
     echo ""
     done
 
-<Category:Linux> <Category:Sysadmin>

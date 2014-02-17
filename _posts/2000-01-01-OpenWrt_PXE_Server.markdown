@@ -1,3 +1,8 @@
+---
+categories:
+ - PXE
+ - OpenWrt
+---
 ### Prerequisites
 
 -   Should only need <OpenWrt> stock packages. (dnsmasq)
@@ -38,4 +43,3 @@
 
 -   <http://wiki.openwrt.org/doc/uci/dhcp>
 
-<Category:PXE> <Category:OpenWrt>

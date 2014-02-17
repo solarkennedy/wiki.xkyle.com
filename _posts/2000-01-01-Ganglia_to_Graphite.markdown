@@ -1,3 +1,8 @@
+---
+categories:
+ - Ganglia
+ - Graphite
+---
 Getting <Ganglia> data into <Graphite> is easy.
 
 ### New Data
@@ -35,4 +40,3 @@ Outputs. Check this out:
 
     # there is no step 3? Seriously, you just drop the rrds in the rrd folder and give it a good name.
 
-<Category:Ganglia> <Category:Graphite>

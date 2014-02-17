@@ -1,3 +1,8 @@
+---
+categories:
+ - OpenWrt
+ - DNSSEC
+---
 Openwrt's default dns "server" is dnsmasq. It is what is called a "stub
 resolver", where it simply forwards dns queries to the dns servers that
 you get from your cable modem's dhcp. It itself cannot do DNSSEC
@@ -134,4 +139,3 @@ it:
 All we did is change our upstream dns server to a DNSSEC aware one. This
 wiki page is 1% configuration and 99% explanation.
 
-<Category:OpenWrt> <Category:DNSSEC>

@@ -1,3 +1,7 @@
+---
+categories:
+ - Puppet
+---
 ### Prereq
 
 -   See:
@@ -18,4 +22,3 @@
 
 -   <http://docs.puppetlabs.com/puppet/3/reference/modules_publishing.html>
 
-<Category:Puppet>

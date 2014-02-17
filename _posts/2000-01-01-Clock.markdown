@@ -1,3 +1,7 @@
+---
+categories:
+ - Clock
+---
 The clock I'm building is a massive <led> powered clock based off of
 [schematics](http://www.sparkfun.com/commerce/tutorial_info.php?tutorials_id=47&page=6|these)
 and a ~~<pic> microcontroller.~~ <Arduino>.
@@ -64,4 +68,3 @@ rankdir="LR", fontsize = 12, size = 6,6 ]; node [ shape = polygon,
 
 </graph>
 
-<Category:Clock>

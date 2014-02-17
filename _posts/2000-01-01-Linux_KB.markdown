@@ -1,3 +1,7 @@
+---
+categories:
+ - Linux
+---
 -   [Linux Package Managers](Linux Package Managers "wikilink") - A
     cheat sheet cross-reference of common package managers
 -   [3ware Smart Test](3ware Smart Test "wikilink") - How to read the
@@ -24,4 +28,3 @@
 -   [Fixing Linux Permissions](Fixing Linux Permissions "wikilink") -
     Quick find commands to make permissions secure for web access
 
-<Category:Linux>

@@ -1,6 +1,10 @@
+---
+categories:
+ - GRUB
+ - IPMI
+---
 Send to both: serial --unit=0 --speed=115200 --word=8 --parity=no
 --stop=1 terminal --timeout=10 serial console
 
 Useful for IPMI SOL redirection.
 
-<Category:GRUB> <Category:IPMI>

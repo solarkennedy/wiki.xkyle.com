@@ -1,3 +1,7 @@
+---
+categories:
+ - Upstart
+---
 <FlexLM> uses the lmgrd program to host license servers. It comes with
 the crappiest init script you can imagine. Here is an <Upstart> script
 in its place. Specifically it is for an intel license manager, but
@@ -18,4 +22,3 @@ should be edited to meet your particular license manager needs:
 Stick that in file called /etc/init/lmgrd-intel.conf or the like. Start
 it like any other <Upstart> job.
 
-<Category:Upstart>

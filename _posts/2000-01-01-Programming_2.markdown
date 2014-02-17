@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 This challenge involves taking an image that has morse code embeded in
 it. We have to take that image, decode the morse code quickly.
 

@@ -1,3 +1,9 @@
+---
+categories:
+ - ESX
+ - KVM
+ - Virtualization
+---
 This is a quick script to snag an <ESXi> vm image and import it into a
 local <KVM> install.
 
@@ -26,4 +32,3 @@ local <KVM> install.
     echo "Importing Virtual Machine..."
     virt-install --import --location=$IMAGESTORE/$NEWVMNAME.vmdk -n $NEWVMNAME -r $RAM --noautoconsole
 
-<Category:ESX> <Category:KVM> <Category:Virtualization>

@@ -1,3 +1,7 @@
+---
+categories:
+ - SSL
+---
 Picking SSL Ciphers for a webserver is kind of a black art. There are
 issues with older clients (Windows XP), PCI Compliance, ans speed. I
 don't know what the deal really is.
@@ -16,4 +20,3 @@ don't know what the deal really is.
 -   <http://timelordz.com/wiki/SSL_Certificates>
 -   <https://www.openssl.org/docs/apps/ciphers.html>
 
-<Category:SSL>

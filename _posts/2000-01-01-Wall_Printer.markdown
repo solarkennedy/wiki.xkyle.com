@@ -1,3 +1,7 @@
+---
+categories:
+ - Projects
+---
 Parts
 -----
 
@@ -59,4 +63,3 @@ Scratch
 -   Another simple mount: <http://www.thingiverse.com/thing:1181>
 -   Generic Timing Pulley: <http://www.thingiverse.com/thing:1362>
 
-<Category:Projects>

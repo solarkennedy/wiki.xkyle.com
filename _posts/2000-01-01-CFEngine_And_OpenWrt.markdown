@@ -1,3 +1,8 @@
+---
+categories:
+ - CFEngine
+ - OpenWrt
+---
 With a recent patch to include <CFEngine> in <Openwrt>, we now have the
 capability to use CFEngine to manage large systems of openwrt based
 servers, access points,
@@ -74,4 +79,3 @@ Luckily opkg is super fast, so it is not much of a waste.
 Write a apt-cache for openwrt to fake out cfengine? Patch cfengine to be
 opkg aware?
 
-<Category:CFEngine> <Category:OpenWrt>

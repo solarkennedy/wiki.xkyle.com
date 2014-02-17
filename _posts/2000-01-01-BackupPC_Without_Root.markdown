@@ -1,3 +1,7 @@
+---
+categories:
+ - BackupPC
+---
 To be able to use <BackupPC> with servers without logging in as root
 directly, you must make some modifications.
 
@@ -6,4 +10,3 @@ directly, you must make some modifications.
 -   <http://backuppc.sourceforge.net/faq/ssh.html#how_can_client_access_as_root_be_avoided>
 -   <http://www.backupcentral.com/phpBB2/two-way-mirrors-of-external-mailing-lists-3/backuppc-21/backuppc-run-as-non-root-ssh-bedlam-102388/>
 
-<Category:BackupPC>

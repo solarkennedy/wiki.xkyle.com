@@ -1,3 +1,7 @@
+---
+categories:
+ - IPv6
+---
 IPv6 [Link local
 addresses](http://en.wikipedia.org/wiki/Link-local_address) are
 addresses that are automatically generated for each "link" or lan, that
@@ -105,4 +109,3 @@ continue connecting (yes/no)?
 Same thing, but add the -6 argument: nmap -6
 fe80::8886:46ff:feb1:8d03%eth0
 
-<Category:IPv6>

@@ -1,3 +1,8 @@
+---
+categories:
+ - Puppet
+ - SSH
+---
 First grab the auth.pp module from
 [here](http://projects.puppetlabs.com/projects/puppet/wiki/Module_Ssh_Auth_Patterns).
 It should go in your /etc/puppet/modules directory.
@@ -66,5 +71,3 @@ consolidate them into a the global /etc/ssh/known\_hosts file?
 
 -   <http://blog.askreet.com/?p=14>
 
-<Category:Puppet> [Category:Puppet
-Recipes](Category:Puppet Recipes "wikilink") <Category:SSH>

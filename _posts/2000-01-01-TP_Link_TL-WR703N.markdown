@@ -1,3 +1,8 @@
+---
+categories:
+ - OpenWrt
+ - TL-WR703N
+---
 ### Hardware Specs
 
 -   Atheros AR7240 CPU (400Mhz)
@@ -30,5 +35,3 @@
 
 -   <http://wiki.openwrt.org/toh/tp-link/tl-wr703n>
 
-<Category:OpenWrt> [Category:Plug
-Computers](Category:Plug Computers "wikilink") <Category:TL-WR703N>

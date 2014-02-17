@@ -1,3 +1,7 @@
+---
+categories:
+ - Clock
+---
     #!/bin/ash
     if [ "$1" == "m" ]; then
         echo "o" > /dev/ttyS1
@@ -10,4 +14,3 @@
         echo "o" > /dev/ttyS1
     fi
 
-<Category:Clock>

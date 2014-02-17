@@ -1,3 +1,7 @@
+---
+categories:
+ - IPMI
+---
 RHEL 6 - 64 bit
 
 `yum install OpenIPMI ipmitool`
@@ -30,4 +34,3 @@ RHEL 6 - 64 bit
 
     Issue '~.' to disconnect from the sol.
 
-<Category:IPMI>

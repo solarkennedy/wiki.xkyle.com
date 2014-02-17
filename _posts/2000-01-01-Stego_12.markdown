@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 This given bitmap has a single row of grey values, with the hint 'I am
 the not of a file'. This sounds like the values are the "not" as in,
 inverse of a file. This python script I wrote will spit out the values

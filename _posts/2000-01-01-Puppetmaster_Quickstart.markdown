@@ -1,3 +1,7 @@
+---
+categories:
+ - Puppet
+---
 On the agent: puppet agent --server puppet.xkyle.com
 
 On the server: See incoming certs waiting to be signed: \$ puppetca list
@@ -13,4 +17,3 @@ signing new clients.
 Now the client (in this case localhost, but whatever) can pull manifests
 from the server.
 
-<Category:Puppet>

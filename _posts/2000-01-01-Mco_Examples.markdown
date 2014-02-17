@@ -1,3 +1,8 @@
+---
+categories:
+ - MCollective
+ - jgrep
+---
 ### Filters
 
 #### all machines with the service agent
@@ -64,4 +69,3 @@
 
 -   <http://docs.puppetlabs.com/mcollective/reference/basic/basic_cli_usage.html>
 
-<Category:MCollective> <Category:jgrep>

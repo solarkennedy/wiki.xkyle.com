@@ -1,3 +1,7 @@
+---
+categories:
+ - BIOS
+---
 ### Examples
 
 #### Save Your Setttings
@@ -112,4 +116,3 @@ I don't know why there are two different ways to do it.
 
 -   <http://www.intel.com/support/motherboards/server/sb/CS-022714.htm>
 
-<Category:BIOS>

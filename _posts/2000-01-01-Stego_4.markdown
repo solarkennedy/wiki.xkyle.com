@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 First take the image, there is a binary stream at the end, this command
 will strip it out:
 

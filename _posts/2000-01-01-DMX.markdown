@@ -1,3 +1,8 @@
+---
+categories:
+ - DMX
+ - Projects
+---
 My DMX Pinout
 -------------
 
@@ -15,4 +20,3 @@ Extras
 
 [Compiling the USB DMX Driver](Compiling the USB DMX Driver "wikilink")
 
-<Category:DMX> <Category:Projects>

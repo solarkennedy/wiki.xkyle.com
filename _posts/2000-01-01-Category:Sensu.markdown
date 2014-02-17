@@ -1,1 +1,5 @@
+---
+categories:
+
+---
 Sensu stuff.

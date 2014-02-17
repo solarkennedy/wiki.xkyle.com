@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 Haunted Cemetery was the puzzle on the cover page of the Games Magazine
 issue for October 2010. It is not a very difficult puzzle, but a fun one
 to right a quick program for.\

@@ -1,3 +1,8 @@
+---
+categories:
+ - IPv6
+ - OpenVZ
+---
 It's not too hard to setup an <IPv6> tunnel inside an <OpenVZ>
 container. However, you cannot use normal interface tools (ifconfig, ip)
 because of the way openvz containers are designed. Instead you must use
@@ -23,4 +28,3 @@ a userspace tunnel program. <http://code.google.com/p/tb-tun/>
     ifconfig tun6to4 mtu 1480
     route -A inet6 add ::/0 dev tun6to4
 
-<Category:IPv6> <Category:OpenVZ>

@@ -1,3 +1,8 @@
+---
+categories:
+ - Vim
+ - GPG
+---
 ### Preface
 
 [Make a GPG Key](Make a GPG Key "wikilink") first.
@@ -15,4 +20,3 @@
 
 -   <http://www.vim.org/scripts/script.php?script_id=661>
 
-<Category:Vim> <Category:GPG>

@@ -1,3 +1,7 @@
+---
+categories:
+ - Scripts
+---
 ### This No longer works since twitter disabled basic auth
 
 Don't forget you need a for real deal version of wget so first run
@@ -27,4 +31,3 @@ Don't forget you need a for real deal version of wget so first run
         fi
     done
 
-<Category:Scripts>

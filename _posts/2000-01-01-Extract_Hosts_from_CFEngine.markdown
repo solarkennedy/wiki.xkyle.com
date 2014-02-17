@@ -1,3 +1,7 @@
+---
+categories:
+ - CFEngine
+---
 For whatever reason <CFEngine> doesn't have a *great* way to extract
 hosts from its database. This is the best I can come up with. Adjust as
 you see fit:
@@ -23,4 +27,3 @@ you see fit:
 
 Now you can do all sorts of things with this knowledge!
 
-<Category:CFEngine>

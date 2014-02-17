@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 -   [Google
     Accounts](https://support.google.com/a/bin/answer.py?hl=en&answer=1037451)
 -   [SSH](Google Authenticator with SSH "wikilink")

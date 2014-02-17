@@ -1,3 +1,8 @@
+---
+categories:
+ - SSL
+ - Apache
+---
 ### Example
 
     # Listen for virtual host requests on all IP addresses
@@ -57,4 +62,3 @@
         CustomLog logs/dummy-host.example.com-access_log common
     </VirtualHost>
 
-<Category:SSL> <Category:Apache>

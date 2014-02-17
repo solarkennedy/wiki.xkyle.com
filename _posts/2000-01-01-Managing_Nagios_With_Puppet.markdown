@@ -1,3 +1,7 @@
+---
+categories:
+ - Puppet
+---
 ### Prerequisites
 
 This assumes you have <Puppet> installed with [stored
@@ -58,4 +62,3 @@ configs](Stored Configs with Puppet "wikilink") configured already.
 
 -   <http://projects.puppetlabs.com/projects/1/wiki/Nagios_Patterns>
 
-<Category:Puppet>

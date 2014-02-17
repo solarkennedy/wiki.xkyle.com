@@ -1,3 +1,7 @@
+---
+categories:
+ - EFI
+---
 List of some binaries you can run in the <EFI> shell:
 
 -   [rEFIt](http://refit.sourceforge.net/)
@@ -9,4 +13,3 @@ List of some binaries you can run in the <EFI> shell:
 -   [All the freaking tools in the Intel EFI
     Toolkit!](http://www.intel.com/technology/efi/toolkit_overview.htm)
 
-<Category:EFI>

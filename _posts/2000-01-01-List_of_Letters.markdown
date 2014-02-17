@@ -1,3 +1,7 @@
+---
+categories:
+ - Scripts
+---
     0
     1
     2
@@ -39,4 +43,3 @@ Generate it: echo {a..z}
 
 Random Letters and numbers? shuf -e {a..z} {0..9}
 
-<Category:Scripts>

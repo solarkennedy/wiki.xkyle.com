@@ -1,3 +1,7 @@
+---
+categories:
+ - PXE
+---
 There of lots of things you can put in your <PXE> boot config file.
 
 ### Boot To Local Disk
@@ -19,4 +23,3 @@ There of lots of things you can put in your <PXE> boot config file.
 
 -   <http://people.mandriva.com/~aginies/doc/pxe/ch06.html>
 
-<Category:PXE>

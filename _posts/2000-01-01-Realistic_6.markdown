@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 <http://www.tsosmud.org/XECrypt.php>
 
 THAT'S ALL I CAN SAY ...

@@ -1,3 +1,7 @@
+---
+categories:
+ - OpenWrt
+---
 ### Prep
 
 -   See [OpenWrt Development](OpenWrt Development "wikilink") to get a
@@ -14,4 +18,3 @@
 
 -   make package/feeds/packages/bla/download V=99
 
-<Category:OpenWrt>

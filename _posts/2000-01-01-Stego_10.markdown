@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 <Image:Stego10.jpg>\
 This image is encoded in a [Bacon
 Cipher](http://en.wikipedia.org/wiki/Bacon%27s_cipher). Here is the raw

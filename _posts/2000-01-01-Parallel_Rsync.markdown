@@ -1,3 +1,8 @@
+---
+categories:
+ - Parallel
+ - Rsync
+---
 Sorry, there isn't such a thing (that I know of?)
 
 But you can emulate it with the <Parallel> utility.
@@ -7,4 +12,3 @@ But you can emulate it with the <Parallel> utility.
 Assuming your source can be globbed into good buckets. Adjust -j as
 needed. This assumes that your IO is **not** the bottleneck.
 
-<Category:Parallel> <Category:Rsync>

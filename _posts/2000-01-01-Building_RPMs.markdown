@@ -1,3 +1,7 @@
+---
+categories:
+ - RPM
+---
 `yum install rpmdevtools -y`\
 `rpmdev-setuptree`\
 `cd ~/rpmbuild`\
@@ -14,4 +18,3 @@ Edit the spec. Then run
 For more information on the spec, see [RPM Spec
 File](RPM Spec File "wikilink")
 
-<Category:RPM>

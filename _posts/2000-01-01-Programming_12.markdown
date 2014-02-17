@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 This mission has you performing specific operations to a given string,
 and submitting it very quickly, requiring the use of wget for answer
 submission.

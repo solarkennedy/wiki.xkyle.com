@@ -1,3 +1,9 @@
+---
+categories:
+ - XFS
+ - Linux
+ - RAID
+---
 xfsprogs and the mkfs.xfs utility **automatically** select the best
 stripe size and stripe width for underlying devices that support it,
 such as Linux software RAID devices. Earlier versions of xfs used a
@@ -83,4 +89,3 @@ From Documentation/filesystems/xfs.txt in the kernel tree:
 
 Source: [Samat Says: Tuning XFS for RAID](http://says.samat.org/)
 
-<Category:XFS> <Category:Linux> <Category:RAID>

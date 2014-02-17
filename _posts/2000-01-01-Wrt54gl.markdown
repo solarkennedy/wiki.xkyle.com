@@ -1,3 +1,8 @@
+---
+categories:
+ - WRT54G
+ - OpenWrt
+---
 This is the coolest router ever.
 
 -   Add an SD card to it:
@@ -96,4 +101,3 @@ Now we are going to copy over the root stuff
 Note: This will not take over any post configuration of your router. It
 will be stock after this next reboot.
 
-<Category:WRT54G> <Category:OpenWrt>

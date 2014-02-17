@@ -1,3 +1,8 @@
+---
+categories:
+ - Disks
+ - Partitions
+---
 #### With <parted> (yes)
 
 `parted /dev/sdb --script -- mktable msdos`\
@@ -27,4 +32,3 @@
 -   <http://www.unix.com/shell-programming-scripting/107362-partitioning-bash-script.html>
 -   <http://superuser.com/questions/332252/creating-and-formating-a-partition-using-a-bash-script>
 
-<Category:Disks> <Category:Partitions>

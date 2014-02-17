@@ -1,3 +1,8 @@
+---
+categories:
+ - Sysadmin
+ - Nagios
+---
 ### Enabling External Commands on Debian/Ubuntu
 
 Enable the checking of external commands in the config: sed -i
@@ -9,4 +14,3 @@ Now correct the permissions: /etc/init.d/nagios3 stop dpkg-statoverride
 dpkg-statoverride --update --add nagios nagios 751 /var/lib/nagios3
 /etc/init.d/nagios3 start
 
-<Category:Sysadmin> <Category:Nagios>

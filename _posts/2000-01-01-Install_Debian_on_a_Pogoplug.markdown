@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 ### Installing Debian to the USB drive
 
 #### Configure Uboot

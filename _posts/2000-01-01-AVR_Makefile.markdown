@@ -1,3 +1,8 @@
+---
+categories:
+ - AVR
+ - Makefile
+---
 You can download this file here: ![](Makefile.txt "image")
 
     # Hey Emacs, this is a -*- makefile -*-
@@ -1250,4 +1255,3 @@ You can download this file here: ![](Makefile.txt "image")
 
     clean clean_list program debug gdb-config
 
-<Category:AVR> <Category:Makefile>

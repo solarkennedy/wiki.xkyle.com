@@ -1,3 +1,9 @@
+---
+categories:
+ - SSH
+ - Linux
+ - Security
+---
 [Google Authenticator](Google Authenticator "wikilink") is a time based
 one time password thing that runs on smartphones. It is open source, and
 is included in modern ubuntu repositories.
@@ -39,5 +45,3 @@ the google authenticator pam module. [Google Issue
 this](http://blog.endpoint.com/2011/03/google-2-factor-authentication.html)
 
 [Category:Google
-Authenticator](Category:Google Authenticator "wikilink") <Category:SSH>
-<Category:Linux> <Category:Security>

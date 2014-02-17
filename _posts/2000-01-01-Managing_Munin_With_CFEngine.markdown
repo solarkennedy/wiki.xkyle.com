@@ -1,3 +1,8 @@
+---
+categories:
+ - Munin
+ - CFEngine
+---
 <Munin> is a great monitoring tool. I like to have a central munin
 server that polls other servers to aggregate graphs. Here is how I use
 <CFEngine> to do this for me:
@@ -23,4 +28,3 @@ server that polls other servers to aggregate graphs. Here is how I use
 <CFEngine2Munin> - How to automatically generate configs for your munin
 server.
 
-<Category:Munin> <Category:CFEngine>

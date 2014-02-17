@@ -1,3 +1,9 @@
+---
+categories:
+ - Mysql
+ - DNS
+ - Bind
+---
 Ubuntu by default does not have a package with bind-mysql-dlz installed.
 Here is how to build one:
 
@@ -58,4 +64,3 @@ And an example zone:
     insert into dns_records (zone, host, type, data, mx_priority) values ('domain.com', 'www2', 'CNAME', 'www.domain.com.', null);
     insert into dns_records (zone, host, type, data, mx_priority) values ('domain.com', '@', 'MX', 'domain.com.', '0');
 
-<Category:Mysql> <Category:DNS> <Category:Bind>

@@ -1,3 +1,7 @@
+---
+categories:
+ - Git
+---
 #### Convert to a Bare Repository
 
 `git config --bool core.bare true`\
@@ -8,4 +12,3 @@
 
 `git branch --merged | grep -v "\*" | xargs -n 1 git branch -d`
 
-<Category:Git>

@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 This is a guide to install Debian Lenny on a Seagate Dockstar. This
 method involves using the serial port, and we will be creating our own
 ubifs image and transferring it.

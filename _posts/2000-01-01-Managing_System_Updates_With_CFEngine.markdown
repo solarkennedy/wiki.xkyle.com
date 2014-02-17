@@ -1,3 +1,9 @@
+---
+categories:
+ - CFEngine
+ - Sysadmin
+ - Linux
+---
 One of the cornerstones of good sysadmin'ness is running regular
 updates. Specifically security updates.
 
@@ -17,4 +23,3 @@ Here is some <CFEngine> glue to make that happen.
         ubuntu.Hr10::
             "/usr/bin/unattended-upgrades"
 
-<Category:CFEngine> <Category:Sysadmin> <Category:Linux>

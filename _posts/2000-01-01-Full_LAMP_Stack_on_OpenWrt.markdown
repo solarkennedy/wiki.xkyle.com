@@ -1,3 +1,9 @@
+---
+categories:
+ - OpenWrt
+ - Apache
+ - Mysql
+---
 ### Remove Luci Web Interface (optional)
 
 `opkg remove luci luci-admin-core luci-admin-full luci-admin-mini luci-app-firewall luci-app-initmgr luci-cbi luci-core luci-http luci-i18n-english luci-ipkg luci-lmo luci-nixio luci-sgi-cgi luci-sys luci-theme-base luci-theme-openwrt luci-uci luci-uvl luci-web --force-removal-of-dependent-packages`\
@@ -48,4 +54,3 @@ Initialize the system tables: mysql\_install\_db --force
 
 Then start your daemon: /etc/init.d/mysqld start
 
-<Category:OpenWrt> <Category:Apache> <Category:Mysql>

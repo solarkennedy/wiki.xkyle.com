@@ -1,3 +1,8 @@
+---
+categories:
+ - Scripts
+ - Linux
+---
 To watch youtube videos in a stream of conciousness way:
 
     #!/bin/bash
@@ -14,4 +19,3 @@ To watch youtube videos in a stream of conciousness way:
 You need the [youtube-dl](http://bitbucket.org/rg3/youtube-dl/wiki/Home)
 script.
 
-<Category:Scripts> <Category:Linux>

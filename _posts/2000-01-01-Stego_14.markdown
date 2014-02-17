@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 This mission is stupid. Start with the file, untar it:
 
     $ tar xzvf stego14.tar.gz 

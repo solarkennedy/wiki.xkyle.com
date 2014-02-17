@@ -1,3 +1,7 @@
+---
+categories:
+ - Lasertag
+---
 Pinout:
 
     Brn: Common Ground
@@ -9,4 +13,3 @@ Pinout:
     Orange: Muzzle Flash + (Also IR LED +)
     Orange White: IR LED -
 
-<Category:Lasertag>

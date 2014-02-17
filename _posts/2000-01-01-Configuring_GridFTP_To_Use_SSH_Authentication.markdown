@@ -1,3 +1,8 @@
+---
+categories:
+ - GridFTP
+ - SSH
+---
 Client
 ------
 
@@ -99,4 +104,3 @@ reduced to just: exec /usr/sbin/globus-gridftp-server -ssh
 
 See [GridFTP Troubleshooting](GridFTP Troubleshooting "wikilink")
 
-<Category:GridFTP> <Category:SSH>

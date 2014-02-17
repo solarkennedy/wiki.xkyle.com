@@ -1,3 +1,7 @@
+---
+categories:
+ - Games
+---
 Info
 ----
 
@@ -140,4 +144,3 @@ A free WW2 based FPS
 `add game `\
 `update`
 
-<Category:Games>

@@ -1,3 +1,9 @@
+---
+categories:
+ - Iptables
+ - Scripts
+ - Firewall
+---
 So you want to setup iptables for Natting:
 
 `echo 1 > /proc/sys/net/ipv4/ip_forward`
@@ -15,4 +21,3 @@ For Me, tun3 with eth0 as the internal interface
 `/sbin/iptables -A FORWARD -i tun3 -o eth0 -m state --state RELATED,ESTABLISHED -j ACCEPT`\
 `/sbin/iptables -A FORWARD -i eth0 -o tun3 -j ACCEPT`
 
-<Category:Iptables> <Category:Scripts> <Category:Firewall>

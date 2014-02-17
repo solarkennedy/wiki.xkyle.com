@@ -1,3 +1,11 @@
+---
+categories:
+ - BIOS
+ - Dell
+ - syscfg
+ - HP
+ - Intel
+---
 Configuring <BIOS> settings from within Linux is hard. It seems to be
 vendor specific.
 
@@ -54,5 +62,3 @@ that grub-efi can control.
 
 -   <http://stackoverflow.com/questions/6259124/apis-for-querying-and-setting-bios-properties>
 
-<Category:BIOS> <Category:Dell> <Category:syscfg> <Category:HP>
-<Category:Intel>

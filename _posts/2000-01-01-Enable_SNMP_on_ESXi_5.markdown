@@ -1,3 +1,8 @@
+---
+categories:
+ - ESX
+ - SNMP
+---
 ### Prereqs
 
 Download the perl toolkit from
@@ -44,4 +49,3 @@ Download the perl toolkit from
 
 <http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1008065>
 
-<Category:ESX> <Category:SNMP>

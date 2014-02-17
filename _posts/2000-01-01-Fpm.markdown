@@ -1,3 +1,7 @@
+---
+categories:
+ - RPM
+---
 fpm makes making packages easy.
 
 Tricks
@@ -27,4 +31,3 @@ If you don't, you will get this: cpio: Digest mismatch
 
 <https://github.com/jordansissel/fpm/wiki/ConvertingGems>
 
-<Category:RPM>

@@ -1,3 +1,8 @@
+---
+categories:
+ - Disks
+ - OnTheCheap
+---
 A recipe for the Cheapest SAN money can buy:
 
 ### Hardware
@@ -9,4 +14,3 @@ A recipe for the Cheapest SAN money can buy:
 
 ### Software
 
-<Category:Disks> <Category:OnTheCheap>

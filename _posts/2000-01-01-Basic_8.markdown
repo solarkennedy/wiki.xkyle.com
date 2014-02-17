@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 When a name is entered, the system creates a file in
 /basic/8/tmp/randomjunk.shtml with some irrelevant information in it.\
 If you google for ".shtml" you'll see that that is an extension for

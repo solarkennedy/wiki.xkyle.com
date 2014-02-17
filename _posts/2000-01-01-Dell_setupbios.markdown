@@ -1,3 +1,8 @@
+---
+categories:
+ - Dell
+ - BIOS
+---
 <Dell> provides the setupbios tool to help automatically configure the
 bios of C-class servers.
 
@@ -32,4 +37,3 @@ See what changes are different compared to the defaults:
 -   Downloads: <http://poweredgec.com/files/>
 -   Main Site: <http://poweredgec.com/>
 
-<Category:Dell> <Category:BIOS>

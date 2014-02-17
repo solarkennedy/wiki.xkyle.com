@@ -1,3 +1,8 @@
+---
+categories:
+ - ERB
+ - Puppet
+---
 Puppet templates are written in <ERB>.
 
 #### Manifest Definition
@@ -18,4 +23,3 @@ Puppet will automatically look in your templates directory.
 
 See <ERB>
 
-<Category:ERB> <Category:Puppet>

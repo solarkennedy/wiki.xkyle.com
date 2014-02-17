@@ -1,3 +1,7 @@
+---
+categories:
+ - Security
+---
 This is an explanation of my HackthisSite.org solutions.
 
 ### Basic
@@ -162,4 +166,3 @@ Logic missions are currently disabled
 -   [IRC 9](IRC 9 "wikilink")
 
 [Category:Hack This Site](Category:Hack This Site "wikilink")
-<Category:Security>

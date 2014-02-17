@@ -1,3 +1,8 @@
+---
+categories:
+ - Transmission
+ - Deb
+---
 Torrentflux is a great bittorrent client, even for the command line, and
 must be patched to work with torrentflux.
 
@@ -46,4 +51,3 @@ Other Patches
 
 ![](Transmission-1.77-cli.c.txt "image")
 
-<Category:Transmission> <Category:Deb>

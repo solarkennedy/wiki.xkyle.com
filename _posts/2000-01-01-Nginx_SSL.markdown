@@ -1,3 +1,8 @@
+---
+categories:
+ - Nginx
+ - SSL
+---
     server {
         listen       443;
         server_name  wiki.xkyle.com;
@@ -15,4 +20,3 @@
 Copying and pasting your ssl\_ciphers line? Me too. Here is the deal on
 [SSL Ciphers](SSL Ciphers "wikilink").
 
-<Category:Nginx> <Category:SSL>

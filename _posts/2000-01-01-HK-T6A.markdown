@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 The HK-T6A is an inexpensive 2.4Ghz Transmitter:
 <http://www.hobbycity.com/hobbycity/store/uh_viewItem.asp?idProduct=15140>
 

@@ -1,3 +1,8 @@
+---
+categories:
+ - Parallel
+ - Linux
+---
 Parallel (not <GNU/Parallel>) is a useful tool for running jobs in
 parallel.
 
@@ -5,4 +10,3 @@ parallel.
 
 Use it like this: parallel -i -j 12 COMMAND "{}" -- 1 2 3
 
-<Category:Parallel> <Category:Linux>

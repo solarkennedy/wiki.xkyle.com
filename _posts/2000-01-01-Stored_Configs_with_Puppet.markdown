@@ -1,3 +1,8 @@
+---
+categories:
+ - Puppet
+ - Mysql
+---
 This is how to configure <Puppet> to use stored configs. Stored configs
 in puppet allow for clients to push back configuration like ssh keys,
 nagios configs, etc into the Puppetmaster's database.
@@ -28,4 +33,3 @@ dbsocket = /var/run/mysqld/mysqld.sock
 -   <http://projects.puppetlabs.com/projects/puppet/wiki/Using_Stored_Configuration>
 -   <http://projects.puppetlabs.com/projects/1/wiki/My_Sql_Stored_Configuration_Patterns>
 
-<Category:Puppet> <Category:Mysql>

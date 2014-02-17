@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 This mission is about cookies. To view your cookies, you can use
 javascript injection or a couple different firefox plugins.\
 Using javascript injection:\

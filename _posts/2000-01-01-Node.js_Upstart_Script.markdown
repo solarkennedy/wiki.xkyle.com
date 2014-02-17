@@ -1,3 +1,7 @@
+---
+categories:
+ - Upstart
+---
 This is an example <Node.js> <Upstart> script for Ubuntu, Centos 6, or
 other distros with Upstart.
 
@@ -9,4 +13,3 @@ other distros with Upstart.
         exec /usr/local/bin/node /htdocs/fuckyeah.xkyle.com/index.js 2>&1 >> /var/log/node.log
     end script
 
-<Category:Upstart>

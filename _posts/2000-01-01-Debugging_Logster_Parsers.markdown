@@ -1,3 +1,7 @@
+---
+categories:
+ - Logster
+---
 Sometimes it is helpful to run a <Logster> parser over and over to make
 sure you get it right. Here is one way to do it.
 
@@ -13,4 +17,3 @@ next time it runs it reads in all your lines: echo -e "154717\\n0" \>
 /var/run/logtail-TestLogster-var-log-test.log.state; \\ logster -D
 --output=stdout TestLogster /var/log/test.log
 
-<Category:Logster>

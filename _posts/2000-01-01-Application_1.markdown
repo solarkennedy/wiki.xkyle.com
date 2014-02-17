@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 This is as basic as it get's ...
 
 You need to create a serial for a basic IDentification programm Your

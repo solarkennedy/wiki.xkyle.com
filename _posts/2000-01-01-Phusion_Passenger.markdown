@@ -1,3 +1,8 @@
+---
+categories:
+ - Ruby
+ - Apache
+---
 ### Passenger.load Example
 
     LoadModule passenger_module /usr/lib/ruby/gems/1.8/gems/passenger-3.0.2/ext/apache2/mod_passenger.so
@@ -15,4 +20,3 @@
           </Directory>
        </VirtualHost>
 
-<Category:Ruby> <Category:Apache>

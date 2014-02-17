@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 ### Prep
 
 `yum -y install squashfs-tools`

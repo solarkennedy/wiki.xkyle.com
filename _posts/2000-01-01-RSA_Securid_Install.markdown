@@ -1,3 +1,10 @@
+---
+categories:
+ - RSA
+ - SecurID
+ - CFEngine
+ - Security
+---
 RSA Tokens are cool, but the linux installer that they comes with is
 kinda bulky. If you are installing it widely, its good to know exactly
 what files the installer is using, especially for <CFEngine> purposes.
@@ -96,5 +103,3 @@ pam\_unix replaced with pam\_securid.
 The sudo pam file is just the normal sudo file, but with system-auth
 replaced with securid-auth.
 
-<Category:RSA> <Category:SecurID> <Category:CFEngine>
-<Category:Security>

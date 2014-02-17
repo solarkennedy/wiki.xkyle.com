@@ -1,3 +1,10 @@
+---
+categories:
+ - Puppet
+ - IPv6
+ - Sysadmin
+ - Linux
+---
 ### Puppetmasterd
 
 If you are using <webrick> as the puppetmaster web server, then you need
@@ -11,4 +18,3 @@ Edit your /etc/puppet/puppet.conf like this:
 
 ### Puppet Agent
 
-<Category:Puppet> <Category:IPv6> <Category:Sysadmin> <Category:Linux>

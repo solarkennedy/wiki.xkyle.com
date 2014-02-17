@@ -1,3 +1,7 @@
+---
+categories:
+ - Mysql
+---
 Quick start setting up mysql replication:
 
 ### Master Setup
@@ -44,4 +48,3 @@ To make backups on the slave server, simply stop the slave, make the
 backup, then start it again mysqladmin stop-slave mysqldump -A \>
 dump.sql mysqladmin start-slave
 
-<Category:Mysql>

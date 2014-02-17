@@ -1,3 +1,7 @@
+---
+categories:
+ - NX
+---
 <NX> uses ssh to authenticate users. Sometimes though, an ssh key
 changes and we forget to update the known\_hosts file for the nx user.
 This plugin checks for that. (It is very difficult to detect when this
@@ -43,4 +47,3 @@ Needs this sudo line: nagios ALL=(nx) NOPASSWD: /usr/bin/ssh -o
 StrictHostKeyChecking=yes -o PasswordAuthentication=no -i
 /var//lib/nxserver/home/.ssh/client.id\_dsa.key nx@localhost /bin/true
 
-<Category:NX>

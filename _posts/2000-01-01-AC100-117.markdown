@@ -1,3 +1,7 @@
+---
+categories:
+ - AC100
+---
 ### Stock Android Kernel Command Line
 
 `mem=384M@0M nvmem=128M@384M vmalloc=256M video=tegrafb console=ttyS0,115200n8 usbcore.old_scheme_first=1 tegraboot=sdmmc tegrapart=recovery:700:a00:800,boot:1100:1000:800,mbr:2100:200:800,system:2300:25800:800,cache:27b00:32000:800,misc:59b00:400:800,store:5a000:9a600:800,userdata:f4700:2be500:800`
@@ -24,4 +28,3 @@ Serial Output:
 `Pin 1: 3.3v`\
 `Pin 2: TX`
 
-<Category:AC100>

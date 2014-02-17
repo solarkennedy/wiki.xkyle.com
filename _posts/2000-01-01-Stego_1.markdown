@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 The original string of 0's and 1's from the image between "00 00":
 
     0011100001100110011011101101000011000010111001100110110

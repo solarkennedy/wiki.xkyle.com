@@ -1,3 +1,7 @@
+---
+categories:
+ - Puppet
+---
 ### Set Facts and Test for Class Existence
 
     # spec/classes/transmission_daemon_spec.rb
@@ -24,5 +28,4 @@
 
 -   <http://puppetlabs.com/blog/the-next-generation-of-puppet-module-testing>
 
-<Category:Puppet> [Category:Puppet
 Testing](Category:Puppet Testing "wikilink")

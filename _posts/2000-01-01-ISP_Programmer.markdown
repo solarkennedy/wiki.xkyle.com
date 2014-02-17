@@ -1,3 +1,8 @@
+---
+categories:
+ - Electronics
+ - AVR
+---
 If you have an arduino or a <AVR> microcontroller that needs
 programming, but you don't have a bootloader installed, you can use the
 ISP method of programming.
@@ -25,4 +30,3 @@ Now Program:
 
     avrdude -p chiptype -P (device file) -c (programmer type)   -U whattoprogram:write:filename
 
-<Category:Electronics> <Category:AVR>

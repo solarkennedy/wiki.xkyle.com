@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 The hardest part about this mission is not simply calculating the
 string, but doing it in 3 seconds.
 

@@ -1,3 +1,9 @@
+---
+categories:
+ - LXC
+ - Virtualization
+ - iptables
+---
 <LXC>(linux containers) are a lightweight way to have virtual servers,
 without the overhead of full on platform virtualization, but more than a
 chroot. However there are not yet suitable for production use as they
@@ -68,4 +74,3 @@ Manual start: screen -dmS init-\$name lxc-start -n \$name -f
 
 List containers: lxc-ls
 
-<Category:LXC> <Category:Virtualization> <Category:iptables>

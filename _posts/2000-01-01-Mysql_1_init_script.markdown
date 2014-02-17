@@ -1,3 +1,7 @@
+---
+categories:
+ - Mysql
+---
     #
     # mysql_X - where 'X' is the instance number used by mysqld_multi.
     #
@@ -101,4 +105,3 @@
 
     exit 0
 
-<Category:Mysql>

@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 This image has a block of hex:
 
     I thought what I'd do was, I'd  pretend I was one of those deaf-mutes                                                                         I thought what I'd do was, I'd  pretend I was one of those deaf-mutes

@@ -1,3 +1,9 @@
+---
+categories:
+ - PXE
+ - NFS
+ - Fedora
+---
 ### DHCP
 
     yum -y install dhcp
@@ -120,4 +126,3 @@
 
 -   <https://docs.fedoraproject.org/en-US/Fedora/14/html/Storage_Administration_Guide/nfs-diskless-systems.html>
 
-<Category:PXE> <Category:NFS> <Category:Fedora>

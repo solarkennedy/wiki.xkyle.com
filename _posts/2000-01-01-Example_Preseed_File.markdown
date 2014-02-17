@@ -1,3 +1,11 @@
+---
+categories:
+ - Kickstart
+ - Preseed
+ - PXE
+ - Debian
+ - Linux
+---
 ### Example File
 
     ### Package Selection ###
@@ -184,5 +192,3 @@ References
 -   [<http://www.debian.org/releases/lenny/example-preseed.txt>](http://www.debian.org/releases/lenny/example-preseed.txt)
 -   [<http://stratuslab.eu/doku.php?id=tutoral:examplepreseed>](http://stratuslab.eu/doku.php?id=tutoral:examplepreseed)
 
-<Category:Kickstart> <Category:Preseed> <Category:PXE> <Category:Debian>
-<Category:Linux>

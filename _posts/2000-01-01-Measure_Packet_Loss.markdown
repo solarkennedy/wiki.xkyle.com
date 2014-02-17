@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 ### Easy
 
 `netstat -s | grep retransmited` `Server perspective.`

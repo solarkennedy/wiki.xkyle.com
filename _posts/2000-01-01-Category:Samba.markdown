@@ -1,1 +1,5 @@
+---
+categories:
+
+---
 Samba Pages:

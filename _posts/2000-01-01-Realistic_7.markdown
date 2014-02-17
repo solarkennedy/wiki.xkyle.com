@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 So basically clicking on links you can see in the URL that PHP is
 pulling them from a database. Which mean you can use the = to tell you
 thing in the database. Looking at the source of the web page you can

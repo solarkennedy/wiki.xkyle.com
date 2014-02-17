@@ -1,3 +1,7 @@
+---
+categories:
+ - Puppet
+---
 Puppet autosigning makes it so you don't have to run "puppet cert sign"
 whenever you have a new client connecting.
 
@@ -14,4 +18,3 @@ immediately when a client connects (no need to restart puppetmaster).
 
 <http://projects.puppetlabs.com/projects/1/wiki/Certificates_And_Security>
 
-<Category:Puppet>

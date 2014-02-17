@@ -1,3 +1,7 @@
+---
+categories:
+ - Lasertag
+---
 Pinouts:
 
     Cat5A (Top With Black Mark)
@@ -20,4 +24,3 @@ Pinouts:
     Orange: IR LED + (Only in pack)
     Orange/W: IR LED - (Only in pack)
 
-<Category:Lasertag>

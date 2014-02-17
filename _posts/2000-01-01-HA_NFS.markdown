@@ -1,3 +1,7 @@
+---
+categories:
+ - NFS
+---
 These are the pre-install steps to setup a HA nfs server:
 
     yum -y install drbd kmod-drbd heartbeat
@@ -26,4 +30,3 @@ These are the pre-install steps to setup a HA nfs server:
     mkdir /aux.structure/conf.d/
 
 [Category:High Availability](Category:High Availability "wikilink")
-<Category:NFS>

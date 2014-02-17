@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 The [Voodoo Envy 133](Voodoo Envy 133 "wikilink") is a cool laptop. Here
 is a few teardown pictures.
 

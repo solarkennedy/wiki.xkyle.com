@@ -1,3 +1,7 @@
+---
+categories:
+ - Graphite
+---
 <Graphite> uses <Carbon> as its backing store. Carbon uses "schemas" to
 determine how long to retain data. It is very flexible.
 
@@ -36,4 +40,3 @@ files, or use a script to migrate them. Like this:
 -   <https://github.com/jjack/Force-Graphite-Schemas/blob/master/force_schemas.pl>
 -   <http://graphite.wikidot.com/getting-your-data-into-graphite>
 
-<Category:Graphite>

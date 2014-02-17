@@ -1,3 +1,8 @@
+---
+categories:
+ - Nginx
+ - PHP
+---
 -   Grab packages from this repo:
 
 [`http://rpms.famillecollet.com/`](http://rpms.famillecollet.com/)
@@ -19,4 +24,3 @@
             fastcgi_index  index.php;
     }
 
-<Category:Nginx> <Category:PHP>

@@ -1,3 +1,8 @@
+---
+categories:
+ - PIC
+ - Scripts
+---
 Here are the tools I use in Linux to program PIC's:
 
 It is also more useful to have a [Pic
@@ -23,4 +28,3 @@ And some sample programs:
 -   <interrupttest>
 -   <testpattern>
 
-<Category:PIC> <Category:Scripts>

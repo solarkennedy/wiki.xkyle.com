@@ -1,3 +1,8 @@
+---
+categories:
+ - NTFS
+ - Windows
+---
 ### What
 
 NTFS Juntions are like directory symlinks in linux. Use the
@@ -15,4 +20,3 @@ Move your <VirtualBox> VM folder junction.exe 'VirtualBox VMs'
 
 -   <http://technet.microsoft.com/en-us/sysinternals/bb896768.aspx>
 
-<Category:NTFS> <Category:Windows>

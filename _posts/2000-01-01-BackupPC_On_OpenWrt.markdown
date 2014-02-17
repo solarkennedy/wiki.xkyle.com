@@ -1,3 +1,9 @@
+---
+categories:
+ - BackupPC
+ - OpenWrt
+ - Samba
+---
 These are instructions for installing Openwrt on Backfire. This include
 rsync, all the perl stuff, ssh'ing, etc.
 
@@ -94,4 +100,3 @@ Maybe some SSL while we are at it? No reason to send the password in the
 clear anyway. opkg install uhttpd-mod-tls px5g /etc/init.d/uhttpd
 restart
 
-<Category:BackupPC> <Category:OpenWrt> <Category:Samba>

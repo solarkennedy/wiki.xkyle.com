@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 In this mission you are given a kindergarten-encrypted password, and you
 need to reverse-engineer the encryption.\
 You'll notice that if you encrypt "aaaaa" it gives you "abcde". This

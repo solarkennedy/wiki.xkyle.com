@@ -1,3 +1,7 @@
+---
+categories:
+ - Vim
+---
 Also check out my <Vimrc>
 
 Movement
@@ -52,4 +56,3 @@ All Content from
 [<http://vim.wikia.com/wiki/Vim_Tips_Wiki>](http://vim.wikia.com/wiki/Vim_Tips_Wiki)
 CC - BY - SA
 
-<Category:Vim>

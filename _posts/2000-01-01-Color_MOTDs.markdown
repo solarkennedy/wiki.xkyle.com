@@ -1,3 +1,7 @@
+---
+categories:
+ - Linux
+---
 Using Figlet / Toilet
 ---------------------
 
@@ -54,4 +58,3 @@ See All Available Colors
 
 -   <http://tldp.org/HOWTO/Bash-Prompt-HOWTO/x329.html>
 
-<Category:Linux>

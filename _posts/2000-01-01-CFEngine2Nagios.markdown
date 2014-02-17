@@ -1,3 +1,7 @@
+---
+categories:
+ - CFEngine
+---
 I'm tired of configuring <Nagios>. <CFEngine> knows all my servers
 anyway, so can't it do it for me?
 
@@ -8,4 +12,3 @@ To get a list of hosts from CFEngine, use
 
     ./extract-hosts.sh
 
-<Category:CFEngine>

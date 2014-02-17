@@ -1,3 +1,9 @@
+---
+categories:
+ - SQLite
+ - ActiveRecord
+ - Ruby
+---
 #### database.yaml
 
     development:
@@ -11,4 +17,3 @@
     db_config = YAML::load(File.open('database.yml'))
     ActiveRecord::Base.establish_connection(db_config["development"])
 
-<Category:SQLite> <Category:ActiveRecord> <Category:Ruby>

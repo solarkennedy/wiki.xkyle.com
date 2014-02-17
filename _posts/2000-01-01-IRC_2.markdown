@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 This may or may not work, depending on your operating system, browser,
 and IRC client.
 

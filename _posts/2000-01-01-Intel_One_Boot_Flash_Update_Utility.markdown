@@ -1,3 +1,8 @@
+---
+categories:
+ - BIOS
+ - Intel
+---
 The Intel One Boot Flash Update Utility (**Intel OFU**) allows sysadmins
 in-band tools to flash firmwares.
 
@@ -17,4 +22,3 @@ rpm formats, but they are 32 bit only.
 -   <http://download.intel.com/support/motherboards/server/ism/sb/intel_ofu_user_guide.pdf>
 -   <http://www.intel.com/support/motherboards/server/s7000fc4ur/sb/CS-030349.htm>
 
-<Category:BIOS> <Category:Intel>

@@ -1,3 +1,8 @@
+---
+categories:
+ - U-Boot
+ - Pogoplug
+---
 Original Version: U-Boot 1.1.4 (Sep 28 2009 - 11:55:23) Cloud Engines
 v2.0 (3.4.16)
 
@@ -88,4 +93,3 @@ New version: U-Boot 1.1.4 (Oct 9 2009 - 16:55:51) Cloud Engines v2.0
     Environment size: 730/131068 bytes
 
 [Category:Plug Computers](Category:Plug Computers "wikilink")
-<Category:U-Boot> <Category:Pogoplug>

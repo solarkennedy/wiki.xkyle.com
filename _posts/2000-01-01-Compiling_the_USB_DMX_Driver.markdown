@@ -1,3 +1,7 @@
+---
+categories:
+ - DMX
+---
 Build and install the usb kernel module
 ---------------------------------------
 
@@ -95,4 +99,3 @@ something's wrong.
 
 -   [1](http://www.opendmx.net/index.php/LLA_and_Q_Light_Controller_Ubuntu_Tutorial#Build_and_install_the_usb_kernel_module)
 
-<Category:DMX>

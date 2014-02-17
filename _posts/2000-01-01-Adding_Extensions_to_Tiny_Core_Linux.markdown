@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 ### Prep
 
 First unpack with [Remastering Tiny Core

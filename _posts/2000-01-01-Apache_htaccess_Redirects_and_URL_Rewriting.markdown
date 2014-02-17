@@ -1,3 +1,7 @@
+---
+categories:
+ - Apache
+---
 ### Redirect to a subdomain
 
 `Options +FollowSymLinks`\
@@ -39,4 +43,3 @@ External Links
 -   Official Apache [URL Rewriting
     Guide](http://httpd.apache.org/docs/2.0/misc/rewriteguide.html)
 
-<Category:Apache>

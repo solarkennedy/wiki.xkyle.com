@@ -1,3 +1,8 @@
+---
+categories:
+ - Gitorious
+ - Git
+---
 At the time of this writing, <Gitorious> doesn't have any web-based user
 management systems.
 
@@ -17,4 +22,3 @@ All advanced user managmement is done by the console:
 `user = User.find_by_login "Username"  `\
 `user.destroy`
 
-<Category:Gitorious> <Category:Git>

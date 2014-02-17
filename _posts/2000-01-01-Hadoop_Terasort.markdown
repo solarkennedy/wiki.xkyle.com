@@ -1,3 +1,7 @@
+---
+categories:
+ - Hadoop
+---
 ### Teragen
 
 Generates random data to sort. The first argument is **number of
@@ -20,4 +24,3 @@ Check that the sort actually worked correctly. hadoop jar
 
 -   <http://www.michael-noll.com/blog/2011/04/09/benchmarking-and-stress-testing-an-hadoop-cluster-with-terasort-testdfsio-nnbench-mrbench/>
 
-<Category:Hadoop>

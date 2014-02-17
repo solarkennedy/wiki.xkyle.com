@@ -1,3 +1,7 @@
+---
+categories:
+ - LVS
+---
 Rackspace's environment provides a unique situation that demands special
 considerations when using <LVS>. For one, the shared ip must be
 **manually set by a rackspace technician** to be distributed between
@@ -83,4 +87,3 @@ These sysctl configuration options are recommended:
     <http://www.rackspacecloud.com/blog/2010/09/22/installing-and-configuring-lvs-tun/>
 
 [Category:High Availability](Category:High Availability "wikilink")
-<Category:LVS>

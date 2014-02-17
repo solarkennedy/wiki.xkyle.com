@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 Stego 8 mission is really easy actually.
 
 After you download the picture zoom in.(i zoomed 1000% using photoshop).

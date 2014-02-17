@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 Octagonal States is a games magazine challenge which requires the
 insertion of states into a constrained grid. The grid is composed of
 octagons and squares.

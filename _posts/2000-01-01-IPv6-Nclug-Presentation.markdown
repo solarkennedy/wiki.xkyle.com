@@ -1,3 +1,7 @@
+---
+categories:
+ - IPv6
+---
 -   Give a brief overview of address size if not done already
 
 -   Server Stuff:
@@ -12,4 +16,3 @@
     -   Explain [IPv6 Link Local
         Addresses](IPv6 Link Local Addresses "wikilink")
 
-<Category:IPv6>

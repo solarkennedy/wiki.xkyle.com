@@ -1,3 +1,7 @@
+---
+categories:
+ - Graphite
+---
 ### Realtime Graphite
 
 To see <Graphite> graphs in a per-second resolution.
@@ -24,4 +28,3 @@ Locate the function ‘toggleAutoRefresh’:
 
 -   <http://blog.stuartherbert.com/php/2011/09/21/real-time-graphing-with-graphite/>
 
-<Category:Graphite>

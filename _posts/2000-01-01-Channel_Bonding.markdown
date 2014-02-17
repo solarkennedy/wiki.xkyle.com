@@ -1,3 +1,8 @@
+---
+categories:
+ - Linux
+ - HPC
+---
 Channel Bonding is a way to utilize multiple nics to aggregate bandwidth
 and increase redundancy in your network design.
 
@@ -46,5 +51,4 @@ In /etc/network/interfaces :
     <http://thuannvn.blogspot.com/2009/12/link-aggregation-on-redhat-centos.html>
 -   Ubuntu: <https://help.ubuntu.com/community/UbuntuBonding>
 
-<Category:Linux> <Category:HPC> [Category:High
 Availability](Category:High Availability "wikilink")

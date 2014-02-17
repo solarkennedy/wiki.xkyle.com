@@ -1,3 +1,9 @@
+---
+categories:
+ - Multicast
+ - Netcat
+ - Xinetd
+---
 Send: date | nc -w1 -u -b 224.0.0.251 6666
 
 Receive with <xinetd>
@@ -17,4 +23,3 @@ Receive with <xinetd>
 References:
 <http://www.mail-archive.com/beginners@perl.org/msg39525.html>
 
-<Category:Multicast> <Category:Netcat> <Category:Xinetd>

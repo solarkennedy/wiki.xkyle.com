@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 <Image:Stego6.png> This image has a hash stuck to the end of the file.
 You can read it like this:
 

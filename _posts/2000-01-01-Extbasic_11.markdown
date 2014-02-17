@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 This program take the letters you type in, assigns a prime value to it,
 and multiplies them all together. The catch is that that number is mod 2
 \^32. So we need to find out what the original composite number is, then

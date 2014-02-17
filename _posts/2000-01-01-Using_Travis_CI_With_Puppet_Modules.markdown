@@ -1,3 +1,7 @@
+---
+categories:
+ - Puppet
+---
 ### Assumptions
 
 -   A Gemfile is setup that declares the gems you need to test
@@ -49,6 +53,5 @@ Link your <GitHub> account: <https://travis-ci.org/profile>
 
 `[![Build Status](https://travis-ci.org/solarkennedy/puppet-module.png)](https://travis-ci.org/solarkennedy/puppet-module)`
 
-<Category:Puppet> [Category:Puppet
 Testing](Category:Puppet Testing "wikilink") [Category:Travis
 CI](Category:Travis CI "wikilink")

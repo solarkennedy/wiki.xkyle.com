@@ -1,3 +1,9 @@
+---
+categories:
+ - DNS
+ - Bind
+ - DNSSEC
+---
 DNSSEC Jumpstart
 
 ### Enable it in Bind
@@ -38,4 +44,3 @@ References
 -   [<http://dnsviz.net/>](http://dnsviz.net/) - a Super great tool for
     visualization and troubleshooting
 
-<Category:DNS> <Category:Bind> <Category:DNSSEC>

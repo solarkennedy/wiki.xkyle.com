@@ -1,3 +1,9 @@
+---
+categories:
+ - Linux
+ - Security
+ - IPv6
+---
 ### Introduction
 
 ufw is the Uncomplicated Firewall that comes with Ubuntu. It allows a
@@ -21,4 +27,3 @@ Allowing based on port and interface: ufw allow in on tap0 to any port
 <IPv6> support can be enabled (not on by default) in /etc/default/ufw:
 IPV6=yes
 
-<Category:Linux> <Category:Security> <Category:IPv6>

@@ -1,3 +1,7 @@
+---
+categories:
+ - Git
+---
 ### Trying to Push to Non-Bare Repositories
 
 If a repository is checked out, you cannot push to it. If you did, the
@@ -10,4 +14,3 @@ do what you think it should do
 
 -   [Git Tricks](Git Tricks "wikilink")
 
-<Category:Git>

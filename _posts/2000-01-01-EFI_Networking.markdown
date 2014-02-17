@@ -1,3 +1,9 @@
+---
+categories:
+ - EFI
+ - BIOS
+ - DHCP
+---
 ### Procedure
 
 ​1. Enable "EFI Network Stack" in the BIOS.\
@@ -13,4 +19,3 @@
 WARNING: Mixing TCP/IP stacks from other sources might cause unknown
 effects.
 
-<Category:EFI> <Category:BIOS> <Category:DHCP>

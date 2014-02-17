@@ -1,3 +1,7 @@
+---
+categories:
+ - Graphite
+---
 <Graphite> Dashboards:
 
 -   [Graphitti](https://github.com/paperlesspost/graphiti) - Ruby +
@@ -7,4 +11,3 @@
 -   [Graphene](https://github.com/jondot/graphene) - Ruby based, real
     time
 
-<Category:Graphite>

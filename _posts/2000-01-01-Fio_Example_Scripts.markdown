@@ -1,3 +1,9 @@
+---
+categories:
+ - Benchmarking
+ - Fio
+ - Disks
+---
 fio is a Linux flexible io tester.
 
 Examples
@@ -10,4 +16,3 @@ Usage
 
 `fio /usr/share/doc/fio-*/examples/ssd-test`
 
-<Category:Benchmarking> <Category:Fio> <Category:Disks>

@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 You are manipulating moo, but HTS-Bot is what you actually need to use
 to pass this mission.
 

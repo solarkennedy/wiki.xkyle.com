@@ -1,3 +1,8 @@
+---
+categories:
+ - CFEngine
+ - Munin
+---
 I'm tired of configuring <Munin>. <CFEngine> knows all my servers
 anyway, so can't it do it for me?
 
@@ -15,4 +20,3 @@ To get a list of hosts from CFEngine, use
 
 [Managing Munin With CFEngine](Managing Munin With CFEngine "wikilink")
 
-<Category:CFEngine> <Category:Munin>

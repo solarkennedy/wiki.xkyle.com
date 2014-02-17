@@ -1,3 +1,10 @@
+---
+categories:
+ - IPMI
+ - Serial
+ - GRUB
+ - BIOS
+---
 You need to have outputting to serial:
 
 ### Bios
@@ -27,4 +34,3 @@ console=ttyS0,115200n8
 Prompt](Configuring Linux for a Serial Prompt "wikilink") or [Autologin
 Serial Console on Linux](Autologin Serial Console on Linux "wikilink")
 
-<Category:IPMI> <Category:Serial> <Category:GRUB> <Category:BIOS>

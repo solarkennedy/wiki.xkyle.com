@@ -1,3 +1,7 @@
+---
+categories:
+ - Projects
+---
 Hardware
 --------
 
@@ -9,4 +13,3 @@ Software
 
 Getting [Open Embedded](Open Embedded "wikilink") running.
 
-<Category:Projects>

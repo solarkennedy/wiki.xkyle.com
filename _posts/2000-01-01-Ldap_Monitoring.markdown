@@ -1,3 +1,8 @@
+---
+categories:
+ - LDAP
+ - Munin
+---
 ### Nagios Alerts
 
 -   Check ports (389,636)
@@ -15,4 +20,3 @@ Your <Munin> probably already has an ldap plugin, maybe not. See
 For ganglia, see:
 <https://github.com/ganglia/gmetric/blob/master/ldap/openldap/ganglia_ldap.py>
 
-<Category:LDAP> <Category:Munin>

@@ -1,3 +1,8 @@
+---
+categories:
+ - OLA
+ - ARM
+---
 <OLA> is the Open Lighting Architecture. If you have [debian installed
 on your dockstar](Install Debian Lenny on a Seagate Dockstar "wikilink")
 you can install it easily:
@@ -6,4 +11,3 @@ you can install it easily:
 `apt-get update`\
 `apt-get install olad`
 
-<Category:OLA> <Category:ARM>

@@ -1,3 +1,8 @@
+---
+categories:
+ - Apache
+ - Graphite
+---
 ### Install mod\_wsgi
 
 Ubuntu: apt-get install libapache2-mod-wsgi
@@ -6,4 +11,3 @@ Ubuntu: apt-get install libapache2-mod-wsgi
 
 `mv /opt/graphite/conf/graphite.wsgi.example /opt/graphite/conf/graphite.wsgi`
 
-<Category:Apache> <Category:Graphite>

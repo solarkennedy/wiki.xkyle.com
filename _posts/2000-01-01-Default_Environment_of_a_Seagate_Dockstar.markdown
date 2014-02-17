@@ -1,3 +1,8 @@
+---
+categories:
+ - U-Boot
+ - Dockstar
+---
 A stock [Seagate Dockstar](Seagate Dockstar "wikilink") printenv command
 shows this:
 
@@ -44,4 +49,3 @@ shows this:
     Environment size: 762/131068 bytes
 
 [Category:Plug Computers](Category:Plug Computers "wikilink")
-<Category:U-Boot> <Category:Dockstar>

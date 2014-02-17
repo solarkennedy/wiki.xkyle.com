@@ -1,3 +1,7 @@
+---
+categories:
+ - Meta
+---
 This wiki is mostly created and maintained by [Kyle
 Anderson](http://xkyle.com)
 
@@ -7,4 +11,3 @@ Everything here is [Creative
 Commons](Kyle Anderson - Notebook - xKyle.com:Copyrights "wikilink") so
 if you use anything, be sure to share alike and attribute.
 
-<Category:Meta>

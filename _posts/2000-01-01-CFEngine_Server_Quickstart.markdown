@@ -1,3 +1,7 @@
+---
+categories:
+ - CFEngine
+---
 CFEngine is a tool to do configuration management across your servers.
 This allows you to be consistent with your installs. It also allows
 servers to heal themselves, even if they are down for maintenance. It is
@@ -117,4 +121,3 @@ An example import file:
             additiona_action_needed::
                     restart service with new config file
 
-<Category:CFEngine>

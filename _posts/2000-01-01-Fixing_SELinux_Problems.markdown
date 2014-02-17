@@ -1,3 +1,9 @@
+---
+categories:
+ - Linux
+ - SELinux
+ - Security
+---
 So SELinux is on and you think it is interfering? You can run:
 setenforce 0
 
@@ -63,4 +69,3 @@ Then do the thing that doesn't work. Then run: semodule -B
 To turn it back to normal. Now run the audit2allow to see if you get
 some new stuff to make a better policy.
 
-<Category:Linux> <Category:SELinux> <Category:Security>

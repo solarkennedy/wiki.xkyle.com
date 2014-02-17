@@ -1,3 +1,7 @@
+---
+categories:
+ - Graphite
+---
 <Graphite> is also great for measuring things that could be considered
 "events". This could be something like a login failure, file creation,
 terminated EC2 instance. Etc.
@@ -31,4 +35,3 @@ Now you have a graph of transfers per hour.
 <http://obfuscurity.com/2012/04/Unhelpful-Graphite-Tip-1>
 <http://codeascraft.etsy.com/2010/12/08/track-every-release/>
 
-<Category:Graphite>

@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 If you just open up this file in paint and pour a yellow paint bucket
 randomly the answer will appear.\
 or if you are on linux:

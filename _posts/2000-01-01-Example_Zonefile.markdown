@@ -1,3 +1,8 @@
+---
+categories:
+ - DNS
+ - Bind
+---
 And example zone file for xkyle.com:
 
     xkyle.com.  86400   IN  SOA ns1.he.net. hostmaster.he.net. (
@@ -47,4 +52,3 @@ And how to confirm that you can transfer the zone from the slave server
 
 [Example Relative Zonefile](Example Relative Zonefile "wikilink")
 
-<Category:DNS> <Category:Bind>

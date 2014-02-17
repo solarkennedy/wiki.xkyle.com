@@ -1,3 +1,8 @@
+---
+categories:
+ - FreeNX
+ - Nagios
+---
 <nxcheckload> is a script that <FreeNX> calls to see what the load is on
 remote servers. It has to know this in order to load balance properly.
 
@@ -25,4 +30,3 @@ command[check\_nxload]=/usr/lib64/nagios/plugins/check\_nxload
 Or something like that. As long as your firewalls and allow\_hosts
 permit the load balancers to make the nrpe query, it should work.
 
-<Category:FreeNX> <Category:Nagios>

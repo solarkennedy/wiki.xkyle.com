@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 For this mission you -must- use directory transversal instead of the
 full path. Go back to basic 8 (
 <http://www.hackthissite.org/missions/basic/8/> ) and put this into the

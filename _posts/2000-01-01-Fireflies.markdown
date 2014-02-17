@@ -1,3 +1,8 @@
+---
+categories:
+ - Fireflies
+ - Projects
+---
 ![](Fireflies.jpg "image")
 
 Actual Part List
@@ -48,4 +53,3 @@ Outdoor Fireflies
     -   1.2V AA Nickel-Cadmium Battery
     -   1 White LED
 
-<Category:Fireflies> <Category:Projects>

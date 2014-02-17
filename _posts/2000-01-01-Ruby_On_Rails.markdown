@@ -1,3 +1,7 @@
+---
+categories:
+ - Ruby
+---
 ### Installation
 
 -   <http://wiki.rubyonrails.org/getting-started/installation/linux>
@@ -7,4 +11,3 @@
 -   <http://www.modrails.com/install.html>
 -   [Phusion Passenger](Phusion Passenger "wikilink")
 
-<Category:Ruby>

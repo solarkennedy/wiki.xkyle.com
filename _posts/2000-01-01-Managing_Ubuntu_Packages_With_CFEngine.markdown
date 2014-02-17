@@ -1,3 +1,7 @@
+---
+categories:
+ - CFEngine
+---
 <CFEngine> enables system administrators to centrally control the
 installed packages on lots of servers. However, CFEngine allows (or
 burdens) the sysadmin to setup the "glue" to allow CFEngine to control
@@ -94,4 +98,3 @@ one can declare a server into a certain class, wait an hour, and then
 everything is in place. Welcome to the world of server automation. This
 works with 1 or 100 servers.
 
-<Category:CFEngine>

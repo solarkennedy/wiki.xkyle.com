@@ -1,2 +1,6 @@
+---
+categories:
+
+---
 1.  Redirect [Seagate Dockstar](Seagate Dockstar "wikilink")
 

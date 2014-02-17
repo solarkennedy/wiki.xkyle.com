@@ -1,3 +1,7 @@
+---
+categories:
+ - OpenWrt
+---
 This took a long time to figure out how to do. The first thing you need
 is a copy of the OpenWRT sources.
 
@@ -49,4 +53,3 @@ Here is my config:
     #endif
     #endif
 
-<Category:OpenWrt>

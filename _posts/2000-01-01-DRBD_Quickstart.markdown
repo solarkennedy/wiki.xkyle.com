@@ -1,3 +1,9 @@
+---
+categories:
+ - DRBD
+ - Linux
+ - Syadmin
+---
 ### Install It
 
 Centos 5: yum install kmod-drbd83
@@ -60,4 +66,3 @@ like this:
             IPaddr::192.168.42.100 \
             nfs
 
-<Category:DRBD> <Category:Linux> <Category:Syadmin>

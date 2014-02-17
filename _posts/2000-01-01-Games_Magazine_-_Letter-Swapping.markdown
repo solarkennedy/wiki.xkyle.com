@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 Letter-Swapping is a [Games Magazine](Games Magazine "wikilink") puzzle
 that is kinda complicated. You have two columns of Words, and the a
 letter swaps from each side. In fact, I still don't really understand

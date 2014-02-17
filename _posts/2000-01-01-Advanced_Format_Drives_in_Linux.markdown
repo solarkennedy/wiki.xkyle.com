@@ -1,3 +1,9 @@
+---
+categories:
+ - Partitions
+ - Drives
+ - ZFS
+---
 ### Background
 
 Most drives have 512-byte sectors. AFD drives have 4096-byte sectors.
@@ -53,4 +59,3 @@ new zpool. zpool create -o ashift=12 tank mirror sda sdb The "12" means
 -   <http://en.wikipedia.org/wiki/Advanced_Format>
 -   <http://timelordz.com/wiki/Advanced_Format_Hard_Drives>
 
-<Category:Partitions> <Category:Drives> <Category:ZFS>

@@ -1,3 +1,7 @@
+---
+categories:
+ - Upstart
+---
 If you are fancy enough to use upstart, put this in say tty-S0.conf:
 
     start on stopped rc or RUNLEVEL=[2345]
@@ -10,4 +14,3 @@ Then run: start tty-S0
 
 Instant root!
 
-<Category:Upstart>

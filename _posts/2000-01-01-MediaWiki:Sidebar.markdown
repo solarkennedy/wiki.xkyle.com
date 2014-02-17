@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 -   Efforts
     -   Plug Computers|Plug Computers
     -   Hack This Site|Hack This Site

@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 View the page source and search for "password is". You will see
 something like:
 

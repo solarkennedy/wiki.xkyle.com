@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 This challenge involves a wordlist and given a subset of scrambled
 letters. My job is to figure out what the original words were, in a very
 short time.

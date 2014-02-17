@@ -1,3 +1,10 @@
+---
+categories:
+ - CFEngine
+ - Linux
+ - Syadmin
+ - iptables
+---
 <CFEngine> is a great tool for managing linux firewalls.
 
 ### Method 1: Using Copy
@@ -46,5 +53,3 @@
                             EndGroup
                     }
 
-<Category:CFEngine> <Category:Linux> <Category:Syadmin>
-<Category:iptables>

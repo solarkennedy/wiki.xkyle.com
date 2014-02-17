@@ -1,1 +1,5 @@
+---
+categories:
+
+---
 Vagrant Stuff

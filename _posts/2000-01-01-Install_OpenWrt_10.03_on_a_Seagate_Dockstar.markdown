@@ -1,3 +1,7 @@
+---
+categories:
+ - OpenWrt
+---
 ### Overview
 
 So you want to put OpenWrt on a Pogoplug V2 (Pink)? Good Choice! It is
@@ -117,5 +121,4 @@ Your /etc/config/fstab needs this:
             option device   /mnt/backups/swap.file
             option enabled  1
 
-<Category:OpenWrt> [Category:Plug
 Computers](Category:Plug Computers "wikilink")

@@ -1,3 +1,8 @@
+---
+categories:
+ - IPMI
+ - Intel
+---
 SELVIEW is an <Intel> utility to read <IPMI> system event logs. It is
 not as easy to use as other IPMI utilities, but it often can decode
 every piece of information regarding the output codes.
@@ -25,4 +30,3 @@ Use <fpm> to turn random directories into [rpms](rpm "wikilink") or
 
 -   <https://xkyle.com/an-ipmi-sel-viewing-shootout/>
 
-<Category:IPMI> <Category:Intel>

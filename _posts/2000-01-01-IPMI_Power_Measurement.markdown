@@ -1,3 +1,8 @@
+---
+categories:
+ - IPMI
+ - Power
+---
 TL:DR
 =====
 
@@ -38,4 +43,3 @@ This also works for some reason: ipmi-dcmi --get-system-power-statistics
 
 I guess because it is dell and intel?
 
-<Category:IPMI> <Category:Power>

@@ -1,3 +1,7 @@
+---
+categories:
+ - Apache
+---
 ### Tuning MaxClients / ServerLimit
 
 The Max amount of clients you can server, is likely limited by your
@@ -66,4 +70,3 @@ Example:
     #
     KeepAliveTimeout 15
 
-<Category:Apache>

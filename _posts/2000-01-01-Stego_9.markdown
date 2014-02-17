@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 This challenge has a stereo audio file with the left and right out of
 phase. Mixing them together produces the difference, which contains
 morse code.

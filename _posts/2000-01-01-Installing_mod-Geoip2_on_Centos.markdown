@@ -1,3 +1,7 @@
+---
+categories:
+ - Apache
+---
 This assumes that you will be using the free geoip database and you are
 on a 64 bit system:
 
@@ -14,4 +18,3 @@ Now setup your apache:
 
 <http://www.maxmind.com/app/mod_geoip>
 
-<Category:Apache>

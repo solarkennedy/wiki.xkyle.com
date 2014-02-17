@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 ### Requirements
 
 Get your kernel debug stuff: yum install kernel-devel yum-utils

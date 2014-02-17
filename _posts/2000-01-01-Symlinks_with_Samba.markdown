@@ -1,3 +1,7 @@
+---
+categories:
+ - Samba
+---
 Samba by default will not allow symlinks to go outside of a share for
 [security reasons.](http://www.samba.org/samba/news/symlink_attack.html)
 
@@ -13,4 +17,3 @@ share:
 [ref](http://www.samba.org/samba/docs/man/manpages-3/smb.conf.5.html#WIDELINKS)
 [share] \#Allows symlinks to traverse outside the share wide links = yes
 
-<Category:Samba>

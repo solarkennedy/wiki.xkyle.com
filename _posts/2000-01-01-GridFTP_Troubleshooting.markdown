@@ -1,3 +1,7 @@
+---
+categories:
+ - GridFTP
+---
 ### 500 Server is not configured for SSHFTP connections.
 
 If you get this error:
@@ -46,4 +50,3 @@ Did you run "apt-get install globus-gridftp-server-progs" ? It also
 might mean that sshftp or gridftp-ssh don't run for some reason. Make
 sure they both run.
 
-<Category:GridFTP>

@@ -1,3 +1,8 @@
+---
+categories:
+ - Raid
+ - Disks
+---
 ### Disks
 
 #### Read Ahead
@@ -94,4 +99,3 @@ layout. Definitions:
 `mkfs -t xfs -d sunit=128 -d swidth=384 /dev/md0`
 `You must either set that at mkfs time or put it in fstab?`
 
-<Category:Raid> <Category:Disks>

@@ -1,3 +1,7 @@
+---
+categories:
+ - LVS
+---
 Here are some quick steps to get LVS running. To make this HA you will
 probably want to coordinate it with <Heartbeat>:
 
@@ -12,4 +16,3 @@ probably want to coordinate it with <Heartbeat>:
     LVS](IPv6 Load Balancing with LVS "wikilink")
 
 [Category:High Availability](Category:High Availability "wikilink")
-<Category:LVS>

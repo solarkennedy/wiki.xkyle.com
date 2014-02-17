@@ -1,3 +1,7 @@
+---
+categories:
+ - Mysql
+---
     #!/usr/bin/perl
 
     use Getopt::Long;
@@ -802,4 +806,3 @@
       exit(0);
     }
 
-<Category:Mysql>

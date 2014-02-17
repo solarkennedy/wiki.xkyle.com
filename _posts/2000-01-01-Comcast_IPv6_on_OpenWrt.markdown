@@ -1,3 +1,9 @@
+---
+categories:
+ - Linux
+ - IPv6
+ - OpenWrt
+---
 Comcast is running IPv6 Trials, see
 [1](http://www.comcast6.net/6rd-config.php).
 
@@ -150,4 +156,3 @@ metric 1024 expires 1416sec mtu 1500 advmss 1440 hoplimit 64
 To verify, try another ping on your client computer: ping6
 ipv6.google.com
 
-<Category:Linux> <Category:IPv6> <Category:OpenWrt>

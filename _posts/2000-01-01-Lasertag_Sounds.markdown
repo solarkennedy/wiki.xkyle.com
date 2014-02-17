@@ -1,3 +1,7 @@
+---
+categories:
+ - Lasertag
+---
 These sounds use an [ISD
 Recorder](http://www.fragtag.com.au/ISD_recorder.htm) and require some
 software to automatically program the sound module. Here is a file that
@@ -21,4 +25,3 @@ has all the software you need: <Media:Sound_effects.zip‎>
     16  Beep2   Electronic Tone      
     17  Blank Sound (required)  Blank Sound
 
-<Category:Lasertag>

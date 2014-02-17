@@ -1,3 +1,7 @@
+---
+categories:
+ - SPDY
+---
 Server Options:
 
 -   <Nginx> -
@@ -10,4 +14,3 @@ Clients:
     <chrome://net-internals/#events&q=type:SPDY_SESSION%20is:active>
 -   Firefox - network.http.spdy.enabled variable in <about:config>.
 
-<Category:SPDY>

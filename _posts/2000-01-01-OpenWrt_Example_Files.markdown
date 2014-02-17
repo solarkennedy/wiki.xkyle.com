@@ -1,3 +1,7 @@
+---
+categories:
+ - OpenWrt
+---
 Inside of the files directory, make a directory structure as it will
 appear on the router. Like this:
 
@@ -33,4 +37,3 @@ See Also:
 -   [OpenWrt ImageBuilder](OpenWrt ImageBuilder "wikilink")
 -   [Comcast IPv6 on OpenWrt](Comcast IPv6 on OpenWrt "wikilink")
 
-<Category:OpenWrt>

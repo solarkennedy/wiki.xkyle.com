@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 <http://hackthissite.org/missions/javascript/6/?lvl_password=moo%20pwns>
 
 [Category:Hack This Site](Category:Hack This Site "wikilink")

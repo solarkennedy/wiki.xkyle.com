@@ -1,3 +1,9 @@
+---
+categories:
+ - Linux
+ - Kickstart
+ - PXE
+---
 ### Example File
 
     text
@@ -53,4 +59,3 @@ References
 -   [<http://wiki.centos.org/TipsAndTricks/KickStart>](http://wiki.centos.org/TipsAndTricks/KickStart)
 -   [<http://www.centos.org/docs/5/html/5.2/Installation_Guide/s1-kickstart2-howuse.html>](http://www.centos.org/docs/5/html/5.2/Installation_Guide/s1-kickstart2-howuse.html)
 
-<Category:Linux> <Category:Kickstart> <Category:PXE>

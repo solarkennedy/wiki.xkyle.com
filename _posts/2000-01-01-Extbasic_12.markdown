@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 ### Solution
 
     moo.com/index.php?password=x&userpass=x

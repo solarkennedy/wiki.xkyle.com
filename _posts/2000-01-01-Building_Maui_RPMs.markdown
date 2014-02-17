@@ -1,3 +1,9 @@
+---
+categories:
+ - TORQUE
+ - RPM
+ - Maui
+---
 Install Pre-reqs yum -y install torque-devel
 
 Patch
@@ -45,4 +51,3 @@ usr
 
 -   <http://blog.ajdecon.org/installing-the-maui-scheduler-with-torque-410>
 
-<Category:TORQUE> <Category:RPM> <Category:Maui>

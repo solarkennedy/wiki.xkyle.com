@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 This [Games Magazine](Games Magazine "wikilink") puzzle requires you to
 look at pictures and try to find words that get their first letters
 chopped off one at a time to make new words. (3 of them).

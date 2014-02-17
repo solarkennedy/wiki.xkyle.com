@@ -1,3 +1,7 @@
+---
+categories:
+ - Scripts
+---
 This script compares a file of inputed questions and tries to find
 strings that best fit, which are usually the answers. It is configured
 for the questions to be in a standard text file called q.txt and the
@@ -33,4 +37,3 @@ an html file for easy reading.
 
 Use it like this: bash script.sh \> output.html
 
-<Category:Scripts>

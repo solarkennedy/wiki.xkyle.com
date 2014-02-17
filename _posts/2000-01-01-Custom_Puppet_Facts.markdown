@@ -1,3 +1,8 @@
+---
+categories:
+ - Puppet
+ - Facter
+---
 Custom <Puppet> Facts allow you to extend <facter> to include custom
 tidbits of information regarding your setup. In general these should be
 things that are not necessarily configurable about the system, they just
@@ -52,4 +57,3 @@ facter --debug
 
 -   <http://docs.puppetlabs.com/guides/custom_facts.html>
 
-<Category:Puppet> <Category:Facter>

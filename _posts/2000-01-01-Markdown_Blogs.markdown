@@ -1,3 +1,8 @@
+---
+categories:
+ - Blog
+ - Markdown
+---
 First if you are moving from wordpress, you need to import your stuff.
 Somehow you need to export your wordpress stuff and convert them to
 <Markdown>. Try <https://github.com/thomasf/exitwp>
@@ -16,4 +21,3 @@ Somehow you need to export your wordpress stuff and convert them to
 -   Email Only?:
     <https://blog.caurea.org/2012/03/31/this-blog-has-comments-again.html>
 
-<Category:Blog> <Category:Markdown>

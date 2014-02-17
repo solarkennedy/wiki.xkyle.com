@@ -1,3 +1,7 @@
+---
+categories:
+ - SSL
+---
 ### Making a New Cert
 
 First make a key: openssl genrsa -out mydomain.com.key 2048
@@ -52,4 +56,3 @@ cacert.pem server.crt
     [<http://www.digicert.com/help/>](http://www.digicert.com/help/)
 -   <http://www.sslshopper.com/article-most-common-openssl-commands.html>
 
-<Category:SSL>

@@ -1,3 +1,7 @@
+---
+categories:
+ - PXE
+---
 These instructions are for setting up PXE on Linux (Ubuntu). If you are
 on a different distro, replace apt-get with whatever is appropriate. All
 tftp stuff here is in /var/lib/tftpboot/ but you my have it in a
@@ -162,4 +166,3 @@ See Also
 -   <Kickstart> - For <Fedora>/<RHEL>/<Centos> installs
 -   <Preseed> - For <Ubuntu>/<Debian> installs
 
-<Category:PXE>

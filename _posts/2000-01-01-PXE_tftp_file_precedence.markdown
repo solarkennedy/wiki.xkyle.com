@@ -1,3 +1,7 @@
+---
+categories:
+ - PXE
+---
 ### Order
 
 Next, it will search for the config file using its own IP address in
@@ -29,4 +33,3 @@ order):
 
 -   <http://www.syslinux.org/wiki/index.php/PXELINUX>
 
-<Category:PXE>

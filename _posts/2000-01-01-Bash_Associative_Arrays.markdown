@@ -1,3 +1,7 @@
+---
+categories:
+ - Bash
+---
 #### Declaring:
 
 `declare -A MyCoolHash`\
@@ -27,4 +31,3 @@
 
 -   <http://www.linuxjournal.com/content/bash-associative-arrays>
 
-<Category:Bash>

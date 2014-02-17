@@ -1,3 +1,8 @@
+---
+categories:
+ - RPM
+ - Yum
+---
 ### Local
 
     [local-files]
@@ -9,4 +14,3 @@
 
 ### Remote
 
-<Category:RPM> <Category:Yum>

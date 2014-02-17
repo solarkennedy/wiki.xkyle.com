@@ -1,3 +1,8 @@
+---
+categories:
+ - DD
+ - Disks
+---
 <dd> is a great tool do disk dump from one disk to another. But
 sometimes you need to do this over a network:
 
@@ -13,4 +18,3 @@ sometimes you need to do this over a network:
 Performance wise, writing to a mounted filesystem seems to give much
 better performance, even with the large block size.
 
-<Category:DD> <Category:Disks>

@@ -1,3 +1,7 @@
+---
+categories:
+ - FreeNX
+---
 <FreeNX> can do load balancing between slave servers. It can do random,
 round robin, or load. Like this in your node.conf:
 
@@ -101,4 +105,3 @@ Here is one example:
     # Final calcul of the number of load.
     echo "100 * $LOADXX + $Mt + ( $NBCPU * $CPU ) / 100 + $UNB * 100" | bc -q | cut -d. -f1
 
-<Category:FreeNX>

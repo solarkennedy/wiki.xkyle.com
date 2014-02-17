@@ -1,3 +1,7 @@
+---
+categories:
+ - TORQUE
+---
 -   tracejob - gives detailed logs about a job
 -   pbsnodes - dump what torque knows about your nodes
 
@@ -11,4 +15,3 @@
 
 [Maui Commands](Maui Commands "wikilink")
 
-<Category:TORQUE>

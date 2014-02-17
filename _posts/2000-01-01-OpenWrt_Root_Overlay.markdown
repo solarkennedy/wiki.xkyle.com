@@ -1,3 +1,7 @@
+---
+categories:
+ - OpenWrt
+---
 ### Packages You Need
 
 `kmod-usb-storage kmod-fs-ext4 block-extroot block-hotplug block-mount`
@@ -33,4 +37,3 @@ tar -C /mnt/sda1 -xf -
 
 -   <https://forum.openwrt.org/viewtopic.php?id=34188>
 
-<Category:OpenWrt>

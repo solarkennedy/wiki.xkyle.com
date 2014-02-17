@@ -1,3 +1,7 @@
+---
+categories:
+ - Meta
+---
 Welcome to my Notebook!
 
 ![](Kyleworking.jpg "image") Everyone can Read! Create an account and
@@ -31,4 +35,3 @@ Here you can learn how to: ![](Fireflies.jpg "image")
 
 -   Learn how to use [Plug Computers](Plug Computers "wikilink")
 
-<Category:Meta>

@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 This BATCH shell script is inherently insecure. Take a look at the first
 few lines:
 

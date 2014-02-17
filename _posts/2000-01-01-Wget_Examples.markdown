@@ -1,3 +1,7 @@
+---
+categories:
+ - Wget
+---
 Examples:
 
 #### Mirror a site, only go down levels
@@ -8,4 +12,3 @@ Examples:
 
 `--reject "*index.html*"`
 
-<Category:Wget>

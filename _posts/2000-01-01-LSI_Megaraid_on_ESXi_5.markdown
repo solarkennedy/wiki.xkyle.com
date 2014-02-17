@@ -1,3 +1,7 @@
+---
+categories:
+ - ESX
+---
 * * * * *
 
 WARNING: This doesn't work yet
@@ -21,4 +25,3 @@ WARNING: This doesn't work yet
 
 [Enable SNMP on ESXi 5](Enable SNMP on ESXi 5 "wikilink")
 
-<Category:ESX>

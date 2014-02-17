@@ -1,3 +1,10 @@
+---
+categories:
+ - CFEngine
+ - Linux
+ - Syadmin
+ - SSH
+---
 <CFEngine> is a great tool for managing linux servers, and distributing
 and controlling ssh keys is a good job for it.
 
@@ -72,4 +79,3 @@ to escape +'s in the regex!
 
                     }
 
-<Category:CFEngine> <Category:Linux> <Category:Syadmin> <Category:SSH>

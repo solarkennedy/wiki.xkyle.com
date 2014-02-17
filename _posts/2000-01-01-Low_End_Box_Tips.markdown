@@ -1,3 +1,7 @@
+---
+categories:
+ - LowEndBox
+---
 ### Dash instead of Bash
 
 <http://www.lowendbox.com/blog/replacing-big-fat-bash-with-dash-for-scripting/>
@@ -16,4 +20,3 @@ Don't forget [Nginx with PHP-cgi](Nginx with PHP-cgi "wikilink")
 
 <http://www.lowendbox.com/blog/reducing-mysql-memory-usage-for-low-end-boxes/>
 
-<Category:LowEndBox>

@@ -1,3 +1,8 @@
+---
+categories:
+ - Apache
+ - SSL
+---
 ### Introduction
 
 -   **Problem**: Standard SSL assumes one service per IP, per port,
@@ -70,4 +75,3 @@ lease Ubuntu 10.04 it is SNI aware:
 -   <Apache>
 -   <SSL>
 
-<Category:Apache> <Category:SSL>

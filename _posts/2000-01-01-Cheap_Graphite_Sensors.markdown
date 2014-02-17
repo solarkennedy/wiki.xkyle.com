@@ -1,3 +1,9 @@
+---
+categories:
+ - Graphite
+ - 1-Wire
+ - OnTheCheap
+---
 Getting physical data into <Graphite>
 
 Hardware
@@ -37,4 +43,3 @@ Base station:
 -   \$20 TP-Link <TL-WR703N>
 -   GPIO + USB Expansion Board - <http://www.kean.com.au/oshw/WR703N/>
 
-<Category:Graphite> <Category:1-Wire> <Category:OnTheCheap>

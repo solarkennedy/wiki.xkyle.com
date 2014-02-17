@@ -1,3 +1,7 @@
+---
+categories:
+ - Graphite
+---
 Sending metrics to graphite with shell scripts is easy!
 
 #### Code
@@ -12,4 +16,3 @@ graphite.example.com 8125
 
 <http://dev.nuclearrooster.com/2011/05/11/sending-metrics-to-statsd-from-bash/>
 
-<Category:Graphite>

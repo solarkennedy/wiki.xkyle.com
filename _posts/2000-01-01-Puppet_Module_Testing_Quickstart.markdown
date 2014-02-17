@@ -1,3 +1,7 @@
+---
+categories:
+ - Puppet
+---
 ### Prerequisites
 
     sudo apt-get install bundler
@@ -71,5 +75,4 @@ according to the Gemfile. bundle exec rake spec
 See [Using Travis CI With Puppet
 Modules](Using Travis CI With Puppet Modules "wikilink")
 
-<Category:Puppet> [Category:Puppet
 Testing](Category:Puppet Testing "wikilink")

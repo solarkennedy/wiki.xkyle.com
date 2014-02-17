@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 First dump the file into a hex dump file, hd:
 
      hd stego5.bmp | cut -f 2-20  -d " " | tr "\n" " " | sed 's/   / /g' | sed 's/  / /g' > hd

@@ -1,3 +1,8 @@
+---
+categories:
+ - Linux
+ - Ethernet
+---
 Check an MTU on linux using ip: kyle@kyle:\~\$ ip link show wlan0 2:
 wlan0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN
 qlen 1000 link/ether 00:21:5c:13:a3:a7 brd ff:ff:ff:ff:ff:ff
@@ -11,4 +16,3 @@ When it doesn't work: kyle@kyle:\~\$ ping -M do -s 8972 leb.xkyle.com
 PING leb.xkyle.com (199.167.199.187) 8972(9000) bytes of data. From
 kyle.local (10.0.2.12) icmp\_seq=1 Frag needed and DF set (mtu = 1500)
 
-<Category:Linux> <Category:Ethernet>

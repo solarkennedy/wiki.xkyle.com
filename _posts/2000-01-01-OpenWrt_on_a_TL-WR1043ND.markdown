@@ -1,3 +1,7 @@
+---
+categories:
+ - OpenWrt
+---
 ### Initial OpenWrt Install
 
 Find a download for this profile with the word "factory" in it.
@@ -14,4 +18,3 @@ and drops the web gui.
 
 `make image PROFILE=TLWR1043NDV1 PACKAGES="openvpn radvd kmod-b43 kmod-ipv6 kmod-sit ip -uhttpd -kmod-ppp " FILES="files/"`
 
-<Category:OpenWrt>

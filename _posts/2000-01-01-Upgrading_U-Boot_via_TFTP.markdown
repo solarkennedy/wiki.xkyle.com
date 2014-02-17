@@ -1,3 +1,7 @@
+---
+categories:
+ - U-Boot
+---
 First of all, copy the file uboot.bin to your TFTP server. Then start
 your SheevaPlug, connect the serial console and type the following
 commands:
@@ -22,4 +26,3 @@ And then check the version again:
 
 `version`
 
-<Category:U-Boot>

@@ -1,3 +1,9 @@
+---
+categories:
+ - Logster
+ - Graphite
+ - Ganglia
+---
 ### Put it somewhere
 
 ### Make an RPM!
@@ -8,4 +14,3 @@
 
 `logster --dry-run --output=graphite --graphite-host=graphs.server.com:2003 PostfixLogster /var/log/maillog`
 
-<Category:Logster> <Category:Graphite> <Category:Ganglia>

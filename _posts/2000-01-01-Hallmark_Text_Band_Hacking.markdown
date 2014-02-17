@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 ### Components
 
 **2.4gig RF board and chip:** I have confirmed that the chip in the

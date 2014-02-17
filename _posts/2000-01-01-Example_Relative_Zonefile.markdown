@@ -1,3 +1,7 @@
+---
+categories:
+ - DNS
+---
 This kind of zone file has no zone-specific records, so it can be used
 by multiple zones as a template.
 
@@ -18,4 +22,3 @@ by multiple zones as a template.
                     IN A        4.2.2.2
     www             IN A        4.2.2.2
 
-<Category:DNS>

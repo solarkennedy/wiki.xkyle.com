@@ -1,3 +1,7 @@
+---
+categories:
+ - Graphite
+---
 ### Prerequisites
 
 `apt-get install libapache2-mod-python python-pip python-django-tagging python-django`\
@@ -41,4 +45,3 @@
 
 [Production Graphite](Production Graphite "wikilink")
 
-<Category:Graphite>

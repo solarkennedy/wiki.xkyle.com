@@ -1,3 +1,7 @@
+---
+categories:
+ - Security
+---
 This is a cross-site-scripting, script that steals a cookie.
 
     <?php
@@ -10,4 +14,3 @@ This is a cross-site-scripting, script that steals a cookie.
     chmod 777 cookielog.php
 
 [Category:Hack This Site](Category:Hack This Site "wikilink")
-<Category:Security>

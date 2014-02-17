@@ -1,3 +1,8 @@
+---
+categories:
+ - CFEngine
+ - BackupPC
+---
 I'm tired of configuring <BackupPC>. <CFEngine> knows all my servers
 anyway, so can't it do it for me?
 
@@ -24,4 +29,3 @@ But follow this guide and you don't have to worry about adding the host
 key to the known host file: [BackupPC With SSH
 Authentication](BackupPC With SSH Authentication "wikilink")
 
-<Category:CFEngine> <Category:BackupPC>

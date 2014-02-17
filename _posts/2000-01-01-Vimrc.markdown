@@ -1,3 +1,7 @@
+---
+categories:
+ - Vim
+---
 ### Fancy Symbols for tabs and eol
 
 `" Use the same symbols as TextMate for tabstops and EOLs`\
@@ -25,4 +29,3 @@
     noremap <Left> <NOP>
     noremap <Right> <NOP>
 
-<Category:Vim>

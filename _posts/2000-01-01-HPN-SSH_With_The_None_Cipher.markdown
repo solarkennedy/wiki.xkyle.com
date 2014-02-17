@@ -1,3 +1,8 @@
+---
+categories:
+ - HPC
+ - SSH
+---
 ### PreReqs
 
 [Install HPN-SSH](Install HPN-SSH "wikilink") first.
@@ -69,4 +74,3 @@ cipher, then only if there is no TTY allocated will it drop down to no
 encryption. If a TTY is detected (like an interactive session) the None
 cipher will not be used.
 
-<Category:HPC> <Category:SSH>

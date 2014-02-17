@@ -1,3 +1,8 @@
+---
+categories:
+ - Mysql
+ - Upstart
+---
 Using the mysqld\_multi script, you can spawn multiple instances of
 mysql on the same server. This can be good for development, [Mysql
 Replication](Mysql Replication "wikilink"), or backups.
@@ -141,4 +146,3 @@ mysql\_X scripts can call.
 Then Run: chkconfig mysqld off chkconfig mysql\_1 on chkconfig mysql\_2
 on
 
-<Category:Mysql> <Category:Upstart>

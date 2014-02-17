@@ -1,3 +1,9 @@
+---
+categories:
+ - iptables
+ - NFS
+ - Firewall
+---
 ### Ubuntu
 
 You need the following lines in these files:
@@ -33,4 +39,3 @@ And yay! No more crazy random open ports.
 
 ### RHEL/Centos
 
-<Category:iptables> <Category:NFS> <Category:Firewall>

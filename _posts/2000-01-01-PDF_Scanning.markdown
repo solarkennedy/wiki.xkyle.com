@@ -1,3 +1,8 @@
+---
+categories:
+ - PDF
+ - OCR
+---
 If you are going to scan PDF's to text in linux you need imagemagick
 first, you will also need tesseract and the tesseract english training
 files.
@@ -24,4 +29,3 @@ Then you can cat them all together:
 
     cat *.txt > full-output.txt
 
-<Category:PDF> <Category:OCR>

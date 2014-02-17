@@ -1,3 +1,7 @@
+---
+categories:
+ - Lasertag
+---
 ![](Lasertagbox.jpg "image") <Sounds>
 
 <Guns>
@@ -8,4 +12,3 @@
 
 [Pic Programming](Pic Programming "wikilink")
 
-<Category:Lasertag>

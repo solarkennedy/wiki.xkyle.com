@@ -1,3 +1,8 @@
+---
+categories:
+ - SMART
+ - Drives
+---
 ### Reading SMART Data on USB Drives
 
 To read SMART data from USB drives, first run lsusb to see what kind of
@@ -34,4 +39,3 @@ See also <MegaCLI>
 See also [3ware Smart Test](3ware Smart Test "wikilink") for a more
 comprehensive test.
 
-<Category:SMART> <Category:Drives>

@@ -1,3 +1,8 @@
+---
+categories:
+ - Screen
+ - IPMI
+---
 IPMI SOL (Serial over lan) is a useful way to get "console" access
 without bothering to do a kvm.
 
@@ -33,4 +38,3 @@ Then run that file: screen -c super-screen-rc
 
 `~B   #Send "break"`
 
-<Category:Screen> <Category:IPMI>

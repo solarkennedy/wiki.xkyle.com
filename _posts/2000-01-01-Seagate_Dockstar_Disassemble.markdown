@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 The Seagate Dockstar is an ARM based mini plug computer. Here are some
 pics disassembling it:\
 ![](dockstar1.jpg "image") ![](dockstar-prying.jpg "image")

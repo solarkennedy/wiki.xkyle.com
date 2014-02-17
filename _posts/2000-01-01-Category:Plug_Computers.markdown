@@ -1,1 +1,5 @@
+---
+categories:
+
+---
 Plug Computer Crap

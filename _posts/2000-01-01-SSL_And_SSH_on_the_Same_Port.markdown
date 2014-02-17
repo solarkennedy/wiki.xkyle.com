@@ -1,3 +1,9 @@
+---
+categories:
+ - SSH
+ - SSL
+ - HAProxy
+---
 This example uses <HAProxy> to put <SSH> and <SSL> on the same port!
 
 ### Configuration
@@ -24,4 +30,3 @@ This example uses <HAProxy> to put <SSH> and <SSL> on the same port!
 
 -   <https://dgl.cx/2010/01/haproxy-ssh-and-ssl-on-same-port>
 
-<Category:SSH> <Category:SSL> <Category:HAProxy>

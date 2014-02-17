@@ -1,3 +1,8 @@
+---
+categories:
+ - BIOS
+ - Intel
+---
 The [Intel One Boot Flash Update
 Utility](Intel One Boot Flash Update Utility "wikilink") is an Intel
 tool to flash firmwares of Intel systems. It has EFI/Linux/Windows
@@ -35,4 +40,3 @@ exist in an unattended version. This is just an example.
 
 -   <http://download.intel.com/support/motherboards/server/ism/sb/intel_ofu_user_guide.pdf>
 
-<Category:BIOS> <Category:Intel>

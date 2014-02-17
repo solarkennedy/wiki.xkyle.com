@@ -1,3 +1,8 @@
+---
+categories:
+ - RPM
+ - Yum
+---
 Reposync allows you to download rpms to make your own local mirrors.
 Kinda like <apt-mirror>.
 
@@ -27,4 +32,3 @@ alien architecture.
 -   Fedora howto:
     <https://docs.fedoraproject.org/en-US/Fedora/14/html/Software_Management_Guide/ch08s04.html>
 
-<Category:RPM> <Category:Yum>

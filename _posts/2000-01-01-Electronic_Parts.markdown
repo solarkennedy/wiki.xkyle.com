@@ -1,3 +1,7 @@
+---
+categories:
+ - Electronics
+---
 These are parts I use a lot:
 
 ### Connectors
@@ -7,4 +11,3 @@ These are parts I use a lot:
 -   This looks better
     [154-UAC16-E](http://www.mouser.com/ProductDetail/Kobiconn/154-UAC16-E/?qs=sGAEpiMZZMtV0NIoyAjRfaomlpKvD%252byNEbzVZTAhCLc%3d)
 
-<Category:Electronics>

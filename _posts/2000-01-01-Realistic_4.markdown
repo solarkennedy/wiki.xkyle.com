@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 Go to the HTS message compose page at
 <http://www.hackthissite.org/pages/messages/msys/send.php>\
 Send a message to SaveTheWhales with any subject or priority, with a

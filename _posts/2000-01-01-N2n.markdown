@@ -1,3 +1,9 @@
+---
+categories:
+ - VPN
+ - Firewall
+ - Security
+---
 N2n is a nice little vpn that traverses NAT, firewalls, etc.
 
 Here is an example debian init script you can use:
@@ -73,4 +79,3 @@ Here is an example debian init script you can use:
 And your /etc/default/n2n-edge should look like this: N2NOPTS="-c n2n -k
 RANDOM -a 10.0.1.104 -s 255.255.255.0 -l x.x.x.x:1000 -f"
 
-<Category:VPN> <Category:Firewall> <Category:Security>

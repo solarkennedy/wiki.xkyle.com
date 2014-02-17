@@ -1,7 +1,10 @@
+---
+categories:
+ - BIOS
+---
 ### Generic
 
 Flashrom
 
 #### References
 
-<Category:BIOS>

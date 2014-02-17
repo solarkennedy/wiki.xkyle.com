@@ -1,3 +1,7 @@
+---
+categories:
+ - EFI
+---
 ### What is it?
 
 The [EFI](:Category:EFI "wikilink") Shell is a place where you can do
@@ -8,4 +12,3 @@ access, rudimentary filesystem access (FAT32), networking, etc.
 
 The Shell is kinda like a DOS shell with a few mixes of Unix sh.
 
-<Category:EFI>

@@ -1,3 +1,7 @@
+---
+categories:
+ - OpenWrt
+---
 ### Get it
 
 This download will probably change and is architecture specific: wget
@@ -36,4 +40,3 @@ Now Burn it (on your router): mtd -r write
 
 <http://wiki.openwrt.org/doc/howto/obtain.firmware.generate>
 
-<Category:OpenWrt>

@@ -1,1 +1,4 @@
-<Category:Sensu>
+---
+categories:
+ - Sensu
+---

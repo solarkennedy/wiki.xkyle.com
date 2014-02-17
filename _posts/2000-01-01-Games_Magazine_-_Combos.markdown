@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 Combos is a [Games Magazine](Games Magazine "wikilink") puzzle where one
 must find Disney animated films that have a series of letters in the
 title. An example is "erpa = Peter Pan" because the letters e,r,p,a

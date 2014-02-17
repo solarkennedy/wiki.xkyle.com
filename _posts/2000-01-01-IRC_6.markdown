@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 Replace "name" with your name.
 
     !write name $lf mode #htb +o name

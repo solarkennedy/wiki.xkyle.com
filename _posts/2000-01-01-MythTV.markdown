@@ -1,3 +1,7 @@
+---
+categories:
+ - MythTV
+---
 [MythTV](http://www.mythtv.org/) is an open source PVR. I has a bunch of
 pieces:
 
@@ -5,4 +9,3 @@ pieces:
 -   <Apache>
 -   <Lirc>
 
-<Category:MythTV>

@@ -1,3 +1,7 @@
+---
+categories:
+ - Scripts
+---
 This is a script to reverse a string for openwrt
 
     #!/bin/ash
@@ -8,4 +12,3 @@ This is a script to reverse a string for openwrt
     printf("%s",substr($0,i,1));
     }'
 
-<Category:Scripts>

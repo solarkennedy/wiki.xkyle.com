@@ -1,3 +1,7 @@
+---
+categories:
+ - NTP
+---
 If you are on a domain, you have a <NTP> server.
 
     $ w32tm /dumpreg /subkey:parameters
@@ -15,4 +19,3 @@ If you are on a domain, you have a <NTP> server.
 
 -   <http://serverfault.com/questions/49105/how-to-find-time-server-in-a-domain>
 
-<Category:NTP>

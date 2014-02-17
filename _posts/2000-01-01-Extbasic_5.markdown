@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 <http://www.hackthissite.org/missions/extbasic/template.php?lvl=5&pass=sed>+-E+%22s%2Feval%2Fsafeeval%2Fg%22+%3Cexec.php+%3Etmp+%26%26+touch+OK
 
 [Category:Hack This Site](Category:Hack This Site "wikilink")

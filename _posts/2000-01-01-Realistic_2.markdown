@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 This mission is basic SQL injection.\
 Highlight the bottom bit of the main page to find an "update" link.
 Click it.\

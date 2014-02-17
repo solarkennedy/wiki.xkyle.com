@@ -1,3 +1,7 @@
+---
+categories:
+ - EFI
+---
 ### Procedure
 
 ​1. Grab the Ramdisk driver and utility from
@@ -11,4 +15,3 @@
 ​4. Make a 64MB Ram disk, call it fs42: MKRAMDISK.EFI -s 64 fs42
 ![](EFI_Make_Ramdisk.PNG "image")
 
-<Category:EFI>

@@ -1,3 +1,7 @@
+---
+categories:
+ - U-Boot
+---
     go  - start application at address 'addr'
     run - run commands in an environment variable
     bootm   - boot application image from memory
@@ -40,4 +44,3 @@
     help    - print online help
     ?   - alias for 'help'
 
-<Category:U-Boot>

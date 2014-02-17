@@ -1,3 +1,7 @@
+---
+categories:
+
+---
 You can see in the source that the file the password is stored in is
 called password.php. Go to
 <http://www.hackthissite.org/missions/basic/3/password.php> and you will

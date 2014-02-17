@@ -1,3 +1,7 @@
+---
+categories:
+ - DMX
+---
 ### Building OLA
 
 -   Download the pre-reqs:
@@ -24,4 +28,3 @@ Get some info on what you have plugged in: ola\_dev\_info
 
 -   <http://www.opendmx.net/index.php/Using_OLA>
 
-<Category:DMX>

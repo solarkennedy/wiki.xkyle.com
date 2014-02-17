@@ -1,3 +1,8 @@
+---
+categories:
+ - BackupPC
+ - SSH
+---
 Switch to backuppc: su backuppc -s /bin/bash
 
 Next create yourself a key: ssh-keygen
@@ -16,4 +21,3 @@ password auth:
 
 I suppose it is a tad insecure, but is sure saves a lot of trouble.
 
-<Category:BackupPC> <Category:SSH>

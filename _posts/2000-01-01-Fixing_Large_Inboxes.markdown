@@ -1,3 +1,9 @@
+---
+categories:
+ - Linux
+ - IMAP
+ - Scripts
+---
 Sometimes imap inboxes get huge and you need to clean it up into
 seperate folders:
 
@@ -25,4 +31,3 @@ Now Let us move back to the cur directory and move those files!
     find . -type f -ctime +168 -print0 | xargs -0 -i'{}' mv '{}' ../.Archive/cur/
     ls -1 | wc -l
 
-<Category:Linux> <Category:IMAP> <Category:Scripts>

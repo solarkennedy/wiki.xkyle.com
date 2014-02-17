@@ -1,3 +1,7 @@
+---
+categories:
+ - WiFi
+---
 These are instructions on how to unlock a Atheros (madwifi) card to
 untold frequencies!
 
@@ -26,4 +30,3 @@ If you need power you should choose a country code that has a good power
 level for the frequency you need. Check out [this
 list](http://madwifi-project.org/wiki/UserDocs/CountryCode).
 
-<Category:WiFi>

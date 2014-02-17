@@ -1,3 +1,7 @@
+---
+categories:
+ - CFEngine
+---
 Here is one way to manage a Transmission server with <CFEngine>.
 
     packages:
@@ -38,4 +42,3 @@ Here is one way to manage a Transmission server with <CFEngine>.
                     # Make sure to un-immutable the file afterwards, otherwise cfengine can't push out the next change
                     "/usr/bin/chattr -i /etc/transmission-daemon/settings.json"
 
-<Category:CFEngine>

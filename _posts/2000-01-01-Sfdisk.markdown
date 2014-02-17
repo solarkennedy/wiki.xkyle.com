@@ -1,3 +1,8 @@
+---
+categories:
+ - Disks
+ - Partitions
+---
 sfdisk is a tool to dump and set partition tables.
 
 ### Example
@@ -5,4 +10,3 @@ sfdisk is a tool to dump and set partition tables.
 Dumps a table from sda and sets it on sdb: sfdisk -d /dev/sda | sfdisk
 /dev/sdb
 
-<Category:Disks> <Category:Partitions>

@@ -1,3 +1,8 @@
+---
+categories:
+ - Apache
+ - SSL
+---
 ### Global Config
 
 First Run: \#Ubuntu/Debian a2enmod ssl \#Centos / RHEL: yum -y install
@@ -29,4 +34,3 @@ Now for Each Vhost:
 
 This applies if you are using <SNI> for multiple ssl vhosts.
 
-<Category:Apache> <Category:SSL>

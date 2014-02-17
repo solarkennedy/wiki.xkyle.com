@@ -1,3 +1,8 @@
+---
+categories:
+ - Puppet
+ - Cron
+---
 Sometimes it is more efficient to run <Puppet> via <cron> instead of a
 daemon:
 
@@ -8,4 +13,3 @@ daemon:
           ensure => present,
       }
 
-<Category:Puppet> <Category:Cron>

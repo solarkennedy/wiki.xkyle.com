@@ -1,3 +1,9 @@
+---
+categories:
+ - RAID
+ - Disks
+ - Partitions
+---
 Have some raid disks out of a hardware raid that have failed? Need ot
 pick up the pieces and put it together? Use linux's software raid to the
 rescue!
@@ -39,4 +45,3 @@ If you are working with a raid1 array, and you know you do NOT want
 mdadm to resync (and potentially overwriting stuff) us the
 --assume-clean argument.
 
-<Category:RAID> <Category:Disks> <Category:Partitions>

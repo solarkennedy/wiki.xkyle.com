@@ -1,3 +1,7 @@
+---
+categories:
+ - Linux
+---
 KML is Kernel Mode Linux.
 
 ### On AMD64 (x86\_64)
@@ -12,4 +16,3 @@ KML is Kernel Mode Linux.
 -   Source Code / Kernel Patches -
     <http://www.yl.is.s.u-tokyo.ac.jp/~tosh/kml/>
 
-<Category:Linux>

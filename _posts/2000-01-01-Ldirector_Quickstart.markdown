@@ -1,3 +1,9 @@
+---
+categories:
+ - Linux
+ - LVS
+ - Ldirector
+---
 Ldirector is a tool to administrate <LVS>
 
 ### Solving the Arp Problem
@@ -9,4 +15,3 @@ net.ipv4.conf.all.arp\_announce = 2
 ### Base Config
 
 [Category:High Availability](Category:High Availability "wikilink")
-<Category:Linux> <Category:LVS> <Category:Ldirector>

@@ -1,3 +1,8 @@
+---
+categories:
+ - Linux
+ - LVM
+---
 Lvm is the Logical Volume Manager for linux
 
 ### Recovering from Problems
@@ -8,4 +13,3 @@ Lvm is the Logical Volume Manager for linux
 
 `vgchange -ay`
 
-<Category:Linux> <Category:LVM>

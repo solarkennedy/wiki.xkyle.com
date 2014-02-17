@@ -1,3 +1,7 @@
+---
+categories:
+ - PXE
+---
 ### Remastering a RIP rootfs
 
 `mkdir 1`\
@@ -11,4 +15,3 @@
 
 -   <http://www.tux.org/pub/people/kent-robotti/looplinux/rip/RIPLinuX-13.7.readme>
 
-<Category:PXE>
