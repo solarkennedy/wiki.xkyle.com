@@ -2,8 +2,8 @@
 categories:
  - AVR
 ---
-To get your computer ready for programming using an [ISP
-Programmer](ISP Programmer "wikilink") and development first you need
+To get your computer ready for programming using an 
+[ISP Programmer](/ISP_Programmer/) and development first you need
 the compiler and programmer:
 
     sudo apt-get install gcc-avr avr-libc avrdude
@@ -14,6 +14,6 @@ Then you need to make sure you have the parallel port device file ready:
 
 If not you need to make do some mod probing or bios checking?
 
-I use this [AVR Makefile](AVR Makefile "wikilink") that is in the public
+I use this [AVR Makefile](/AVR_Makefile/) that is in the public
 domain to program.
 
