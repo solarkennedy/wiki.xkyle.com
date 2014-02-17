@@ -1,0 +1,32 @@
+### Global Config
+
+First Run: \#Ubuntu/Debian a2enmod ssl \#Centos / RHEL: yum -y install
+mod\_ssl
+
+More Stuff: TBA
+
+### Virtual Host
+
+This assumes that you have: NameVirtualHost \*:443
+
+Now for Each Vhost:
+
+    <VirtualHost *:443>
+       ServerName xkykle.com
+       DocumentRoot /home/httpd/private
+       ErrorLog /var/log/apache2/error_log
+       Access /var/log/apache2/access_log
+       SSLEngine on
+       SSLProtocol all -SSLv2
+       SSLCipherSuite ALL:!ADH:!EXPORT:!SSLv2:RC4+RSA:+HIGH:+MEDIUM
+
+       SSLCertificateFile /etc/ssl/ssl.crt
+       SSLCertificateKeyFile /etc/ssl/ssl.key
+       SSLCertificateChainFile /etc/ssl/sub.class1.server.ca.pem
+       SSLCACertificateFile /etc/ssl/ca.pem
+       SetEnvIf User-Agent ".*MSIE.*" nokeepalive ssl-unclean-shutdown
+    </VirtualHost>
+
+This applies if you are using <SNI> for multiple ssl vhosts.
+
+<Category:Apache> <Category:SSL>

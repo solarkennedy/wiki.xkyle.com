@@ -1,0 +1,11 @@
+This is a script to reverse a string for openwrt
+
+    #!/bin/ash
+    str="$1"
+
+    echo $str | awk '{
+    for(i=length($0);i>=1;i--)
+    printf("%s",substr($0,i,1));
+    }'
+
+<Category:Scripts>

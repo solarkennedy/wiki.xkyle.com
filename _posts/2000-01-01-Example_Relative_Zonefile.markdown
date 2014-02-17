@@ -1,0 +1,21 @@
+This kind of zone file has no zone-specific records, so it can be used
+by multiple zones as a template.
+
+    $TTL 24h
+    @       IN  SOA   ns1 hostmaster (
+        2011020200 ; Serial
+        12h ; Refresh, Secondary NS will check for updates this often
+        10m  ; Retry, Secondary NS, if refresh fails, will retry this often
+        4w  ; Expire, Secondary NS, if unable to refresh, will discard
+        8h )  ; Minimum TTL, Remote NS will update data this often
+
+
+            IN NS       ns1.xkyle.com.
+                IN NS       ns2.xkyle.com.
+
+                    IN MX 10    mail.xkyle.com.
+
+                    IN A        4.2.2.2
+    www             IN A        4.2.2.2
+
+<Category:DNS>

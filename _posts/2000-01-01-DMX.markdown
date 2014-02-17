@@ -1,0 +1,18 @@
+My DMX Pinout
+-------------
+
+1.  5v (Pin 1 on converter)
+2.  5v (Pin 2 on converter)
+3.  12v (Pin 3 on the converter)
+4.  GND
+5.  GND
+6.  12v (Pin 4 on the converter)
+7.  B
+8.  A
+
+Extras
+------
+
+[Compiling the USB DMX Driver](Compiling the USB DMX Driver "wikilink")
+
+<Category:DMX> <Category:Projects>

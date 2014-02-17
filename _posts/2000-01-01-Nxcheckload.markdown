@@ -1,0 +1,104 @@
+<FreeNX> can do load balancing between slave servers. It can do random,
+round robin, or load. Like this in your node.conf:
+
+    LOAD_BALANCE_SERVERS="server1 server2"
+
+    # The following load_balance_algorithms are available at the moment:
+    #
+    # "load", "round-robin", "random"
+    #
+    # For "load" you need a script called nxcheckload in PATH_BIN.
+    # 
+    # A sample script, which you can change to your needs it shipped with
+    # FreeNX under the name nxcheckload.sample.
+
+    LOAD_BALANCE_ALGORITHM="load"
+
+### How it gets called
+
+When a client connect, the NX load balancer will run the nxcheckload
+command, with an argument \$1, which will be the server name. It is the
+job of the script to return a number associated with the "load" of the
+server in question.
+
+Whichever server has the lowest number, wins.
+
+### Examples
+
+The script runs on the load balancer, **not** on the slave node. This
+means that your nxcheckload script must somehow make a remote call to
+the nodes. This could be done through your means of choice (ssh, netcat,
+tcpwrappers, etc)
+
+Here is one example:
+
+    #!/bin/sh
+    #
+    # nxcheckload - sample script for calculation of the load for a node.
+    #
+    # Version 0.5
+    #
+    # Under GPL
+    #
+    # Jonathan "Arrouan" ROUZAUD-CORNABAS (rouzaud.jonathan@gmail.com)
+    #
+    # Fabian Franz <FreeNX@fabian-franz.de>
+    #
+    # 0.5
+    #  - Rewrote huge parts
+    #
+    # Change between 0.3 and 0.4
+    #   - Add of TMP_FILE
+    #   - Add of lock file to avoid two run at once.
+    #
+    # Change between 0.2 and 0.3
+    #   - SMP support.
+    #
+
+    if [ "$1" != "" ]
+    then
+        # Connect to a remote node
+        
+        # Note: This is a ssh sample, you'll need to tweak it for your setup
+        #       and setup the secret keys for yourself.
+        
+        #exec $COMMAND_SSH nxcal@"$1" "$PATH_BIN/nxcheckload"
+        
+        # Note: This is a netcat example. You need to have nxcheckload running through 
+        # netpipes or netcat like follows:
+        #   node1:~$ faucet 9876 -io $PATH_BIN/nxcheckload
+        #
+        # Connect to another node running the load-service on some port.
+        #
+        
+        #exec $COMMAND_NETCAT "$1" 9876
+
+        # Same as loadbalance_rr_random
+        # pick a node by random.
+        
+        echo $RANDOM
+        exit 0
+    fi
+
+    # Be sure to use C numeric for calculations
+    export LC_NUMERIC=C
+
+    # The 3 variables of load from uptime
+    LOADXX=$(awk '{ printf("(100-%s)+(100-%s)+(100-%s)\n", $1, $2, $3); }' /proc/loadavg | bc -q)
+
+    # Add of total memory and free memory
+    Mt=$(awk 'BEGIN { N=0 } /MemTotal|MemFree/ { N+=$2; } END { print N }' /proc/meminfo)
+
+    # NBCPU = number of CPU
+    NBCPU=$(cat /proc/cpuinfo | grep ^processor | wc -l)
+
+    # CPU = Mhz of the CPU
+    CPU=$(cat /proc/cpuinfo | grep "cpu MHz" | head -n1 | cut -d':' -f2 | cut -d' ' -f2)
+
+    # Number of Xorg already launch and running.
+    UNB=$(ps aux | grep Xorg | grep -v grep | wc -l)
+
+    # Final calcul of the number of load.
+    echo "100 * $LOADXX + $Mt + ( $NBCPU * $CPU ) / 100 + $UNB * 100" | bc -q | cut -d. -f1
+
+<Category:FreeNX>

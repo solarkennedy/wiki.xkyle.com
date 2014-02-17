@@ -1,0 +1,27 @@
+### Building OLA
+
+-   Download the pre-reqs:
+
+`apt-get install libncurses5-dev libmicrohttpd-dev libcppunit-dev uuid-dev protobuf-dev`
+
+-   Download the code:
+
+`wget `[`http://linux-lighting.googlecode.com/files/ola-0.8.6.tar.gz`](http://linux-lighting.googlecode.com/files/ola-0.8.6.tar.gz)
+
+-   Build:
+
+`tar xzf ola-0.8.6.tar.gz`\
+`cd ola-0.8.6`\
+`./configure`\
+`make`\
+`make install`
+
+### Running OLA
+
+Get some info on what you have plugged in: ola\_dev\_info
+
+### References
+
+-   <http://www.opendmx.net/index.php/Using_OLA>
+
+<Category:DMX>

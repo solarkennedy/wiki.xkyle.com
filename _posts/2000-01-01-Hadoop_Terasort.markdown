@@ -1,0 +1,23 @@
+### Teragen
+
+Generates random data to sort. The first argument is **number of
+100-byte rows**, so for 1TB you put in **10,000,000,000** hadoop jar
+/usr/share/hadoop/hadoop-examples-1.0.3.jar teragen 10000000000
+/user/hdfs/terasort-input
+
+### Terasort
+
+Actually sort it. hadoop jar /usr/share/hadoop/hadoop-examples-1.0.3.jar
+terasort /user/hduser/terasort-input /user/hdfs/terasort-output
+
+### Teravalidate
+
+Check that the sort actually worked correctly. hadoop jar
+/usr/share/hadoop/hadoop-examples-1.0.3.jar teravalidate
+/user/hduser/terasort-output /user/hdfs/terasort-validate
+
+#### References
+
+-   <http://www.michael-noll.com/blog/2011/04/09/benchmarking-and-stress-testing-an-hadoop-cluster-with-terasort-testdfsio-nnbench-mrbench/>
+
+<Category:Hadoop>

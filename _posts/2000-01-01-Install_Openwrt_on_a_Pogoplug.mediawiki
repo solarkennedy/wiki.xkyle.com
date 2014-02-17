@@ -1,1 +1,0 @@
-#REDIRECT [[Install OpenWrt 10.03 on a Seagate Dockstar]]

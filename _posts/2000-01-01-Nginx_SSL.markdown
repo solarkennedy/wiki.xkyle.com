@@ -1,0 +1,18 @@
+    server {
+        listen       443;
+        server_name  wiki.xkyle.com;
+
+        ssl                  on;
+        ssl_certificate      cert.pem;
+        ssl_certificate_key  cert.key;
+        ssl_session_timeout  5m;
+        ssl_protocols  SSLv2 SSLv3 TLSv1;
+        ssl_ciphers  SSLCipherSuite ALL:!ADH:!EXPORT56:RC4+RSA:+HIGH:!MEDIUM:!LOW:!SSLv2:+EXP:+eNULL;
+        ssl_prefer_server_ciphers   on;
+
+    }
+
+Copying and pasting your ssl\_ciphers line? Me too. Here is the deal on
+[SSL Ciphers](SSL Ciphers "wikilink").
+
+<Category:Nginx> <Category:SSL>

@@ -1,6 +1,0 @@
-[[Graphite]] Dashboards:
-* [https://github.com/paperlesspost/graphiti Graphitti] - Ruby + redis with customizable, pretty dashboards
-* [https://github.com/ripienaar/gdash#readme Gdash] - Ruby based with yaml defined graphs
-* [https://github.com/jondot/graphene Graphene] - Ruby based, real time
-
-[[Category:Graphite]]

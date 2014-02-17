@@ -1,0 +1,41 @@
+Here is one way to manage a Transmission server with <CFEngine>.
+
+    packages:
+            #This assumes you have configured CFEngine to handle packages properly for you.
+            ubuntu::
+                    transmission                           action=install
+                    transmission-cli                       action=install
+                    transmission-common                    action=install
+                    transmission-daemon                    action=install
+                    transmission-gtk                       action=install
+
+
+    copy:
+            # I have per hostname based configs, but transmission is tricky, you can't just edit the config file like normal
+            # See the new_transmission_conf class for more
+            $(master_files)/dockstars/transmission-settings-$(host).json    dest=/etc/transmission-daemon/settings.json
+                                                    type=checksum
+                                                    verify=true
+                                                    owner=root
+                                                    group=root
+                                                    mode=600
+                                                    define=new_transmission_conf
+
+    links:
+            # Make sure startup and shutdown links are in place
+            /var/lib/transmission-daemon/info/settings.json ->! /etc/transmission-daemon/settings.json
+            /etc/rc1.d/K20transmission-daemon ->! /etc/init.d/transmission-daemon
+            /etc/rc2.d/S20transmission-daemon ->! /etc/init.d/transmission-daemon
+
+    shellcommands:
+            # Transmission actually overwrites changes to its config file when it stops, so you cannot edit the file
+            # While it is running without some extra force:
+            new_transmission_conf::
+                    # Make the file immutable so when we shut down transmission it won't overwrite it
+                    "/usr/bin/chattr +i /etc/transmission-daemon/settings.json"
+                    # Restart transmission to pick up the change
+                    "/etc/init.d/transmission-daemon restart"
+                    # Make sure to un-immutable the file afterwards, otherwise cfengine can't push out the next change
+                    "/usr/bin/chattr -i /etc/transmission-daemon/settings.json"
+
+<Category:CFEngine>

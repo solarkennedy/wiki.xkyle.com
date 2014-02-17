@@ -1,6 +1,0 @@
-This mission is basic SQL injection.
-<br>Highlight the bottom bit of the main page to find an "update" link. Click it.
-<br>Enter anything you want for the username, for the password put:
-<pre>' OR 'a'=='a</pre>
-
-[[Category:Hack This Site]]

@@ -1,0 +1,33 @@
+It's good to backup your OpenWRTs, and it's really cool to do it with
+<BackupPC>!
+
+First get your backuppc user's ssh key on the router:
+
+Initial Setup
+-------------
+
+`scp ~/.ssh/id_dsa.pub root@IP:/tmp`
+
+Now on the router: cd /etc/dropbear cat /tmp/id\_\*.pub \>\>
+authorized\_keys chmod 0600 authorized\_keys
+
+Now you should be able to ssh as that user without a password!
+
+Backuppc Config
+---------------
+
+Because of the limited tools, you need to use TAR, and modify the config
+a bit to work with the busybox tar instead of the generic gnutar. Here
+is my config:
+
+    $Conf{XferMethod} = 'tar';
+    $Conf{BackupFilesExclude} = {
+      '*' => []
+    };
+    $Conf{TarClientCmd} = '$sshPath -q -x -n -l root $host env LC_ALL=C $tarPath -c -v -f - -C $shareName+ exclude=/proc exclude=/sys exclude=/dev exclude=/rom';
+
+That seems to be it really, it's just like backing up any other Linux
+server I guess...
+
+<Category:Sysadmin> <Category:Linux> <Category:OpenWrt>
+<Category:BackupPC>

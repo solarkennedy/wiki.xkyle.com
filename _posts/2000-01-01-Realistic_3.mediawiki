@@ -1,4 +1,0 @@
-To do this mission you need to use director transversal from the "add poem" page.
-Go to /missions/realistic/3/oldindex.html and click Add Poem. For the title put "../index.html", and for the poem paste the source of oldindex.html.
-
-[[Category:Hack This Site]]

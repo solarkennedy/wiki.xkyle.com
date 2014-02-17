@@ -1,0 +1,15 @@
+KML is Kernel Mode Linux.
+
+### On AMD64 (x86\_64)
+
+-   <http://www.linuxjournal.com/article/8023>
+-   Use a NPTL glibc or compile one on your own:
+    <http://www.yl.is.s.u-tokyo.ac.jp/~tosh/kml/how_to_build_and_use_glibc.html>
+
+#### References
+
+-   Linux Journal Article - <http://www.linuxjournal.com/article/6516>
+-   Source Code / Kernel Patches -
+    <http://www.yl.is.s.u-tokyo.ac.jp/~tosh/kml/>
+
+<Category:Linux>

@@ -1,0 +1,26 @@
+Here are the tools I use in Linux to program PIC's:
+
+It is also more useful to have a [Pic
+Bootloader](Pic Bootloader "wikilink") to install things.
+
+    sudo apt-get install picprog
+
+Burn2pic:
+
+    #!/bin/bash
+    /usr/bin/picprog --device=pic16f877a --erase --burn --slow --input-hexfile=$1
+
+Read2pic:
+
+    #!/bin/bash
+    /usr/bin/picprog --device=pic16f877a --output-hexfile=$1
+
+And some sample programs:
+
+-   <blinktest>
+-   <blinky>
+-   <countup>
+-   <interrupttest>
+-   <testpattern>
+
+<Category:PIC> <Category:Scripts>

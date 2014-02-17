@@ -1,0 +1,13 @@
+Server Options:
+
+-   <Nginx> -
+    <http://mailman.nginx.org/pipermail/nginx-devel/2012-June/002343.html>
+-   <Apache> - <https://developers.google.com/speed/spdy/mod_spdy/>
+
+Clients:
+
+-   Chrome - Tell if spdy is active:
+    <chrome://net-internals/#events&q=type:SPDY_SESSION%20is:active>
+-   Firefox - network.http.spdy.enabled variable in <about:config>.
+
+<Category:SPDY>

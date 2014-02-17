@@ -1,5 +1,0 @@
-I'm interested in a pic bootloader that can run in linux. That is this one:
-* [http://www.voti.nl/wloader/index_1.html Bootloader + Hex]
-* [http://www.ise.pw.edu.pl/~wzab/linwload/linwload.html This is the Linux Loader]
-
-[[Category:PIC]]

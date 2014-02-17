@@ -1,1 +1,0 @@
-#REDIRECT [[Flashing BIOS From Linux]]

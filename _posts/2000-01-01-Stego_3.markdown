@@ -1,0 +1,9 @@
+If you just open up this file in paint and pour a yellow paint bucket
+randomly the answer will appear.\
+or if you are on linux:
+
+    convert -equalize 3.bmp 3.new.bmp
+
+Open up 3.new.bmp and you will see your image.
+
+[Category:Hack This Site](Category:Hack This Site "wikilink")

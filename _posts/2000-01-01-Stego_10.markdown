@@ -1,0 +1,12 @@
+<Image:Stego10.jpg>\
+This image is encoded in a [Bacon
+Cipher](http://en.wikipedia.org/wiki/Bacon%27s_cipher). Here is the raw
+text:
+
+    Bacon is a cut of meat taken from the sides, belly, or back of a pig, then cured, smoked, or both. Meat from other animals, such as beef, lamb, chicken, goat, or turkey, may also be cut, cured, or otherwise prepared to resemble bacon. Bacon may be eaten fried, baked, or grilled, or used as a minor ingredient to flavour dishes. The word is derived from the Old High German bacho, meaning "back", "ham", or "bacon".
+
+Each letter has a different type face, and A or a B. Translate it into
+A's and B's, and / or use this
+[tool](http://www.purplehell.com/riddletools/bacon.htm).
+
+[Category:Hack This Site](Category:Hack This Site "wikilink")

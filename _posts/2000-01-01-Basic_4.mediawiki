@@ -1,6 +1,0 @@
-For this mission you need either to save the form or javascript injection.
-<br>You need to change the 'to' email address to your own. You can either save the page, change the email address and the form action in the source, open it, and click the button, or you can paste the following into your address bar while at the Basic 4 page:
-<pre>javascript:void(document.forms[0].elements[0].value="YOUREMAIL@EXAMPLE.COM");</pre>
-It should now send the password to you. Check your mail.
-
-[[Category:Hack This Site]]

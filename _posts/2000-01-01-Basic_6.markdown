@@ -1,0 +1,16 @@
+In this mission you are given a kindergarten-encrypted password, and you
+need to reverse-engineer the encryption.\
+You'll notice that if you encrypt "aaaaa" it gives you "abcde". This
+encryption simply adds the character number to the character, starting
+at 0.\
+You can use <http://www.asciitable.com/> to find the progression of
+symbols. Ex. if your encrypted password is "968d\<56\>" you need to
+subtract 1 from the second letter, 2 from the third, and three from the
+fourth, producing "956a". It isn't obvious what \< goes to, so use the
+link to find out that it is "8". Continuing, you end up with "956a8007",
+which correctly "encrypts" to "968d\<56\>".
+
+A little tool made by mys3c0ndw0rld to decrypt the password : [DecryptME
+Basic6](http://www.2shared.com/file/Gslp58co/HackThisSite_DecryptME_Basic_6.html)
+
+[Category:Hack This Site](Category:Hack This Site "wikilink")

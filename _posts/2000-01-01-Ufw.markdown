@@ -1,0 +1,24 @@
+### Introduction
+
+ufw is the Uncomplicated Firewall that comes with Ubuntu. It allows a
+quick and easy firewall to be setup.
+
+### Quickstart
+
+Status: ufw status
+
+Enable/Disable ufw enable ufw disable
+
+Adding Rules based on application: ufw allow openvpn ufw allow openssh
+
+Adding Rules based on port: ufw allow 1000/udp
+
+Allowing based on port and interface: ufw allow in on tap0 to any port
+5353 proto udp
+
+### IPv6
+
+<IPv6> support can be enabled (not on by default) in /etc/default/ufw:
+IPV6=yes
+
+<Category:Linux> <Category:Security> <Category:IPv6>

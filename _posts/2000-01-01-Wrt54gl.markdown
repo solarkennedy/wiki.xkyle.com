@@ -1,0 +1,99 @@
+This is the coolest router ever.
+
+-   Add an SD card to it:
+    <http://xkyle.com/2008/12/06/giving-my-wrt54gl-a-2g-drive/>
+-   [Configuring Backuppc for
+    Openwrt](Configuring Backuppc for Openwrt "wikilink")
+-   [Compile the MMC driver](Compile the MMC driver "wikilink")
+
+Installing the SD card driver
+-----------------------------
+
+     
+    opkg update
+    opkg install kmod-mmc-over-gpio
+
+Mounting to External Media
+--------------------------
+
+With Kamkazie 8.09, this is not as documented.
+
+We have to replace init with our custom script:
+
+### For 2.4 (This really does work!)
+
+    #!/bin/sh
+    . /etc/functions.sh
+    mount proc /proc -t
+    insmod diag
+    echo 0xb8 > /proc/diag/gpiomask
+    insmod mmc
+    insmod ext2
+    mount -o rw /dev/mmc/disc0/disc /mnt
+           [ -x /mnt/sbin/init ] && {    
+                   . /bin/firstboot 
+                   pivot /mnt /mnt       
+           } 
+    exec /bin/busybox init
+
+### For 2.6 (Doesn't Work)
+
+    #!/bin/sh
+    . /etc/functions.sh
+            mount proc /proc -t proc 
+            mount sysfs /sys  -t sysfs 
+            insmod diag
+            echo 0x9c > /proc/diag/gpiomask
+            mkdir /config
+            mount configfs -t configfs /config
+
+            insmod crc-itu-t
+            insmod spi_bitbang
+            insmod spi_gpio
+            insmod gpiommc
+            
+            
+            local dir="/config/gpiommc/default"
+            mkdir -p $dir
+            echo 2 > $dir/gpio_data_in
+            echo 4 > $dir/gpio_data_out
+            echo 3 > $dir/gpio_clock
+            echo 7 > $dir/gpio_chipselect
+            echo 0 > $dir/spi_mode
+            echo 1 > $dir/register
+
+            insmod crc7
+            insmod mmc_core
+            insmod mmc_block
+            insmod mmc_spi
+
+            mount -o rw /dev/mmcblk0p1 /mnt
+            mkdir /mnt/config
+            mount -o bind /config /mnt/config
+    #       [ -x $target/sbin/init ] && {
+    #               . /bin/firstboot
+    #               pivot $target $target
+    #       }
+    exec /bin/busybox init
+
+We have to format the thing:
+----------------------------
+
+    opkg install e2fsprogs kmod-fs-ext2
+    mkfs.ext2 /dev/mmc/disc0/disc # See above for the correct partition path
+    mount -t ext2 /dev/mmc/disc0/disc /mnt/
+
+Now we are going to copy over the root stuff
+--------------------------------------------
+
+    mkdir -p /tmp/root
+    mount -o bind /rom /tmp/root
+    cp /tmp/root/* /mnt -a
+    sync
+    umount /tmp/root
+    umount /mnt
+
+Note: This will not take over any post configuration of your router. It
+will be stock after this next reboot.
+
+<Category:WRT54G> <Category:OpenWrt>

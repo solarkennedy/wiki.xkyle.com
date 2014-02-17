@@ -1,0 +1,27 @@
+### Stock Android Kernel Command Line
+
+`mem=384M@0M nvmem=128M@384M vmalloc=256M video=tegrafb console=ttyS0,115200n8 usbcore.old_scheme_first=1 tegraboot=sdmmc tegrapart=recovery:700:a00:800,boot:1100:1000:800,mbr:2100:200:800,system:2300:25800:800,cache:27b00:32000:800,misc:59b00:400:800,store:5a000:9a600:800,userdata:f4700:2be500:800`
+
+Serial Output:
+
+    **********Aos DebugSemiHosting Initialized*******
+    ---------------------------------------------------
+    ADJUSTED CLOCKS:
+    MC clock is set to 333000 KHz
+    EMC clock is set to 666000 KHz (DDR clock is at 333000 KHz)
+    PLLX0 clock is set to 1000000 KHz
+    PLLC0 clock is set to 600000 KHz                                                                                                                                                                       CPU clock is set to 1000000 KHz
+    System and AVP clock is set to 240000 KHz
+    GraphicsHost clock is set to 108000 KHz
+    3D clock is set to 111000 KHz
+    2D clock is set to 111000 KHz
+    Epp clock is set to 111000 KHz
+    Mpe clock is set to 111000 KHz
+    Vde clock is set to 240000 KHz
+    I2C Slave is *New*
+
+`JP1 Pinout `\
+`Pin 1: 3.3v`\
+`Pin 2: TX`
+
+<Category:AC100>

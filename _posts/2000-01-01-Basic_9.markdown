@@ -1,0 +1,11 @@
+For this mission you -must- use directory transversal instead of the
+full path. Go back to basic 8 (
+<http://www.hackthissite.org/missions/basic/8/> ) and put this into the
+name box:
+
+    <!--#exec cmd="ls ../../9/" -->
+
+You will then see your obscured file. Go to
+/missions/basic/9/TheFile.php to get your password.
+
+[Category:Hack This Site](Category:Hack This Site "wikilink")

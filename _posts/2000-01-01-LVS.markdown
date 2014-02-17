@@ -1,0 +1,15 @@
+Here are some quick steps to get LVS running. To make this HA you will
+probably want to coordinate it with <Heartbeat>:
+
+### Centos 5
+
+    yum -y install heartbeat-ldirectord heartbeat
+
+### Special Situations
+
+-   [LVS on the Rackspace Cloud](LVS on the Rackspace Cloud "wikilink")
+-   [IPv6 Load Balancing with
+    LVS](IPv6 Load Balancing with LVS "wikilink")
+
+[Category:High Availability](Category:High Availability "wikilink")
+<Category:LVS>

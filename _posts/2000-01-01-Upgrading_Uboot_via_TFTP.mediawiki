@@ -1,1 +1,0 @@
-#REDIRECT [[Upgrading U-Boot via TFTP]]

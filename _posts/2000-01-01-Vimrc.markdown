@@ -1,0 +1,28 @@
+### Fancy Symbols for tabs and eol
+
+`" Use the same symbols as TextMate for tabstops and EOLs`\
+`set listchars=tab:▸\ ,eol:¬`
+
+### Python space tweaks
+
+    " Only do this part when compiled with support for autocommands
+    if has("autocmd")
+      " Enable file type detection
+      filetype on
+     
+      " Syntax of these languages is fussy over tabs Vs spaces
+      autocmd FileType python setlocal ts=3 sw=3 ai
+     
+      " Treat .rss files as XML
+      autocmd BufNewFile,BufRead *.rss setfiletype xml
+    endif
+
+### Medium Mode
+
+    " disable the arrow keys you wimp
+    noremap <Up> <NOP>
+    noremap <Down> <NOP>
+    noremap <Left> <NOP>
+    noremap <Right> <NOP>
+
+<Category:Vim>

@@ -1,1 +1,0 @@
-#REDIRECT [[Example Zonefile]]

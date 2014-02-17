@@ -1,0 +1,5 @@
+### References
+
+-   <https://github.com/sensu/sensu/wiki/Handlers>
+
+<Category:Sensu>

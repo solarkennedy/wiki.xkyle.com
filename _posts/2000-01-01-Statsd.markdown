@@ -1,0 +1,10 @@
+### Make a Debian Package
+
+    apt-get install git debhelper devscripts
+    git clone https://github.com/etsy/statsd.git
+    cd statsd
+    dpkg-buildpackage
+    cd ..
+    #Enjoy the created deb!
+
+<Category:Graphite> <Category:Statsd>

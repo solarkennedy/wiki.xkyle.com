@@ -1,4 +1,0 @@
-Replace "name" with your name.
-<pre>!write name $lf mode #htb +o name</pre>
-
-[[Category:Hack This Site]]

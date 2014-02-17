@@ -1,0 +1,2 @@
+1.  REDIRECT [IPMI Serial Over Lan](IPMI Serial Over Lan "wikilink")
+

@@ -1,0 +1,76 @@
+N2n is a nice little vpn that traverses NAT, firewalls, etc.
+
+Here is an example debian init script you can use:
+
+    cat > /etc/init.d/n2n-edge << @EOF
+    #!/bin/sh
+    ### BEGIN INIT INFO
+    # Provides:        n2n-edge
+    # Required-Start:  $network $remote_fs $syslog
+    # Required-Stop:   $network $remote_fs $syslog
+    # Default-Start:   2 3 4 5
+    # Default-Stop:    0 1 6
+    # Short-Description: Start n2n VPN
+    ### END INIT INFO
+
+    PATH=/sbin:/bin:/usr/sbin:/usr/bin
+
+    . /lib/lsb/init-functions
+
+    NAME=n2n-edge
+    DAEMON=/usr/sbin/edge
+    #PIDFILE=/var/run/n2n-edge.pid
+
+    test -x $DAEMON || exit 5
+
+    if [ -r /etc/default/$NAME ]; then
+        . /etc/default/$NAME
+    fi
+
+    case $1 in
+        start)
+            log_daemon_msg "Starting N2N Vpn" "n2n"
+            start-stop-daemon --start --quiet --exec $DAEMON --startas $DAEMON -- $N2NOPTS
+            status=$?
+            log_end_msg $status
+            ;;
+        stop)
+            log_daemon_msg "Stopping N2N vpn" "n2n"
+            start-stop-daemon --stop --quiet --exec $DAEMON
+            log_end_msg $?
+            rm -f $PIDFILE
+            ;;
+        restart|force-reload)
+            $0 stop && sleep 2 && $0 start
+            ;;
+        try-restart)
+            if $0 status >/dev/null; then
+                $0 restart
+            else
+                exit 0
+            fi
+            ;;
+        status)
+            pidofproc -p $PIDFILE $DAEMON >/dev/null
+            status=$?
+            if [ $status -eq 0 ]; then
+                log_success_msg "N2N vpn is running."
+            else
+                log_failure_msg "N2N vpn is not running."
+            fi
+            exit $status
+            ;;
+        *)
+            echo "Usage: $0 {start|stop|restart|try-restart|force-reload|status}"
+            exit 2
+            ;;
+    esac
+    @EOF
+
+    chmod +x /etc/init.d/n2n-edge
+    update-rc.d n2n-edge defaults
+
+And your /etc/default/n2n-edge should look like this: N2NOPTS="-c n2n -k
+RANDOM -a 10.0.1.104 -s 255.255.255.0 -l x.x.x.x:1000 -f"
+
+<Category:VPN> <Category:Firewall> <Category:Security>

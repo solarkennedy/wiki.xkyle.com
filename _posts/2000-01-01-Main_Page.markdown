@@ -1,0 +1,34 @@
+Welcome to my Notebook!
+
+![](Kyleworking.jpg "image") Everyone can Read! Create an account and
+edit away if you so desire!
+
+This is basically where I will store all the documentation for my
+projects, and keep tidbits of info so I don't lose them.
+
+Wikis seem unorganized at first, here is a [list of all
+pages](Special:AllPages "wikilink") to give you an overview, see if
+there is something you like.
+
+Cool Things
+-----------
+
+Here you can learn how to: ![](Fireflies.jpg "image")
+
+-   See how I use [CFEngine](:Category:CFEngine "wikilink") or
+    [Puppet](:Category:Puppet "wikilink") to manage my servers
+-   [Scan a pdf to text](Pdf Scanning "wikilink") then find the [answers
+    to tests for you](Answer Finder "wikilink")
+-   You can see my solutions to
+    [Hackthissite.org](Hack This Site "wikilink") or [Games
+    Magazine](Games Magazine "wikilink").
+
+![](Lasertagbox.jpg "image")
+
+-   Build some <Lasertag> a big <Clock> or a jar of <Fireflies>.
+
+![](clock.jpg "image")
+
+-   Learn how to use [Plug Computers](Plug Computers "wikilink")
+
+<Category:Meta>

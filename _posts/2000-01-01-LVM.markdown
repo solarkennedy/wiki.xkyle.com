@@ -1,0 +1,11 @@
+Lvm is the Logical Volume Manager for linux
+
+### Recovering from Problems
+
+<http://www.novell.com/coolsolutions/appnote/19386.html>
+
+### Rescanning to Detect Volume Groups
+
+`vgchange -ay`
+
+<Category:Linux> <Category:LVM>

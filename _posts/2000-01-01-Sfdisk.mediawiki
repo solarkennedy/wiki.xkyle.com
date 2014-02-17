@@ -1,7 +1,0 @@
-sfdisk is a tool to dump and set partition tables.
-
-=== Example ===
-Dumps a table from sda and sets it on sdb:
- sfdisk -d /dev/sda | sfdisk /dev/sdb
-
-[[Category:Disks]][[Category:Partitions]]

@@ -1,0 +1,3 @@
+<http://www.hackthissite.org/missions/extbasic/template.php?lvl=8&pass=if>+(%24User+eq+%27BillGates%27)
+
+[Category:Hack This Site](Category:Hack This Site "wikilink")

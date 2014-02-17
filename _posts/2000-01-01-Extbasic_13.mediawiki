@@ -1,9 +1,0 @@
-In this mission, the mysql result is blank if the query fails, so the correct line is :
-
-<pre>
-vrfy.php?name=&email=
-</pre>
-
-Moo's hint of "try not to think too hard" is good advice :)
-
-[[Category:Hack This Site]]

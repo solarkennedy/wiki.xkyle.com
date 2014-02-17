@@ -1,0 +1,22 @@
+-   Grab packages from this repo:
+
+[`http://rpms.famillecollet.com/`](http://rpms.famillecollet.com/)
+
+-   Install php-fpm with yum
+
+-   Configure php-fpm to use a socket instead of listening on tcp:
+
+`listen = /tmp/phpfpm.sock`
+
+-   Use <Nginx> to use fastcgi:
+
+<!-- -->
+
+    location ~ \.php$ {
+            include fastcgi_params;
+            fastcgi_pass unix:/tmp/phpfpm.sock;
+            fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;
+            fastcgi_index  index.php;
+    }
+
+<Category:Nginx> <Category:PHP>

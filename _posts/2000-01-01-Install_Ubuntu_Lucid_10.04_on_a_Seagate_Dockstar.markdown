@@ -1,0 +1,6 @@
+You can't do this as far as I can tell, there is no Lucid port that runs
+on the arm5vte.
+
+This page exists just for google to find.
+
+[Category:Plug Computers](Category:Plug Computers "wikilink")

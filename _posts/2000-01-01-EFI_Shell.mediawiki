@@ -1,7 +1,0 @@
-=== What is it? ===
-The [[:Category:EFI|EFI]] Shell is a place where you can do stuff without having an OS installed. EFI provides services for disk access, rudimentary filesystem access (FAT32), networking, etc.
-
-=== Basics ===
-The Shell is kinda like a DOS shell with a few mixes of Unix sh. 
-
-[[Category:EFI]]

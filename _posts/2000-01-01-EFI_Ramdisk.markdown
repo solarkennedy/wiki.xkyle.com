@@ -1,0 +1,14 @@
+### Procedure
+
+​1. Grab the Ramdisk driver and utility from
+<http://efi-toolkit.svn.sourceforge.net/>
+
+​2. Get into the [EFI Shell](EFI Shell "wikilink")
+
+​3. Load the Ramdisk Driver load RAMDISK.EFI
+![](EFI_Load_Ramdisk.PNG "image")
+
+​4. Make a 64MB Ram disk, call it fs42: MKRAMDISK.EFI -s 64 fs42
+![](EFI_Make_Ramdisk.PNG "image")
+
+<Category:EFI>

@@ -1,0 +1,18 @@
+### Preface
+
+[Make a GPG Key](Make a GPG Key "wikilink") first.
+
+### Install
+
+`mkdir -p ~/.vim/plugin`\
+`wget -O ~/.vim/plugin/gnupg.vim `[`http://www.vim.org/scripts/download_script.php?src_id=12200`](http://www.vim.org/scripts/download_script.php?src_id=12200)` `
+
+### Transparently Edit Encrypted Files
+
+`vim secrets.gpg`
+
+### References
+
+-   <http://www.vim.org/scripts/script.php?script_id=661>
+
+<Category:Vim> <Category:GPG>

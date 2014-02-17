@@ -1,0 +1,16 @@
+### Initial Setup
+
+(These instructions are for Ubuntu 9.04 32bit)\
+First get what you need:
+
+    sudo apt-get install sun-java6-jre sun-java6-fonts sun-java6-plugin gcc-avr avr-libc
+
+Then remove what you don't:
+
+    sudo apt-get remove brltty
+
+Then we have to force ourselves to use the Sun java env:
+
+    sudo update-java-alternatives -s java-6-sun
+
+<Category:Arduino> <Category:Ubuntu>

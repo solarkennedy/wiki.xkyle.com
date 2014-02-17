@@ -1,4 +1,0 @@
-=== References ===
-* http://blog.fpmurphy.com/2010/03/grub2-efi-support.html
-
-[[Category:GRUB]][[Category:EFI]]

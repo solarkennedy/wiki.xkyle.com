@@ -1,3 +1,0 @@
-For ha.cf, all you need to do it add the node names to the file and add the log facility.
-
-[[Category:High Availability]]

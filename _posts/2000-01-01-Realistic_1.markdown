@@ -1,0 +1,7 @@
+To do this mission you need to get the names of variables out of the
+source and manually submit the form with a very high vote. For some
+reason the PHPSESSID is static and not your actual php session id.\
+Go to
+/missions/realistic/1/v.php?id=3&vote=22222&PHPSESSID=abcaeadfc31a5c43b2534bf995c0553f
+
+[Category:Hack This Site](Category:Hack This Site "wikilink")

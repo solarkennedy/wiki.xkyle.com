@@ -1,0 +1,20 @@
+One of the cornerstones of good sysadmin'ness is running regular
+updates. Specifically security updates.
+
+Here is some <CFEngine> glue to make that happen.
+
+    packages:
+        redhat::
+        yum-plugin-security action=install
+        ubuntu::
+        unattended-upgrades action=install
+
+    shellcommands:
+        # Security updates every day at 10AM
+        redhat.Hr10::
+            "/usr/bin/yum -d0 -e0 -y --security update"
+
+        ubuntu.Hr10::
+            "/usr/bin/unattended-upgrades"
+
+<Category:CFEngine> <Category:Sysadmin> <Category:Linux>

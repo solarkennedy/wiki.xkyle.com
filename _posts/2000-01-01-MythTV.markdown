@@ -1,0 +1,8 @@
+[MythTV](http://www.mythtv.org/) is an open source PVR. I has a bunch of
+pieces:
+
+-   <Mysql>
+-   <Apache>
+-   <Lirc>
+
+<Category:MythTV>

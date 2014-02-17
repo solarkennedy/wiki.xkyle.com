@@ -1,0 +1,72 @@
+### PreReqs
+
+[Install HPN-SSH](Install HPN-SSH "wikilink") first.
+
+### SSH Server Configuration
+
+You will automatically benefit from multithreaded ciphers and advanced
+tcp connections (if WAN latency is your problem).
+
+To get the additional option of using the "None" cipher to eliminate the
+CPU bottleneck, add this to the bottom of your sshd config file:
+NoneEnabled=yes
+
+### SSH Client Configuration
+
+An ssh client will also automatically benefit from multithreaded
+connections and ciphers, but to also use the None cipher you must have
+additional options to your ssh line: -oNoneSwitch=yes -oNoneEnabled=yes
+
+### ssh Example
+
+The None cipher will detect if you are trying to use a TTY and
+automatically disable itself so you don't send any sensitive commands in
+clear text. The None cipher is for data transfers only.
+
+    root@source:~# ssh -oNoneSwitch=yes -oNoneEnabled=yes root@dest
+    NONE cipher switch disabled when a TTY is allocated
+    root@dst:~# 
+
+You can see it lets you know right away if it disabled the None cipher
+for safety.
+
+If you run a command that does not use a tty it will warn you, but
+continue:
+
+    root@source:~# ssh -oNoneSwitch=yes -oNoneEnabled=yes root@dest 'cat /dev/zero' | pv > /dev/null                                                                                                                                                                                            
+    WARNING: ENABLED NONE CIPHER
+    60MB 0:00:06 [ 166MB/s] [                <=>  ]
+
+### scp Example
+
+    root@src:~# scp -o NoneSwitch=yes -o NoneEnabled=yes /tmp/test.file  root@dst:/tmp/test.file
+    WARNING: ENABLED NONE CIPHER
+    test.file                                                                                                                                                                                       100% 1000MB 166.7MB/s 174.9MB/s   00:06    
+    root@src:~# 
+
+### rsync example
+
+rsync can of course take many options. But in order to get the none
+cipher you need to specify the ssh command (-e) with the none cipher
+options after:
+
+    root@src:~# rsync -aPv -e "ssh -o NoneSwitch=yes -o NoneEnabled=yes" /tmp/test.file  root@dst:/tmp/test.file
+    WARNING: ENABLED NONE CIPHER
+    sending incremental file list
+    test.file
+      1048576000 100%  132.13MB/s    0:00:07 (xfer#1, to-check=0/1)
+
+    sent 1048704074 bytes  received 31 bytes  123376953.53 bytes/sec
+    total size is 1048576000  speedup is 1.00
+    root@src:~# 
+
+### "None" Cipher Notes
+
+The None cipher **does NOT let plain text passwords go over the wire**.
+It only encrypts data transfers and will warn you when it is enabled.
+For the authentication part of the ssh connection is uses the standard
+cipher, then only if there is no TTY allocated will it drop down to no
+encryption. If a TTY is detected (like an interactive session) the None
+cipher will not be used.
+
+<Category:HPC> <Category:SSH>

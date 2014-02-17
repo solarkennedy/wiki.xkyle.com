@@ -1,5 +1,0 @@
-Google "java synchronized executor" and read up on it.
-To ensure that threads can't mess with each other, you need to add the "synchronized" modifier.
-<pre>private synchronized void incrementLeetness() {</pre>
-
-[[Category:Hack This Site]]

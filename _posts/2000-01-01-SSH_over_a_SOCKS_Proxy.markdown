@@ -1,0 +1,12 @@
+Here is how you can edit your .ssh/config file to utilize a <SOCKS>
+proxy:
+
+     Host *
+        ProxyCommand connect -5 -S proxydomain.name:1080 %h %p
+
+In this example it us using a socks5 proxy (default) on port 1080.
+
+To do this you need the connect command on ubuntu: apt-get install
+connect-proxy
+
+<Category:Firewall> <Category:SSH>

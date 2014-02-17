@@ -1,8 +1,0 @@
-===  Install mod_wsgi ===
-Ubuntu:
- apt-get install libapache2-mod-wsgi
-
-=== Configuring Graphite to use mod_wsgi ===
- mv /opt/graphite/conf/graphite.wsgi.example /opt/graphite/conf/graphite.wsgi
-
-[[Category:Apache]][[Category:Graphite]]

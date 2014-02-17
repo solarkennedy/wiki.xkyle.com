@@ -1,1 +1,0 @@
-#REDIRECT [[Configuring Backuppc for OpenWrt]]

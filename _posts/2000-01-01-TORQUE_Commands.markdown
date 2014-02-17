@@ -1,0 +1,14 @@
+-   tracejob - gives detailed logs about a job
+-   pbsnodes - dump what torque knows about your nodes
+
+### qmgr Settings
+
+-   Disable email sending
+
+`set server mail_domain = never`
+
+#### See Also
+
+[Maui Commands](Maui Commands "wikilink")
+
+<Category:TORQUE>

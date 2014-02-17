@@ -1,0 +1,3 @@
+<http://www.hackthissite.org/missions/javascript/1/?lvl_password=cookies>
+
+[Category:Hack This Site](Category:Hack This Site "wikilink")

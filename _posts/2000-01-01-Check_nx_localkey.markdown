@@ -1,0 +1,46 @@
+<NX> uses ssh to authenticate users. Sometimes though, an ssh key
+changes and we forget to update the known\_hosts file for the nx user.
+This plugin checks for that. (It is very difficult to detect when this
+happens, nx outputs are less than helpful)
+
+    #!/bin/bash
+    #
+    # Nrpe check to ensure that the nx user can ssh to 127.0.0.1 for normal user auth
+    # after the nx key auth goes through
+
+    # check for plugin directory where utils.sh lives
+    [ -d /usr/lib/nagios/plugins ]   && UTILPATH=/usr/lib/nagios/plugins
+    [ -d /usr/lib64/nagios/plugins ] && UTILPATH=/usr/lib64/nagios/plugins
+
+
+    #  load states and strings
+    if [ -x "$UTILPATH"/utils.sh ]; then
+            . "$UTILPATH"/utils.sh
+    else
+            echo "ERROR: Cannot find utils.sh"
+            exit
+    fi
+
+
+    # This requires some explaination
+    if \
+
+    #We are sending the quit command, because the nx user just runs the nx server, which will wait, quit will make it quit
+    echo quit | \ 
+    # This is the acutal sudo which is needed, we have to sudo to nx, but nx ssh's to itself for the real auth
+    sudo  -u nx /usr/bin/ssh \
+    # No password promts, we are detecting if the local ssh key works
+     -o StrictHostKeyChecking=yes -o PasswordAuthentication=no -i /var//lib/nxserver/home/.ssh/client.id_dsa.key nx@localhost  /bin/true > /dev/null \ 
+    ; then
+       echo "OK: The NX user can ssh to localhost properly"
+       exit $STATE_OK
+    else
+       echo "CRITICAL: The NX user could not ssh to nx@127.0.0.1, please check the key"
+       exit $STATE_CRITICAL
+    fi
+
+Needs this sudo line: nagios ALL=(nx) NOPASSWD: /usr/bin/ssh -o
+StrictHostKeyChecking=yes -o PasswordAuthentication=no -i
+/var//lib/nxserver/home/.ssh/client.id\_dsa.key nx@localhost /bin/true
+
+<Category:NX>

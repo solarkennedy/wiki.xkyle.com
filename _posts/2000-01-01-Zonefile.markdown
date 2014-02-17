@@ -1,0 +1,2 @@
+1.  REDIRECT [Example Zonefile](Example Zonefile "wikilink")
+

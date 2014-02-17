@@ -1,0 +1,26 @@
+For whatever reason <CFEngine> doesn't have a *great* way to extract
+hosts from its database. This is the best I can come up with. Adjust as
+you see fit:
+
+    #!/bin/bash
+
+    #Purge stale hosts
+    cfshow -s -P
+
+    # Dump hosts and extract all hosts
+    for EACH in `cfshow -s  -H | grep e0fff | html2text"`
+    do
+        if echo $EACH | grep -q '^[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}$'; then
+            # An IP? Ug cfshow sucks. Delete trailing . from dig
+             dig +short -x $EACH | sed 's/\(.*\)\./\1/' 
+        else
+            echo $EACH
+        fi
+
+           #Sort out duplicates
+           #And spit to std out
+    done | sort -u
+
+Now you can do all sorts of things with this knowledge!
+
+<Category:CFEngine>

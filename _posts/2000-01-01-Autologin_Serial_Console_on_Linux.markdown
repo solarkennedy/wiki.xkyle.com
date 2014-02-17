@@ -1,0 +1,13 @@
+If you are fancy enough to use upstart, put this in say tty-S0.conf:
+
+    start on stopped rc or RUNLEVEL=[2345]
+    stop on runlevel [!2345]
+
+    respawn
+    exec agetty -l /bin/bash -n -L 115200 ttyS0 vt100
+
+Then run: start tty-S0
+
+Instant root!
+
+<Category:Upstart>

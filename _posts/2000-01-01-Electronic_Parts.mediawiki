@@ -1,6 +1,0 @@
-These are parts I use a lot:
-=== Connectors ===
-* USB Plug kits [http://www.mouser.com/ProductDetail/Kycon/KUSBX-AP-KIT-SC/?qs=D%252by4jQJzx8JFPMODTbjujg%3d%3d 806-KUSBX-AP-KITSC]
-* This looks better [http://www.mouser.com/ProductDetail/Kobiconn/154-UAC16-E/?qs=sGAEpiMZZMtV0NIoyAjRfaomlpKvD%252byNEbzVZTAhCLc%3d 154-UAC16-E]
-
-[[Category:Electronics]]

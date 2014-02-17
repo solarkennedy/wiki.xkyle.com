@@ -1,0 +1,6 @@
+listps is a program that compares the output of /proc/ and what ps
+shows, to light up any hidden processes:
+
+[1](http://csl.sublevel3.org/listps/|listps)
+
+<Category:Linux> <Category:Security>

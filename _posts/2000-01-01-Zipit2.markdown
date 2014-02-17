@@ -1,0 +1,12 @@
+Hardware
+--------
+
+Lots of great info: <http://bealecorner.org/best/measure/z2/>
+![](Zipit2-serial.jpg "image")
+
+Software
+--------
+
+Getting [Open Embedded](Open Embedded "wikilink") running.
+
+<Category:Projects>

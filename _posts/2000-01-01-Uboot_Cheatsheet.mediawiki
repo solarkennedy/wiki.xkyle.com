@@ -1,1 +1,0 @@
-#REDIRECT [[U-Boot Cheatsheet]]
