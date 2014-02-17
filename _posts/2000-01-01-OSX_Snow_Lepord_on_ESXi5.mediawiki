@@ -1,0 +1,7 @@
+=== WARNING DOESNT WORK YET ===
+
+From [[ESXi]] [[EFI Shell]]:
+ mount fs0:
+ fs0:\System\Library\CoreServices\boot.efi -v
+
+[[Category:ESX]][[Category:EFI]][[Category:OSX]]

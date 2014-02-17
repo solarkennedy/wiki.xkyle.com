@@ -1,0 +1,36 @@
+
+RHEL 6 - 64 bit
+
+ yum install OpenIPMI ipmitool
+
+ Service ipmi start  
+(provides /dev/ipmi0; OpenIPMI has its own set of tools, but ipmitool works with it, and I like it.)
+
+ ipmitool lan set 1 ipaddr 160.91.33.41
+ ipmitool lan set 1 netmask 255.255.255.0
+ ipmitool lan set 1 defgw 160.91.33.1
+ ipmitool lan set 1 defgw ipaddr 160.91.33.1
+
+ ipmitool user set password 2 foo  (default user name of this account is ADMIN)
+
+ vi /etc/init/serial-ttyS2.conf   
+(Silicon Mechanics seems to enable this by default.  This can be disabled or edited in the bios to other com ports).
+
+<pre>
+# This service maintains a getty on /dev/ttyS2.
+
+start on stopped rc RUNLEVEL=[2345]
+stop on starting runlevel [016]
+
+respawn
+exec /sbin/agetty /dev/ttyS2 115200 vt100-nav
+<pre>
+
+ sudo start serial-ttyS2
+ ipmitool -I lanplus -U ADMIN -H <IP Address> -v chassis status 
+ ipmitool -I lanplus -U ADMIN -H <IP Address> -v sol activate
+
+Issue '~.' to disconnect from the sol.
+</pre>
+
+[[Category:IPMI]]

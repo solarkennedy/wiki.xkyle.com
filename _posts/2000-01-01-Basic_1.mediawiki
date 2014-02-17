@@ -1,0 +1,5 @@
+View the page source and search for "password is". You will see something like:
+<pre><!-- the first few levels are extremely easy: password is 068ffaa8 --></pre>
+The password is probably different for each user.
+
+[[Category:Hack This Site]]

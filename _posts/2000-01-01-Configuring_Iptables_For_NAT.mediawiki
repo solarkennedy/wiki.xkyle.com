@@ -1,0 +1,18 @@
+So you want to setup iptables for Natting:
+
+ echo 1 > /proc/sys/net/ipv4/ip_forward
+
+Then setup your iptables to do the mangling (internal = eth1, external = eth0):
+
+ /sbin/iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+ /sbin/iptables -A FORWARD -i eth0 -o eth1 -m state --state RELATED,ESTABLISHED -j ACCEPT
+ /sbin/iptables -A FORWARD -i eth1 -o eth0 -j ACCEPT
+
+
+For Me, tun3 with eth0 as the internal interface
+
+ /sbin/iptables -t nat -A POSTROUTING -o tun3 -j MASQUERADE
+ /sbin/iptables -A FORWARD -i tun3 -o eth0 -m state --state RELATED,ESTABLISHED -j ACCEPT
+ /sbin/iptables -A FORWARD -i eth0 -o tun3 -j ACCEPT
+
+[[Category:Iptables]][[Category:Scripts]][[Category:Firewall]]

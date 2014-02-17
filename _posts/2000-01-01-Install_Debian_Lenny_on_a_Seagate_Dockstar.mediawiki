@@ -1,0 +1,160 @@
+This is a guide to install Debian Lenny on a Seagate Dockstar. This method involves using the serial port, and we will be creating our own ubifs image and transferring it.
+=== Prerequisites ===
+
+* PC Linux
+* Dockstar
+* Serialport connected to the Dockstar
+* DHCP router
+* Tftp server
+* Internet access
+* 1 Gig USB key
+* Patience
+
+=== Setup a USB key with a temporary Debian root filesystem ===
+1. Plug the key into your Linux box 
+
+2. Use fdisk to create one large partition
+ fdisk /dev/sdb
+3. Create the filesystem
+ mkfs.ext3 /dev/sdb1
+4. Mount the filesystem
+ mount /dev/sdb1 /mnt
+5. Download the Debian root filesystem and untar it to the key
+ cd /mnt
+ wget http://people.debian.org/~tbm/sheevaplug/lenny/base.tar.bz2
+ # Mirrored: wget http://xkyle.com/packages/lenny-base.tar.bz2
+ tar xvjf base.tar.bz2
+ rm base.tar.bz2
+6. Download sheeva kernel
+ cd /mnt/boot && rm -rf *
+ wget http://sheeva.with-linux.com/sheeva/2.6/2.6.38/2.6.38.7/sheeva-2.6.38.7-uImage
+ # Mirrored:  wget http://xkyle.com/packages/sheeva-2.6.38.7-uImage
+ wget http://sheeva.with-linux.com/sheeva/2.6/2.6.38/2.6.38.7/sheeva-2.6.38.7-uImage.md5
+ # Mirrored: wget http://xkyle.com/packages/sheeva-2.6.38.7-uImage.md5
+ md5sum -c sheeva-2.6.38.7-uImage.md5     # check for output
+ ln -s sheeva-2.6.38.7-uImage uImage
+7. Download modules
+ cd /mnt
+ wget http://sheeva.with-linux.com/sheeva/2.6/2.6.38/2.6.38.7/sheeva-2.6.38.7-Modules.tar.gz
+ # Mirrored: wget http://xkyle.com/packages/sheeva-2.6.38.7-Modules.tar.gz
+ wget http://sheeva.with-linux.com/sheeva/2.6/2.6.38/2.6.38.7/sheeva-2.6.38.7-Modules.tar.gz.md5
+ # Mirrored: wget http://xkyle.com/packages/sheeva-2.6.38.7-Modules.tar.gz.md5
+ md5sum -c sheeva-2.6.38.7-Modules.tar.gz.md5     # check for output
+ tar xvzf sheeva-2.6.38.7-Modules.tar.gz
+ rm sheeva-2.6.34.1-Modules.tar.gz
+8. Comment all lines in /mnt/etc/fstab
+
+9. Delete /mnt/etc/mtab 
+
+10. Modify /mnt/etc/network/interfaces to your needs or leave it to use DHCP 
+
+11. Adjust /mnt/etc/resolv.conf to match your DNS environment
+
+=== Generate UBIFS image ===
+1. Copy the root filesystem you just created. This will be flashed to your DockStar later so make sure every config file is correct ;)
+ cd /tmp
+ mkdir ubifs
+ cp -av /mnt/* ubifs/
+2. Create UBI config file
+ cat <<eof >ubi.cfg
+ [ubifs]
+ mode=ubi
+ image=ubifs.img
+ vol_id=0
+ vol_size=200MiB
+ vol_type=dynamic
+ vol_name=rootfs
+ vol_flags=autoresize
+ eof
+3. Create UBI image (this may take some time without progress display)
+ apt-get install mtd-utils
+ mkfs.ubifs -v -r ubifs -m 2048 -e 129024 -c 4096 -o ubifs.img -x zlib
+ ubinize -o ubi.img -m 2048 -p 128KiB -s 512 ubi.cfg
+You should get a ubifs.img with ~163 MB and a slightly larger ubi.img
+4. Copy UBI image to the USB key
+ cp ubi.img /mnt
+
+=== Setup a TFTP server with a temporary kernel ===
+1. Install TFTP server
+ aptitude install tftpd-hpa
+2. Copy kernel from USB root to TFTP root
+ cp /mnt/boot/sheeva-2.6.34.1-uImage /var/lib/tftpboot
+ cd /var/lib/tftpboot
+ ln -s sheeva-2.6.34.1-uImage uImage
+3. Start tftp if it isn't running
+ /etc/init.d/tftpd-hpa start
+4. Unmount the USB key from your PC
+ umount /dev/sdb1
+
+=== Get the Dockstar Going ===
+1. Reset the dockstar and interrupt the bootloader
+
+2. Set the right variables to boot the new kernel:
+ setenv arcNumber 2097
+ setenv mainlineLinux yes
+ setenv ipaddr 192.168.2.2       # very important to set this one to the DockStar IP!
+ setenv serverip 192.168.2.1     # very important to set this one to the TFTP server IP!
+ setenv mtdparts 'orion_nand:0x100000@0x0(u-boot),0x400000@0x100000(uImage),0x2000000@0x500000(rootfs),0xDB00000@0x2500000(data)'
+ setenv tftpboot 'tftp 0x800000 uImage ; setenv bootargs $(console) root=/dev/sda1 rw rootdelay=5 $(mtdparts) ; bootm 0x800000'
+ setenv bootcmd 'run tftpboot'
+ saveenv
+
+3. Boot the temp kernel via TFTP and the filesystem from USB
+  reset
+
+4. Setup the initial environment
+ #ON THE DOCKSTAR NOW
+ date 'MMDDhhmmCCYY'
+ route add default gw 192.168.2.1
+ wget http://ftp.de.debian.org/debian/pool/main/m/mtd-utils/mtd-utils_20090606-1_armel.deb
+ # Mirrored: wget http://xkyle.com/packages/mtd-utils_20090606-1_armel.deb
+ wget http://ftp.de.debian.org/debian/pool/main/l/lzo2/liblzo2-2_2.03-2_armel.deb
+ # Mirrored: wget http://xkyle.com/packages/liblzo2-2_2.03-2_armel.deb
+ dpkg -i liblzo2-2_2.03-2_armel.deb mtd-utils_20090606-1_armel.deb
+This can be done over the serial, or by ssh (username is root, password is root)
+
+5. Erase the original Pogoplug Kernel and OS, flash Debian filesystem and new sheeva kernel to NAND
+ flash_eraseall /dev/mtd2
+ ubiformat /dev/mtd2 -s 512 -f /ubi.img -y
+ flash_erase /dev/mtdblock1
+ flash_eraseall /dev/mtd1
+ cat /boot/uImage > /dev/mtdblock1
+ wget http://dockstar.googlecode.com/files/blparam
+ # Mirror: http://xkyle.com/blparam
+ chmod 755 ./blparam
+ ./blparam
+ ./blparam bootargs_ubi='ubi.mtd=2 root=ubi0:rootfs rootfstype=ubifs'
+ ./blparam bootcmd_ubi='nand read.e 0x800000 0x100000 0x300000 ; setenv bootargs $(console) $(mtdparts) $(bootargs_ubi) ; bootm 0x800000'
+ ./blparam bootcmd='run bootcmd_ubi'
+
+=== Post Install ===
+1. Adjust hostname, network, DNS, etc.
+
+2. Generate new SSH keys
+ rm /etc/ssh/ssh_host*
+ ssh-keygen -t dsa -f /etc/ssh/ssh_host_dsa_key -N ""
+ ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key -N ""
+
+3. Adjust and update apt sources
+ vi /etc/apt/sources.list
+ apt-get update
+
+4. Purge unneeded locales and old kernel
+ aptitude install localepurge
+ localepurge
+ aptitude remove linux-image-2.6-kirkwood linux-image-2.6.32-5-kirkwood linux-image-kirkwood
+
+5. Adjust timezone
+ dpkg-reconfigure tzdata
+
+6. Install NTP support
+ aptitude install ntp
+
+7. Adjust /etc/fstab. Might be better to mount /var/log, /var/lock, /var/run and /tmp to a tmpfs.
+
+
+=== References ===
+* [http://plugboxlinux.org/with-linux/index.php?dir=2.6.34.1/]
+* Archived from http://skorfulose.de/2010/07/22/how-to-install-debian-on-seagate-dockstar/ (which no longer exists)
+
+[[Category:Plug Computers]]

@@ -1,0 +1,24 @@
+fpm makes making packages easy.
+
+== Tricks ==
+=== Building packages out of existing binaries ===
+If you have a folder of existing binaries, fpm can make a quick package out of it. There is a gotcha though, if the binaries are prelinked, then cpio digest mismatches will happen.
+
+Run fpm like this:
+ fpm -e -t rpm -n mycoolpackage -s dir /opt/packagedbinaries
+
+And add this at the top:
+ %global __prelink_undo_cmd %{nil}
+
+If you don't, you will get this:
+ cpio: Digest mismatch
+
+=== Building and Packaging All Gem Dependencies ===
+ mkdir /tmp/gems
+ gem install --no-ri --no-rdoc --install-dir /tmp/gems cucumber
+ ls /tmp/gems/cache
+ find /tmp/gems/cache -name '*.gem' | xargs -rn1 fpm -s gem -t deb
+
+==== References ====
+https://github.com/jordansissel/fpm/wiki/ConvertingGems
+[[Category:RPM]]

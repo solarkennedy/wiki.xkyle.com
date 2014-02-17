@@ -1,0 +1,18 @@
+On the agent:
+ puppet agent --server puppet.xkyle.com
+
+On the server:
+See incoming certs waiting to be signed:
+ $ puppetca list
+ archive.xkyle.com (B1:2E:B2:2E:F4:D1:F6:31:10:FF:D9:95:A9:AF:F3:F1)
+Now sign the client cert:
+ $ puppet cert sign archive.xkyle.com
+ notice: Signed certificate request for archive.xkyle.com
+ notice: Removing file Puppet::SSL::CertificateRequest archive.xkyle.com at '/var/lib/puppet/ssl/ca/requests/archive.xkyle.com.pem'
+Optionally sign them all to save typing:
+ $ puppet cert sign --all
+Optional: Setup [[Puppet Autosigning]] to skip manually signing new clients.
+
+Now the client (in this case localhost, but whatever) can pull manifests from the server.
+
+[[Category:Puppet]]

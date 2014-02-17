@@ -1,0 +1,11 @@
+Ldirector is a tool to administrate [[LVS]]
+=== Solving the Arp Problem ===
+Sysctl.conf
+ net.ipv4.conf.eth0.arp_ignore = 1
+ net.ipv4.conf.eth0.arp_announce = 2
+ net.ipv4.conf.all.arp_ignore = 1
+ net.ipv4.conf.all.arp_announce = 2
+
+=== Base Config ===
+
+[[Category:High Availability]][[Category:Linux]][[Category:LVS]][[Category:Ldirector]]

@@ -1,0 +1,8 @@
+== Hardware ==
+Lots of great info: http://bealecorner.org/best/measure/z2/
+[[File:Zipit2-serial.jpg|thumb]]
+
+== Software ==
+Getting [[Open Embedded]] running.
+
+[[Category:Projects]]

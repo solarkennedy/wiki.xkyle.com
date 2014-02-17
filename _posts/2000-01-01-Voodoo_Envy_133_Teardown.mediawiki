@@ -1,0 +1,13 @@
+The [[Voodoo Envy 133]] is a cool laptop. Here is a few teardown pictures.
+
+[[File:Voodoo_IO_Board.jpg|thumb]]
+[[File:Voodoo_Lower_Case.jpg|thumb]]
+[[File:Voodoo_Lower_Case_2.jpg|thumb]]
+[[File:Voodoo_Motherboard_Top.jpg|thumb]]
+[[File:Voodoo_Underside.jpg|thumb]]
+[[File:Voodoo_Upper_Case.jpg|thumb]]
+[[File:Voodoo_Bluetooth.jpg|thumb]]
+[[File:Voodoo_Fan.jpg|thumb]]
+[[File:Voodoo_Wlan.jpg|thumb]]
+[[File:Voodoo_SSD.jpg|thumb]]
+[[File:Voodoo_RAM.jpg|thumb]]

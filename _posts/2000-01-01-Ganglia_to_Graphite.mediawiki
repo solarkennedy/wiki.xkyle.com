@@ -1,0 +1,32 @@
+Getting [[Ganglia]] data into [[Graphite]] is easy.
+
+=== New Data ===
+This assumes that you will keep ganglia running, and you can just poll it. I use [https://github.com/ganglia/ganglia_contrib/blob/master/graphite_integration/ganglia_graphite.rb this] script to do it for me.
+
+The lazy install:
+<pre>
+wget https://github.com/ganglia/ganglia_contrib/raw/master/graphite_integration/ganglia_graphite.rb -O /usr/local/bin/ganglia_graphite.rb
+chmod +x /usr/local/bin/ganglia_graphite.rb
+echo "* * * * * /usr/local/bin/ganglia_graphite.rb" > /etc/cron.d/ganglia_graphite.rb
+#Don't forget to install ruby?
+</pre>
+Feel free to edit that script to adjust your namespace. I personally junk the "cluster" name and just use "servers"
+
+=== Historic Data ===
+You are lucky! [[Graphite]] can just read the RRD's that [[Ganglia]] Outputs. Check this out:
+<pre>
+# I put my servers in a folder called, servers. Change as you need:
+mkdir -p /opt/graphite/storage/rrd/servers
+cd /opt/graphite/storage/rrd/servers
+ 
+# Grab your RRD's from your ganglia server:
+rsync -aPv root@ganglia-host:/var/lib/ganglia/rrds/CLUSTER/ .
+ 
+# Graphite uses the "." as a namespace separator, I prefer keep my tree more flat with the number of servers I have
+# A rename can do that for you.
+rename  's/\./_/g' *
+
+# there is no step 3? Seriously, you just drop the rrds in the rrd folder and give it a good name.
+</pre>
+
+[[Category:Ganglia]][[Category:Graphite]]

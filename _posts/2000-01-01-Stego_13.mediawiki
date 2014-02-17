@@ -1,0 +1,8 @@
+This image has a block of hex:
+<pre>
+I thought what I'd do was, I'd  pretend I was one of those deaf-mutes                                                                         I thought what I'd do was, I'd  pretend I was one of those deaf-mutes
+</pre>
+
+Scattered 26 times within the file. Simply search and replace those out of the file, then open the bitmap in an image viewer to see the correct image.
+
+[[Category:Hack This Site]]

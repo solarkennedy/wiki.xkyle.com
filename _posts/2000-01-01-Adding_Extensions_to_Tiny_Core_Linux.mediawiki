@@ -1,0 +1,7 @@
+=== Prep ===
+First unpack with [[Remastering Tiny Core Linux]]
+
+=== References ===
+http://wiki.tinycorelinux.net/wiki:dynamic_root_filesystem_remastering
+
+[[Category:Tiny Core Linux]]

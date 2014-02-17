@@ -1,0 +1,42 @@
+Quick start setting up mysql replication:
+
+=== Master Setup ===
+First setup a replication mysql user that will do this for you (run this on the master):
+ GRANT REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 'replicant'@'slave_host' IDENTIFIED BY 'my_pwd';
+
+Now on the master, setup a server id and a bin log in my.cnf:
+ server-id = 1
+ log-bin = /var/log/mysql/bin.log
+
+=== Slave Setup ===
+Setup an id and log file for my.cnf:
+<pre>
+server-id = 2
+
+master-host = Master IP
+master-port = 3306
+master-user = replicant
+master-password = my_pwd
+
+log-bin = /var/log/mysql/bin.log
+log-bin-index = /var/log/mysql/log-bin.index
+log-error = /var/log/mysql/error.log
+
+relay-log = /var/log/mysql/relay.log
+relay-log-info-file = /var/log/mysql/relay-log.info
+relay-log-index = /var/log/mysql/relay-log.index
+</pre>
+
+=== Sync An Initial snapshot of your data ===
+This can be done with mysqldump, mysqlhotcopy, or just scp. Make sure the tables are locked or mysql is shut down.
+
+=== Start the Slave ===
+Start it up with the new data, then "START SLAVE;" or "mysqladmin start-slave" on the slave.
+
+=== Making Backups === 
+To make backups on the slave server, simply stop the slave, make the backup, then start it again
+ mysqladmin stop-slave
+ mysqldump -A > dump.sql
+ mysqladmin start-slave
+
+[[Category:Mysql]]

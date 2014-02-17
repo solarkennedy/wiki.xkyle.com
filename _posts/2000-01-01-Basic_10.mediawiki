@@ -1,0 +1,10 @@
+This mission is about cookies.
+To view your cookies, you can use javascript injection or a couple different firefox plugins.
+<br>Using javascript injection:
+<br>Go to Basic 10, then put the following into your address bar and hit enter:
+<pre>javascript:alert(document.cookie);</pre>
+This is your cookie. Javascript makes it very easy to edit - just use this to change level10_authorized to yes:
+<pre>javascript:void(document.cookie="level10_authorized=yes");</pre>
+Press enter to apply it, then press submit!
+
+[[Category:Hack This Site]]

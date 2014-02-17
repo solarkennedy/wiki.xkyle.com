@@ -1,0 +1,34 @@
+=== This No longer works since twitter disabled basic auth ===
+
+Don't forget you need a for real deal version of wget so first run
+<pre>
+opkg update; opkg install wget -force-overwrite
+</pre>
+
+<pre>
+#!/bin/ash
+wget -q --keep-session-cookies --http-user=email --http-password=password \
+ 'http://twitter.com/statuses/mentions.xml?count=5'  -O -  | grep -e "^  <id>" -e "<text>" -e "<screen_name>" > /tmp/twitters
+
+for ID in `cat /tmp/twitters  | grep "<id>" | cut -f 2 -d ">" | cut -f 1 -d "<"`
+do
+	grep "^$ID$" /var/read-twitters > /dev/null
+	if [ $? -ne 0 ]; then #We have not read this
+	USER=` grep "$ID" -A2 /tmp/twitters | tail -n 1 | cut -f 2 -d ">" | cut -f 1 -d "<"`
+	TWITTER=` grep "$ID" -A1 /tmp/twitters | tail -n 1 | cut -f 2 -d ">" | cut -f 1 -d "<"`
+	if [ "$USER" == "xkylecom" ]; then
+		echo AUTHED USER: $USER    $TWITTER
+	else
+		echo UNAUTHED USER: $USER
+	
+	fi 
+	
+	
+	#echo $USER: $TWITTER
+	echo $ID >> /var/read-twitters
+	fi
+done
+
+</pre>
+
+[[Category:Scripts]]

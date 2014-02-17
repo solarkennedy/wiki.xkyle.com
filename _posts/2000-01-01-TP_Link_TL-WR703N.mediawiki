@@ -1,0 +1,25 @@
+
+=== Hardware Specs ===
+* Atheros AR7240 CPU (400Mhz)
+* Atheros AR9331 Chipset (integrated wireless)
+* 802.11 b/g/n 150Mbps (130Mbps real)
+* wireless power output 20dBm - 100mW
+* 4 MB flash memory
+* 32 MB RAM
+* USB 2.0 port (High-Speed only, use an external High-Speed hub for Full/Low-Speed devices)
+* Powered via micro-USB socket
+* Tiny form factor: 5.7cm x 5.7cm x 1.8cm
+
+=== Hardware Mods ===
+* Serial Port plug: http://wiki.villagetelco.org/index.php?title=Building_a_Serial_Port_for_TL-WR703N
+* Internal USB hub and storage: https://forum.openwrt.org/viewtopic.php?id=34188
+* Port Expanding Daughter Board: http://www.kean.com.au/oshw/WR703N/
+
+==== More Links ====
+* [[OpenWrt 10.03 on a TL-WR703N]]
+* [[OpenWrt 12.09 on a TL-WR703N]]
+
+==== References ====
+* http://wiki.openwrt.org/toh/tp-link/tl-wr703n
+
+[[Category:OpenWrt]][[Category:Plug Computers]][[Category:TL-WR703N]]

@@ -1,0 +1,70 @@
+[[CFEngine]] is a great tool for managing linux servers, and distributing and controlling ssh keys is a good job for it. 
+
+=== Using Copy ===
+You could have some base authorized_keys file that has all the keys you need and have cfengine just copy over that file. Not super flexible, but it ensures that whatever keys are in that file are also on your servers.
+
+How about something like this:
+<pre>
+control:
+	OnlyKyle::
+		AllowRedefinitionOf  = ( authorized_keys_file )
+		authorized_keys_file = ( $(master_conf)/root/.ssh/authorized_keys.OnlyKyle )
+	KyleAndCody::
+		authorized_keys_file = ( $(master_conf)/root/.ssh/authorized_keys.KyleAndCody )
+	OnlyCody::
+		authorized_keys_file = ( $(master_conf)/root/.ssh/authorized_keys.OnlyCody )
+
+files:
+                /root/. owner=root group=root mode=700 action=create
+                /root/.ssh/ owner=root group=root mode=700 action=create
+                /root/.ssh/authorized_keys owner=root group=root mode=600 action=create
+copy:	
+	any::
+		$(authorized_keys_file)  dest=/root/.ssh/authorized_keys
+			mode=600
+			owner=root
+			group=root
+			server=$(policyhost)
+			verify=true
+			backup=false
+</pre>
+
+=== Using Editfiles ===
+Another way to do it is with the editfiles section. You can add and keys at will, and still have the flexibility of users or exception places where you need extra keys.
+
+Start with the folders and files you will need:
+<pre>
+# Keep it secret!
+files:
+                /root/. owner=root group=root mode=700 action=create
+                /root/.ssh/ owner=root group=root mode=700 action=create
+                /root/.ssh/authorized_keys owner=root group=root mode=600 action=create
+</pre>
+
+Now I here are some examples for adding and deleting keys. Don't forget to escape +'s in the regex!
+<pre>
+# Ensure our my key is on ANY server:
+editfiles:
+        any::
+                { /root/.ssh/authorized_keys
+                        #kyle anderson from his laptop
+                        AppendIfNoSuchLine "ssh-rsa AAAA....dvpB8w== kyle@thebomb # Kyle Anderson From His Laptop - DO NOT EDIT by CFENGINE"
+
+                        # Delete lines that have our keys without CFENGINE comment
+                        # Warning! Matching must have special regex characters escaped.
+                        # This means you Plus sign!
+                        DeleteLinesMatching "^ssh-rsa AAAA....dvpB8w== kyle@thebomb$"
+                     
+                        # Delete lines that have our key commented out
+                        DeleteLinesMatching "^#ssh-rsa AAAA....dvpB8w== kyle@thebomb$"
+
+                        # Delete Ex Girlfriends key anywhere, no trailing $ so it will match more
+                        DeleteLinesMatching "^ssh-rsa AAAA....dvpB8w=="
+   
+                        # Delete old comments
+                        DeleteLinesMatching "# Kyle's Laptop Key"
+
+                }
+</pre>
+
+[[Category:CFEngine]][[Category:Linux]][[Category:Syadmin]][[Category:SSH]]

@@ -1,0 +1,10 @@
+List of some binaries you can run in the [[EFI]] shell:
+* [http://refit.sourceforge.net/ rEFIt]
+* [[syscfg]]
+* [[iflash32]]
+* [http://ipxe.org/efi/vision ipxe]
+* [http://blog.fpmurphy.com/2010/03/grub2-efi-support.html grub2]
+* [https://github.com/fpmurphy/UEFI-Utilities/ fpmurphy's utilities]
+* [http://www.intel.com/technology/efi/toolkit_overview.htm All the freaking tools in the Intel EFI Toolkit!]
+
+[[Category:EFI]]

@@ -1,0 +1,31 @@
+The original string of 0's and 1's from the image between "00 00":
+<pre>
+0011100001100110011011101101000011000010111001100110110
+</pre>
+
+This bit stream is only 55 bits! Its missing a 1 or 0 somewhere in there. I used this script to generate all possibilities of valid bitstreams:
+<pre>
+#!/bin/bash
+for EACH in `seq 1 51`
+do
+let NEXT=$EACH+1
+#Stick in a 0
+cat original | cut -c 1-$EACH | tr -d [:cntrl:]
+echo -n 0
+cat original | cut -c $NEXT-100 | tr -d [:cntrl:]
+echo  00001101
+
+#stick in a 1
+cat original | cut -c 1-$EACH | tr -d [:cntrl:]
+echo -n 1
+cat original | cut -c $NEXT-100 | tr -d [:cntrl:]
+echo 00001101 #Stick on a carrige return at the end
+done
+</pre>
+
+With all of these bit streams I use http://www.roubaixinteractive.com/PlayGround/Binary_Conversion/Binary_To_Text.asp
+
+<pre>00111000001100110011011101101000011000010111001100110110</pre>
+Is the correct binary stream, which is '''837has6'''
+
+[[Category:Hack This Site]]

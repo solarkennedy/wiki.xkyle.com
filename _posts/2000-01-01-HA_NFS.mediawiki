@@ -1,0 +1,32 @@
+These are the pre-install steps to setup a HA nfs server:
+
+<pre>
+yum -y install drbd kmod-drbd heartbeat
+chkconfig heartbeat on
+chkconfig drbd on
+chkconfig nfs off
+wget -O- http://ks.sagonet.com/su/drbd.conf | sed 's/NODE1/nfs01$ks_domain/' |  sed 's/NODE2/nfs02$ks_domain/' > /etc/drbd.conf
+wget -O- http://ks.sagonet.com/su/haresources  | sed 's/NODE1/nfs01$ks_domain/' |  sed 's/NODE2/nfs02$ks_domain/' >  /etc/ha.d/haresources
+wget -O /etc/ha.d/authkeys http://ks.sagonet.com/su/authkeys
+chmod 600 /etc/ha.d/authkeys
+wget -O- http://ks.sagonet.com/su/ha.cf | sed 's/NODE1/nfs01$ks_domain/' |  sed 's/NODE2/nfs02$ks_domain/' > /etc/ha.d/ha.cf
+mkdir /aux
+echo \"/aux *(rw,no_root_squash)\" > /etc/exports
+touch /aux/drdb-unmounted-placeholder
+chgrp haclient /sbin/drbdsetup
+chmod o-x /sbin/drbdsetup
+chmod u+s /sbin/drbdsetup
+chgrp haclient /sbin/drbdmeta
+chmod o-x /sbin/drbdmeta
+chmod u+s /sbin/drbdmeta
+
+mkdir -p /aux.structure/vhosts/default_vhost
+mkdir /aux.structure/certs/
+mkdir /aux.structure/sessions/
+mkdir -p /aux.structure/logs/error_logs
+mkdir /aux.structure/conf.d/
+</pre>
+
+
+[[Category:High Availability]]
+[[Category:NFS]]

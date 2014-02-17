@@ -1,0 +1,24 @@
+=== Examples ===
+==== Default ====
+ dstat -a
+(dstat -a, expands to -cdngy, which is cpu,disk,network,page,sys)
+<pre>
+----total-cpu-usage---- -dsk/total- -net/total- ---paging-- ---system--
+usr sys idl wai hiq siq| read  writ| recv  send|  in   out | int   csw 
+  0   0 100   0   0   0|1026k 4810B|   0     0 |   0     0 | 378   184 
+  0   0 100   0   0   0|   0     0 |1312B 1974B|   0     0 |  61    28 
+  0   0 100   0   0   0|   0     0 |   0     0 |   0     0 |  75    80
+</pre>
+==== Disk IO ====
+ dstat -rf
+which expands dstat --io --full
+<pre>
+---io/sda------io/sdb--
+ read  writ: read  writ
+7.98  0.76 :8.00  0.76 
+   0  10.0 :   0  10.0 
+   0  2.00 :   0  2.00
+</pre>
+
+=== More Reading ===
+* http://dag.wieers.com/home-made/dstat/dstat.1.html

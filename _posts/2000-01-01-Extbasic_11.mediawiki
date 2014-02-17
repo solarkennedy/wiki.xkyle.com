@@ -1,0 +1,36 @@
+This program take the letters you type in, assigns a prime value to it, and multiplies them all together. The catch is that that number is mod 2 ^32. So we need to find out what the original composite number is, then factor it. Here is a bash script to do it:
+<pre>
+#!/bin/bash
+for EACH in `seq 1 2000`
+do
+
+NUMBER=`echo "(2 ^ 32 ) * $EACH + 1065435274" | bc`
+FACTORS=`factor $NUMBER | cut -f 2 -d : `
+NOF=`echo $FACTORS | tr " " "\n" | wc -l`
+#echo "The number of FACTORS in $NUMBER is $NOF, WHICH ARE $FACTORS"
+BAD=0
+for EACH2 in `seq 1 $NOF`
+do
+        FACTOR=`echo $FACTORS | cut -f $EACH2 -d " "`
+#       echo -n "$FACTOR "
+        if [ $FACTOR -gt 101 ]; then
+        BAD=1
+        fi
+done
+if [ $BAD -eq 0 ]; then
+echo "The number of FACTORS in $NUMBER is $NOF, WHICH ARE $FACTORS"
+fi
+
+done
+</pre>
+
+We only want those composite numbers who have factors less than 101, that way it produces valid letters.
+
+<pre>
+root@server:~/hts/extbasic# bash 10.sh
+The number of FACTORS in 4588090507402 is 9, WHICH ARE  2 17 19 23 37 41 47 61 71
+</pre>
+
+Those letters are an anagram for "logarithm" and "algorithm"
+
+[[Category:Hack This Site]]

@@ -1,0 +1,13 @@
+=== Install ===
+ apt-get install default-jre
+ wget "http://downloads.sourceforge.net/project/ksar/ksar/5.0.6/kSar-5.0.6.zip"
+ unzip -o kSar-5.0.6.zip
+
+=== Run ===
+ cd kSar-5.0.6
+ java -jar kSar.jar
+
+=== See Also ===
+* [[dstat]]
+
+[[Category:systat]][[Category:sar]]

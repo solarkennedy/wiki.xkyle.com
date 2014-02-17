@@ -1,0 +1,14 @@
+This challenge has a stereo audio file with the left and right out of phase. Mixing them together produces the difference, which contains morse code.
+
+<pre>
+$ sox ecstasy-atb-music.wav  -c 1 out.wav
+</pre>
+
+If you can decode morse by ear you go it! Otherwise use rscw or do it by hand:
+<pre>
+sox out.wav  -t ub - | rscw  -f 720-750 -w 11
+</pre>
+
+This will give you a string of numbers that represent ascii characters. Use a decimal to ascii converter
+
+[[Category:Hack This Site]]

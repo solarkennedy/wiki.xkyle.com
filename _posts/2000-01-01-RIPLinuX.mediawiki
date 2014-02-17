@@ -1,0 +1,12 @@
+=== Remastering a RIP rootfs ===
+ mkdir 1
+ cd 1
+ gzip -dc ../rootfs.cgz | cpio -iumdv
+ #Make the changes and remove the old system.
+ #Then cpio/gzip the new system.
+ find . | bin/cpio -v -o -H newc | gzip -9 >../rootfs.cgz
+
+==== References ====
+* http://www.tux.org/pub/people/kent-robotti/looplinux/rip/RIPLinuX-13.7.readme
+
+[[Category:PXE]]

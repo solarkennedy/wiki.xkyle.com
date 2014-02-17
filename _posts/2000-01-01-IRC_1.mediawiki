@@ -1,0 +1,5 @@
+You are manipulating moo, but HTS-Bot is what you actually need to use to pass this mission.
+<pre>!say !op yourusername</pre>
+The !say makes moo (who has privileges with HTS-Bot) say !op yourusername, which tells HTS-Bot to op you.
+
+[[Category:Hack This Site]]

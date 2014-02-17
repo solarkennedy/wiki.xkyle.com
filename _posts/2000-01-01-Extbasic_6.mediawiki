@@ -1,0 +1,3 @@
+http://www.hackthissite.org/missions/extbasic/template.php?lvl=6&pass=http%3A%2F%2Fmoo.com%2Fmoo.php%3Fpassed%3Dtrue
+
+[[Category:Hack This Site]]

@@ -1,0 +1,21 @@
+SELVIEW is an [[Intel]] utility to read [[IPMI]] system event logs. It is not as easy to use as other IPMI utilities, but it often can decode every piece of information regarding the output codes.
+
+=== Install ===
+# Locate the support page for your Intel motherboard
+# Find and download the selview utility. Example: http://www.intel.com/support/motherboards/server/sb/CS-031911.htm
+
+=== Usage ===
+ # install java!
+ cd /usr/local/selview
+ ./selview /save kyle.sel
+ # Your output has to have .sel for some reason
+
+=== Make an RPM ===
+Use [[fpm]] to turn random directories into [[rpm]]s or [[deb]]s.
+ cd Your-Unpacked-SELVIEW
+ fpm -n selview -v 11.0B5 -t rpm -C /usr/local/ -s dir ./selview/
+
+=== Read More ===
+* https://xkyle.com/an-ipmi-sel-viewing-shootout/
+
+[[Category:IPMI]][[Category:Intel]]

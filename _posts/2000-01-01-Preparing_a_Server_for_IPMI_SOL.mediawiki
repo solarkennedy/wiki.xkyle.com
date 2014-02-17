@@ -1,0 +1,19 @@
+You need to have outputting to serial:
+=== Bios ===
+Usually this is described as Console Redirection. The bios might give you an option between serial ports, one is usually the IPMI and the other is the physical one.
+
+Sometimes you can have it redirect "Legacy" or "Bootloader" output too. That would be nice if you want to skip the next one.
+=== Bootloader ===
+* Grub: [[Serial Output on GRUB]]
+* pxelinux: [[PXE Options]]
+ SERIAL 0 115200
+
+=== Linux Console ===
+Linux command line in your boot loader:
+ console=tty0 console=ttyS0,115200n8
+=== Linux Getty ===
+[[Configuring Linux for a Serial Prompt]]
+or 
+[[Autologin Serial Console on Linux]]
+
+[[Category:IPMI]][[Category:Serial]][[Category:GRUB]][[Category:BIOS]]

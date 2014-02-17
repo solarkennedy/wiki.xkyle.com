@@ -1,0 +1,22 @@
+I'm tired of configuring [[BackupPC]]. [[CFEngine]] knows all my servers anyway, so can't it do it for me?
+
+=== Automatically Adding Hosts ===
+<pre>
+# Purge Bogus Hosts
+cfshow -s -P
+
+# Come up with the list of hosts. Best way I can do it right now
+for HOST in `cfshow  -s -H | grep e0fff | html2text`
+do
+grep -wq ^$HOST /etc/backuppc/hosts || echo "$HOST 0 backuppc" >> /etc/backuppc/hosts
+done
+
+/etc/init.d/backuppc reload
+</pre>
+
+Of course adjust as necessary. If your backuppc server is somewhere else you have to push the file, etc.
+
+=== Automatically Handling SSH Host Keys ===
+CFEngine should be systematically adding your backuppc ssh key anyway. But follow this guide and you don't have to worry about adding the host key to the known host file: [[BackupPC With SSH Authentication]]
+
+[[Category:CFEngine]][[Category:BackupPC]]

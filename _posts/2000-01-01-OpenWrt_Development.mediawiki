@@ -1,0 +1,6 @@
+* Note: If you are just trying to build a custom image, see: [[OpenWrt ImageBuilder]]
+* Note: If you are just trying to develop packages, see: [[OpenWrt SDK]]
+
+Otherwise, see: http://wiki.openwrt.org/doc/howto/buildroot.exigence
+
+[[Category:OpenWrt]]

@@ -1,0 +1,12 @@
+* [https://support.google.com/a/bin/answer.py?hl=en&answer=1037451 Google Accounts]
+* [[Google Authenticator with SSH|SSH]]
+* [https://wordpress.org/extend/plugins/google-authenticator Wordpress]
+* [https://code.google.com/p/google-authenticator/issues/detail?id=39 OpenVPN]
+* [https://aws.amazon.com/mfa/ Amazon AWS]
+* [https://forums.dropbox.com/topic.php?id=66910 Dropbox]
+* [https://stripe.com/blog/two-step-verification Stripe]
+* [http://wiki.dreamhost.com/Enabling_Multifactor_Authentication Dreamhost]
+* [https://drupal.org/project/ga_login Drupal]
+* [http://www.mysqlperformanceblog.com/2013/02/24/using-two-factor-authentication-with-percona-server/ MySQL!!!]
+
+[[Category:Google Authenticator]]

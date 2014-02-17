@@ -1,0 +1,8 @@
+So basically clicking on links you can see in the URL that PHP is pulling them from a database. Which mean you can use the = to tell you thing in the database. Looking at the source of the web page you can look at the source of the images. Then go to that directory. In there you should see another directory of importance. 
+So clicking on that directory, you will see that it will prompt you for a user name and password. In this case this means it's using .htaccess (http://www.lightsphere.com/dev/htpass.html). So most likely the admin for this website didn't CHMOD to 755. So only the server can read it. Anyway, knowing the directories and the password file. you should be able to put those at the end of the PHP =. 
+
+On the web page it is being displayed as links. One on the left is what your looking for the one one right it the link for the URL you just typed, if correct. Seeing the left link, you will end up with a username:password_hash combination. Your going to have to crack this hash. I used John the Ripper. Pasted the hash into a text file and pointed John at the text file. It is a message digest hash, but it was simpler to use John. So when you have the password and user name. Go back to the directory that had prompted for the user name and password. Enter what you found. That's it basically. 
+
+--Slaingod--
+
+[[Category:Hack This Site]]

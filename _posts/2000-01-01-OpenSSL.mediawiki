@@ -1,0 +1,41 @@
+=== Making a New Cert ===
+First make a key:
+ openssl genrsa -out mydomain.com.key 2048
+
+Decrypt a key so you don't need a passphrase:
+ openssl rsa -in mydomain.com.key -out unsecured.mydomain.key
+ mv unsecured.mydomain.key mydomain.com.key
+
+Make a CSR:
+ openssl req -new -key mydomain.com.key -out mydomain.com.csr -new
+
+* '''Country Name''': Use the two-letter code without punctuation for country, for example: US or CA.
+* '''State or Province''': Spell out the state completely; do not abbreviate the state or province name, for example: California
+* '''Locality or City''': The Locality field is the city or town name, for example: Berkeley. Do not abbreviate. For example: Saint Louis, not St. Louis
+* '''Company''': If the company or department has an &, @, or any other symbol using the shift key in its name, the symbol must be spelled out or omitted, in order to enroll. Example: XY & Z Corporation would be XYZ Corporation or XY and Z Corporation.
+* '''Organizational Unit''': This field is optional; but can be used to help identify certificates registered to an organization. The Organizational Unit (OU) field is the name of the department or organization unit making the request. To skip the OU field, press Enter on the keyboard.
+* '''Common Name''': The Common Name is the Host + Domain Name. It looks like "www.company.com" or "company.com".
+
+=== Other Tricks ===
+Get the expire date:
+ openssl x509 -in certificate.crt -noout -enddate
+Decode a CSR:
+ openssl req -in server.csr -noout -text
+Convert a x509 key and cert into a pkcs12 file:
+ openssl pkcs12 -export -out personalcert.pkcs12 -inkey thekey.key -in thecert.crt -certfile ca.crt
+
+=== Connecting to Servers ===
+Testing starttls on smtp:
+ openssl s_client -connect mail.myhostname.com:25 -starttls smtp
+
+Check out puppet certs:
+ openssl s_client -connect puppet.domainname:8140
+
+Verify a cert is signed by a local CA:
+ openssl verify -verbose -CAfile cacert.pem  server.crt
+
+=== Troubleshooting ===
+* Try this online troubleshooter: [http://www.digicert.com/help/ http://www.digicert.com/help/]
+* http://www.sslshopper.com/article-most-common-openssl-commands.html
+
+[[Category:SSL]]

@@ -1,0 +1,14 @@
+Goto the database page
+look at the source
+find the secret folder
+browse to it
+open: secret/admin.bak.php
+crack this hash
+guess the lib folder
+goto: lib/hash
+open with text editor
+find out the hash is an md4 hash
+crack hash with Cain and Able
+paste the cracked hash in the database page
+
+[[Category:Hack This Site]]

@@ -1,0 +1,9 @@
+This mission is very hard to do without help.
+Refresh the main mission page a few times. Notice that the song changes. All of the songs are by the same person - Elton John.
+<br>Music is organized in many different ways, some of them better than others. This happens to be letter-by-letter in directories. Go to /missions/basic/11/e/l/t/o/n/
+<br>This is a dead end, just like all of the other directories in there, but this one has a hidden file. Go to /missions/basic/11/e/l/t/o/n/.htaccess
+<br>You can read up on how .htaccess files work if you like, but this one basically says to allow people to access the .htaccess, but don't show the files ".htaccess" or "DaAnswer*" in the index (which is why it looks like a dead end).
+<br>Going to /missions/basic/11/e/l/t/o/n/DaAnswer . You'll see "The answer is *! Just look a little harder.". The answer is, literally, whatever the * replaces for you. Go to /missions/basic/11/index.php and enter whatever it said for you.
+<br><br>The "Go On" link at the end goes to /missions/basic/12/, which isn't created yet.
+
+[[Category:Hack This Site]]

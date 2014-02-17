@@ -1,0 +1,70 @@
+[[LXC]](linux containers) are a lightweight way to have virtual servers, without the overhead of full on platform virtualization, but more than a chroot. However there are not yet suitable for production use as they have some still serious [http://blog.bofh.it/debian/id_413 security issues].
+
+=== Prerequisites ===
+Apt-get the requirements: 
+ sudo apt-get install lxc bridge-utils screen
+
+Set the init script to start:
+ vim /etc/default/lxc 
+
+==== Setup a bridge ====
+<pre>
+(
+cat << EOF
+
+# LXC bridge
+auto br-lxc
+iface br-lxc inet static
+    address 192.168.254.1
+    netmask 255.255.255.0
+
+    post-up echo 1 > /proc/sys/net/ipv4/ip_forward
+    post-up iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+    pre-down echo 0 > /proc/sys/net/ipv4/ip_forward
+    pre-down iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE
+
+    bridge_ports none
+    bridge_stp off
+EOF
+) >> /etc/network/interfaces
+ifup br-lxc
+</pre>
+
+==== Mount cgroups ====
+<pre>
+mkdir /cgroup
+(
+cat << EOF
+cgroup /cgroup cgroup
+EOF
+) >> /etc/fstab
+mount /cgroup
+</pre>
+
+==== Modify the init script to use screen for the consoles ====
+ vim /etc/init.d/lxc
+ # Make line 49? say something like this:
+ screen -dmS init-$name lxc-start -n $name -f $LXCDOMAINS_AUTO/$name.conf
+
+=== Install and start your first container ===
+
+==== Busybox Example ====
+ lxc-create -n busybox1 -t busybox -f /etc/lxc/network.conf
+ # Link the config to start automatically
+ ln -s /var/lib/lxc/busybox1/config /etc/lxc/auto/busybox1.conf
+
+==== Start Containters ==== 
+Automatically start them with the symlink in /etc/lxc/auto:
+ /etc/init.d/lxc start
+ # To see them 
+ screen -ls
+
+Manual start:
+ screen -dmS init-$name lxc-start -n $name -f $LXCDOMAINS_AUTO/$name.conf
+
+=== Working With Containers ===
+List containers:
+ lxc-ls
+
+
+[[Category:LXC]][[Category:Virtualization]][[Category:iptables]]

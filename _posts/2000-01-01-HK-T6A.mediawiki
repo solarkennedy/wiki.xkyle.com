@@ -1,0 +1,10 @@
+The HK-T6A is an inexpensive 2.4Ghz Transmitter: http://www.hobbycity.com/hobbycity/store/uh_viewItem.asp?idProduct=15140
+
+=== Configuring the Remote ===
+Assuming you got the USB programming cable. Here are some instructions on getting the software to configure it:
+http://www.mycoolheli.com/t6config.html
+
+=== My Configs ===
+For the HK Miniswift
+[[File:Miniswift-HK-T6A.cfg]]
+[[File:Mini-Swift.jpg|thumb]]

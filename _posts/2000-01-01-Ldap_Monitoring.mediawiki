@@ -1,0 +1,16 @@
+=== Nagios Alerts ===
+* Check ports (389,636)
+* Check ssl expiration?
+* Check ldap replication
+* Check ldap protocol
+* Check ldap results (expect your username)
+* Normal stuff (ping, load, ram, disk)
+
+=== Munin / Ganglia / Graphite ===
+Your [[Munin]] probably already has an ldap plugin, maybe not. See
+http://wiki.debuntu.org/wiki/Munin/Slapd_Plugin
+
+For ganglia, see:
+https://github.com/ganglia/gmetric/blob/master/ldap/openldap/ganglia_ldap.py
+
+[[Category:LDAP]][[Category:Munin]]

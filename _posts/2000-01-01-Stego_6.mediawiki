@@ -1,0 +1,14 @@
+[[Image:Stego6.png]]
+This image has a hash stuck to the end of the file. You can read it like this:
+<pre>
+$ strings stego6.png  | tail -n 1
+Tm90IGxpa2UgaXQncyBoYXJkIHRvICdkZWNyeXB0JyB0aGlzIGh1aD8gVGhlIHBhc3N3b3JkIGlzIGhnYnZadzA3Lg==
+</pre>
+
+That is a base64 encoded string. You can use [http://home2.paulschou.net/tools/xlate/ This site] to decode it, or do your own decode. The resulting decode is:
+
+<pre>
+Not like it's hard to 'decrypt' this huh? The password is hgbvZw07.
+</pre>
+
+[[Category:Hack This Site]]

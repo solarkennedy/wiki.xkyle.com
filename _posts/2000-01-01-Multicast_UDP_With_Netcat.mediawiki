@@ -1,0 +1,22 @@
+Send:
+ date | nc -w1 -u -b 224.0.0.251 6666
+
+Receive with [[xinetd]]
+<pre>
+#Only necessary if you need to join the multicast group
+#bind		= 224.0.0.251
+
+service kyle
+{
+	disable		= no
+	server 		= /usr/local/sbin/kyle.pl
+	protocol	= udp
+	user		= root
+	wait		= yes
+}  
+</pre>
+
+References:
+http://www.mail-archive.com/beginners@perl.org/msg39525.html
+
+[[Category:Multicast]][[Category:Netcat]][[Category:Xinetd]]

@@ -1,0 +1,71 @@
+=== Prerequisites ===
+<pre>
+sudo apt-get install bundler
+</pre>
+
+=== Setup a Gemfile in Module Directory ===
+<pre>
+source 'https://rubygems.org'
+
+group :development, :test do
+  gem 'rake',                    :require => false
+  gem 'rspec-puppet',            :require => false
+  gem 'puppetlabs_spec_helper',  :require => false
+  gem 'serverspec',              :require => false
+  gem 'rspec-system',            :require => false
+  gem 'rspec-system-puppet',     :require => false
+  gem 'rspec-system-serverspec', :require => false
+  gem 'puppet-lint',             :require => false
+end
+
+if facterversion = ENV['FACTER_GEM_VERSION']
+  gem 'facter', facterversion, :require => false
+else
+  gem 'facter', :require => false
+end
+
+if puppetversion = ENV['PUPPET_GEM_VERSION']
+  gem 'puppet', puppetversion, :require => false
+else
+  gem 'puppet', :require => false
+end
+
+# vim:ft=ruby
+</pre>
+Now you can bundle install to get the gems you need to test:
+ bundle install
+
+=== Setup a .gitignore ===
+<pre>
+pkg/
+metadata.json
+Gemfile.lock
+.rspec_system/
+.*.sw*
+</pre>
+
+=== Setup SPEC infrastructure ===
+Put this in the 'spec/spec_helper.rb' file:
+ require 'puppetlabs_spec_helper/module_spec_helper'
+
+Setup .fixtures.yml instead of symlinks:
+<pre>
+fixtures:
+  symlinks:
+    "iodine": "#{source_dir}"
+</pre>
+
+==== Setup a Rakefile ====
+ require 'puppetlabs_spec_helper/rake_tasks'
+
+=== Writing Tests ===
+See [[Example Puppet Tests]]
+
+=== Run Your Tests ===
+You need to run "bundle exec" to ensure the rake gets the correct gems according to the Gemfile.
+ bundle exec rake spec
+
+=== Travis CI ===
+See [[Using Travis CI With Puppet Modules]]
+
+[[Category:Puppet]][[Category:Puppet Testing]]

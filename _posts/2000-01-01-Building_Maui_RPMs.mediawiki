@@ -1,0 +1,53 @@
+Install Pre-reqs
+ yum -y install torque-devel
+
+Patch 
+<pre>
+[ajdecon@tyr-sl moab]$ diff MPBSI.c.orig MPBSI.c
+177,178c177,178
+< extern int get_svrport(const char *,char *,int);
+< extern int openrm(char *,int);
+---
+> extern unsigned int get_svrport(char *,char *,unsigned int);
+> extern int openrm(char *,unsigned int);
+</pre>
+
+Initial make
+ ./configure --prefix=/usr/local/maui
+ make
+
+Edit make files to allow a INST_DIR:
+ sed -i'.bkp' 's/\$(INST_DIR)/\$(DESTDIR)\/\$(INST_DIR)/g' src/*/Makefile
+ sed -i'' 's/\$(MSCHED_HOME)/\$(DESTDIR)\/\$(MSCHED_HOME)/g' src/*/Makefile
+
+Build it
+ DESTDIR=/tmp/maui make install
+
+Copy other junk
+ mkdir /tmp/maui/etc
+ mkdir /tmp/maui/etc/profile.d
+ mkdir /tmp/maui/etc/init.d
+ cp etc/maui.d /tmp/maui/etc/init.d/
+ cp etc/maui.{csh,sh} /tmp/maui/etc/profile.d/
+
+Fix prefix in init script:
+ sed -i 's/\/opt\/maui/\/usr\/local\/maui/g' /tmp/maui/etc/init.d/maui.d
+
+Post scripts:
+<pre>
+[ajdecon@tyr-sl maui-3.3.1]$ cat /tmp/maui/post-install.sh 
+#!/bin/bash
+chkconfig --add maui.d
+chkconfig --level 3456 maui.d on
+[ajdecon@tyr-sl maui-3.3.1]$ cat /tmp/maui/pre-uninstall.sh 
+#!/bin/bash
+chkconfig --del maui.d
+</pre>
+
+[[fpm]] the heck out of it:
+ fpm -s dir -t rpm -n maui -v 3.3.1 -C /tmp/maui -p /tmp/maui-3.3.1-x86_64-fpmbuild.rpm --post-install /tmp/maui/post-install.sh --pre-uninstall /tmp/maui/pre-uninstall.sh etc usr
+
+==== References ====
+* http://blog.ajdecon.org/installing-the-maui-scheduler-with-torque-410
+
+[[Category:TORQUE]][[Category:RPM]][[Category:Maui]]

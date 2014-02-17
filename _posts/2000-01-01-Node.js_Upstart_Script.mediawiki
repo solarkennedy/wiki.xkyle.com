@@ -1,0 +1,11 @@
+This is an example [[Node.js]] [[Upstart]] script for Ubuntu, Centos 6, or other distros with Upstart.
+<pre>
+start on startup
+stop on shutdown
+
+script
+    export HOME="/root"
+    exec /usr/local/bin/node /htdocs/fuckyeah.xkyle.com/index.js 2>&1 >> /var/log/node.log
+end script
+</pre>
+[[Category:Upstart]]

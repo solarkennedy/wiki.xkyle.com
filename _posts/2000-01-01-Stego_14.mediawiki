@@ -1,0 +1,22 @@
+This mission is stupid. Start with the file, untar it:
+
+<pre>
+$ tar xzvf stego14.tar.gz 
+6578747261637400.jpg
+</pre>
+
+If you look really carefully at that "jpg" under a hex editor you may notice that is is also a rar.
+
+<pre>
+$ cp 6578747261637400.jpg file.rar
+$ unrar e file.rar
+Extracting  key.jpg                                                   OK 
+All OK
+</pre>
+
+So you have 2 things now, the Cipher text of PGNNZCFYXD (yes that is a D at the end, not 0) and a key of (*5+10). If you are clairvoyant you might notice that this is an affine cipher. Input this in a decoder:
+[http://www.math.temple.edu/~renault/cryptology/affine.html Link here] 
+
+You will get "bulldozinj" (not bulldozing, that is a red herring)
+
+[[Category:Hack This Site]]
