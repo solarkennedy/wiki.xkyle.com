@@ -10,10 +10,12 @@ do
 #  echo "categories:
 #$CATEGORIES"
 
-  sed -i -e '1i ---' $EACH
-  sed -i -e "1i $CATEGORIES" $EACH
-  sed -i -e "1i categories:" $EACH
-  sed -i -e '1i ---' $EACH
+echo "---
+categories:
+$CATEGORIES
+---" | cat - $EACH > /tmp/tmp.txt
+mv /tmp/tmp.txt $EACH
+
   sed -i '/<Category:/d' $EACH
 
 done
