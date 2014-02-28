@@ -1,3 +1,7 @@
+category: Bash
+
+---
+
 Bash completion rocks. Ubuntu does a great job of populating
 /etc/bash\_completion.d/ with tons of glue to bash complete lots of
 commands.
@@ -36,12 +40,8 @@ take effect.
         Exit Status:
         Returns success unless an invalid option is supplied or an error occurs.
 
-Not super helpful. Here is more more info at the manual:
-
--   <https://www.gnu.org/software/bash/manual/bash.html#Programmable-Completion-Builtins>
+Not super helpful. Here is more more info at the [manual](https://www.gnu.org/software/bash/manual/bash.html#Programmable-Completion-Builtins)
 
 ### References
 
--   <http://sixohthree.com/867/bash-completion>
-
-<Category:Bash>
+-   [tutorial](http://sixohthree.com/867/bash-completion)
