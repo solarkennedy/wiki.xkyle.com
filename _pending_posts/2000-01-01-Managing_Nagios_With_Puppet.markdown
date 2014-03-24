@@ -11,26 +11,25 @@ configs](Stored Configs with Puppet "wikilink") configured already.
 
 ```puppet
 class nagios::server {
-         package { [ "nagios" ]:
-                ensure => latest;
-         }
-         service { "nagios":
-                ensure => running,
-                enabled => true,
-                }
-        }
- 
-        # Hack for bug #3299 where nagios stuff is root:600
-        file { ["/etc/nagios/hosts.d/", "/etc/nagios/services.d/"]:
-                ensure => directory,
-                mode => 644,
-                recurse => true,
-        }
-
-        # Collect and instantiate all the puppet stuff
-        Nagios_host <<||>>
-        Nagios_service <<||>>
-
+  package { [ "nagios" ]:
+    ensure => latest;
+  }
+  service { "nagios":
+    ensure => running,
+    enabled => true,
+  }
+  
+  # Hack for bug #3299 where nagios stuff is root:600
+  file { ["/etc/nagios/hosts.d/", "/etc/nagios/services.d/"]:
+    ensure  => directory,
+    mode    => 644,
+    recurse => true,
+  }
+  
+  # Collect and instantiate all the puppet stuff
+  Nagios_host <<||>>
+  Nagios_service <<||>>
+  
 }
 ```
 
