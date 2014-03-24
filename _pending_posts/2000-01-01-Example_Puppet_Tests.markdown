@@ -4,6 +4,7 @@ categories:
 ---
 ### Set Facts and Test for Class Existence
 
+```ruby
     # spec/classes/transmission_daemon_spec.rb
     require 'spec_helper'
 
@@ -23,9 +24,8 @@ categories:
         it { should contain_class 'transmission::daemon::service' }
       end
     end
+```
 
 ### References
 
 -   <http://puppetlabs.com/blog/the-next-generation-of-puppet-module-testing>
-
-Testing](Category:Puppet Testing "wikilink")
