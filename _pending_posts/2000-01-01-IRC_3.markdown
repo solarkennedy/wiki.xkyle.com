@@ -1,7 +1,0 @@
----
-categories:
-
----
-    -moo- Mission 3 down for maintenance, going to 4.
-
-[Category:Hack This Site](Category:Hack This Site "wikilink")

@@ -1,5 +1,0 @@
----
-categories:
-
----
-ERB Stuff

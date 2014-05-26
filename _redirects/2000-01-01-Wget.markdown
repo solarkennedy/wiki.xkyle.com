@@ -1,2 +1,0 @@
-1.  REDIRECT [Wget Examples](Wget Examples "wikilink")
-

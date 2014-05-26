@@ -1,7 +1,0 @@
----
-categories:
-
----
-<http://hackthissite.org/missions/javascript/7/?lvl_password=j00w1n>
-
-[Category:Hack This Site](Category:Hack This Site "wikilink")

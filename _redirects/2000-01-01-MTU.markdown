@@ -1,2 +1,0 @@
-1.  REDIRECT [MTU Troubleshooting](MTU Troubleshooting "wikilink")
-

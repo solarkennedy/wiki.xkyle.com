@@ -1,8 +1,0 @@
----
-categories:
-
----
-!write your-username \$ip\
-!read \#
-
-[Category:Hack This Site](Category:Hack This Site "wikilink")

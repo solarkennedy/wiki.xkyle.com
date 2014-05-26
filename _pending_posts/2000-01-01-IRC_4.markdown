@@ -1,7 +1,0 @@
----
-categories:
-
----
-Same solution as [IRC 2](IRC 2 "wikilink"):
-
-[Category:Hack This Site](Category:Hack This Site "wikilink")

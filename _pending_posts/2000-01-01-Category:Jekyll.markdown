@@ -1,5 +1,0 @@
----
-categories:
-
----
-Jekyll Stuff

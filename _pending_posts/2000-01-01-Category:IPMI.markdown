@@ -1,5 +1,0 @@
----
-categories:
-
----
-IPMI Crap

@@ -1,2 +1,0 @@
-1.  REDIRECT [Apache Vhosts](Apache Vhosts "wikilink")
-

@@ -1,5 +1,0 @@
----
-categories:
-
----
-Ruby Stuff

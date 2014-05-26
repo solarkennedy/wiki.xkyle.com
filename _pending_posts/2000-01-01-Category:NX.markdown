@@ -1,5 +1,0 @@
----
-categories:
-
----
-Pages for NX

@@ -1,2 +1,0 @@
-1.  REDIRECT [ERB Templates](ERB Templates "wikilink")
-

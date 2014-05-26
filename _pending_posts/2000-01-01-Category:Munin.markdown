@@ -1,5 +1,0 @@
----
-categories:
-
----
-Munin stuff

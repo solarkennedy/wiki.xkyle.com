@@ -1,7 +1,0 @@
----
-categories:
-
----
-<http://www.hackthissite.org/missions/extbasic/template.php?lvl=7&pass>=%3Cform+name%3D%22grezvahfvfnjuvavatovgpu%22+action%3D%22%3C%3F%3Dhtmlspecialchars%28%24\_SERVER%5B%27PHP\_SELF%27%5D%29%3F%3E%22+method%3D%22post%22%3E
-
-[Category:Hack This Site](Category:Hack This Site "wikilink")

@@ -1,5 +1,0 @@
----
-categories:
-
----
-Tips and skills for working with servers with limit ram and cpu.

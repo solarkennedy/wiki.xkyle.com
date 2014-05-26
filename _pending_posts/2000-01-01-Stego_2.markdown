@@ -1,9 +1,0 @@
----
-categories:
-
----
-Performing at
-[TFR](http://en.wikipedia.org/wiki/Time-frequency_representation) on
-this file reveals the password: <Image:Steg2.png>
-
-[Category:Hack This Site](Category:Hack This Site "wikilink")

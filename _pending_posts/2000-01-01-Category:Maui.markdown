@@ -1,5 +1,0 @@
----
-categories:
-
----
-Maui Stuff

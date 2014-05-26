@@ -1,5 +1,0 @@
----
-categories:
-
----
-All things puppet

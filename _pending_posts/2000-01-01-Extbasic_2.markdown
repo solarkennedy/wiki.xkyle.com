@@ -1,7 +1,0 @@
----
-categories:
-
----
-<http://www.hackthissite.org/missions/extbasic/template.php?lvl=2&pass>=..%2F..%2Findex
-
-[Category:Hack This Site](Category:Hack This Site "wikilink")

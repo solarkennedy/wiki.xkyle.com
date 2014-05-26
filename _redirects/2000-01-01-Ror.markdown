@@ -1,2 +1,0 @@
-1.  REDIRECT [Ruby On Rails](Ruby On Rails "wikilink")
-

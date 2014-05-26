@@ -1,5 +1,0 @@
----
-categories:
-
----
-LUKS Crap

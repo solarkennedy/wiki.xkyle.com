@@ -1,5 +1,0 @@
----
-categories:
-
----
-RPM Junk

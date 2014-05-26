@@ -1,5 +1,0 @@
----
-categories:
-
----
-Ganglia junk.

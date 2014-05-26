@@ -1,7 +1,0 @@
----
-categories:
-
----
-<http://www.hackthissite.org/missions/extbasic/template.php?lvl=9&pass=open(STARTREKLOG%2C>+%27%3E%3E%2Fvar%2Flog%2Fstartrek%27)%3B
-
-[Category:Hack This Site](Category:Hack This Site "wikilink")

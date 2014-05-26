@@ -1,3 +1,0 @@
-1.  REDIRECT [Advanced Format Drives in
-    Linux](Advanced Format Drives in Linux "wikilink")
-

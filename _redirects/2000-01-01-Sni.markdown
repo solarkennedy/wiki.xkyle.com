@@ -1,3 +1,0 @@
-1.  REDIRECT [Multiple SSL Vhosts on One
-    IP](Multiple SSL Vhosts on One IP "wikilink")
-

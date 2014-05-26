@@ -1,9 +1,0 @@
----
-categories:
-
----
-Replace "name" with your name.
-
-    !write name $lf mode #htb +o name
-
-[Category:Hack This Site](Category:Hack This Site "wikilink")

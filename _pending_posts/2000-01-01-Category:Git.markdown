@@ -1,5 +1,0 @@
----
-categories:
-
----
-Git Stuff

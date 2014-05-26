@@ -1,5 +1,0 @@
----
-categories:
-
----
-Plug Computer Crap

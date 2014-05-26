@@ -1,5 +1,0 @@
----
-categories:
-
----
-Hardware projects.
