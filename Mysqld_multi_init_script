@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Mysqld multi init script - Kyle's Wiki</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.19.1" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Kyle's Wiki (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="https://wiki.xkyle.com/api.php?action=rsd" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Kyle's Wiki Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="https://wiki.xkyle.com/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}a.new,#quickbar a.new{color:#ba0000}
+
+/* cache key: my_wiki:resourceloader:filter:minify-css:7:c88e2bcd56513749bec09a7e29cb3ffa */
+</style>
+
+<script src="https://wiki.xkyle.com/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Mysqld_multi_init_script","wgTitle":"Mysqld multi init script","wgCurRevisionId":1205,"wgArticleId":308,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Mysql"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgRelevantPageName":"Mysqld_multi_init_script","wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,
+"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function($){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+
+/* cache key: my_wiki:resourceloader:filter:minify-js:7:9983699ab6150ffa89a90653b2338ac8 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--><!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
+typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
+b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
+mixpanel.init("f49fd1e08211929444aad692b8995519");mixpanel.track('pageload')</script><!-- end Mixpanel --></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Mysqld_multi_init_script skin-vector action-view">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading">
+				<span dir="auto">Mysqld multi init script</span>
+			</h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Kyle&#039;s Wiki</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to: <a href="#mw-head">navigation</a>,
+					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><pre>
+#!/usr/bin/perl
+
+use Getopt::Long;
+use POSIX qw(strftime getcwd);
+
+$|=1;
+$VER=&quot;2.16&quot;;
+
+my @defaults_options;   #  Leading --no-defaults, --defaults-file, etc.
+
+$opt_example       = 0;
+$opt_help          = 0;
+$opt_log           = undef();
+$opt_mysqladmin    = &quot;/usr/bin/mysqladmin&quot;;
+$opt_mysqld        = &quot;/usr/sbin/mysqld&quot;;
+$opt_no_log        = 0;
+$opt_password      = undef();
+$opt_tcp_ip        = 0;
+$opt_user          = &quot;root&quot;;
+$opt_version       = 0;
+$opt_silent        = 0;
+$opt_verbose       = 0;
+
+my $my_print_defaults_exists= 1;
+my $logdir= undef();
+
+my ($mysqld, $mysqladmin, $groupids, $homedir, $my_progname);
+
+$homedir = $ENV{HOME};
+$my_progname = $0;
+$my_progname =~ s/.*[\/]//;
+
+main();
+
+####
+#### main sub routine
+####
+
+sub main
+{
+  my $flag_exit= 0;
+
+  if (!defined(my_which(my_print_defaults)))
+  {
+    # We can't throw out yet, since --version, --help, or --example may
+    # have been given
+    print &quot;WARNING: my_print_defaults command not found.\n&quot;;
+    print &quot;Please make sure you have this command available and\n&quot;;
+    print &quot;in your path. The command is available from the latest\n&quot;;
+    print &quot;MySQL distribution.\n&quot;;
+    $my_print_defaults_exists= 0;
+  }
+
+  # Remove leading defaults options from @ARGV
+  while (@ARGV &gt; 0)
+  {
+    last unless $ARGV[0] =~
+      /^--(?:no-defaults$|(?:defaults-file|defaults-extra-file)=)/;
+    push @defaults_options, (shift @ARGV);
+  }
+
+  # Handle deprecated --config-file option: convert to --defaults-extra-file
+  foreach my $arg (@ARGV)
+  {
+    if ($arg =~ m/^--config-file=(.*)/)
+    {
+      # Put it at the beginning of the list, so it has lower precedence
+      # than a correct --defaults-extra-file option
+
+      unshift @defaults_options, &quot;--defaults-extra-file=$1&quot;;
+    }
+  }
+
+  foreach (@defaults_options)
+  {
+    $_ = quote_shell_word($_);
+  }
+
+  # Add [mysqld_multi] options to front of @ARGV, ready for GetOptions()
+  unshift @ARGV, defaults_for_group('mysqld_multi');
+
+  # The --config-file option can be ignored; if passed on the command
+  # line, it's already handled; if specified in the configuration file,
+  # it's redundant and not useful
+  @ARGV= grep { not /^--config-file=/ } @ARGV;
+
+  # We've already handled --no-defaults, --defaults-file, etc.
+  if (!GetOptions(&quot;help&quot;, &quot;example&quot;, &quot;version&quot;, &quot;mysqld=s&quot;, &quot;mysqladmin=s&quot;,
+                  &quot;user=s&quot;, &quot;password=s&quot;, &quot;log=s&quot;, &quot;no-log&quot;,
+                  &quot;tcp-ip&quot;,  &quot;silent&quot;, &quot;verbose&quot;))
+  {
+    $flag_exit= 1;
+  }
+  usage() if ($opt_help);
+
+  if ($opt_verbose &amp;&amp; $opt_silent)
+  {
+    print &quot;Both --verbose and --silent have been given. Some of the warnings &quot;;
+    print &quot;will be disabled\nand some will be enabled.\n\n&quot;;
+  }
+
+  init_log() if (!defined($opt_log));
+  $groupids = $ARGV[1];
+  if ($opt_version)
+  {
+    print &quot;$my_progname version $VER by Jani Tolonen\n&quot;;
+    exit(0);
+  }
+  example() if ($opt_example);
+  if ($flag_exit)
+  {
+    print &quot;Error with an option, see $my_progname --help for more info.\n&quot;;
+    exit(1);
+  }
+  if (!defined(my_which(my_print_defaults)))
+  {
+    print &quot;ABORT: Can't find command 'my_print_defaults'.\n&quot;;
+    print &quot;This command is available from the latest MySQL\n&quot;;
+    print &quot;distribution. Please make sure you have the command\n&quot;;
+    print &quot;in your PATH.\n&quot;;
+    exit(1);
+  }
+  usage() if (!defined($ARGV[0]) ||
+	      (!($ARGV[0] =~ m/^start$/i) &amp;&amp;
+	      &#160;!($ARGV[0] =~ m/^stop$/i) &amp;&amp;
+	      &#160;!($ARGV[0] =~ m/^report$/i)));
+
+  if (!$opt_no_log)
+  {
+    w2log(&quot;$my_progname log file version $VER; run: &quot;,
+	  &quot;$opt_log&quot;, 1, 0);
+  }
+  else
+  {
+    print &quot;$my_progname log file version $VER; run: &quot;;
+    print strftime &quot;%a&#160;%b&#160;%e&#160;%H:%M:%S&#160;%Y&quot;, localtime;
+    print &quot;\n&quot;;
+  }
+  if ($ARGV[0] =~ m/^start$/i)
+  {
+    if (!defined(($mysqld= my_which($opt_mysqld))) &amp;&amp; $opt_verbose)
+    {
+      print &quot;WARNING: Couldn't find the default mysqld binary.\n&quot;;
+      print &quot;Tried: $opt_mysqld\n&quot;;
+      print &quot;This is OK, if you are using option \&quot;mysqld=...\&quot; in &quot;;
+      print &quot;groups [mysqldN] separately for each.\n\n&quot;;
+    }
+    start_mysqlds();
+  }
+  else
+  {
+    if (!defined(($mysqladmin= my_which($opt_mysqladmin))) &amp;&amp; $opt_verbose)
+    {
+      print &quot;WARNING: Couldn't find the default mysqladmin binary.\n&quot;;
+      print &quot;Tried: $opt_mysqladmin\n&quot;;
+      print &quot;This is OK, if you are using option \&quot;mysqladmin=...\&quot; in &quot;;
+      print &quot;groups [mysqldN] separately for each.\n\n&quot;;
+    }
+    if ($ARGV[0] =~ m/^report$/i)
+    {
+      report_mysqlds();
+    }
+    else
+    {
+      stop_mysqlds();
+    }
+  }
+}
+
+#
+# Quote word for shell
+#
+
+sub quote_shell_word
+{
+  my ($option)= @_;
+
+  $option =~ s!([^\w=./-])!\\$1!g;
+  return $option;
+}
+
+sub defaults_for_group
+{
+  my ($group) = @_;
+
+  return () unless $my_print_defaults_exists;
+
+  my $com= join ' ', 'my_print_defaults', @defaults_options, $group;
+  my @defaults = `$com`;
+  chomp @defaults;
+  return @defaults;
+}
+
+####
+#### Init log file. Check for appropriate place for log file, in the following
+#### order:  my_print_defaults mysqld datadir, /usr/share
+####
+
+sub init_log
+{
+  foreach my $opt (defaults_for_group('mysqld'))
+  {
+    if ($opt =~ m/^--datadir=(.*)/ &amp;&amp; -d &quot;$1&quot; &amp;&amp; -w &quot;$1&quot;)
+    {
+      $logdir= $1;
+    }
+  }
+  if (!defined($logdir))
+  {
+    $logdir= &quot;/usr/share&quot; if (-d &quot;/usr/share&quot; &amp;&amp; -w &quot;/usr/share&quot;);
+  }
+  if (!defined($logdir))
+  {
+    # Log file was not specified and we could not log to a standard place,
+    # so log file be disabled for now.
+    if (!$opt_silent)
+    {
+      print &quot;WARNING: Log file disabled. Maybe directory or file isn't writable?\n&quot;;
+    }
+    $opt_no_log= 1;
+  }
+  else
+  {
+    $opt_log= &quot;$logdir/mysqld_multi.log&quot;;
+  }
+}
+
+####
+#### Report living and not running MySQL servers
+####
+
+sub report_mysqlds
+{
+  my (@groups, $com, $i, @options, $pec);
+
+  print &quot;Reporting MySQL servers\n&quot;;
+  if (!$opt_no_log)
+  {
+    w2log(&quot;\nReporting MySQL servers&quot;,&quot;$opt_log&quot;,0,0);
+  }
+  @groups = &amp;find_groups($groupids);
+  for ($i = 0; defined($groups[$i]); $i++)
+  {
+    $com= get_mysqladmin_options($i, @groups);
+    $com.= &quot; ping &gt;&gt; /dev/null 2&gt;&amp;1&quot;;
+    system($com);
+    $pec = $? &gt;&gt; 8;
+    if ($pec)
+    {
+      print &quot;MySQL server from group: $groups[$i] is not running\n&quot;;
+      if (!$opt_no_log)
+      {
+	w2log(&quot;MySQL server from group: $groups[$i] is not running&quot;,
+	      &quot;$opt_log&quot;, 0, 0);
+      }
+    }
+    else
+    {
+      print &quot;MySQL server from group: $groups[$i] is running\n&quot;;
+      if (!$opt_no_log)
+      {
+	w2log(&quot;MySQL server from group: $groups[$i] is running&quot;,
+	      &quot;$opt_log&quot;, 0, 0);
+      }
+    }
+  }
+  if (!$i)
+  {
+    print &quot;No groups to be reported (check your GNRs)\n&quot;;
+    if (!$opt_no_log)
+    {
+      w2log(&quot;No groups to be reported (check your GNRs)&quot;, &quot;$opt_log&quot;, 0, 0);
+    }
+  }
+}
+
+####
+#### start multiple servers
+####
+
+sub start_mysqlds()
+{
+  my (@groups, $com, $tmp, $i, @options, $j, $mysqld_found, $info_sent);
+
+  if (!$opt_no_log)
+  {
+    w2log(&quot;\nStarting MySQL servers\n&quot;,&quot;$opt_log&quot;,0,0);
+  }
+  else
+  {
+    print &quot;\nStarting MySQL servers\n&quot;;
+  }
+  @groups = &amp;find_groups($groupids);
+  for ($i = 0; defined($groups[$i]); $i++)
+  {
+    @options = defaults_for_group($groups[$i]);
+
+    $basedir_found= 0; # The default
+    $mysqld_found= 1; # The default
+    $mysqld_found= 0 if (!length($mysqld));
+    $com= &quot;$mysqld&quot;;
+    for ($j = 0, $tmp= &quot;&quot;; defined($options[$j]); $j++)
+    {
+      if (&quot;--mysqladmin=&quot; eq substr($options[$j], 0, 13))
+      {
+	# catch this and ignore
+      }
+      elsif (&quot;--mysqld=&quot; eq substr($options[$j], 0, 9))
+      {
+	$options[$j]=~ s/\-\-mysqld\=//;
+	$com= $options[$j];
+        $mysqld_found= 1;
+      }
+      elsif (&quot;--basedir=&quot; eq substr($options[$j], 0, 10))
+      {
+        $basedir= $options[$j];
+        $basedir =~ s/^--basedir=//;
+        $basedir_found= 1;
+        $options[$j]= quote_shell_word($options[$j]);
+        $tmp.= &quot; $options[$j]&quot;;
+      }
+      else
+      {
+	$options[$j]= quote_shell_word($options[$j]);
+	$tmp.= &quot; $options[$j]&quot;;
+      }
+    }
+    if ($opt_verbose &amp;&amp; $com =~ m/\/safe_mysqld$/ &amp;&amp;&#160;!$info_sent)
+    {
+      print &quot;WARNING: safe_mysqld is being used to start mysqld. In this case you &quot;;
+      print &quot;may need to pass\n\&quot;ledir=...\&quot; under groups [mysqldN] to &quot;;
+      print &quot;safe_mysqld in order to find the actual mysqld binary.\n&quot;;
+      print &quot;ledir (library executable directory) should be the path to the &quot;;
+      print &quot;wanted mysqld binary.\n\n&quot;;
+      $info_sent= 1;
+    }
+    $com.= $tmp;
+    $com.= &quot; &gt;&gt; $opt_log 2&gt;&amp;1&quot; if (!$opt_no_log);
+    $com.= &quot; &amp;&quot;;
+    if (!$mysqld_found)
+    {
+      print &quot;\n&quot;;
+      print &quot;FATAL ERROR: Tried to start mysqld under group [$groups[$i]], &quot;;
+      print &quot;but no mysqld binary was found.\n&quot;;
+      print &quot;Please add \&quot;mysqld=...\&quot; in group [mysqld_multi], or add it to &quot;;
+      print &quot;group [$groups[$i]] separately.\n&quot;;
+      exit(1);
+    }
+    if ($basedir_found)
+    {
+      $curdir=getcwd();
+      chdir($basedir) or die &quot;Can't change to datadir $basedir&quot;;
+    }
+    system($com);
+    if ($basedir_found)
+    {
+      chdir($curdir) or die &quot;Can't change back to original dir $curdir&quot;;
+    }
+  }
+  if (!$i &amp;&amp;&#160;!$opt_no_log)
+  {
+    w2log(&quot;No MySQL servers to be started (check your GNRs)&quot;,
+	  &quot;$opt_log&quot;, 0, 0);
+  }
+}
+
+####
+#### stop multiple servers
+####
+
+sub stop_mysqlds()
+{
+  my (@groups, $com, $i, @options);
+
+  if (!$opt_no_log)
+  {
+    w2log(&quot;\nStopping MySQL servers\n&quot;,&quot;$opt_log&quot;,0,0);
+  }
+  else
+  {
+    print &quot;\nStopping MySQL servers\n&quot;;
+  }
+  @groups = &amp;find_groups($groupids);
+  for ($i = 0; defined($groups[$i]); $i++)
+  {
+    $com= get_mysqladmin_options($i, @groups);
+    $com.= &quot; shutdown&quot;;
+    $com.= &quot; &gt;&gt; $opt_log 2&gt;&amp;1&quot; if (!$opt_no_log);
+    $com.= &quot; &amp;&quot;;
+    system($com);
+  }
+  if (!$i &amp;&amp;&#160;!$opt_no_log)
+  {
+    w2log(&quot;No MySQL servers to be stopped (check your GNRs)&quot;,
+	  &quot;$opt_log&quot;, 0, 0);
+  }
+}
+
+####
+#### Sub function for mysqladmin option parsing
+####
+
+sub get_mysqladmin_options
+{
+  my ($i, @groups)= @_;
+  my ($mysqladmin_found, $com, $tmp, $j);
+
+  @options = defaults_for_group($groups[$i]);
+
+  $mysqladmin_found= 1; # The default
+  $mysqladmin_found= 0 if (!length($mysqladmin));
+  $com = &quot;$mysqladmin&quot;;
+  $tmp = &quot; -u $opt_user&quot;;
+  if (defined($opt_password)) {
+    my $pw= $opt_password;
+    # Protect single quotes in password
+    $pw =~ s/'/'&quot;'&quot;'/g;
+    $tmp.= &quot; -p'$pw'&quot;;
+  }
+  $tmp.= $opt_tcp_ip&#160;? &quot; -h 127.0.0.1&quot;&#160;: &quot;&quot;;
+  for ($j = 0; defined($options[$j]); $j++)
+  {
+    if (&quot;--mysqladmin=&quot; eq substr($options[$j], 0, 13))
+    {
+      $options[$j]=~ s/\-\-mysqladmin\=//;
+      $com= $options[$j];
+      $mysqladmin_found= 1;
+    }
+    elsif ((($options[$j] =~ m/^(\-\-socket\=)(.*)$/) &amp;&amp;&#160;!$opt_tcp_ip) ||
+	   ($options[$j] =~ m/^(\-\-port\=)(.*)$/))
+    {
+      $tmp.= &quot; $options[$j]&quot;;
+    }
+  }
+  if (!$mysqladmin_found)
+  {
+    print &quot;\n&quot;;
+    print &quot;FATAL ERROR: Tried to use mysqladmin in group [$groups[$i]], &quot;;
+    print &quot;but no mysqladmin binary was found.\n&quot;;
+    print &quot;Please add \&quot;mysqladmin=...\&quot; in group [mysqld_multi], or &quot;;
+    print &quot;in group [$groups[$i]].\n&quot;;
+    exit(1);
+  }
+  $com.= $tmp;
+  return $com;
+}
+
+# Return a list of option files which can be opened.  Similar, but not
+# identical, to behavior of my_search_option_files()
+sub list_defaults_files
+{
+  my&#160;%opt;
+  foreach (@defaults_options)
+  {
+    return () if /^--no-defaults$/;
+    $opt{$1} = $2 if /^--defaults-(extra-file|file)=(.*)$/;
+  }
+
+  return ($opt{file}) if exists $opt{file};
+
+  my&#160;%seen;  # Don't list the same file more than once
+  return grep { defined $_ and not $seen{$_}++ and -f $_ and -r $_ }
+              ('/etc/my.cnf',
+               '/etc/mysql/my.cnf',
+               '/etc/my.cnf',
+               ($ENV{MYSQL_HOME}&#160;? &quot;$ENV{MYSQL_HOME}/my.cnf&quot;&#160;: undef),
+               $opt{'extra-file'},
+               ($ENV{HOME}&#160;? &quot;$ENV{HOME}/.my.cnf&quot;&#160;: undef));
+}
+
+
+# Takes a specification of GNRs (see --help), and returns a list of matching
+# groups which actually are mentioned in a relevant config file
+sub find_groups
+{
+  my ($raw_gids) = @_;
+
+  my&#160;%gids;
+  my @groups;
+
+  if (defined($raw_gids))
+  {
+    # Make a hash of the wanted group ids
+    foreach my $raw_gid (split ',', $raw_gids)
+    {
+      # Match 123 or 123-456
+      my ($start, $end) = ($raw_gid =~ /^\s*(\d+)(?:\s*-\s*(\d+))?\s*$/);
+      $end = $start if not defined $end;
+      if (not defined $start or $end &lt; $start or $start &lt; 0)
+      {
+        print &quot;ABORT: Bad GNR: $raw_gid; see $my_progname --help\n&quot;;
+        exit(1);
+      }
+
+      foreach my $i ($start .. $end)
+      {
+        # Use $i + 0 to normalize numbers (002 + 0 -&gt; 2)
+        $gids{$i + 0}= 1;
+      }
+    }
+  }
+
+  my @defaults_files = list_defaults_files();
+  #warn &quot;@{[sort keys&#160;%gids]} -&gt; @defaults_files\n&quot;;
+  foreach my $file (@defaults_files)
+  {
+    next unless open CONF, &quot;&lt; $file&quot;;
+
+    while (&lt;CONF&gt;)
+    {
+      if (/^\s*\[\s*(mysqld)(\d+)\s*\]\s*$/)
+      {
+        #warn &quot;Found a group: $1$2\n&quot;;
+        # Use $2 + 0 to normalize numbers (002 + 0 -&gt; 2)
+        if (not defined($raw_gids) or $gids{$2 + 0})
+        {
+          push @groups, &quot;$1$2&quot;;
+        }
+      }
+    }
+
+    close CONF;
+  }
+  return @groups;
+}
+
+####
+#### w2log: Write to a logfile.
+#### 1.arg: append to the log file (given string, or from a file. if a file,
+####        file will be read from $opt_logdir)
+#### 2.arg: logfile -name (w2log assumes that the logfile is in $opt_logdir).
+#### 3.arg. 0 | 1, if true, print current date to the logfile. 3. arg will
+####        be ignored, if 1. arg is a file.
+#### 4.arg. 0 | 1, if true, first argument is a file, else a string
+####
+
+sub w2log
+{
+  my ($msg, $file, $date_flag, $is_file)= @_;
+  my (@data);
+
+  open (LOGFILE, &quot;&gt;&gt;$opt_log&quot;)
+    or die &quot;FATAL: w2log: Couldn't open log file: $opt_log\n&quot;;
+
+  if ($is_file)
+  {
+    open (FROMFILE, &quot;&lt;$msg&quot;) &amp;&amp; (@data=&lt;FROMFILE&gt;) &amp;&amp;
+      close(FROMFILE)
+	or die &quot;FATAL: w2log: Couldn't open file: $msg\n&quot;;
+    foreach my $line (@data)
+    {
+      print LOGFILE &quot;$line&quot;;
+    }
+  }
+  else
+  {
+    print LOGFILE &quot;$msg&quot;;
+    print LOGFILE strftime &quot;%a&#160;%b&#160;%e&#160;%H:%M:%S&#160;%Y&quot;, localtime if ($date_flag);
+    print LOGFILE &quot;\n&quot;;
+  }
+  close (LOGFILE);
+  return;
+}
+
+####
+#### my_which is used, because we can't assume that every system has the
+#### which -command. my_which can take only one argument at a time.
+#### Return values: requested system command with the first found path,
+#### or undefined, if not found.
+####
+
+sub my_which
+{
+  my ($command) = @_;
+  my (@paths, $path);
+
+  return $command if (-f $command &amp;&amp; -x $command);
+  @paths = split(':', $ENV{'PATH'});
+  foreach $path (@paths)
+  {
+    $path .= &quot;/$command&quot;;
+    return $path if (-f $path &amp;&amp; -x $path);
+  }
+  return undef();
+}
+
+
+####
+#### example
+####
+
+sub example
+{
+  print &lt;&lt;EOF;
+# This is an example of a my.cnf file for $my_progname.
+# Usually this file is located in home dir ~/.my.cnf or /etc/my.cnf
+#
+# SOME IMPORTANT NOTES FOLLOW:
+#
+# 1.COMMON USER
+#
+#   Make sure that the MySQL user, who is stopping the mysqld services, has
+#   the same password to all MySQL servers being accessed by $my_progname.
+#   This user needs to have the 'Shutdown_priv' -privilege, but for security
+#   reasons should have no other privileges. It is advised that you create a
+#   common 'multi_admin' user for all MySQL servers being controlled by
+#   $my_progname. Here is an example how to do it:
+#
+#   GRANT SHUTDOWN ON *.* TO multi_admin\@localhost IDENTIFIED BY 'password'
+#
+#   You will need to apply the above to all MySQL servers that are being
+#   controlled by $my_progname. 'multi_admin' will shutdown the servers
+#   using 'mysqladmin' -binary, when '$my_progname stop' is being called.
+#
+# 2.PID-FILE
+#
+#   If you are using mysqld_safe to start mysqld, make sure that every
+#   MySQL server has a separate pid-file. In order to use mysqld_safe
+#   via $my_progname, you need to use two options:
+#
+#   mysqld=/path/to/mysqld_safe
+#   ledir=/path/to/mysqld-binary/
+#
+#   ledir (library executable directory), is an option that only mysqld_safe
+#   accepts, so you will get an error if you try to pass it to mysqld directly.
+#   For this reason you might want to use the above options within [mysqld#]
+#   group directly.
+#
+# 3.DATA DIRECTORY
+#
+#   It is NOT advised to run many MySQL servers within the same data directory.
+#   You can do so, but please make sure to understand and deal with the
+#   underlying caveats. In short they are:
+#   - Speed penalty
+#   - Risk of table/data corruption
+#   - Data synchronising problems between the running servers
+#   - Heavily media (disk) bound
+#   - Relies on the system (external) file locking
+#   - Is not applicable with all table types. (Such as InnoDB)
+#     Trying so will end up with undesirable results.
+#
+# 4.TCP/IP Port
+#
+#   Every server requires one and it must be unique.
+#
+# 5.[mysqld#] Groups
+#
+#   In the example below the first and the fifth mysqld group was
+#   intentionally left out. You may have 'gaps' in the config file. This
+#   gives you more flexibility.
+#
+# 6.MySQL Server User
+#
+#   You can pass the user=... option inside [mysqld#] groups. This
+#   can be very handy in some cases, but then you need to run $my_progname
+#   as UNIX root.
+#
+# 7.A Start-up Manage Script for $my_progname
+#
+#   In the recent MySQL distributions you can find a file called
+#   mysqld_multi.server.sh. It is a wrapper for $my_progname. This can
+#   be used to start and stop multiple servers during boot and shutdown.
+#
+#   You can place the file in /etc/init.d/mysqld_multi.server.sh and
+#   make the needed symbolic links to it from various run levels
+#   (as per Linux/Unix standard). You may even replace the
+#   /etc/init.d/mysql.server script with it.
+#
+#   Before using, you must create a my.cnf file either in /etc/my.cnf
+#   or /root/.my.cnf and add the [mysqld_multi] and [mysqld#] groups.
+#
+#   The script can be found from support-files/mysqld_multi.server.sh
+#   in MySQL distribution. (Verify the script before using)
+#
+
+[mysqld_multi]
+mysqld     = /usr/bin/mysqld_safe
+mysqladmin = /usr/bin/mysqladmin
+user       = multi_admin
+password   = my_password
+
+[mysqld2]
+socket     = /tmp/mysql.sock2
+port       = 3307
+pid-file   = /var/lib/mysql2/hostname.pid2
+datadir    = /var/lib/mysql2
+language   = /usr/share/mysql/english
+user       = unix_user1
+
+[mysqld3]
+mysqld     = /path/to/safe_mysqld/safe_mysqld
+ledir      = /path/to/mysqld-binary/
+mysqladmin = /path/to/mysqladmin/mysqladmin
+socket     = /tmp/mysql.sock3
+port       = 3308
+pid-file   = /var/lib/mysql3/hostname.pid3
+datadir    = /var/lib/mysql3
+language   = /usr/share/mysql/swedish
+user       = unix_user2
+
+[mysqld4]
+socket     = /tmp/mysql.sock4
+port       = 3309
+pid-file   = /var/lib/mysql4/hostname.pid4
+datadir    = /var/lib/mysql4
+language   = /usr/share/mysql/estonia
+user       = unix_user3
+ 
+[mysqld6]
+socket     = /tmp/mysql.sock6
+port       = 3311
+pid-file   = /var/lib/mysql6/hostname.pid6
+datadir    = /var/lib/mysql6
+language   = /usr/share/mysql/japanese
+user       = unix_user4
+EOF
+  exit(0);
+}
+
+####
+#### usage
+####
+
+sub usage
+{
+  print &lt;&lt;EOF;
+$my_progname version $VER by Jani Tolonen
+
+Description:
+$my_progname can be used to start, or stop any number of separate
+mysqld processes running in different TCP/IP ports and UNIX sockets.
+
+$my_progname can read group [mysqld_multi] from my.cnf file. You may
+want to put options mysqld=... and mysqladmin=... there.  Since
+version 2.10 these options can also be given under groups [mysqld#],
+which gives more control over different versions.  One can have the
+default mysqld and mysqladmin under group [mysqld_multi], but this is
+not mandatory. Please note that if mysqld or mysqladmin is missing
+from both [mysqld_multi] and [mysqld#], a group that is tried to be
+used, $my_progname will abort with an error.
+
+$my_progname will search for groups named [mysqld#] from my.cnf (or
+the given --config-file=...), where '#' can be any positive integer
+starting from 1. These groups should be the same as the regular
+[mysqld] group, but with those port, socket and any other options
+that are to be used with each separate mysqld process. The number
+in the group name has another function; it can be used for starting,
+stopping, or reporting any specific mysqld server.
+
+Usage: $my_progname [OPTIONS] {start|stop|report} [GNR,GNR,GNR...]
+or     $my_progname [OPTIONS] {start|stop|report} [GNR-GNR,GNR,GNR-GNR,...]
+
+The GNR means the group number. You can start, stop or report any GNR,
+or several of them at the same time. (See --example) The GNRs list can
+be comma separated or a dash combined. The latter means that all the
+GNRs between GNR1-GNR2 will be affected. Without GNR argument all the
+groups found will either be started, stopped, or reported. Note that
+syntax for specifying GNRs must appear without spaces.
+
+Options:
+
+These options must be given before any others:
+--no-defaults      Do not read any defaults file
+--defaults-file=...  Read only this configuration file, do not read the
+                   standard system-wide and user-specific files
+--defaults-extra-file=...  Read this configuration file in addition to the
+                   standard system-wide and user-specific files
+Using:  @{[join ' ', @defaults_options]}
+
+--config-file=...  Deprecated, please use --defaults-extra-file instead
+--example          Give an example of a config file with extra information.
+--help             Print this help and exit.
+--log=...          Log file. Full path to and the name for the log file. NOTE:
+                   If the file exists, everything will be appended.
+                   Using: $opt_log
+--mysqladmin=...   mysqladmin binary to be used for a server shutdown.
+                   Since version 2.10 this can be given within groups [mysqld#]
+                   Using: $mysqladmin
+--mysqld=...       mysqld binary to be used. Note that you can give mysqld_safe
+                   to this option also. The options are passed to mysqld. Just
+                   make sure you have mysqld in your PATH or fix mysqld_safe.
+                   Using: $mysqld
+                   Please note: Since mysqld_multi version 2.3 you can also
+                   give this option inside groups [mysqld#] in ~/.my.cnf,
+                   where '#' stands for an integer (number) of the group in
+                   question. This will be recognised as a special option and
+                   will not be passed to the mysqld. This will allow one to
+                   start different mysqld versions with mysqld_multi.
+--no-log           Print to stdout instead of the log file. By default the log
+                   file is turned on.
+--password=...     Password for mysqladmin user.
+--silent           Disable warnings.
+--tcp-ip           Connect to the MySQL server(s) via the TCP/IP port instead
+                   of the UNIX socket. This affects stopping and reporting.
+                   If a socket file is missing, the server may still be
+                   running, but can be accessed only via the TCP/IP port.
+                   By default connecting is done via the UNIX socket.
+--user=...         mysqladmin user. Using: $opt_user
+--verbose          Be more verbose.
+--version          Print the version number and exit.
+EOF
+  exit(0);
+}
+</pre>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 4/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key my_wiki:pcache:idhash:308-0!*!*!*!*!*!* and timestamp 20130920173157 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="https://wiki.xkyle.com/index.php?title=Mysqld_multi_init_script&amp;oldid=1205">https://wiki.xkyle.com/index.php?title=Mysqld_multi_init_script&amp;oldid=1205</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Mysql" title="Category:Mysql">Mysql</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<!-- header -->
+		<div id="mw-head" class="noprint">
+			
+<!-- 0 -->
+<div id="p-personal" class="">
+	<h5>Personal tools</h5>
+	<ul>
+		<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=Mysqld+multi+init+script" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+	</ul>
+</div>
+
+<!-- /0 -->
+			<div id="left-navigation">
+				
+<!-- 0 -->
+<div id="p-namespaces" class="vectorTabs">
+	<h5>Namespaces</h5>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="/Mysqld_multi_init_script"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+					<li  id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Mysqld_multi_init_script&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" class="vectorMenu emptyPortlet">
+	<h4>
+		</h4>
+	<h5><span>Variants</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+			</div>
+			<div id="right-navigation">
+				
+<!-- 0 -->
+<div id="p-views" class="vectorTabs">
+	<h5>Views</h5>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/Mysqld_multi_init_script" >Read</a></span></li>
+					<li id="ca-viewsource"><span><a href="/index.php?title=Mysqld_multi_init_script&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Mysqld_multi_init_script&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+	<h5><span>Actions</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search">
+	<h5><label for="searchInput">Search</label></h5>
+	<form action="/index.php" id="searchform">
+				<div>
+			<input type="search" name="search" title="Search Kyle's Wiki [f]" accesskey="f" id="searchInput" />			<input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton" />			<input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton" />					<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+			</div>
+		</div>
+		<!-- /header -->
+		<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo"><a style="background-image: url(https://wiki.xkyle.com/images/logo.jpg);" href="/Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- Efforts -->
+<div class="portal" id='p-Efforts'>
+	<h5>Efforts</h5>
+	<div class="body">
+		<ul>
+			<li id="n-Plug-Computers"><a href="/Plug_Computers">Plug Computers</a></li>
+			<li id="n-Hack-This-Site"><a href="/Hack_This_Site">Hack This Site</a></li>
+			<li id="n-Games-Magazine"><a href="/Games_Magazine">Games Magazine</a></li>
+			<li id="n-CFEngine"><a href="/Category:CFEngine">CFEngine</a></li>
+			<li id="n-Puppet"><a href="/Category:Puppet">Puppet</a></li>
+			<li id="n-BackupPC"><a href="/Category:BackupPC">BackupPC</a></li>
+			<li id="n-IPv6"><a href="/Category:IPv6">IPv6</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /Efforts -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- TOOLBOX -->
+<div class="portal" id='p-tb'>
+	<h5>Toolbox</h5>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Mysqld_multi_init_script" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Mysqld_multi_init_script" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li><a href="/index.php?title=Mysqld_multi_init_script&amp;printable=yes" rel="alternate">Printable version</a></li>
+			<li id="t-permalink"><a href="/index.php?title=Mysqld_multi_init_script&amp;oldid=1205" title="Permanent link to this revision of the page">Permanent link</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- LANGUAGES -->
+
+<!-- /LANGUAGES -->
+                                <div class="portal" id='p-Meta'>
+
+                                <h5>Meta</h5>
+                                <div class="body">
+                                        <ul>
+                                                <li id="n-About-this-Wiki"><a href="/About">About this Wiki</a></li>
+                                                <li id="n-Email-Me"><a href="mailto:kyle@xkyle.com">Email Me</a></li>
+                                                <li id="n-Blog"><a href="https://xkyle.com/">My Blog</a></li>
+                                                <li id="n-Code"><a href="https://github.com/solarkennedy">Code (github)</a></li>
+                                                <li id="n-LinkedIn"><a href="http://www.linkedin.com/pub/kyle-anderson/6/671/2b0">LinkedIn</a></li>
+                                                <li id="n-Google+"><a href="https://plus.google.com/u/0/115227890884261811459" rel="author">Google+</a><li>
+                                        </ul>
+                                </div>
+                                </div>
+
+			</div>
+		<!-- /panel -->
+		<!-- footer -->
+                <div id="footer">
+                        <div style="clear:both"></div>
+                </div>
+
+		<!-- /footer -->
+		<script src="https://wiki.xkyle.com/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready"], null, true);
+}</script>
+<!-- Served in 0.191 secs. -->
+	</body>
+<!-- Cached/compressed 20130920173157 -->
+</html>

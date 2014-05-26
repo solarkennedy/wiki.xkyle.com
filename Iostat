@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Iostat - Kyle's Wiki</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.19.1" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Kyle's Wiki (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="https://wiki.xkyle.com/api.php?action=rsd" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Kyle's Wiki Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="https://wiki.xkyle.com/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}a.new,#quickbar a.new{color:#ba0000}
+
+/* cache key: my_wiki:resourceloader:filter:minify-css:7:c88e2bcd56513749bec09a7e29cb3ffa */
+</style>
+
+<script src="https://wiki.xkyle.com/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Iostat","wgTitle":"Iostat","wgCurRevisionId":2941,"wgArticleId":771,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Disks"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgRelevantPageName":"Iostat","wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,
+"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function($){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+
+/* cache key: my_wiki:resourceloader:filter:minify-js:7:9983699ab6150ffa89a90653b2338ac8 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--><!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
+typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
+b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
+mixpanel.init("f49fd1e08211929444aad692b8995519");mixpanel.track('pageload')</script><!-- end Mixpanel --></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Iostat skin-vector action-view">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading">
+				<span dir="auto">Iostat</span>
+			</h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Kyle&#039;s Wiki</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to: <a href="#mw-head">navigation</a>,
+					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><pre>
+avg-cpu: &#160;%user  &#160;%nice&#160;%system&#160;%iowait &#160;%steal  &#160;%idle
+           8.12    0.00    2.57   21.65    0.00   67.66
+
+Device:  rrqm/s   wrqm/s     r/s     w/s   rsec/s   wsec/s  avgrq-sz avgqu-sz   await  svctm &#160;%util
+sda     7684.00    19.00 2420.00  498.00 81848.00  5287.00     29.86    32.99   11.17   0.34 100.00
+</pre>
+<ul><li> <b>util:</b> how much time did the storage device have outstanding work (was busy). In proper RAID environments it is more like “how much time did at least one disk in RAID array have something to do”. I’m deliberately excluding any kind of cache here – if request can be served from cache, the chance is quite negligible it will show up in&#160;%util, unlike in other values. What this also means – the RAID subsystem can be loaded from 6.25% (one disk doing the work) to 100% (all of them busy). Thats quite a lot of insight in single value of ’100%’, isn’t it?
+</li><li> <b>svctm</b>: Though manual says “The average service time (in milliseconds) for I/O requests that were issued to the device.”, it isn’t exactly that when you look at multiple-disk systems. What it says is, “when your I/O subsystem is busy, how fast does it respond requests overall”. Actually, less you load your system, higher svctm is (as there’re less outstanding requests, and average time to serve them goes up). Of course, at some certain moment, when I/O becomes really overloaded, you can see svctm going up. One can tweak /sys/block/sda/queue/nr_requests based on this – to avoid overloading I/O controller, though that is really rarely needed.
+</li><li> <b>await</b>: One of my favorites – how fast do requests go through. It is just an average, how long it takes to serve a request for a device, once it gets into device queue, to final “OK”. Low = good, high = bad. There’re few gotchas here – even though different reads can have different performance properties (middle of disk, outer areas of disk, etc), the biggest difference is between reads and writes. Reads take time, writes can be instant (write caching at underlying layers..). As 80% of requests were reads, we can try to account for that by doing 11.17/0.8 math, to get 14ms figure. Thats quite high – systems that aren’t loaded can show ~5ms times (which isn’t that far away from 4ms rotation time of 15krpm disk).
+</li><li> <b>avgqu-sz</b>: Very very very important value – how many requests are there in a request queue. Low = either your system is not loaded, or has serialized I/O and cannot utilize underlying storage properly. High = your software stack is scalable enough to load properly underlying I/O. Queue size equal to amount of disks means (in best case of request distribution) that all your disks are busy. Queue size higher than amount of disks means that you are already trading I/O response time for better throughput (disks can optimize order of operations if they know them beforehand, thats what NCQ – Native Command Queueing does). If one complains about I/O performance issues when avgqu-sz is lower, then it is application specific stuff, that can be resolved with more aggressive read-ahead, less fsyncs, etc. One interesting part – avqu-sz, await, svctm and&#160;%util are iterdependent ( await = avgqu-sz * svctm / (%util/100)
+</li><li> <b>avgrq-sz</b>: Just an average request size. Quite often will look like a block size of some kind – can indicate what kind of workload happens. This is already post-merging, so lots of adjacent block operations will bump this up. Also, if database page is 16k, though filesystem or volume manager block is 32k, this will be seen in avgrq-sz. Large requests indicate there’s some big batch/stream task going on.
+</li><li> <b>wsec/s &amp; rsec/s</b>: Sectors read and written per second. Divide by 2048, and you’ll get megabytes per second. I wanted to write this isn’t important, but remembered all the non-database people who store videos on filesystems&#160;:) So, if megabytes per second matter, these values are important (and can be seen in ‘vmstat’ output too). If not, for various database people there are other ones:
+</li><li> <b>r/s &amp; w/s</b>: Read and write requests per second. This is already post-merging, and in proper I/O setups reads will mean blocking random read (serial reads are quite often merged), and writes will mean non-blocking random write (as underlying cache can allow to serve the OS instantly). These numbers are the ones that are the I/O capacity figures, though of course, depending on how much pressure underlying I/O subsystem gets (queue size!), they can vary. And as mentioned above, on rotational media it is possible to trade response time (which is not that important in parallel workloads) for better throughput.
+</li><li> <b>rrqm/s &amp; wrqm/s</b>: How many requests were merged by block layer. In ideal world, there should be no merges at I/O level, because applications would have done it ages ago. Ideals differ though, for others it is good to have kernel doing this job, so they don’t have to do it inside application. Quite often there will be way less merges, because applications which tend to write adjacent blocks, also tend to wait after every write (see my rant on I/O schedulers). Reads however can be merged way easier – especially if application does “read ahead” block by block. Another reason for merges is simple block size mismatch – 16k database pages on top of 8k database pages will cause adjacent block reads, which would be merged by block layer. On some systems read of two adjacent pages would result in 1MB reads, but thats another rant&#160;:)
+</li><li> <b>Device</b>: – just to make sure, that you’re looking at the right device.&#160;:-)
+</li></ul>
+<p>So, after all this, the iostat output above tells us something like:
+</p>
+<ul><li> System has healthy high load (request queue has two-requests-per-disk)
+</li><li> Average request time is double the value one would expect from idle system, it isn’t too harmful, but one can do better
+</li><li> It is reading 80 40MB/s from disks, at 2420 requests/s. Thats quite high performance from inexpensive 2u database server (shameless plug: X4240&#160;:)
+</li><li> High amount of merges comes from LVM snapshots, can be ignored
+</li><li> System is alive, healthy and kicking, no matter what anyone says&#160;:)
+</li></ul>
+<h3> <span class="mw-headline" id="References"> References </span></h3>
+<ul><li> <a rel="nofollow" class="external free" href="http://dom.as/2009/03/11/iostat/">http://dom.as/2009/03/11/iostat/</a>
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 11/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key my_wiki:pcache:idhash:771-0!*!*!*!*!*!* and timestamp 20130927204216 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="https://wiki.xkyle.com/index.php?title=Iostat&amp;oldid=2941">https://wiki.xkyle.com/index.php?title=Iostat&amp;oldid=2941</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/index.php?title=Category:Disks&amp;action=edit&amp;redlink=1" class="new" title="Category:Disks (page does not exist)">Disks</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<!-- header -->
+		<div id="mw-head" class="noprint">
+			
+<!-- 0 -->
+<div id="p-personal" class="">
+	<h5>Personal tools</h5>
+	<ul>
+		<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=Iostat" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+	</ul>
+</div>
+
+<!-- /0 -->
+			<div id="left-navigation">
+				
+<!-- 0 -->
+<div id="p-namespaces" class="vectorTabs">
+	<h5>Namespaces</h5>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="/Iostat"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+					<li  id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Iostat&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" class="vectorMenu emptyPortlet">
+	<h4>
+		</h4>
+	<h5><span>Variants</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+			</div>
+			<div id="right-navigation">
+				
+<!-- 0 -->
+<div id="p-views" class="vectorTabs">
+	<h5>Views</h5>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/Iostat" >Read</a></span></li>
+					<li id="ca-viewsource"><span><a href="/index.php?title=Iostat&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Iostat&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+	<h5><span>Actions</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search">
+	<h5><label for="searchInput">Search</label></h5>
+	<form action="/index.php" id="searchform">
+				<div>
+			<input type="search" name="search" title="Search Kyle's Wiki [f]" accesskey="f" id="searchInput" />			<input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton" />			<input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton" />					<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+			</div>
+		</div>
+		<!-- /header -->
+		<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo"><a style="background-image: url(https://wiki.xkyle.com/images/logo.jpg);" href="/Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- Efforts -->
+<div class="portal" id='p-Efforts'>
+	<h5>Efforts</h5>
+	<div class="body">
+		<ul>
+			<li id="n-Plug-Computers"><a href="/Plug_Computers">Plug Computers</a></li>
+			<li id="n-Hack-This-Site"><a href="/Hack_This_Site">Hack This Site</a></li>
+			<li id="n-Games-Magazine"><a href="/Games_Magazine">Games Magazine</a></li>
+			<li id="n-CFEngine"><a href="/Category:CFEngine">CFEngine</a></li>
+			<li id="n-Puppet"><a href="/Category:Puppet">Puppet</a></li>
+			<li id="n-BackupPC"><a href="/Category:BackupPC">BackupPC</a></li>
+			<li id="n-IPv6"><a href="/Category:IPv6">IPv6</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /Efforts -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- TOOLBOX -->
+<div class="portal" id='p-tb'>
+	<h5>Toolbox</h5>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Iostat" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Iostat" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li><a href="/index.php?title=Iostat&amp;printable=yes" rel="alternate">Printable version</a></li>
+			<li id="t-permalink"><a href="/index.php?title=Iostat&amp;oldid=2941" title="Permanent link to this revision of the page">Permanent link</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- LANGUAGES -->
+
+<!-- /LANGUAGES -->
+                                <div class="portal" id='p-Meta'>
+
+                                <h5>Meta</h5>
+                                <div class="body">
+                                        <ul>
+                                                <li id="n-About-this-Wiki"><a href="/About">About this Wiki</a></li>
+                                                <li id="n-Email-Me"><a href="mailto:kyle@xkyle.com">Email Me</a></li>
+                                                <li id="n-Blog"><a href="https://xkyle.com/">My Blog</a></li>
+                                                <li id="n-Code"><a href="https://github.com/solarkennedy">Code (github)</a></li>
+                                                <li id="n-LinkedIn"><a href="http://www.linkedin.com/pub/kyle-anderson/6/671/2b0">LinkedIn</a></li>
+                                                <li id="n-Google+"><a href="https://plus.google.com/u/0/115227890884261811459" rel="author">Google+</a><li>
+                                        </ul>
+                                </div>
+                                </div>
+
+			</div>
+		<!-- /panel -->
+		<!-- footer -->
+                <div id="footer">
+                        <div style="clear:both"></div>
+                </div>
+
+		<!-- /footer -->
+		<script src="https://wiki.xkyle.com/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready"], null, true);
+}</script>
+<!-- Served in 0.149 secs. -->
+	</body>
+<!-- Cached/compressed 20130927204523 -->
+</html>

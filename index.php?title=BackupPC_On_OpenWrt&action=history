@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Revision history of "BackupPC On OpenWrt" - Kyle's Wiki</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.19.1" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Kyle's Wiki (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="https://wiki.xkyle.com/api.php?action=rsd" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="&quot;BackupPC On OpenWrt&quot; Atom feed" href="/index.php?title=BackupPC_On_OpenWrt&amp;feed=atom&amp;action=history" />
+<link rel="alternate" type="application/atom+xml" title="Kyle's Wiki Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="https://wiki.xkyle.com/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}a.new,#quickbar a.new{color:#ba0000}
+
+/* cache key: my_wiki:resourceloader:filter:minify-css:7:c88e2bcd56513749bec09a7e29cb3ffa */
+</style>
+
+<script src="https://wiki.xkyle.com/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"BackupPC_On_OpenWrt","wgTitle":"BackupPC On OpenWrt","wgCurRevisionId":2801,"wgArticleId":186,"wgIsArticle":false,"wgAction":"history","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgRelevantPageName":"BackupPC_On_OpenWrt","wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,
+"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function($){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+
+/* cache key: my_wiki:resourceloader:filter:minify-js:7:9983699ab6150ffa89a90653b2338ac8 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--><!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
+typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
+b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
+mixpanel.init("f49fd1e08211929444aad692b8995519");mixpanel.track('pageload')</script><!-- end Mixpanel --></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-BackupPC_On_OpenWrt skin-vector action-history">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading">
+				<span dir="auto">Revision history of "BackupPC On OpenWrt"</span>
+			</h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- subtitle -->
+				<div id="contentSub"><a href="/index.php?title=Special:Log&amp;page=BackupPC+On+OpenWrt" title="Special:Log">View logs for this page</a></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to: <a href="#mw-head">navigation</a>,
+					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text"><form action="/index.php" method="get" id="mw-history-searchform"><fieldset id="mw-history-search">
+<legend>Browse history</legend>
+<input type="hidden" value="BackupPC_On_OpenWrt" name="title" />
+<input type="hidden" value="history" name="action" />
+<label for="year">From year (and earlier):</label> <input name="year" size="4" value="" id="year" maxlength="4" /> <label for="month">From month (and earlier):</label> <select id="month" name="month" class="mw-month-selector"><option value="-1">all</option>
+<option value="1">January</option>
+<option value="2">February</option>
+<option value="3">March</option>
+<option value="4">April</option>
+<option value="5">May</option>
+<option value="6">June</option>
+<option value="7">July</option>
+<option value="8">August</option>
+<option value="9">September</option>
+<option value="10">October</option>
+<option value="11">November</option>
+<option value="12">December</option></select>&#160;<input name="deleted" type="checkbox" value="1" id="mw-show-deleted-only" />&#160;<label for="mw-show-deleted-only">Deleted only</label>
+<input type="submit" value="Go" />
+</fieldset></form><div class="mw-history-legend">
+<p>Diff selection: Mark the radio boxes of the revisions to compare and hit enter or the button at the bottom.<br />
+Legend: <b>(cur)</b> = difference with latest revision, <b>(prev)</b> = difference with preceding revision, <b>m</b> = minor edit.
+</p>
+</div>
+<form action="/index.php" id="mw-history-compare">
+<input type="hidden" value="BackupPC_On_OpenWrt" name="title" />
+<input type="hidden" value="historysubmit" name="action" />
+<div><input type="submit" value="Compare selected revisions" class="historysubmit mw-history-compareselectedversions-button" title="See the differences between the two selected revisions of this page [v]" accesskey="v" />
+</div><ul id="pagehistory">
+<li><span class="mw-history-histlinks">(cur | <a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=2801&amp;oldid=2799" title="BackupPC On OpenWrt">prev</a>) </span><input type="radio" value="2801" style="visibility:hidden" name="oldid" id="mw-oldid-null" /><input type="radio" value="2801" checked="checked" name="diff" id="mw-diff-2801" /> <a href="/index.php?title=BackupPC_On_OpenWrt&amp;oldid=2801" title="BackupPC On OpenWrt">14:32, 4 December 2012</a>‎ <span class='history-user'><a href="/User:Kyle" title="User:Kyle" class="mw-userlink">Kyle</a>  <span class="mw-usertoollinks">(<a href="/index.php?title=User_talk:Kyle&amp;action=edit&amp;redlink=1" class="new" title="User talk:Kyle (page does not exist)">Talk</a> | <a href="/Special:Contributions/Kyle" title="Special:Contributions/Kyle">contribs</a>)</span></span>‎ . . <span dir="ltr" class="mw-plusminus-null" title="3,341 bytes after change">(0)</span>‎ . .  </li>
+<li><span class="mw-history-histlinks">(<a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=2801&amp;oldid=2799" title="BackupPC On OpenWrt">cur</a> | <a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=2799&amp;oldid=802" title="BackupPC On OpenWrt">prev</a>) </span><input type="radio" value="2799" checked="checked" name="oldid" id="mw-oldid-2799" /><input type="radio" value="2799" name="diff" id="mw-diff-2799" /> <a href="/index.php?title=BackupPC_On_OpenWrt&amp;oldid=2799" title="BackupPC On OpenWrt">14:32, 4 December 2012</a>‎ <span class='history-user'><a href="/User:Kyle" title="User:Kyle" class="mw-userlink">Kyle</a>  <span class="mw-usertoollinks">(<a href="/index.php?title=User_talk:Kyle&amp;action=edit&amp;redlink=1" class="new" title="User talk:Kyle (page does not exist)">Talk</a> | <a href="/Special:Contributions/Kyle" title="Special:Contributions/Kyle">contribs</a>)</span></span>‎ <abbr class='minoredit' title='This is a minor edit'>m</abbr> . . <span dir="ltr" class="mw-plusminus-null" title="3,341 bytes after change">(0)</span>‎ . .  <span class="comment" dir="auto">(Kyle moved page <a href="/BackupPC_On_Openwrt" class="mw-redirect" title="BackupPC On Openwrt">BackupPC On Openwrt</a> to <a href="/BackupPC_On_OpenWrt" title="BackupPC On OpenWrt">BackupPC On OpenWrt</a>)</span> </li>
+<li><span class="mw-history-histlinks">(<a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=2801&amp;oldid=802" title="BackupPC On OpenWrt">cur</a> | <a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=802&amp;oldid=801" title="BackupPC On OpenWrt">prev</a>) </span><input type="radio" value="802" name="oldid" id="mw-oldid-802" /><input type="radio" value="802" name="diff" id="mw-diff-802" /> <a href="/index.php?title=BackupPC_On_OpenWrt&amp;oldid=802" title="BackupPC On OpenWrt">06:44, 7 February 2012</a>‎ <span class='history-user'><a href="/User:Kyle" title="User:Kyle" class="mw-userlink">Kyle</a>  <span class="mw-usertoollinks">(<a href="/index.php?title=User_talk:Kyle&amp;action=edit&amp;redlink=1" class="new" title="User talk:Kyle (page does not exist)">Talk</a> | <a href="/Special:Contributions/Kyle" title="Special:Contributions/Kyle">contribs</a>)</span></span>‎ . . <span dir="ltr" class="mw-plusminus-pos" title="3,341 bytes after change">(+18)</span>‎ . .  </li>
+<li><span class="mw-history-histlinks">(<a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=2801&amp;oldid=801" title="BackupPC On OpenWrt">cur</a> | <a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=801&amp;oldid=800" title="BackupPC On OpenWrt">prev</a>) </span><input type="radio" value="801" name="oldid" id="mw-oldid-801" /><input type="radio" value="801" name="diff" id="mw-diff-801" /> <a href="/index.php?title=BackupPC_On_OpenWrt&amp;oldid=801" title="BackupPC On OpenWrt">17:26, 15 September 2011</a>‎ <span class='history-user'><a href="/User:Kyle" title="User:Kyle" class="mw-userlink">Kyle</a>  <span class="mw-usertoollinks">(<a href="/index.php?title=User_talk:Kyle&amp;action=edit&amp;redlink=1" class="new" title="User talk:Kyle (page does not exist)">Talk</a> | <a href="/Special:Contributions/Kyle" title="Special:Contributions/Kyle">contribs</a>)</span></span>‎ . . <span dir="ltr" class="mw-plusminus-pos" title="3,323 bytes after change">(+43)</span>‎ . .  </li>
+<li><span class="mw-history-histlinks">(<a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=2801&amp;oldid=800" title="BackupPC On OpenWrt">cur</a> | <a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=800&amp;oldid=799" title="BackupPC On OpenWrt">prev</a>) </span><input type="radio" value="800" name="oldid" id="mw-oldid-800" /><input type="radio" value="800" name="diff" id="mw-diff-800" /> <a href="/index.php?title=BackupPC_On_OpenWrt&amp;oldid=800" title="BackupPC On OpenWrt">19:18, 23 November 2010</a>‎ <span class='history-user'><a href="/User:Kyle" title="User:Kyle" class="mw-userlink">Kyle</a>  <span class="mw-usertoollinks">(<a href="/index.php?title=User_talk:Kyle&amp;action=edit&amp;redlink=1" class="new" title="User talk:Kyle (page does not exist)">Talk</a> | <a href="/Special:Contributions/Kyle" title="Special:Contributions/Kyle">contribs</a>)</span></span>‎ <abbr class='minoredit' title='This is a minor edit'>m</abbr> . . <strong dir="ltr" class="mw-plusminus-neg" title="3,280 bytes after change">(-515)</strong>‎ . .  <span class="comment" dir="auto">(Reverted edits by <a href="/Special:Contributions/Aqaxekapi" title="Special:Contributions/Aqaxekapi">Aqaxekapi</a> (<a href="/User_talk:Aqaxekapi" title="User talk:Aqaxekapi">talk</a>) to last revision by <a href="/User:Kyle" title="User:Kyle">Kyle</a>)</span> </li>
+<li><span class="mw-history-histlinks">(<a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=2801&amp;oldid=799" title="BackupPC On OpenWrt">cur</a> | <a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=799&amp;oldid=798" title="BackupPC On OpenWrt">prev</a>) </span><input type="radio" value="799" name="oldid" id="mw-oldid-799" /><input type="radio" value="799" name="diff" id="mw-diff-799" /> <a href="/index.php?title=BackupPC_On_OpenWrt&amp;oldid=799" title="BackupPC On OpenWrt">18:02, 23 November 2010</a>‎ <span class='history-user'><a href="/Special:Contributions/Aqaxekapi" title="Special:Contributions/Aqaxekapi" class="mw-userlink">Aqaxekapi</a>  <span class="mw-usertoollinks">(<a href="/User_talk:Aqaxekapi" title="User talk:Aqaxekapi">Talk</a>)</span></span>‎ . . <strong dir="ltr" class="mw-plusminus-pos" title="3,795 bytes after change">(+515)</strong>‎ . .  </li>
+<li><span class="mw-history-histlinks">(<a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=2801&amp;oldid=798" title="BackupPC On OpenWrt">cur</a> | <a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=798&amp;oldid=797" title="BackupPC On OpenWrt">prev</a>) </span><input type="radio" value="798" name="oldid" id="mw-oldid-798" /><input type="radio" value="798" name="diff" id="mw-diff-798" /> <a href="/index.php?title=BackupPC_On_OpenWrt&amp;oldid=798" title="BackupPC On OpenWrt">13:10, 21 June 2010</a>‎ <span class='history-user'><a href="/User:Kyle" title="User:Kyle" class="mw-userlink">Kyle</a>  <span class="mw-usertoollinks">(<a href="/index.php?title=User_talk:Kyle&amp;action=edit&amp;redlink=1" class="new" title="User talk:Kyle (page does not exist)">Talk</a> | <a href="/Special:Contributions/Kyle" title="Special:Contributions/Kyle">contribs</a>)</span></span>‎ . . <span dir="ltr" class="mw-plusminus-null" title="3,280 bytes after change">(0)</span>‎ . .  <span class="comment" dir="auto">(<a href="/BackupPC_On_OpenWrt#Extras" title="BackupPC On OpenWrt">→</a>‎<span dir="auto"><span class="autocomment">Extras</span></span>)</span> </li>
+<li><span class="mw-history-histlinks">(<a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=2801&amp;oldid=797" title="BackupPC On OpenWrt">cur</a> | <a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=797&amp;oldid=796" title="BackupPC On OpenWrt">prev</a>) </span><input type="radio" value="797" name="oldid" id="mw-oldid-797" /><input type="radio" value="797" name="diff" id="mw-diff-797" /> <a href="/index.php?title=BackupPC_On_OpenWrt&amp;oldid=797" title="BackupPC On OpenWrt">09:31, 21 June 2010</a>‎ <span class='history-user'><a href="/User:Kyle" title="User:Kyle" class="mw-userlink">Kyle</a>  <span class="mw-usertoollinks">(<a href="/index.php?title=User_talk:Kyle&amp;action=edit&amp;redlink=1" class="new" title="User talk:Kyle (page does not exist)">Talk</a> | <a href="/Special:Contributions/Kyle" title="Special:Contributions/Kyle">contribs</a>)</span></span>‎ . . <span dir="ltr" class="mw-plusminus-pos" title="3,280 bytes after change">(+222)</span>‎ . .  <span class="comment" dir="auto">(<a href="/BackupPC_On_OpenWrt#Dependencies" title="BackupPC On OpenWrt">→</a>‎<span dir="auto"><span class="autocomment">Dependencies</span></span>)</span> </li>
+<li><span class="mw-history-histlinks">(<a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=2801&amp;oldid=796" title="BackupPC On OpenWrt">cur</a> | <a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=796&amp;oldid=795" title="BackupPC On OpenWrt">prev</a>) </span><input type="radio" value="796" name="oldid" id="mw-oldid-796" /><input type="radio" value="796" name="diff" id="mw-diff-796" /> <a href="/index.php?title=BackupPC_On_OpenWrt&amp;oldid=796" title="BackupPC On OpenWrt">09:29, 21 June 2010</a>‎ <span class='history-user'><a href="/User:Kyle" title="User:Kyle" class="mw-userlink">Kyle</a>  <span class="mw-usertoollinks">(<a href="/index.php?title=User_talk:Kyle&amp;action=edit&amp;redlink=1" class="new" title="User talk:Kyle (page does not exist)">Talk</a> | <a href="/Special:Contributions/Kyle" title="Special:Contributions/Kyle">contribs</a>)</span></span>‎ . . <span dir="ltr" class="mw-plusminus-neg" title="3,058 bytes after change">(-42)</span>‎ . .  <span class="comment" dir="auto">(<a href="/BackupPC_On_OpenWrt#Extras" title="BackupPC On OpenWrt">→</a>‎<span dir="auto"><span class="autocomment">Extras</span></span>)</span> </li>
+<li><span class="mw-history-histlinks">(<a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=2801&amp;oldid=795" title="BackupPC On OpenWrt">cur</a> | <a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=795&amp;oldid=794" title="BackupPC On OpenWrt">prev</a>) </span><input type="radio" value="795" name="oldid" id="mw-oldid-795" /><input type="radio" value="795" name="diff" id="mw-diff-795" /> <a href="/index.php?title=BackupPC_On_OpenWrt&amp;oldid=795" title="BackupPC On OpenWrt">22:47, 20 June 2010</a>‎ <span class='history-user'><a href="/User:Kyle" title="User:Kyle" class="mw-userlink">Kyle</a>  <span class="mw-usertoollinks">(<a href="/index.php?title=User_talk:Kyle&amp;action=edit&amp;redlink=1" class="new" title="User talk:Kyle (page does not exist)">Talk</a> | <a href="/Special:Contributions/Kyle" title="Special:Contributions/Kyle">contribs</a>)</span></span>‎ . . <span dir="ltr" class="mw-plusminus-pos" title="3,100 bytes after change">(+183)</span>‎ . .  <span class="comment" dir="auto">(<a href="/BackupPC_On_OpenWrt#Extras" title="BackupPC On OpenWrt">→</a>‎<span dir="auto"><span class="autocomment">Extras</span></span>)</span> </li>
+<li><span class="mw-history-histlinks">(<a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=2801&amp;oldid=794" title="BackupPC On OpenWrt">cur</a> | <a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=794&amp;oldid=793" title="BackupPC On OpenWrt">prev</a>) </span><input type="radio" value="794" name="oldid" id="mw-oldid-794" /><input type="radio" value="794" name="diff" id="mw-diff-794" /> <a href="/index.php?title=BackupPC_On_OpenWrt&amp;oldid=794" title="BackupPC On OpenWrt">22:45, 20 June 2010</a>‎ <span class='history-user'><a href="/User:Kyle" title="User:Kyle" class="mw-userlink">Kyle</a>  <span class="mw-usertoollinks">(<a href="/index.php?title=User_talk:Kyle&amp;action=edit&amp;redlink=1" class="new" title="User talk:Kyle (page does not exist)">Talk</a> | <a href="/Special:Contributions/Kyle" title="Special:Contributions/Kyle">contribs</a>)</span></span>‎ . . <span dir="ltr" class="mw-plusminus-pos" title="2,917 bytes after change">(+213)</span>‎ . .  <span class="comment" dir="auto">(<a href="/BackupPC_On_OpenWrt#Extras" title="BackupPC On OpenWrt">→</a>‎<span dir="auto"><span class="autocomment">Extras</span></span>)</span> </li>
+<li><span class="mw-history-histlinks">(<a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=2801&amp;oldid=793" title="BackupPC On OpenWrt">cur</a> | <a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=793&amp;oldid=792" title="BackupPC On OpenWrt">prev</a>) </span><input type="radio" value="793" name="oldid" id="mw-oldid-793" /><input type="radio" value="793" name="diff" id="mw-diff-793" /> <a href="/index.php?title=BackupPC_On_OpenWrt&amp;oldid=793" title="BackupPC On OpenWrt">21:59, 20 June 2010</a>‎ <span class='history-user'><a href="/User:Kyle" title="User:Kyle" class="mw-userlink">Kyle</a>  <span class="mw-usertoollinks">(<a href="/index.php?title=User_talk:Kyle&amp;action=edit&amp;redlink=1" class="new" title="User talk:Kyle (page does not exist)">Talk</a> | <a href="/Special:Contributions/Kyle" title="Special:Contributions/Kyle">contribs</a>)</span></span>‎ . . <span dir="ltr" class="mw-plusminus-neg" title="2,704 bytes after change">(-155)</span>‎ . .  <span class="comment" dir="auto">(<a href="/BackupPC_On_OpenWrt#Installing" title="BackupPC On OpenWrt">→</a>‎<span dir="auto"><span class="autocomment">Installing</span></span>)</span> </li>
+<li><span class="mw-history-histlinks">(<a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=2801&amp;oldid=792" title="BackupPC On OpenWrt">cur</a> | <a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=792&amp;oldid=791" title="BackupPC On OpenWrt">prev</a>) </span><input type="radio" value="792" name="oldid" id="mw-oldid-792" /><input type="radio" value="792" name="diff" id="mw-diff-792" /> <a href="/index.php?title=BackupPC_On_OpenWrt&amp;oldid=792" title="BackupPC On OpenWrt">21:51, 20 June 2010</a>‎ <span class='history-user'><a href="/User:Kyle" title="User:Kyle" class="mw-userlink">Kyle</a>  <span class="mw-usertoollinks">(<a href="/index.php?title=User_talk:Kyle&amp;action=edit&amp;redlink=1" class="new" title="User talk:Kyle (page does not exist)">Talk</a> | <a href="/Special:Contributions/Kyle" title="Special:Contributions/Kyle">contribs</a>)</span></span>‎ . . <span dir="ltr" class="mw-plusminus-pos" title="2,859 bytes after change">(+6)</span>‎ . .  <span class="comment" dir="auto">(<a href="/BackupPC_On_OpenWrt#Dependencies" title="BackupPC On OpenWrt">→</a>‎<span dir="auto"><span class="autocomment">Dependencies</span></span>)</span> </li>
+<li><span class="mw-history-histlinks">(<a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=2801&amp;oldid=791" title="BackupPC On OpenWrt">cur</a> | <a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=791&amp;oldid=790" title="BackupPC On OpenWrt">prev</a>) </span><input type="radio" value="791" name="oldid" id="mw-oldid-791" /><input type="radio" value="791" name="diff" id="mw-diff-791" /> <a href="/index.php?title=BackupPC_On_OpenWrt&amp;oldid=791" title="BackupPC On OpenWrt">20:36, 20 June 2010</a>‎ <span class='history-user'><a href="/User:Kyle" title="User:Kyle" class="mw-userlink">Kyle</a>  <span class="mw-usertoollinks">(<a href="/index.php?title=User_talk:Kyle&amp;action=edit&amp;redlink=1" class="new" title="User talk:Kyle (page does not exist)">Talk</a> | <a href="/Special:Contributions/Kyle" title="Special:Contributions/Kyle">contribs</a>)</span></span>‎ . . <span dir="ltr" class="mw-plusminus-pos" title="2,853 bytes after change">(+84)</span>‎ . .  </li>
+<li><span class="mw-history-histlinks">(<a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=2801&amp;oldid=790" title="BackupPC On OpenWrt">cur</a> | <a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=790&amp;oldid=789" title="BackupPC On OpenWrt">prev</a>) </span><input type="radio" value="790" name="oldid" id="mw-oldid-790" /><input type="radio" value="790" name="diff" id="mw-diff-790" /> <a href="/index.php?title=BackupPC_On_OpenWrt&amp;oldid=790" title="BackupPC On OpenWrt">17:03, 20 June 2010</a>‎ <span class='history-user'><a href="/User:Kyle" title="User:Kyle" class="mw-userlink">Kyle</a>  <span class="mw-usertoollinks">(<a href="/index.php?title=User_talk:Kyle&amp;action=edit&amp;redlink=1" class="new" title="User talk:Kyle (page does not exist)">Talk</a> | <a href="/Special:Contributions/Kyle" title="Special:Contributions/Kyle">contribs</a>)</span></span>‎ . . <span dir="ltr" class="mw-plusminus-neg" title="2,769 bytes after change">(-1)</span>‎ . .  <span class="comment" dir="auto">(<a href="/BackupPC_On_OpenWrt#Extras" title="BackupPC On OpenWrt">→</a>‎<span dir="auto"><span class="autocomment">Extras</span></span>)</span> </li>
+<li><span class="mw-history-histlinks">(<a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=2801&amp;oldid=789" title="BackupPC On OpenWrt">cur</a> | <a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=789&amp;oldid=788" title="BackupPC On OpenWrt">prev</a>) </span><input type="radio" value="789" name="oldid" id="mw-oldid-789" /><input type="radio" value="789" name="diff" id="mw-diff-789" /> <a href="/index.php?title=BackupPC_On_OpenWrt&amp;oldid=789" title="BackupPC On OpenWrt">17:00, 20 June 2010</a>‎ <span class='history-user'><a href="/User:Kyle" title="User:Kyle" class="mw-userlink">Kyle</a>  <span class="mw-usertoollinks">(<a href="/index.php?title=User_talk:Kyle&amp;action=edit&amp;redlink=1" class="new" title="User talk:Kyle (page does not exist)">Talk</a> | <a href="/Special:Contributions/Kyle" title="Special:Contributions/Kyle">contribs</a>)</span></span>‎ . . <span dir="ltr" class="mw-plusminus-pos" title="2,770 bytes after change">(+115)</span>‎ . .  <span class="comment" dir="auto">(<a href="/BackupPC_On_OpenWrt#Installing" title="BackupPC On OpenWrt">→</a>‎<span dir="auto"><span class="autocomment">Installing</span></span>)</span> </li>
+<li><span class="mw-history-histlinks">(<a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=2801&amp;oldid=788" title="BackupPC On OpenWrt">cur</a> | <a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=788&amp;oldid=787" title="BackupPC On OpenWrt">prev</a>) </span><input type="radio" value="788" name="oldid" id="mw-oldid-788" /><input type="radio" value="788" name="diff" id="mw-diff-788" /> <a href="/index.php?title=BackupPC_On_OpenWrt&amp;oldid=788" title="BackupPC On OpenWrt">12:43, 20 June 2010</a>‎ <span class='history-user'><a href="/User:Kyle" title="User:Kyle" class="mw-userlink">Kyle</a>  <span class="mw-usertoollinks">(<a href="/index.php?title=User_talk:Kyle&amp;action=edit&amp;redlink=1" class="new" title="User talk:Kyle (page does not exist)">Talk</a> | <a href="/Special:Contributions/Kyle" title="Special:Contributions/Kyle">contribs</a>)</span></span>‎ . . <span dir="ltr" class="mw-plusminus-pos" title="2,655 bytes after change">(+248)</span>‎ . .  <span class="comment" dir="auto">(<a href="/BackupPC_On_OpenWrt#Dependencies" title="BackupPC On OpenWrt">→</a>‎<span dir="auto"><span class="autocomment">Dependencies</span></span>)</span> </li>
+<li><span class="mw-history-histlinks">(<a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=2801&amp;oldid=787" title="BackupPC On OpenWrt">cur</a> | <a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=787&amp;oldid=786" title="BackupPC On OpenWrt">prev</a>) </span><input type="radio" value="787" name="oldid" id="mw-oldid-787" /><input type="radio" value="787" name="diff" id="mw-diff-787" /> <a href="/index.php?title=BackupPC_On_OpenWrt&amp;oldid=787" title="BackupPC On OpenWrt">12:36, 20 June 2010</a>‎ <span class='history-user'><a href="/User:Kyle" title="User:Kyle" class="mw-userlink">Kyle</a>  <span class="mw-usertoollinks">(<a href="/index.php?title=User_talk:Kyle&amp;action=edit&amp;redlink=1" class="new" title="User talk:Kyle (page does not exist)">Talk</a> | <a href="/Special:Contributions/Kyle" title="Special:Contributions/Kyle">contribs</a>)</span></span>‎ . . <span dir="ltr" class="mw-plusminus-pos" title="2,407 bytes after change">(+53)</span>‎ . .  <span class="comment" dir="auto">(<a href="/BackupPC_On_OpenWrt#Extras" title="BackupPC On OpenWrt">→</a>‎<span dir="auto"><span class="autocomment">Extras</span></span>)</span> </li>
+<li><span class="mw-history-histlinks">(<a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=2801&amp;oldid=786" title="BackupPC On OpenWrt">cur</a> | <a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=786&amp;oldid=785" title="BackupPC On OpenWrt">prev</a>) </span><input type="radio" value="786" name="oldid" id="mw-oldid-786" /><input type="radio" value="786" name="diff" id="mw-diff-786" /> <a href="/index.php?title=BackupPC_On_OpenWrt&amp;oldid=786" title="BackupPC On OpenWrt">12:36, 20 June 2010</a>‎ <span class='history-user'><a href="/User:Kyle" title="User:Kyle" class="mw-userlink">Kyle</a>  <span class="mw-usertoollinks">(<a href="/index.php?title=User_talk:Kyle&amp;action=edit&amp;redlink=1" class="new" title="User talk:Kyle (page does not exist)">Talk</a> | <a href="/Special:Contributions/Kyle" title="Special:Contributions/Kyle">contribs</a>)</span></span>‎ . . <strong dir="ltr" class="mw-plusminus-pos" title="2,354 bytes after change">(+1,754)</strong>‎ . .  </li>
+<li><span class="mw-history-histlinks">(<a href="/index.php?title=BackupPC_On_OpenWrt&amp;diff=2801&amp;oldid=785" title="BackupPC On OpenWrt">cur</a> | prev) </span><input type="radio" value="785" name="oldid" id="mw-oldid-785" /><input type="radio" value="785" name="diff" id="mw-diff-785" /> <a href="/index.php?title=BackupPC_On_OpenWrt&amp;oldid=785" title="BackupPC On OpenWrt">00:04, 11 June 2010</a>‎ <span class='history-user'><a href="/User:Kyle" title="User:Kyle" class="mw-userlink">Kyle</a>  <span class="mw-usertoollinks">(<a href="/index.php?title=User_talk:Kyle&amp;action=edit&amp;redlink=1" class="new" title="User talk:Kyle (page does not exist)">Talk</a> | <a href="/Special:Contributions/Kyle" title="Special:Contributions/Kyle">contribs</a>)</span></span>‎ . . <strong dir="ltr" class="mw-plusminus-pos" title="600 bytes after change">(+600)</strong>‎ . .  <span class="comment" dir="auto">(Created page with &#039;These are instructions for installing Openwrt on Backfire === Dependencies ===  * Opkg update * Perl stuff * Extra Pod::Usage * File::Rsync  === Installing ===  === Extras === An...&#039;)</span> </li>
+</ul>
+<div><input type="submit" value="Compare selected revisions" class="historysubmit mw-history-compareselectedversions-button" title="See the differences between the two selected revisions of this page [v]" accesskey="v" />
+</div></form></div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="https://wiki.xkyle.com/BackupPC_On_OpenWrt">https://wiki.xkyle.com/BackupPC_On_OpenWrt</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks catlinks-allhidden'></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<!-- header -->
+		<div id="mw-head" class="noprint">
+			
+<!-- 0 -->
+<div id="p-personal" class="">
+	<h5>Personal tools</h5>
+	<ul>
+		<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=BackupPC+On+OpenWrt&amp;returntoquery=action%3Dhistory" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+	</ul>
+</div>
+
+<!-- /0 -->
+			<div id="left-navigation">
+				
+<!-- 0 -->
+<div id="p-namespaces" class="vectorTabs">
+	<h5>Namespaces</h5>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="/BackupPC_On_OpenWrt"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+					<li  id="ca-talk" class="new"><span><a href="/index.php?title=Talk:BackupPC_On_OpenWrt&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" class="vectorMenu emptyPortlet">
+	<h4>
+		</h4>
+	<h5><span>Variants</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+			</div>
+			<div id="right-navigation">
+				
+<!-- 0 -->
+<div id="p-views" class="vectorTabs">
+	<h5>Views</h5>
+	<ul>
+					<li id="ca-view"><span><a href="/BackupPC_On_OpenWrt" >Read</a></span></li>
+					<li id="ca-viewsource"><span><a href="/index.php?title=BackupPC_On_OpenWrt&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+					<li id="ca-history" class="collapsible selected"><span><a href="/index.php?title=BackupPC_On_OpenWrt&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+	<h5><span>Actions</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search">
+	<h5><label for="searchInput">Search</label></h5>
+	<form action="/index.php" id="searchform">
+				<div>
+			<input type="search" name="search" title="Search Kyle's Wiki [f]" accesskey="f" id="searchInput" />			<input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton" />			<input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton" />					<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+			</div>
+		</div>
+		<!-- /header -->
+		<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo"><a style="background-image: url(https://wiki.xkyle.com/images/logo.jpg);" href="/Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- Efforts -->
+<div class="portal" id='p-Efforts'>
+	<h5>Efforts</h5>
+	<div class="body">
+		<ul>
+			<li id="n-Plug-Computers"><a href="/Plug_Computers">Plug Computers</a></li>
+			<li id="n-Hack-This-Site"><a href="/Hack_This_Site">Hack This Site</a></li>
+			<li id="n-Games-Magazine"><a href="/Games_Magazine">Games Magazine</a></li>
+			<li id="n-CFEngine"><a href="/Category:CFEngine">CFEngine</a></li>
+			<li id="n-Puppet"><a href="/Category:Puppet">Puppet</a></li>
+			<li id="n-BackupPC"><a href="/Category:BackupPC">BackupPC</a></li>
+			<li id="n-IPv6"><a href="/Category:IPv6">IPv6</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /Efforts -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- TOOLBOX -->
+<div class="portal" id='p-tb'>
+	<h5>Toolbox</h5>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/BackupPC_On_OpenWrt" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/BackupPC_On_OpenWrt" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="feedlinks"><a href="/index.php?title=BackupPC_On_OpenWrt&amp;feed=atom&amp;action=history" id="feed-atom" rel="alternate" type="application/atom+xml" class="feedlink" title="Atom feed for this page">Atom</a></li>
+			<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- LANGUAGES -->
+
+<!-- /LANGUAGES -->
+                                <div class="portal" id='p-Meta'>
+
+                                <h5>Meta</h5>
+                                <div class="body">
+                                        <ul>
+                                                <li id="n-About-this-Wiki"><a href="/About">About this Wiki</a></li>
+                                                <li id="n-Email-Me"><a href="mailto:kyle@xkyle.com">Email Me</a></li>
+                                                <li id="n-Blog"><a href="https://xkyle.com/">My Blog</a></li>
+                                                <li id="n-Code"><a href="https://github.com/solarkennedy">Code (github)</a></li>
+                                                <li id="n-LinkedIn"><a href="http://www.linkedin.com/pub/kyle-anderson/6/671/2b0">LinkedIn</a></li>
+                                                <li id="n-Google+"><a href="https://plus.google.com/u/0/115227890884261811459" rel="author">Google+</a><li>
+                                        </ul>
+                                </div>
+                                </div>
+
+			</div>
+		<!-- /panel -->
+		<!-- footer -->
+                <div id="footer">
+                        <div style="clear:both"></div>
+                </div>
+
+		<!-- /footer -->
+		<script src="https://wiki.xkyle.com/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.action.history","mediawiki.user","mediawiki.page.ready"], null, true);
+}</script>
+<!-- Served in 0.285 secs. -->
+	</body>
+<!-- Cached/compressed 20131105044400 -->
+</html>

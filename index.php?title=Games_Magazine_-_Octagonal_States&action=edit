@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>View source for Games Magazine - Octagonal States - Kyle's Wiki</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.19.1" />
+<link rel="next" href="https://wiki.xkyle.com/Games_Magazine_-_Octagonal_States" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Kyle's Wiki (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="https://wiki.xkyle.com/api.php?action=rsd" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Kyle's Wiki Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="https://wiki.xkyle.com/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}a.new,#quickbar a.new{color:#ba0000}
+
+/* cache key: my_wiki:resourceloader:filter:minify-css:7:c88e2bcd56513749bec09a7e29cb3ffa */
+</style>
+
+<script src="https://wiki.xkyle.com/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Games_Magazine_-_Octagonal_States","wgTitle":"Games Magazine - Octagonal States","wgCurRevisionId":180,"wgArticleId":30,"wgIsArticle":false,"wgAction":"edit","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgRelevantPageName":"Games_Magazine_-_Octagonal_States","wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,
+"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function($){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+
+/* cache key: my_wiki:resourceloader:filter:minify-js:7:9983699ab6150ffa89a90653b2338ac8 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--><!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
+typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
+b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
+mixpanel.init("f49fd1e08211929444aad692b8995519");mixpanel.track('pageload')</script><!-- end Mixpanel --></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Games_Magazine_-_Octagonal_States skin-vector action-edit">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading">
+				<span dir="auto">View source for Games Magazine - Octagonal States</span>
+			</h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- subtitle -->
+				<div id="contentSub">← <a href="/Games_Magazine_-_Octagonal_States" title="Games Magazine - Octagonal States">Games Magazine - Octagonal States</a></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to: <a href="#mw-head">navigation</a>,
+					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text"><p>You do not have permission to edit this page, for the following reason:
+</p>
+<div class="permissions-errors">
+<p>The action you have requested is limited to users in the group: <a href="/index.php?title=Kyle%27s_Wiki:Users&amp;action=edit&amp;redlink=1" class="new" title="Kyle's Wiki:Users (page does not exist)">Users</a>.
+</p>
+</div>
+<hr />
+<p>You can view and copy the source of this page:
+</p><textarea readonly="" accesskey="," id="wpTextbox1" cols="80" rows="25" style="" lang="en" dir="ltr" name="wpTextbox1">Octagonal States is a games magazine challenge which requires the insertion of states into a constrained grid. The grid is composed of octagons and squares. 
+
+=== Solution Image ===
+[[Image:22.jpg]]
+
+=== Code ===
+Below is my computer program to compute possible solutions:
+&lt;pre>
+&lt;?php
+
+init();
+print_r($statearray);
+while(insertstates() &lt;= 21) {
+init();
+echo "next\n";
+};
+
+printarray();
+
+
+function checkit($location) {
+$direct=7;
+if (validspot($location,$direct)) {
+echo "1";
+} else {
+echo "0";
+}
+}
+
+function array_remove_value() {
+    $args = func_get_args();
+    $arr = $args[0];
+    $values = array_slice($args,1);
+
+    foreach($arr as $k=>$v) {
+        if(in_array($v, $values))
+            unset($arr[$k]);
+    }
+    return $arr;
+}
+
+function array_remove_key ()
+{
+  $args  = func_get_args();
+  return array_diff_key($args[0],array_flip(array_slice($args,1)));
+}
+function array_remove($arr,$value) {
+
+   return array_values(array_diff($arr,array($value)));
+
+}
+
+
+
+
+function stateremove($state) {
+global $statearray;
+
+$statearray = array_remove_key($statearray,array_search($state,$statearray));
+#echo " I want to remove $state from the statearray which is at element " . array_search($state,$statearray) ."\n";
+}
+function stateremove2($state) {
+global $doublestates;
+
+$doublestates = array_remove_key($doublestates,array_search($state,$doublestates));
+#echo " I want to remove $state from the statearray which is at element " . array_search($state,$statearray) ."\n";
+}
+
+function insertstates() {
+global $thearray;
+global $statearray;
+global $doublestates;
+$statecounter=0;
+$counter=1;
+while (($counter != 0) &amp;&amp; ($counter &lt;= 113)) {
+        foreach ($doublestates as $state) {
+                #if ($thearray[$counter] == "0") {
+                if (($thearray[$counter] == $state[0]) || ($thearray[$counter] == "0")) {
+#               echo "Location $counter has a value of " . $thearray[$counter] . " and our state starts with " . $stateletters[0] . "\n";       
+                        if (trystate($state, $counter, 4)) {
+                        $statecounter++;
+                        stateremove2($state);
+                        } elseif (trystate($state, $counter, 7)) {
+                        $statecounter++;
+                        stateremove2($state);
+                        } elseif (trystate($state,$counter, 8)) {
+                        $statecounter++;
+                        stateremove2($state);
+                        } elseif (trystate($state, $counter, 5)) {
+                        $statecounter++;
+                        stateremove2($state);
+                        } elseif (trystate($state, $counter, 6)) {
+                        $statecounter++;
+                        stateremove2($state);
+                        } elseif (trystate($state, $counter, 1)) {
+                        $statecounter++;
+                        stateremove2($state);
+                        } elseif (trystate($state, $counter, 3)) {
+                        $statecounter++;
+                        stateremove2($state);
+                        } elseif (trystate($state, $counter, 2)) {
+                        $statecounter++;
+                        stateremove2($state);
+                        }
+                }#If therer is a 0
+        }#end fhile
+        $counter++;
+} #end each state
+$statecounter=$statecounter*2;
+
+$counter=1;
+while (($counter != 0) &amp;&amp; ($counter &lt;= 113)) {
+	foreach ($statearray as $state) {
+		#if ($thearray[$counter] == "0") {
+		if (($thearray[$counter] == $state[0]) || ($thearray[$counter] == "0")) {
+#		echo "Location $counter has a value of " . $thearray[$counter] . " and our state starts with " . $stateletters[0] . "\n";	
+			if (trystate($state, $counter, 4)) {
+			$statecounter++;
+			stateremove($state);
+			} elseif (trystate($state, $counter, 7)) {
+			$statecounter++;
+			stateremove($state);
+			} elseif (trystate($state,$counter, 8)) {
+			$statecounter++;
+			stateremove($state);
+			} elseif (trystate($state, $counter, 5)) {
+			$statecounter++;
+			stateremove($state);
+			} elseif (trystate($state, $counter, 6)) {
+			$statecounter++;
+			stateremove($state);
+			} elseif (trystate($state, $counter, 1)) {
+			$statecounter++;
+			stateremove($state);
+			} elseif (trystate($state, $counter, 3)) {
+			$statecounter++;
+			stateremove($state);
+			} elseif (trystate($state, $counter, 2)) {
+			$statecounter++;
+			stateremove($state);
+			}
+		}#If therer is a 0
+	}#end fhile
+	$counter++;
+} #end each state
+#$statecounter=$statecounter+4;
+echo "I could fit $statecounter states!\n";
+return $statecounter;
+} #endfunction
+
+function printarray() {
+global $thearray;
+global $statearray;
+foreach ($thearray as $index => $value) {
+    echo $value  . " " ;
+	if (($index - 8) % 15 == 0 ) { 
+	echo "\n "; 
+	} elseif (($index) % 15 == 0 ) {
+	echo "\n"; }
+	}
+}
+
+function init() {
+#header("Content-type: text/plain"); 
+global $thearray;
+global $thearray2;
+$thearray = array_fill(1,113, '0');
+$thearray2= range(1,113);
+shuffle($thearray2);
+$filename = "states";
+global $statearray;
+global $doublestates;
+$statearray = file($filename,  FILE_IGNORE_NEW_LINES   );
+shuffle($statearray);
+#$doublestates=array("vermontana","floridaho","arkansas");
+$doublestates=array("vermontana","westvirginia","floridaho","arkansas");
+#shuffle($doublestates);
+#$statearray=array_merge($doublestates,$statearray);
+
+}
+
+function trystate($state, $location, $direction) {
+global $thearray;
+#$stateletters = str_split($state);
+#echo "Trying $state at location $location on direction $direction\n";
+if (fitstate($state, $location, $direction)) {
+echo "Placing $state at location $location in direction $direction\n";
+placestate($state, $location, $direction);
+return true; 
+} else {
+return false; 
+}
+
+
+}#end function
+
+
+function fitstate($state, $location, $direction) {
+global $thearray;
+#$stateletters = str_split($state);
+if (($thearray[$location] == $state[0]) || ($thearray[$location] == "0")) {
+	#The letter we need is already here!
+	if (strlen($state) == 1) {
+		return true;
+	} elseif (validspot($location, $direction)) {
+		$newstate = substr($state, 1);
+		return fitstate($newstate, nextspot($location, $direction), $direction);
+	} else {
+		#echo "Won't fit\n";
+		return false;
+	}
+} else {
+	return false;
+	#The space was occupied
+}#End letter check
+
+} # end fitstate function
+
+
+function placestate($state, $location, $direction) {
+global $thearray;
+#$stateletters = str_split($state);
+if (strlen($state) == 0) {
+		return true;
+} else {
+		$thearray[$location] = $state[0];
+		$newstate = substr($state, 1);
+		return placestate($newstate, nextspot($location, $direction), $direction);
+}
+}#end placestate function
+
+function validspot($location, $direction) {
+if ($direction == 1) {
+	if (oddrow($location)) { 
+		if (($location-8) %  15 &lt;> 0) {
+		return true;
+		} else {
+		return false;
+		}
+	} else {
+		return false; #if we are on an even row going to the right, we are done
+	}
+} elseif ($direction == 2) {
+	if (($location  &lt;= 113) &amp;&amp; ($location >= 106)) {
+		return false;
+	} elseif ((($location-8) %  15 &lt;> 0) &amp;&amp; (($location-15) %  15 &lt;> 0)) {
+		return true;
+	} else {
+		return false;
+	}
+} elseif ($direction == 3) {
+	if (oddrow($location)) { 
+		if (($location  &lt;= 113) &amp;&amp; ($location >= 106)) {
+		return false;
+		} else {
+		return true;
+		}
+	} else {
+		return false; #if we are on an even row going to the right, we are done
+	}
+} elseif ($direction == 4) {
+	if (($location  &lt;= 113) &amp;&amp; ($location >= 106)) {
+		return false;
+	} elseif ((($location-1) %  15 &lt;> 0) &amp;&amp; (($location-9) %  15 &lt;> 0)) {
+		return true ;
+	} else {
+		return false;
+	}
+} elseif ($direction == 5) {
+	if (oddrow($location)) { 
+		if (($location-1) %  15 &lt;> 0) {
+		return true;
+		} else {
+		return false;
+		}
+	} else {
+		return false; #if we are on an even row going to the right, we are done
+	}
+} elseif ($direction == 6) {
+	if (($location  &lt;= 8) &amp;&amp; ($location >= 0)) {
+		return false;
+	} elseif ((($location-1) %  15 &lt;> 0) &amp;&amp; (($location-9) %  15 &lt;> 0)) {
+		return true;
+	} else {
+		return false;
+	}
+} elseif ($direction == 7) {
+	if (oddrow($location)) { 
+		if (($location  &lt;= 8) &amp;&amp; ($location >= 0)) {
+		return false;
+		} else {
+		return true;
+		}
+	} else {
+		return false; #if we are on an even row going to the down,a we are done
+	}
+} elseif ($direction == 8) {
+	if (($location  &lt;= 8) &amp;&amp; ($location >= 0)) {
+		return false;
+	} elseif ((($location-8) %  15 &lt;> 0) &amp;&amp; (($location-15) %  15 &lt;> 0)) {
+		return true;
+	} else {
+		return false;
+	}
+} else {
+echo 'No direction????';
+}
+
+
+}#end validspot function
+
+function nextspot($location, $direction) {
+if ($direction == 1) {
+	if (oddrow) { 
+		return $location + 1;
+		} else {
+		return false; #if we are on an even row going to the right, we are done
+		}
+} elseif ($direction == 2) {
+return $location + 8;
+} elseif ($direction == 3) {
+	if (oddrow) { 
+		return $location + 15;
+		} else {
+		return false; #if we are on an even row going to the down,a we are done
+		}
+} elseif ($direction == 4) {
+return $location + 7;
+} elseif ($direction == 5) {
+	if (oddrow) { 
+		return $location + 1;
+		} else {
+		return false; #if we are on an even row going to the left, we are done
+		}
+} elseif ($direction == 6) {
+return $location - 8;
+} elseif ($direction == 7) {
+	if (oddrow) { 
+		return $location - 15;
+		} else {
+		return false; #if we are on an even row going to the down,a we are done
+		}
+} elseif ($direction == 8) {
+return $location - 7;
+} else {
+echo 'No direction????';
+}
+
+}#end nextspot function
+
+function oddrow($location) {
+if ((($location % 15)  &lt;= 8) &amp;&amp; (($location % 15) > 0)) {
+return 1;
+} else {
+return 0;
+}
+}#end oddrow function
+
+?>
+&lt;/pre>
+=== Best Solution I Found ===
+When running this program, this is the best solution it discovered:
+&lt;pre>
+Placing vermont at location 1 in direction 2
+Placing montana at location 1 in direction 2
+Placing westvirginia at location 2 in direction 2
+Placing virginia at location 2 in direction 2
+Placing idaho at location 3 in direction 2
+Placing florida at location 3 in direction 2
+Placing arkansas at location 4 in direction 2
+Placing kansas at location 4 in direction 2
+Placing ohio at location 5 in direction 5
+Placing oregon at location 5 in direction 2
+Placing oklahoma at location 8 in direction 3
+Placing hawaii at location 16 in direction 3
+Placing nevada at location 24 in direction 2
+Placing utah at location 30 in direction 6
+Placing alabama at location 31 in direction 2
+Placing wyoming at location 46 in direction 2
+Placing arizona at location 61 in direction 2
+Placing alaska at location 64 in direction 2
+Placing maine at location 71 in direction 2
+Placing iowa at location 76 in direction 2
+Placing indiana at location 105 in direction 6
+Placing texas at location 106 in direction 1
+I could fit 22 states!
+v w f a o h i o
+ e e l r r a 0
+h r s o k e t k
+ n m t r a g u
+a e o v i n o l
+ l v n i d s n
+w a a t r a a a
+ y b d a g h s
+a o a a n i o h
+ r m m l a n 0
+i i i a a i i o
+ o z n i s d a
+i w o g n k n m
+ 0 a n 0 e a i
+t e x a s 0 0 a
+&lt;/pre>
+
+=== States List===
+Here is the list of states I used. Remember these are augmented by the "Double States":
+&lt;pre>
+indiana
+wisconsin
+wyoming
+missouri
+arizona
+alabama
+alaska
+iowa
+ohio
+utah
+maine
+texas
+hawaii
+nevada
+oregon
+georgia
+newyork
+colorado
+delaware
+illinois
+maryland
+michigan
+nebraska
+oklahoma
+louisiana
+minnesota
+newjersey
+tennessee
+california
+&lt;/pre>
+
+=== All Files ===
+If you want to have a zip of every file I used, if for some reason you want to reproduce my results: [[Media:States puzzle.zip]]
+
+
+=== A Message From The Winner ===
+&lt;pre>
+Hi, I was the winner of this contest. I've never edited a wiki so have no clue what I'm doing.
+This contest was really really difficult! I did it all by hand, and "luckily" had been without my computer for a couple months so devoted many hours to it.
+Was stuck on 23 states for quite a while and rather randomly fit in 24 states at the end, then got lucky against the other two with 24 states.
+This is the first/only Games contest I've ever won after subscribing for 20 or so years and entering maybe 1/10 contests.
+My sister was also a Games enthusiast, we started in a very old Scavenger Hunt. So I was thrilled at bringing in the "holy grail" to our family of the Games Contest.
+Thanks for the site, but at least there's one contest that defies computers! :P 
+&lt;/pre>
+
+Thanks Dave! You are right, this contest certainly defied me and my computer :)
+
+[[Category:Games Magazine]]
+</textarea><div class="templatesUsed"></div><p id="mw-returnto">Return to <a href="/Games_Magazine_-_Octagonal_States" title="Games Magazine - Octagonal States">Games Magazine - Octagonal States</a>.</p>
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="https://wiki.xkyle.com/Games_Magazine_-_Octagonal_States">https://wiki.xkyle.com/Games_Magazine_-_Octagonal_States</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks catlinks-allhidden'></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<!-- header -->
+		<div id="mw-head" class="noprint">
+			
+<!-- 0 -->
+<div id="p-personal" class="">
+	<h5>Personal tools</h5>
+	<ul>
+		<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=Games+Magazine+-+Octagonal+States&amp;returntoquery=action%3Dedit" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+	</ul>
+</div>
+
+<!-- /0 -->
+			<div id="left-navigation">
+				
+<!-- 0 -->
+<div id="p-namespaces" class="vectorTabs">
+	<h5>Namespaces</h5>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="/Games_Magazine_-_Octagonal_States"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+					<li  id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Games_Magazine_-_Octagonal_States&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" class="vectorMenu emptyPortlet">
+	<h4>
+		</h4>
+	<h5><span>Variants</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+			</div>
+			<div id="right-navigation">
+				
+<!-- 0 -->
+<div id="p-views" class="vectorTabs">
+	<h5>Views</h5>
+	<ul>
+					<li id="ca-view"><span><a href="/Games_Magazine_-_Octagonal_States" >Read</a></span></li>
+					<li id="ca-viewsource" class="selected"><span><a href="/index.php?title=Games_Magazine_-_Octagonal_States&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Games_Magazine_-_Octagonal_States&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+	<h5><span>Actions</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search">
+	<h5><label for="searchInput">Search</label></h5>
+	<form action="/index.php" id="searchform">
+				<div>
+			<input type="search" name="search" title="Search Kyle's Wiki [f]" accesskey="f" id="searchInput" />			<input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton" />			<input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton" />					<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+			</div>
+		</div>
+		<!-- /header -->
+		<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo"><a style="background-image: url(https://wiki.xkyle.com/images/logo.jpg);" href="/Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- Efforts -->
+<div class="portal" id='p-Efforts'>
+	<h5>Efforts</h5>
+	<div class="body">
+		<ul>
+			<li id="n-Plug-Computers"><a href="/Plug_Computers">Plug Computers</a></li>
+			<li id="n-Hack-This-Site"><a href="/Hack_This_Site">Hack This Site</a></li>
+			<li id="n-Games-Magazine"><a href="/Games_Magazine">Games Magazine</a></li>
+			<li id="n-CFEngine"><a href="/Category:CFEngine">CFEngine</a></li>
+			<li id="n-Puppet"><a href="/Category:Puppet">Puppet</a></li>
+			<li id="n-BackupPC"><a href="/Category:BackupPC">BackupPC</a></li>
+			<li id="n-IPv6"><a href="/Category:IPv6">IPv6</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /Efforts -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- TOOLBOX -->
+<div class="portal" id='p-tb'>
+	<h5>Toolbox</h5>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Games_Magazine_-_Octagonal_States" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Games_Magazine_-_Octagonal_States" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- LANGUAGES -->
+
+<!-- /LANGUAGES -->
+                                <div class="portal" id='p-Meta'>
+
+                                <h5>Meta</h5>
+                                <div class="body">
+                                        <ul>
+                                                <li id="n-About-this-Wiki"><a href="/About">About this Wiki</a></li>
+                                                <li id="n-Email-Me"><a href="mailto:kyle@xkyle.com">Email Me</a></li>
+                                                <li id="n-Blog"><a href="https://xkyle.com/">My Blog</a></li>
+                                                <li id="n-Code"><a href="https://github.com/solarkennedy">Code (github)</a></li>
+                                                <li id="n-LinkedIn"><a href="http://www.linkedin.com/pub/kyle-anderson/6/671/2b0">LinkedIn</a></li>
+                                                <li id="n-Google+"><a href="https://plus.google.com/u/0/115227890884261811459" rel="author">Google+</a><li>
+                                        </ul>
+                                </div>
+                                </div>
+
+			</div>
+		<!-- /panel -->
+		<!-- footer -->
+                <div id="footer">
+                        <div style="clear:both"></div>
+                </div>
+
+		<!-- /footer -->
+		<script src="https://wiki.xkyle.com/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready"], null, true);
+}</script>
+<!-- Served in 0.356 secs. -->
+	</body>
+</html>

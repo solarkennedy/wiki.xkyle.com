@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>View source for Drbdconf - Kyle's Wiki</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.19.1" />
+<link rel="next" href="https://wiki.xkyle.com/Drbdconf" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Kyle's Wiki (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="https://wiki.xkyle.com/api.php?action=rsd" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Kyle's Wiki Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="https://wiki.xkyle.com/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}a.new,#quickbar a.new{color:#ba0000}
+
+/* cache key: my_wiki:resourceloader:filter:minify-css:7:c88e2bcd56513749bec09a7e29cb3ffa */
+</style>
+
+<script src="https://wiki.xkyle.com/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Drbdconf","wgTitle":"Drbdconf","wgCurRevisionId":532,"wgArticleId":143,"wgIsArticle":false,"wgAction":"edit","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgRelevantPageName":"Drbdconf","wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,
+"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function($){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+
+/* cache key: my_wiki:resourceloader:filter:minify-js:7:9983699ab6150ffa89a90653b2338ac8 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--><!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
+typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
+b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
+mixpanel.init("f49fd1e08211929444aad692b8995519");mixpanel.track('pageload')</script><!-- end Mixpanel --></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Drbdconf skin-vector action-edit">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading">
+				<span dir="auto">View source for Drbdconf</span>
+			</h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- subtitle -->
+				<div id="contentSub">← <a href="/Drbdconf" title="Drbdconf">Drbdconf</a></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to: <a href="#mw-head">navigation</a>,
+					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text"><p>You do not have permission to edit this page, for the following reason:
+</p>
+<div class="permissions-errors">
+<p>The action you have requested is limited to users in the group: <a href="/index.php?title=Kyle%27s_Wiki:Users&amp;action=edit&amp;redlink=1" class="new" title="Kyle's Wiki:Users (page does not exist)">Users</a>.
+</p>
+</div>
+<hr />
+<p>You can view and copy the source of this page:
+</p><textarea readonly="" accesskey="," id="wpTextbox1" cols="80" rows="25" style="" lang="en" dir="ltr" name="wpTextbox1">This is actually drbd.conf. This example config may need adjusting, it is pretty aggressive:
+&lt;pre>
+#
+# drbd.conf example
+#
+# parameters you _need_ to change are the hostname, device, disk,
+# meta-disk, address and port in the "on &lt;hostname> {}" sections.
+#
+# you ought to know about the protocol, and the various timeouts.
+#
+# you probably want to set the rate in the syncer sections
+#
+# NOTE common pitfall:
+# rate is given in units of _byte_ not bit
+#
+# increase timeout and maybe ping-int in net{}, if you see
+# problems with "connection lost/connection established"
+# (or change your setup to reduce network latency; make sure full
+#  duplex behaves as such; check average roundtrip times while
+#  network is saturated; and so on ...)
+#
+global {
+    # dialog-refresh 5; # 5 seconds
+    # You might disable one of drbdadm's sanity check.
+    # disable-ip-verification;
+    usage-count no;
+}
+
+
+#
+# The common section can have all the sections a resource can have but
+# not the host section (started with the "on" keyword).
+# The common section must precede all resources.
+# All resources inherit the settings from the common section.
+# Whereas settings in the resources have precedence over the common
+# setting.
+#
+
+common {
+  syncer { rate 500M; }
+}
+
+#
+# this need not be r#, you may use phony resource names,
+# like "resource web" or "resource mail", too
+#
+
+resource r0 {
+
+  # transfer protocol to use.
+  # C: write IO is reported as completed, if we know it has
+  #    reached _both_ local and remote DISK.
+  #    * for critical transactional data.
+  # B: write IO is reported as completed, if it has reached
+  #    local DISK and remote buffer cache.
+  #    * for most cases.
+  # A: write IO is reported as completed, if it has reached
+  #    local DISK and local tcp send buffer. (see also sndbuf-size)
+  #    * for high latency networks
+  #
+  #**********
+  # uhm, benchmarks have shown that C is actually better than B.
+  # this note shall disappear, when we are convinced that B is
+  # the right choice "for most cases".
+  # Until then, always use C unless you have a reason not to.
+  #     --lge
+  #**********
+  #
+  protocol C;
+
+  handlers {
+    # what should be done in case the node is primary, degraded
+    # (=no connection) and has inconsistent data.
+    pri-on-incon-degr "echo o > /proc/sysrq-trigger ; halt -f";
+
+    # The node is currently primary, but lost the after split brain
+    # auto recovery procedure. As as consequence it should go away.
+    #pri-lost-after-sb "echo o > /proc/sysrq-trigger ; halt -f";
+    pri-lost-after-sb "reboot";
+
+    # In case you have set the on-io-error option to "call-local-io-error",
+    # this script will get executed in case of a local IO error. It is
+    # expected that this script will case a immediate failover in the
+    # cluster.
+    local-io-error "echo o > /proc/sysrq-trigger ; halt -f";
+
+    # Commands to run in case we need to downgrade the peer's disk
+    # state to "Outdated". Should be implemented by the superior
+    # communication possibilities of our cluster manager.
+    # The provided script uses ssh, and is for demonstration/development
+    # purposis.
+#    outdate-peer "/usr/lib/drbd/outdate-peer.sh on amd 192.168.22.11 192.168.23.11 on alf 192.168.22.12 192.168.23.12";
+    #
+    # Update: Now there is a solution that relies on heartbeat's
+    # communication layers. You should really use this.
+    outdate-peer "/usr/sbin/drbd-peer-outdater";
+  }
+
+  startup {
+    # Wait for connection timeout.
+    # The init script blocks the boot process until the resources
+    # are connected. This is so when the cluster manager starts later,
+    # it does not see a resource with internal split-brain.
+    # In case you want to limit the wait time, do it here.
+    # Default is 0, which means unlimited. Unit is seconds.
+    #
+    # wfc-timeout  10;
+
+    # Wait for connection timeout if this node was a degraded cluster.
+    # In case a degraded cluster (= cluster with only one node left)
+    # is rebooted, this timeout value is used.
+    #
+    degr-wfc-timeout 10;  
+  }
+
+  disk {
+    # if the lower level device reports io-error you have the choice of
+    #  "pass_on"  ->  Report the io-error to the upper layers.
+    #                 Primary   -> report it to the mounted file system.
+    #                 Secondary -> ignore it.
+    #  "call-local-io-error"
+    #             ->  Call the script configured by the name "local-io-error".
+    #  "detach"   ->  The node drops its backing storage device, and
+    #                 continues in disk less mode.
+    #
+    on-io-error   detach;
+
+    # Controls the fencing policy, default is "dont-care". Before you
+    # set any policy you need to make sure that you have a working
+    # outdate-peer handler. Possible values are:
+    #  "dont-care"     -> Never call the outdate-peer handler. [ DEFAULT ]
+    #  "resource-only" -> Call the outdate-peer handler if we primary and
+    #                     loose the connection to the secondary. As well
+    #                     whenn a unconnected secondary wants to become
+    #                     primary.
+    #  "resource-and-stonith"
+    #                  -> Calls the outdate-peer handler and freezes local
+    #                     IO immediately after loss of connection. This is
+    #                     necessary if your heartbeat can STONITH the other
+    #                     node.
+    # fencing resource-only;
+
+    # In case you only want to use a fraction of the available space
+    # you might use the "size" option here.
+    #
+    # size 10G;
+  }
+
+  net {
+    # this is the size of the tcp socket send buffer
+    # increase it _carefully_ if you want to use protocol A over a
+    # high latency network with reasonable write throughput.
+    # defaults to 2*65535; you might try even 1M, but if your kernel or
+    # network driver chokes on that, you have been warned.
+    # sndbuf-size 512k;
+
+    # timeout       60;    #  6 seconds  (unit = 0.1 seconds)
+    # connect-int   10;    # 10 seconds  (unit = 1 second)
+    # ping-int      10;    # 10 seconds  (unit = 1 second)
+    # ping-timeout   5;    # 500 ms (unit = 0.1 seconds)
+
+    # Maximal number of requests (4K) to be allocated by DRBD.
+    # The minimum is hardcoded to 32 (=128 kByte).
+    # For high performance installations it might help if you
+    # increase that number. These buffers are used to hold
+    # datablocks while they are written to disk.
+    #
+    # max-buffers     2048;
+
+    # When the number of outstanding requests on a standby (secondary)
+    # node exceeds bdev-threshold, we start to kick the backing device
+    # to start its request processing. This is an advanced tuning
+    # parameter to get more performance out of capable storage controlers.
+    # Some controlers like to be kicked often, other controlers
+    # deliver better performance when they are kicked less frequently.
+    # Set it to the value of max-buffers to get the least possible
+    # number of run_task_queue_disk() / q->unplug_fn(q) calls.
+    #
+    # unplug-watermark   128;
+
+
+    # The highest number of data blocks between two write barriers.
+    # If you set this &lt; 10 you might decrease your performance.
+    # max-epoch-size  2048;
+
+    # if some block send times out this many times, the peer is
+    # considered dead, even if it still answers ping requests.
+    # ko-count 4;
+
+    # If you want to use OCFS2/openGFS on top of DRBD enable
+    # this optione, and only enable it if you are going to use
+    # one of these filesystems. Do not enable it for ext2,
+    # ext3,reiserFS,XFS,JFS etc...
+    # allow-two-primaries;
+
+    # This enables peer authentication. Without this everybody
+    # on the network could connect to one of your DRBD nodes with
+    # a program that emulates DRBD's protocoll and could suck off
+    # all your data.
+    # Specify one of the kernel's digest algorithms, e.g.:
+    # md5, sha1, sha256, sha512, wp256, wp384, wp512, michael_mic ...
+    # an a shared secret.
+    # Authentication is only done once after the TCP connection
+    # is establised, there are no disadvantages from using authentication,
+    # therefore I suggest to enable it in any case.
+    # cram-hmac-alg "sha1";
+    # shared-secret "FooFunFactory";
+
+    # In case the nodes of your cluster nodes see each other again, after
+    # an split brain situation in which both nodes where primary
+    # at the same time, you have two diverged versions of your data.
+    #
+    # In case both nodes are secondary you can control DRBD's
+    # auto recovery strategy by the "after-sb-0pri" options. The
+    # default is to disconnect.
+    #    "disconnect" ... No automatic resynchronisation, simply disconnect.
+    #    "discard-younger-primary"
+    #                     Auto sync from the node that was primary before
+    #                     the split brain situation happened.
+    #    "discard-older-primary"
+    #                     Auto sync from the node that became primary
+    #                     as second during the split brain situation.
+    #    "discard-least-changes"
+    #                     Auto sync from the node that touched more
+    #                     blocks during the split brain situation.
+    #    "discard-node-NODENAME"
+    #                     Auto sync _to_ the named node.
+    after-sb-0pri discard-least-changes;
+
+    # In one of the nodes is already primary, then the auto-recovery
+    # strategie is controled by the "after-sb-1pri" options.
+    #    "disconnect" ... always disconnect
+    #    "consensus"  ... discard the version of the secondary if the outcome
+    #                     of the "after-sb-0pri" algorithm would also destroy
+    #                     the current secondary's data. Otherwise disconnect.
+    #    "violently-as0p" Always take the decission of the "after-sb-0pri"
+    #                     algorithm. Even if that causes case an erratic change
+    #                     of the primarie's view of the data.
+    #                     This is only usefull if you use an 1node FS (i.e.
+    #                     not OCFS2 or GFS) with the allow-two-primaries
+    #                     flag, _AND_ you really know what you are doing.
+    #                     This is DANGEROUS and MAY CRASH YOUR MACHINE if you
+    #                     have a FS mounted on the primary node.
+    #    "discard-secondary"
+    #                     discard the version of the secondary.
+    #    "call-pri-lost-after-sb"  Always honour the outcome of the "after-sb-0pri"
+    #                     algorithm. In case it decides the the current
+    #                     secondary has the right data, it panics the
+    #                     current primary.
+    #    "suspend-primary" ???
+    after-sb-1pri discard-secondary;
+
+    # In case both nodes are primary you control DRBD's strategy by
+    # the "after-sb-2pri" option.
+    #    "disconnect" ... Go to StandAlone mode on both sides.
+    #    "violently-as0p" Always take the decission of the "after-sb-0pri".
+    #    "call-pri-lost-after-sb" ... Honor the outcome of the "after-sb-0pri"
+    #                     algorithm and panic the other node.
+
+    #after-sb-2pri violently-as0p;
+    after-sb-2pri call-pri-lost-after-sb;
+
+    # To solve the cases when the outcome of the resync descissions is
+    # incompatible to the current role asignment in the cluster.
+    #    "disconnect" ... No automatic resynchronisation, simply disconnect.
+    #    "violently" .... Sync to the primary node is allowed, violating the
+    #                     assumption that data on a block device is stable
+    #                     for one of the nodes. DANGEROUS, DO NOT USE.
+    #    "call-pri-lost"  Call the "pri-lost" helper program on one of the
+    #                     machines. This program is expected to reboot the
+    #                     machine. (I.e. make it secondary.)
+    rr-conflict call-pri-lost;
+
+    # DRBD-0.7's behaviour is equivalent to
+    #   after-sb-0pri discard-younger-primary;
+    #   after-sb-1pri consensus;
+    #   after-sb-2pri disconnect;
+  }
+
+  syncer {
+    # Limit the bandwith used by the resynchronisation process.
+    # default unit is kByte/sec; optional suffixes K,M,G are allowed.
+    #
+    # Even though this is a network setting, the units are based
+    # on _byte_ (octet for our french friends) not bit.
+    # We are storage guys.
+    #
+    # Note that on 100Mbit ethernet, you cannot expect more than
+    # 12.5 MByte total transfer rate.
+    # Consider using GigaBit Ethernet.
+    #
+    rate 500M;
+
+    # Normally all devices are resynchronized parallel.
+    # To achieve better resynchronisation performance you should resync
+    # DRBD resources which have their backing storage on one physical
+    # disk sequentially. The express this use the "after" keyword.
+#    after "r2";
+
+    # Configures the size of the active set. Each extent is 4M,
+    # 257 Extents ~> 1GB active set size. In case your syncer
+    # runs @ 10MB/sec, all resync after a primary's crash will last
+    # 1GB / ( 10MB/sec ) ~ 102 seconds ~ One Minute and 42 Seconds.
+    # BTW, the hash algorithm works best if the number of al-extents
+    # is prime. (To test the worst case performace use a power of 2)
+    al-extents 257;
+  }
+
+  on NODE1 {
+    device     /dev/drbd0;
+    disk       /dev/sdb1;
+    address    192.168.0.1:7788;
+    flexible-meta-disk  /dev/sdb2;
+
+    # meta-disk is either 'internal' or '/dev/ice/name [idx]'
+    #
+    # You can use a single block device to store meta-data
+    # of multiple DRBD's.
+    # E.g. use meta-disk /dev/hde6[0]; and meta-disk /dev/hde6[1];
+    # for two different resources. In this case the meta-disk
+    # would need to be at least 256 MB in size.
+    #
+    # 'internal' means, that the last 128 MB of the lower device
+    # are used to store the meta-data.
+    # You must not give an index with 'internal'.
+  }
+
+  on NODE2 {
+    device    /dev/drbd0;
+    disk      /dev/sdb1;
+    address   192.168.0.2:7788;
+    flexible-meta-disk /dev/sdb2;
+  }
+}
+
+#
+# yes, you may also quote the resource name.
+&lt;/pre>
+
+[[Category:DRBD]][[Category:Linux]][[Category:Syadmin]]
+</textarea><div class="templatesUsed"></div><p id="mw-returnto">Return to <a href="/Drbdconf" title="Drbdconf">Drbdconf</a>.</p>
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="https://wiki.xkyle.com/Drbdconf">https://wiki.xkyle.com/Drbdconf</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks catlinks-allhidden'></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<!-- header -->
+		<div id="mw-head" class="noprint">
+			
+<!-- 0 -->
+<div id="p-personal" class="">
+	<h5>Personal tools</h5>
+	<ul>
+		<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=Drbdconf&amp;returntoquery=action%3Dedit" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+	</ul>
+</div>
+
+<!-- /0 -->
+			<div id="left-navigation">
+				
+<!-- 0 -->
+<div id="p-namespaces" class="vectorTabs">
+	<h5>Namespaces</h5>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="/Drbdconf"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+					<li  id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Drbdconf&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" class="vectorMenu emptyPortlet">
+	<h4>
+		</h4>
+	<h5><span>Variants</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+			</div>
+			<div id="right-navigation">
+				
+<!-- 0 -->
+<div id="p-views" class="vectorTabs">
+	<h5>Views</h5>
+	<ul>
+					<li id="ca-view"><span><a href="/Drbdconf" >Read</a></span></li>
+					<li id="ca-viewsource" class="selected"><span><a href="/index.php?title=Drbdconf&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Drbdconf&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+	<h5><span>Actions</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search">
+	<h5><label for="searchInput">Search</label></h5>
+	<form action="/index.php" id="searchform">
+				<div>
+			<input type="search" name="search" title="Search Kyle's Wiki [f]" accesskey="f" id="searchInput" />			<input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton" />			<input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton" />					<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+			</div>
+		</div>
+		<!-- /header -->
+		<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo"><a style="background-image: url(https://wiki.xkyle.com/images/logo.jpg);" href="/Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- Efforts -->
+<div class="portal" id='p-Efforts'>
+	<h5>Efforts</h5>
+	<div class="body">
+		<ul>
+			<li id="n-Plug-Computers"><a href="/Plug_Computers">Plug Computers</a></li>
+			<li id="n-Hack-This-Site"><a href="/Hack_This_Site">Hack This Site</a></li>
+			<li id="n-Games-Magazine"><a href="/Games_Magazine">Games Magazine</a></li>
+			<li id="n-CFEngine"><a href="/Category:CFEngine">CFEngine</a></li>
+			<li id="n-Puppet"><a href="/Category:Puppet">Puppet</a></li>
+			<li id="n-BackupPC"><a href="/Category:BackupPC">BackupPC</a></li>
+			<li id="n-IPv6"><a href="/Category:IPv6">IPv6</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /Efforts -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- TOOLBOX -->
+<div class="portal" id='p-tb'>
+	<h5>Toolbox</h5>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Drbdconf" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Drbdconf" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- LANGUAGES -->
+
+<!-- /LANGUAGES -->
+                                <div class="portal" id='p-Meta'>
+
+                                <h5>Meta</h5>
+                                <div class="body">
+                                        <ul>
+                                                <li id="n-About-this-Wiki"><a href="/About">About this Wiki</a></li>
+                                                <li id="n-Email-Me"><a href="mailto:kyle@xkyle.com">Email Me</a></li>
+                                                <li id="n-Blog"><a href="https://xkyle.com/">My Blog</a></li>
+                                                <li id="n-Code"><a href="https://github.com/solarkennedy">Code (github)</a></li>
+                                                <li id="n-LinkedIn"><a href="http://www.linkedin.com/pub/kyle-anderson/6/671/2b0">LinkedIn</a></li>
+                                                <li id="n-Google+"><a href="https://plus.google.com/u/0/115227890884261811459" rel="author">Google+</a><li>
+                                        </ul>
+                                </div>
+                                </div>
+
+			</div>
+		<!-- /panel -->
+		<!-- footer -->
+                <div id="footer">
+                        <div style="clear:both"></div>
+                </div>
+
+		<!-- /footer -->
+		<script src="https://wiki.xkyle.com/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready"], null, true);
+}</script>
+<!-- Served in 0.189 secs. -->
+	</body>
+</html>

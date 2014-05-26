@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Hack This Site - Kyle's Wiki</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.19.1" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Kyle's Wiki (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="https://wiki.xkyle.com/api.php?action=rsd" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Kyle's Wiki Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="https://wiki.xkyle.com/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}a.new,#quickbar a.new{color:#ba0000}
+
+/* cache key: my_wiki:resourceloader:filter:minify-css:7:c88e2bcd56513749bec09a7e29cb3ffa */
+</style>
+
+<script src="https://wiki.xkyle.com/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Hack_This_Site","wgTitle":"Hack This Site","wgCurRevisionId":125,"wgArticleId":11,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Hack This Site","Security"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgRelevantPageName":"Hack_This_Site","wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,
+"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function($){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+
+/* cache key: my_wiki:resourceloader:filter:minify-js:7:9983699ab6150ffa89a90653b2338ac8 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--><!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
+typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
+b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
+mixpanel.init("f49fd1e08211929444aad692b8995519");mixpanel.track('pageload')</script><!-- end Mixpanel --></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Hack_This_Site skin-vector action-view">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading">
+				<span dir="auto">Hack This Site</span>
+			</h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Kyle&#039;s Wiki</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to: <a href="#mw-head">navigation</a>,
+					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>This is an explanation of my HackthisSite.org solutions. 
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Basic"><span class="tocnumber">1</span> <span class="toctext">Basic</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Realistic"><span class="tocnumber">2</span> <span class="toctext">Realistic</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Application_missions"><span class="tocnumber">3</span> <span class="toctext">Application missions</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Programming"><span class="tocnumber">4</span> <span class="toctext">Programming</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Logic"><span class="tocnumber">5</span> <span class="toctext">Logic</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Extbasic_missions"><span class="tocnumber">6</span> <span class="toctext">Extbasic missions</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Javascript"><span class="tocnumber">7</span> <span class="toctext">Javascript</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Stegonagraphy"><span class="tocnumber">8</span> <span class="toctext">Stegonagraphy</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#IRC_missions"><span class="tocnumber">9</span> <span class="toctext">IRC missions</span></a></li>
+</ul>
+</td></tr></table>
+<h3> <span class="mw-headline" id="Basic"> Basic </span></h3>
+<ul><li> <a href="/Basic_1" title="Basic 1">Basic 1</a>
+</li><li> <a href="/Basic_2" title="Basic 2">Basic 2</a>
+</li><li> <a href="/Basic_3" title="Basic 3">Basic 3</a>
+</li><li> <a href="/Basic_4" title="Basic 4">Basic 4</a>
+</li><li> <a href="/Basic_5" title="Basic 5">Basic 5</a>
+</li><li> <a href="/Basic_6" title="Basic 6">Basic 6</a>
+</li><li> <a href="/Basic_7" title="Basic 7">Basic 7</a>
+</li><li> <a href="/Basic_8" title="Basic 8">Basic 8</a>
+</li><li> <a href="/Basic_9" title="Basic 9">Basic 9</a>
+</li><li> <a href="/Basic_10" title="Basic 10">Basic 10</a>
+</li><li> <a href="/Basic_11" title="Basic 11">Basic 11</a>
+</li></ul>
+<h3> <span class="mw-headline" id="Realistic"> Realistic </span></h3>
+<ul><li> <a href="/Realistic_1" title="Realistic 1">Realistic 1</a>
+</li><li> <a href="/Realistic_2" title="Realistic 2">Realistic 2</a>
+</li><li> <a href="/Realistic_3" title="Realistic 3">Realistic 3</a>
+</li><li> <a href="/Realistic_4" title="Realistic 4">Realistic 4</a>
+</li><li> <a href="/Realistic_5" title="Realistic 5">Realistic 5</a>
+</li><li> <a href="/Realistic_6" title="Realistic 6">Realistic 6</a>
+</li><li> <a href="/Realistic_7" title="Realistic 7">Realistic 7</a>
+</li><li> <a href="/index.php?title=Realistic_8&amp;action=edit&amp;redlink=1" class="new" title="Realistic 8 (page does not exist)">Realistic 8</a>
+</li><li> <a href="/index.php?title=Realistic_9&amp;action=edit&amp;redlink=1" class="new" title="Realistic 9 (page does not exist)">Realistic 9</a>
+</li><li> <a href="/index.php?title=Realistic_10&amp;action=edit&amp;redlink=1" class="new" title="Realistic 10 (page does not exist)">Realistic 10</a>
+</li><li> <a href="/index.php?title=Realistic_11&amp;action=edit&amp;redlink=1" class="new" title="Realistic 11 (page does not exist)">Realistic 11</a>
+</li><li> <a href="/index.php?title=Realistic_12&amp;action=edit&amp;redlink=1" class="new" title="Realistic 12 (page does not exist)">Realistic 12</a>
+</li><li> <a href="/index.php?title=Realistic_13&amp;action=edit&amp;redlink=1" class="new" title="Realistic 13 (page does not exist)">Realistic 13</a>
+</li><li> <a href="/index.php?title=Realistic_14&amp;action=edit&amp;redlink=1" class="new" title="Realistic 14 (page does not exist)">Realistic 14</a>
+</li><li> <a href="/index.php?title=Realistic_15&amp;action=edit&amp;redlink=1" class="new" title="Realistic 15 (page does not exist)">Realistic 15</a>
+</li><li> <a href="/index.php?title=Realistic_16&amp;action=edit&amp;redlink=1" class="new" title="Realistic 16 (page does not exist)">Realistic 16</a>
+</li></ul>
+<h3> <span class="mw-headline" id="Application_missions"> Application missions </span></h3>
+<ul><li> <a href="/Application_1" title="Application 1">Application 1</a>
+</li><li> <a href="/Application_2" title="Application 2">Application 2</a>
+</li><li> <a href="/Application_3" title="Application 3">Application 3</a>
+</li><li> <a href="/Application_4" title="Application 4">Application 4</a>
+</li><li> <a href="/Application_5" title="Application 5">Application 5</a>
+</li><li> <a href="/Application_6" title="Application 6">Application 6</a>
+</li><li> <a href="/index.php?title=Application_7&amp;action=edit&amp;redlink=1" class="new" title="Application 7 (page does not exist)">Application 7</a>
+</li><li> <a href="/index.php?title=Application_8&amp;action=edit&amp;redlink=1" class="new" title="Application 8 (page does not exist)">Application 8</a>
+</li><li> <a href="/index.php?title=Application_9&amp;action=edit&amp;redlink=1" class="new" title="Application 9 (page does not exist)">Application 9</a>
+</li><li> <a href="/index.php?title=Application_10&amp;action=edit&amp;redlink=1" class="new" title="Application 10 (page does not exist)">Application 10</a>
+</li><li> <a href="/index.php?title=Application_11&amp;action=edit&amp;redlink=1" class="new" title="Application 11 (page does not exist)">Application 11</a>
+</li><li> <a href="/index.php?title=Application_12&amp;action=edit&amp;redlink=1" class="new" title="Application 12 (page does not exist)">Application 12</a>
+</li><li> <a href="/index.php?title=Application_13&amp;action=edit&amp;redlink=1" class="new" title="Application 13 (page does not exist)">Application 13</a>
+</li><li> <a href="/index.php?title=Application_14&amp;action=edit&amp;redlink=1" class="new" title="Application 14 (page does not exist)">Application 14</a>
+</li><li> <a href="/index.php?title=Application_15&amp;action=edit&amp;redlink=1" class="new" title="Application 15 (page does not exist)">Application 15</a>
+</li><li> <a href="/index.php?title=Application_16&amp;action=edit&amp;redlink=1" class="new" title="Application 16 (page does not exist)">Application 16</a>
+</li><li> <a href="/index.php?title=Application_17&amp;action=edit&amp;redlink=1" class="new" title="Application 17 (page does not exist)">Application 17</a>
+</li><li> <a href="/index.php?title=Application_18&amp;action=edit&amp;redlink=1" class="new" title="Application 18 (page does not exist)">Application 18</a>
+</li></ul>
+<h3> <span class="mw-headline" id="Programming"> Programming </span></h3>
+<ul><li> <a href="/Programming_1" title="Programming 1">Programming 1</a>
+</li><li> <a href="/Programming_2" title="Programming 2">Programming 2</a>
+</li><li> <a href="/Programming_3" title="Programming 3">Programming 3</a>
+</li><li> <a href="/index.php?title=Programming_4&amp;action=edit&amp;redlink=1" class="new" title="Programming 4 (page does not exist)">Programming 4</a>
+</li><li> <a href="/index.php?title=Programming_5&amp;action=edit&amp;redlink=1" class="new" title="Programming 5 (page does not exist)">Programming 5</a>
+</li><li> <a href="/index.php?title=Programming_6&amp;action=edit&amp;redlink=1" class="new" title="Programming 6 (page does not exist)">Programming 6</a>
+</li><li> <a href="/index.php?title=Programming_7&amp;action=edit&amp;redlink=1" class="new" title="Programming 7 (page does not exist)">Programming 7</a>
+</li><li> <a href="/index.php?title=Programming_8&amp;action=edit&amp;redlink=1" class="new" title="Programming 8 (page does not exist)">Programming 8</a>
+</li><li> <a href="/index.php?title=Programming_9&amp;action=edit&amp;redlink=1" class="new" title="Programming 9 (page does not exist)">Programming 9</a>
+</li><li> <a href="/index.php?title=Programming_10&amp;action=edit&amp;redlink=1" class="new" title="Programming 10 (page does not exist)">Programming 10</a>
+</li><li> <a href="/Programming_11" title="Programming 11">Programming 11</a>
+</li><li> <a href="/Programming_12" title="Programming 12">Programming 12</a>
+</li></ul>
+<h3> <span class="mw-headline" id="Logic"> Logic </span></h3>
+<p>Logic missions are currently disabled
+</p>
+<ul><li> <a href="/index.php?title=Logic_1&amp;action=edit&amp;redlink=1" class="new" title="Logic 1 (page does not exist)">Logic 1</a>
+</li><li> <a href="/index.php?title=Logic_2&amp;action=edit&amp;redlink=1" class="new" title="Logic 2 (page does not exist)">Logic 2</a>
+</li><li> <a href="/index.php?title=Logic_3&amp;action=edit&amp;redlink=1" class="new" title="Logic 3 (page does not exist)">Logic 3</a>
+</li><li> <a href="/index.php?title=Logic_4&amp;action=edit&amp;redlink=1" class="new" title="Logic 4 (page does not exist)">Logic 4</a>
+</li><li> <a href="/index.php?title=Logic_5&amp;action=edit&amp;redlink=1" class="new" title="Logic 5 (page does not exist)">Logic 5</a>
+</li><li> <a href="/index.php?title=Logic_6&amp;action=edit&amp;redlink=1" class="new" title="Logic 6 (page does not exist)">Logic 6</a>
+</li><li> <a href="/index.php?title=Logic_7&amp;action=edit&amp;redlink=1" class="new" title="Logic 7 (page does not exist)">Logic 7</a>
+</li><li> <a href="/index.php?title=Logic_8&amp;action=edit&amp;redlink=1" class="new" title="Logic 8 (page does not exist)">Logic 8</a>
+</li><li> <a href="/index.php?title=Logic_9&amp;action=edit&amp;redlink=1" class="new" title="Logic 9 (page does not exist)">Logic 9</a>
+</li><li> <a href="/index.php?title=Logic_10&amp;action=edit&amp;redlink=1" class="new" title="Logic 10 (page does not exist)">Logic 10</a>
+</li><li> <a href="/index.php?title=Logic_11&amp;action=edit&amp;redlink=1" class="new" title="Logic 11 (page does not exist)">Logic 11</a>
+</li><li> <a href="/index.php?title=Logic_12&amp;action=edit&amp;redlink=1" class="new" title="Logic 12 (page does not exist)">Logic 12</a>
+</li><li> <a href="/index.php?title=Logic_13&amp;action=edit&amp;redlink=1" class="new" title="Logic 13 (page does not exist)">Logic 13</a>
+</li><li> <a href="/index.php?title=Logic_14&amp;action=edit&amp;redlink=1" class="new" title="Logic 14 (page does not exist)">Logic 14</a>
+</li><li> <a href="/index.php?title=Logic_15&amp;action=edit&amp;redlink=1" class="new" title="Logic 15 (page does not exist)">Logic 15</a>
+</li><li> <a href="/index.php?title=Logic_16&amp;action=edit&amp;redlink=1" class="new" title="Logic 16 (page does not exist)">Logic 16</a>
+</li><li> <a href="/index.php?title=Logic_17&amp;action=edit&amp;redlink=1" class="new" title="Logic 17 (page does not exist)">Logic 17</a>
+</li><li> <a href="/index.php?title=Logic_18&amp;action=edit&amp;redlink=1" class="new" title="Logic 18 (page does not exist)">Logic 18</a>
+</li><li> <a href="/index.php?title=Logic_19&amp;action=edit&amp;redlink=1" class="new" title="Logic 19 (page does not exist)">Logic 19</a>
+</li><li> <a href="/index.php?title=Logic_20&amp;action=edit&amp;redlink=1" class="new" title="Logic 20 (page does not exist)">Logic 20</a>
+</li><li> <a href="/index.php?title=Logic_21&amp;action=edit&amp;redlink=1" class="new" title="Logic 21 (page does not exist)">Logic 21</a>
+</li><li> <a href="/index.php?title=Logic_22&amp;action=edit&amp;redlink=1" class="new" title="Logic 22 (page does not exist)">Logic 22</a>
+</li><li> <a href="/index.php?title=Logic_23&amp;action=edit&amp;redlink=1" class="new" title="Logic 23 (page does not exist)">Logic 23</a>
+</li><li> <a href="/index.php?title=Logic_24&amp;action=edit&amp;redlink=1" class="new" title="Logic 24 (page does not exist)">Logic 24</a>
+</li><li> <a href="/index.php?title=Logic_25&amp;action=edit&amp;redlink=1" class="new" title="Logic 25 (page does not exist)">Logic 25</a>
+</li><li> <a href="/index.php?title=Logic_26&amp;action=edit&amp;redlink=1" class="new" title="Logic 26 (page does not exist)">Logic 26</a>
+</li><li> <a href="/index.php?title=Logic_27&amp;action=edit&amp;redlink=1" class="new" title="Logic 27 (page does not exist)">Logic 27</a>
+</li><li> <a href="/index.php?title=Logic_28&amp;action=edit&amp;redlink=1" class="new" title="Logic 28 (page does not exist)">Logic 28</a>
+</li></ul>
+<h3> <span class="mw-headline" id="Extbasic_missions"> Extbasic missions </span></h3>
+<ul><li> <a href="/Extbasic_1" title="Extbasic 1">Extbasic 1</a> 
+</li><li> <a href="/Extbasic_2" title="Extbasic 2">Extbasic 2</a> 
+</li><li> <a href="/Extbasic_3" title="Extbasic 3">Extbasic 3</a> 
+</li><li> <a href="/Extbasic_4" title="Extbasic 4">Extbasic 4</a> 
+</li><li> <a href="/Extbasic_5" title="Extbasic 5">Extbasic 5</a> 
+</li><li> <a href="/Extbasic_6" title="Extbasic 6">Extbasic 6</a> 
+</li><li> <a href="/Extbasic_7" title="Extbasic 7">Extbasic 7</a> 
+</li><li> <a href="/Extbasic_8" title="Extbasic 8">Extbasic 8</a> 
+</li><li> <a href="/Extbasic_9" title="Extbasic 9">Extbasic 9</a> 
+</li><li> <a href="/Extbasic_10" title="Extbasic 10">Extbasic 10</a> 
+</li><li> <a href="/Extbasic_11" title="Extbasic 11">Extbasic 11</a>
+</li><li> <a href="/Extbasic_12" title="Extbasic 12">Extbasic 12</a> 
+</li><li> <a href="/Extbasic_13" title="Extbasic 13">Extbasic 13</a>
+</li><li> <a href="/Extbasic_14" title="Extbasic 14">Extbasic 14</a>
+</li></ul>
+<h3> <span class="mw-headline" id="Javascript"> Javascript </span></h3>
+<ul><li> <a href="/Javascript_1" title="Javascript 1">Javascript 1</a>
+</li><li> <a href="/Javascript_2" title="Javascript 2">Javascript 2</a>
+</li><li> <a href="/Javascript_3" title="Javascript 3">Javascript 3</a>
+</li><li> <a href="/Javascript_4" title="Javascript 4">Javascript 4</a>
+</li><li> <a href="/Javascript_5" title="Javascript 5">Javascript 5</a>
+</li><li> <a href="/Javascript_6" title="Javascript 6">Javascript 6</a>
+</li><li> <a href="/Javascript_7" title="Javascript 7">Javascript 7</a>
+</li></ul>
+<h3> <span class="mw-headline" id="Stegonagraphy"> Stegonagraphy </span></h3>
+<ul><li> <a href="/Stego_1" title="Stego 1"> Stego 1 </a>
+</li><li> <a href="/Stego_2" title="Stego 2"> Stego 2 </a>
+</li><li> <a href="/Stego_3" title="Stego 3"> Stego 3 </a>
+</li><li> <a href="/Stego_4" title="Stego 4"> Stego 4 </a>
+</li><li> <a href="/Stego_5" title="Stego 5"> Stego 5 </a>
+</li><li> <a href="/Stego_6" title="Stego 6"> Stego 6 </a>
+</li><li> <a href="/Stego_7" title="Stego 7"> Stego 7 </a>
+</li><li> <a href="/Stego_8" title="Stego 8"> Stego 8 </a>
+</li><li> <a href="/Stego_9" title="Stego 9"> Stego 9 </a>
+</li><li> <a href="/Stego_10" title="Stego 10"> Stego 10 </a>
+</li><li> <a href="/index.php?title=Stego_11&amp;action=edit&amp;redlink=1" class="new" title="Stego 11 (page does not exist)"> Stego 11 </a>
+</li><li> <a href="/Stego_12" title="Stego 12"> Stego 12 </a>
+</li><li> <a href="/Stego_13" title="Stego 13"> Stego 13 </a>
+</li><li> <a href="/Stego_14" title="Stego 14"> Stego 14 </a>
+</li><li> <a href="/Stego_15" title="Stego 15"> Stego 15 </a>
+</li><li> <a href="/index.php?title=Stego_16&amp;action=edit&amp;redlink=1" class="new" title="Stego 16 (page does not exist)"> Stego 16 </a>
+</li><li> <a href="/index.php?title=Stego_17&amp;action=edit&amp;redlink=1" class="new" title="Stego 17 (page does not exist)"> Stego 17 </a>
+</li></ul>
+<h3> <span class="mw-headline" id="IRC_missions"> IRC missions </span></h3>
+<ul><li> <a href="/IRC_1" title="IRC 1">IRC 1</a>
+</li><li> <a href="/IRC_2" title="IRC 2">IRC 2</a>
+</li><li> <a href="/IRC_3" title="IRC 3">IRC 3</a>
+</li><li> <a href="/IRC_4" title="IRC 4">IRC 4</a>
+</li><li> <a href="/IRC_5" title="IRC 5">IRC 5</a>
+</li><li> <a href="/IRC_6" title="IRC 6">IRC 6</a>
+</li><li> <a href="/index.php?title=IRC_7&amp;action=edit&amp;redlink=1" class="new" title="IRC 7 (page does not exist)">IRC 7</a>
+</li><li> <a href="/index.php?title=IRC_8&amp;action=edit&amp;redlink=1" class="new" title="IRC 8 (page does not exist)">IRC 8</a>
+</li><li> <a href="/index.php?title=IRC_9&amp;action=edit&amp;redlink=1" class="new" title="IRC 9 (page does not exist)">IRC 9</a>
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 35/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key my_wiki:pcache:idhash:11-0!*!0!!en!*!* and timestamp 20130919154520 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="https://wiki.xkyle.com/index.php?title=Hack_This_Site&amp;oldid=125">https://wiki.xkyle.com/index.php?title=Hack_This_Site&amp;oldid=125</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:Hack_This_Site" title="Category:Hack This Site">Hack This Site</a></li><li><a href="/Category:Security" title="Category:Security">Security</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<!-- header -->
+		<div id="mw-head" class="noprint">
+			
+<!-- 0 -->
+<div id="p-personal" class="">
+	<h5>Personal tools</h5>
+	<ul>
+		<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=Hack+This+Site" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+	</ul>
+</div>
+
+<!-- /0 -->
+			<div id="left-navigation">
+				
+<!-- 0 -->
+<div id="p-namespaces" class="vectorTabs">
+	<h5>Namespaces</h5>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="/Hack_This_Site"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+					<li  id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Hack_This_Site&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" class="vectorMenu emptyPortlet">
+	<h4>
+		</h4>
+	<h5><span>Variants</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+			</div>
+			<div id="right-navigation">
+				
+<!-- 0 -->
+<div id="p-views" class="vectorTabs">
+	<h5>Views</h5>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/Hack_This_Site" >Read</a></span></li>
+					<li id="ca-viewsource"><span><a href="/index.php?title=Hack_This_Site&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Hack_This_Site&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+	<h5><span>Actions</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search">
+	<h5><label for="searchInput">Search</label></h5>
+	<form action="/index.php" id="searchform">
+				<div>
+			<input type="search" name="search" title="Search Kyle's Wiki [f]" accesskey="f" id="searchInput" />			<input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton" />			<input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton" />					<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+			</div>
+		</div>
+		<!-- /header -->
+		<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo"><a style="background-image: url(https://wiki.xkyle.com/images/logo.jpg);" href="/Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- Efforts -->
+<div class="portal" id='p-Efforts'>
+	<h5>Efforts</h5>
+	<div class="body">
+		<ul>
+			<li id="n-Plug-Computers"><a href="/Plug_Computers">Plug Computers</a></li>
+			<li id="n-Hack-This-Site"><a href="/Hack_This_Site">Hack This Site</a></li>
+			<li id="n-Games-Magazine"><a href="/Games_Magazine">Games Magazine</a></li>
+			<li id="n-CFEngine"><a href="/Category:CFEngine">CFEngine</a></li>
+			<li id="n-Puppet"><a href="/Category:Puppet">Puppet</a></li>
+			<li id="n-BackupPC"><a href="/Category:BackupPC">BackupPC</a></li>
+			<li id="n-IPv6"><a href="/Category:IPv6">IPv6</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /Efforts -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- TOOLBOX -->
+<div class="portal" id='p-tb'>
+	<h5>Toolbox</h5>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Hack_This_Site" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Hack_This_Site" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li><a href="/index.php?title=Hack_This_Site&amp;printable=yes" rel="alternate">Printable version</a></li>
+			<li id="t-permalink"><a href="/index.php?title=Hack_This_Site&amp;oldid=125" title="Permanent link to this revision of the page">Permanent link</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- LANGUAGES -->
+
+<!-- /LANGUAGES -->
+                                <div class="portal" id='p-Meta'>
+
+                                <h5>Meta</h5>
+                                <div class="body">
+                                        <ul>
+                                                <li id="n-About-this-Wiki"><a href="/About">About this Wiki</a></li>
+                                                <li id="n-Email-Me"><a href="mailto:kyle@xkyle.com">Email Me</a></li>
+                                                <li id="n-Blog"><a href="https://xkyle.com/">My Blog</a></li>
+                                                <li id="n-Code"><a href="https://github.com/solarkennedy">Code (github)</a></li>
+                                                <li id="n-LinkedIn"><a href="http://www.linkedin.com/pub/kyle-anderson/6/671/2b0">LinkedIn</a></li>
+                                                <li id="n-Google+"><a href="https://plus.google.com/u/0/115227890884261811459" rel="author">Google+</a><li>
+                                        </ul>
+                                </div>
+                                </div>
+
+			</div>
+		<!-- /panel -->
+		<!-- footer -->
+                <div id="footer">
+                        <div style="clear:both"></div>
+                </div>
+
+		<!-- /footer -->
+		<script src="https://wiki.xkyle.com/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready"], null, true);
+}</script>
+<!-- Served in 0.199 secs. -->
+	</body>
+<!-- Cached/compressed 20130919154520 -->
+</html>

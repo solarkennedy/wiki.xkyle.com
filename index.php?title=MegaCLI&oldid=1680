@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>MegaCLI - Kyle's Wiki</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.19.1" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Kyle's Wiki (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="https://wiki.xkyle.com/api.php?action=rsd" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Kyle's Wiki Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="https://wiki.xkyle.com/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}a.new,#quickbar a.new{color:#ba0000}
+
+/* cache key: my_wiki:resourceloader:filter:minify-css:7:c88e2bcd56513749bec09a7e29cb3ffa */
+</style>
+
+<script src="https://wiki.xkyle.com/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"MegaCLI","wgTitle":"MegaCLI","wgCurRevisionId":1680,"wgArticleId":488,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Linux","RAID"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgRelevantPageName":"MegaCLI","wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,
+"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function($){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+
+/* cache key: my_wiki:resourceloader:filter:minify-js:7:9983699ab6150ffa89a90653b2338ac8 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--><!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
+typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
+b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
+mixpanel.init("f49fd1e08211929444aad692b8995519");mixpanel.track('pageload')</script><!-- end Mixpanel --></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-MegaCLI skin-vector action-view">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading">
+				<span dir="auto">MegaCLI</span>
+			</h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Kyle&#039;s Wiki</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"><div id="mw-revision-info">Revision as of 07:39, 3 May 2012 by <a href="/User:Kyle" title="User:Kyle" class="mw-userlink">Kyle</a>  <span class="mw-usertoollinks">(<a href="/index.php?title=User_talk:Kyle&amp;action=edit&amp;redlink=1" class="new" title="User talk:Kyle (page does not exist)">Talk</a> | <a href="/Special:Contributions/Kyle" title="Special:Contributions/Kyle">contribs</a>)</span></div><br />
+				<div id="mw-revision-nav">(<a href="/index.php?title=MegaCLI&amp;diff=prev&amp;oldid=1680" title="MegaCLI">diff</a>) <a href="/index.php?title=MegaCLI&amp;direction=prev&amp;oldid=1680" title="MegaCLI">← Older revision</a> | Latest revision (diff) | Newer revision → (diff)</div></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to: <a href="#mw-head">navigation</a>,
+					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Informational"><span class="tocnumber">1</span> <span class="toctext">Informational</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Patrol_read"><span class="tocnumber">2</span> <span class="toctext">Patrol read</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Migrate_from_one_RAID_level_to_another"><span class="tocnumber">3</span> <span class="toctext">Migrate from one RAID level to another</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Create_a_new_RAID_5_virtual_disk_from_a_set_of_new_hard_drives"><span class="tocnumber">4</span> <span class="toctext">Create a new RAID 5 virtual disk from a set of new hard drives</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#View_reconstruction_progress"><span class="tocnumber">5</span> <span class="toctext">View reconstruction progress</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Configure_write-cache_to_be_disabled_when_battery_is_broken"><span class="tocnumber">6</span> <span class="toctext">Configure write-cache to be disabled when battery is broken</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Change_physical_disk_cache_policy"><span class="tocnumber">7</span> <span class="toctext">Change physical disk cache policy</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Alarm_Stuff"><span class="tocnumber">8</span> <span class="toctext">Alarm Stuff</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Acknowledgements"><span class="tocnumber">9</span> <span class="toctext">Acknowledgements</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#References"><span class="tocnumber">10</span> <span class="toctext">References</span></a></li>
+</ul>
+</td></tr></table>
+<h3> <span class="mw-headline" id="Informational"> Informational </span></h3>
+<p>For checking the firmware version, battery back-up unit presence, installed cache memory and the capabilities of the adapter:
+</p>
+<pre>MegaCli64 -AdpAllInfo -aAll
+</pre>
+<p>View information about the battery backup-up unit state
+</p>
+<pre>MegaCli64 -AdpBbuCmd -aAll
+</pre>
+<p>Useful for checking RAID level, stripe size, cache policy and RAID state:
+</p>
+<pre>MegaCli64 -LDInfo -Lall -aALL
+</pre>
+<p>View information about physical drives
+</p>
+<pre>MegaCli64 -PDList -aALL
+</pre>
+<h3> <span class="mw-headline" id="Patrol_read"> Patrol read </span></h3>
+<p>Patrol read is a feature which tries to discover disk error before it is too late and data is lost. By default it is done automatically (with a delay of 168 hours between different patrol reads) and will take up to 30% of IO resources.
+</p><p>To see information about the patrol read state and the delay between patrol read runs:
+</p>
+<pre>MegaCli64 -AdpPR -Info -aALL
+</pre>
+<p>To find out the current patrol read rate, execute
+</p>
+<pre>MegaCli64 -AdpGetProp PatrolReadRate -aALL
+</pre>
+<p>To reduce patrol read resource usage to 2% in order to minimize the performance impact:
+</p>
+<pre>MegaCli64 -AdpSetProp PatrolReadRate 2 -aALL
+</pre>
+<p>To disable automatic patrol read:
+</p>
+<pre>MegaCli64 -AdpPR -Dsbl -aALL
+</pre>
+<p>To start a manual patrol read scan:
+</p>
+<pre>MegaCli64 -AdpPR -Start -aALL
+</pre>
+<p>To stop a patrol read scan:
+</p>
+<pre>MegaCli64 -AdpPR -Stop -aALL
+</pre>
+<h3> <span class="mw-headline" id="Migrate_from_one_RAID_level_to_another"> Migrate from one RAID level to another </span></h3>
+<p>In this example, I migrate the virtual disk 0 from RAID level 6 to RAID 5, so that the disk space of one additional disk becomes available. The second command is used to make Linux detect the new size of the RAID disk.
+</p>
+<pre>/usr/local/sbin/MegaCli64 -LDRecon -Start -r5 -L0 -a0
+echo 1 &gt; /sys/block/sda/device/rescan
+</pre>
+<h3> <span class="mw-headline" id="Create_a_new_RAID_5_virtual_disk_from_a_set_of_new_hard_drives"> Create a new RAID 5 virtual disk from a set of new hard drives </span></h3>
+<p>First we need to now the enclosure and slot number of the hard drives we want to use for the new RAID disk. You can find them out by the first command. Then I add a virtual disk using RAID level 5, followed by the list of drives I want to use, specified by enclosure:slot syntax.
+</p>
+<pre>MegaCli64 -PDList -aALL | egrep 'Adapter|Enclosure|Slot|Inquiry'
+MegaCli64 -CfgLdAdd -r5'[252:5,252:6,252:7]' -a0
+</pre>
+<h3> <span class="mw-headline" id="View_reconstruction_progress"> View reconstruction progress </span></h3>
+<p>When reconstructing a RAID array, you can check its progress with this command.
+</p>
+<pre>MegaCli64 -LDRecon ShowProg L0 -a0
+</pre>
+<p>(replace L0 by L1 for the second virtual disk, and so on)
+</p>
+<h3> <span class="mw-headline" id="Configure_write-cache_to_be_disabled_when_battery_is_broken"> Configure write-cache to be disabled when battery is broken </span></h3>
+<pre>MegaCli64 -LDSetProp NoCachedBadBBU -LALL -aALL
+</pre>
+<h3> <span class="mw-headline" id="Change_physical_disk_cache_policy"> Change physical disk cache policy </span></h3>
+<p>If your system is not connected to a UPS, you should disable the physical disk cache in order to prevent data loss.
+</p>
+<pre>MegaCli -LDGetProp -DskCache -LAll -aALL
+</pre>
+<p>To enable it (only do this if you have a UPS and redundant power supplies):
+</p>
+<pre>MegaCli -LDGetProp -DskCache -LAll -aALL
+</pre>
+<h3> <span class="mw-headline" id="Alarm_Stuff"> Alarm Stuff </span></h3>
+<p>Enable Alarm
+</p>
+<pre>Alarm Enable	 MegaCli AdpSetProp AlarmEnbl aN|a0,1,2|aALL	 MegaCli AdpSetProp AlarmEnbl a0	
+</pre>
+<p>Disable Alarm 
+</p>
+<pre>Alarm Disable	 MegaCli AdpSetProp AlarmDsbl aN|a0,1,2|aALL	 MegaCli AdpSetProp AlarmDsbl a0
+</pre>
+<p>Silence Alarm	 
+</p>
+<pre>Alarm Silence	 MegaCli AdpSetProp AlarmSilence aN|a0,1,2|aALL	 MegaCli AdpSetProp NCQDsbl a0
+</pre>
+<p><br />
+</p>
+<h3> <span class="mw-headline" id="Acknowledgements"> Acknowledgements </span></h3>
+<ul><li> Shamelessly Stolen from: <a rel="nofollow" class="external free" href="http://artipc10.vub.ac.be/wordpress/2011/09/12/megacli-useful-commands/">http://artipc10.vub.ac.be/wordpress/2011/09/12/megacli-useful-commands/</a>
+</li></ul>
+<h3> <span class="mw-headline" id="References"> References </span></h3>
+<ul><li> <a rel="nofollow" class="external free" href="http://ftzdomino.blogspot.com/2009/03/some-useful-megacli-commands.html">http://ftzdomino.blogspot.com/2009/03/some-useful-megacli-commands.html</a>
+</li><li> <a rel="nofollow" class="external free" href="https://twiki.cern.ch/twiki/bin/view/FIOgroup/DiskRefPerc">https://twiki.cern.ch/twiki/bin/view/FIOgroup/DiskRefPerc</a>
+</li><li> <a rel="nofollow" class="external free" href="http://hwraid.le-vert.net/wiki/LSIMegaRAIDSAS">http://hwraid.le-vert.net/wiki/LSIMegaRAIDSAS</a>
+</li><li> <a rel="nofollow" class="external free" href="http://kb.lsi.com/KnowledgebaseArticle16516.aspx">http://kb.lsi.com/KnowledgebaseArticle16516.aspx</a>
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 38/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key my_wiki:pcache:idhash:488-0!*!*!!en!*!* and timestamp 20140525232328 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="https://wiki.xkyle.com/index.php?title=MegaCLI&amp;oldid=1680">https://wiki.xkyle.com/index.php?title=MegaCLI&amp;oldid=1680</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:Linux" title="Category:Linux">Linux</a></li><li><a href="/Category:RAID" title="Category:RAID">RAID</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<!-- header -->
+		<div id="mw-head" class="noprint">
+			
+<!-- 0 -->
+<div id="p-personal" class="">
+	<h5>Personal tools</h5>
+	<ul>
+		<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=MegaCLI&amp;returntoquery=oldid%3D1680" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+	</ul>
+</div>
+
+<!-- /0 -->
+			<div id="left-navigation">
+				
+<!-- 0 -->
+<div id="p-namespaces" class="vectorTabs">
+	<h5>Namespaces</h5>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="/MegaCLI"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+					<li  id="ca-talk" class="new"><span><a href="/index.php?title=Talk:MegaCLI&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" class="vectorMenu emptyPortlet">
+	<h4>
+		</h4>
+	<h5><span>Variants</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+			</div>
+			<div id="right-navigation">
+				
+<!-- 0 -->
+<div id="p-views" class="vectorTabs">
+	<h5>Views</h5>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/MegaCLI" >Read</a></span></li>
+					<li id="ca-viewsource"><span><a href="/index.php?title=MegaCLI&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="/index.php?title=MegaCLI&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+	<h5><span>Actions</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search">
+	<h5><label for="searchInput">Search</label></h5>
+	<form action="/index.php" id="searchform">
+				<div>
+			<input type="search" name="search" title="Search Kyle's Wiki [f]" accesskey="f" id="searchInput" />			<input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton" />			<input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton" />					<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+			</div>
+		</div>
+		<!-- /header -->
+		<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo"><a style="background-image: url(https://wiki.xkyle.com/images/logo.jpg);" href="/Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- Efforts -->
+<div class="portal" id='p-Efforts'>
+	<h5>Efforts</h5>
+	<div class="body">
+		<ul>
+			<li id="n-Plug-Computers"><a href="/Plug_Computers">Plug Computers</a></li>
+			<li id="n-Hack-This-Site"><a href="/Hack_This_Site">Hack This Site</a></li>
+			<li id="n-Games-Magazine"><a href="/Games_Magazine">Games Magazine</a></li>
+			<li id="n-CFEngine"><a href="/Category:CFEngine">CFEngine</a></li>
+			<li id="n-Puppet"><a href="/Category:Puppet">Puppet</a></li>
+			<li id="n-BackupPC"><a href="/Category:BackupPC">BackupPC</a></li>
+			<li id="n-IPv6"><a href="/Category:IPv6">IPv6</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /Efforts -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- TOOLBOX -->
+<div class="portal" id='p-tb'>
+	<h5>Toolbox</h5>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/MegaCLI" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/MegaCLI" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li><a href="/index.php?title=MegaCLI&amp;oldid=1680&amp;printable=yes" rel="alternate">Printable version</a></li>
+			<li id="t-permalink"><a href="/index.php?title=MegaCLI&amp;oldid=1680" title="Permanent link to this revision of the page">Permanent link</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- LANGUAGES -->
+
+<!-- /LANGUAGES -->
+                                <div class="portal" id='p-Meta'>
+
+                                <h5>Meta</h5>
+                                <div class="body">
+                                        <ul>
+                                                <li id="n-About-this-Wiki"><a href="/About">About this Wiki</a></li>
+                                                <li id="n-Email-Me"><a href="mailto:kyle@xkyle.com">Email Me</a></li>
+                                                <li id="n-Blog"><a href="https://xkyle.com/">My Blog</a></li>
+                                                <li id="n-Code"><a href="https://github.com/solarkennedy">Code (github)</a></li>
+                                                <li id="n-LinkedIn"><a href="http://www.linkedin.com/pub/kyle-anderson/6/671/2b0">LinkedIn</a></li>
+                                                <li id="n-Google+"><a href="https://plus.google.com/u/0/115227890884261811459" rel="author">Google+</a><li>
+                                        </ul>
+                                </div>
+                                </div>
+
+			</div>
+		<!-- /panel -->
+		<!-- footer -->
+                <div id="footer">
+                        <div style="clear:both"></div>
+                </div>
+
+		<!-- /footer -->
+		<script src="https://wiki.xkyle.com/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready"], null, true);
+}</script>
+<!-- Served in 0.301 secs. -->
+	</body>
+</html>

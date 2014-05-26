@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>User contributions for Kyle - Kyle's Wiki</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.19.1" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Kyle's Wiki (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="https://wiki.xkyle.com/api.php?action=rsd" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="&quot;Special:Contributions/Kyle&quot; Atom feed" href="/api.php?action=feedcontributions&amp;user=Kyle&amp;feedformat=atom" />
+<link rel="alternate" type="application/atom+xml" title="Kyle's Wiki Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="https://wiki.xkyle.com/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.special%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}a.new,#quickbar a.new{color:#ba0000}
+
+/* cache key: my_wiki:resourceloader:filter:minify-css:7:c88e2bcd56513749bec09a7e29cb3ffa */
+</style>
+
+<script src="https://wiki.xkyle.com/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"Contributions","wgNamespaceNumber":-1,"wgPageName":"Special:Contributions/Kyle","wgTitle":"Contributions/Kyle","wgCurRevisionId":0,"wgArticleId":0,"wgIsArticle":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgRelevantPageName":"Special:Contributions/Kyle"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,
+"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function($){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+
+/* cache key: my_wiki:resourceloader:filter:minify-js:7:9983699ab6150ffa89a90653b2338ac8 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--><!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
+typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
+b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
+mixpanel.init("f49fd1e08211929444aad692b8995519");mixpanel.track('pageload')</script><!-- end Mixpanel --></head>
+<body class="mediawiki ltr sitedir-ltr ns--1 ns-special mw-special-Contributions page-Special_Contributions_Kyle skin-vector action-view">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading">
+				<span dir="auto">User contributions</span>
+			</h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- subtitle -->
+				<div id="contentSub">For <a href="/User:Kyle" title="User:Kyle">Kyle</a> (<a href="/index.php?title=User_talk:Kyle&amp;action=edit&amp;redlink=1" class="new" title="User talk:Kyle (page does not exist)">talk</a> | <a href="/index.php?title=Special:Log/block&amp;page=User%3AKyle" title="Special:Log/block">block log</a> | <a href="/Special:ListFiles/Kyle" title="Special:ListFiles/Kyle">uploads</a> | <a href="/Special:Log/Kyle" title="Special:Log/Kyle">logs</a>)</div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to: <a href="#mw-head">navigation</a>,
+					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text"><form method="get" action="/index.php" class="mw-contributions-form">	<input type="hidden" value="50" name="limit" />
+	<input type="hidden" name="tagfilter" />
+	<input type="hidden" value="Special:Contributions" name="title" />
+<fieldset>
+<legend>Search for contributions</legend>
+<table class="mw-contributions-table"><tr><td colspan="2"><input name="contribs" type="radio" value="newbie" id="newbie" class="mw-input" />&#160;<label for="newbie" class="mw-input">Show contributions of new accounts only</label><br /><input name="contribs" type="radio" value="user" checked="checked" id="user" class="mw-input" />&#160;<label for="user" class="mw-input">IP address or username:</label> <input size="20" class="mw-input" value="Kyle" name="target" /> </td></tr><tr><td class="mw-label"><label for="namespace">Namespace:</label></td><td><select class="namespaceselector" id="namespace" name="namespace">
+<option value="" selected="">all</option>
+<option value="0">(Main)</option>
+<option value="1">Talk</option>
+<option value="2">User</option>
+<option value="3">User talk</option>
+<option value="4">Kyle's Wiki</option>
+<option value="5">Kyle's Wiki talk</option>
+<option value="6">File</option>
+<option value="7">File talk</option>
+<option value="8">MediaWiki</option>
+<option value="9">MediaWiki talk</option>
+<option value="10">Template</option>
+<option value="11">Template talk</option>
+<option value="12">Help</option>
+<option value="13">Help talk</option>
+<option value="14">Category</option>
+<option value="15">Category talk</option>
+</select>&#160;<span style="white-space: nowrap"><input name="nsInvert" type="checkbox" value="1" id="nsInvert" title="Check this box to hide changes to pages within the selected namespace (and the associated namespace if checked)" class="mw-input" />&#160;<label for="nsInvert" class="mw-input" title="Check this box to hide changes to pages within the selected namespace (and the associated namespace if checked)">Invert selection</label>&#160;</span><span style="white-space: nowrap"><input name="associated" type="checkbox" value="1" id="associated" title="Check this box to also include the talk or subject namespace associated with the selected namespace" class="mw-input" />&#160;<label for="associated" class="mw-input" title="Check this box to also include the talk or subject namespace associated with the selected namespace">Associated namespace</label>&#160;</span></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"><span style="white-space: nowrap"><input name="deletedOnly" type="checkbox" value="1" id="mw-show-deleted-only" class="mw-input" />&#160;<label for="mw-show-deleted-only" class="mw-input">Deleted only</label></span><span style="white-space: nowrap"><input name="topOnly" type="checkbox" value="1" id="mw-show-top-only" class="mw-input" />&#160;<label for="mw-show-top-only" class="mw-input">Only show edits that are latest revisions</label></span></td></tr><tr><td colspan="2"><label for="year">From year (and earlier):</label> <input name="year" size="4" value="" id="year" maxlength="4" /> <label for="month">From month (and earlier):</label> <select id="month" name="month" class="mw-month-selector"><option value="-1">all</option>
+<option value="1">January</option>
+<option value="2">February</option>
+<option value="3">March</option>
+<option value="4">April</option>
+<option value="5">May</option>
+<option value="6">June</option>
+<option value="7">July</option>
+<option value="8">August</option>
+<option value="9">September</option>
+<option value="10">October</option>
+<option value="11">November</option>
+<option value="12">December</option></select> <input type="submit" value="Search" class="mw-submit" /></td></tr></table><p id='mw-sp-contributions-explain'></p></fieldset></form><p>(Latest | <a href="/index.php?title=Special:Contributions/Kyle&amp;dir=prev&amp;target=Kyle" title="Special:Contributions/Kyle" rel="last" class="mw-lastlink">Earliest</a>) View (newer 50  |  <a href="/index.php?title=Special:Contributions/Kyle&amp;offset=20130929164041&amp;target=Kyle" title="Special:Contributions/Kyle" rel="next" class="mw-nextlink">older 50</a>) (<a href="/index.php?title=Special:Contributions/Kyle&amp;offset=&amp;limit=20&amp;target=Kyle" title="Special:Contributions/Kyle" class="mw-numlink">20</a> | <a href="/index.php?title=Special:Contributions/Kyle&amp;offset=&amp;limit=50&amp;target=Kyle" title="Special:Contributions/Kyle" class="mw-numlink">50</a> | <a href="/index.php?title=Special:Contributions/Kyle&amp;offset=&amp;limit=100&amp;target=Kyle" title="Special:Contributions/Kyle" class="mw-numlink">100</a> | <a href="/index.php?title=Special:Contributions/Kyle&amp;offset=&amp;limit=250&amp;target=Kyle" title="Special:Contributions/Kyle" class="mw-numlink">250</a> | <a href="/index.php?title=Special:Contributions/Kyle&amp;offset=&amp;limit=500&amp;target=Kyle" title="Special:Contributions/Kyle" class="mw-numlink">500</a>)</p><ul>
+<li class=""><a href="/index.php?title=Installing_Sensu_Ruby_Gems_With_Fpm&amp;oldid=3450" title="Installing Sensu Ruby Gems With Fpm">14:37, 13 December 2013</a> (diff | <a href="/index.php?title=Installing_Sensu_Ruby_Gems_With_Fpm&amp;action=history" title="Installing Sensu Ruby Gems With Fpm">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="207 bytes after change">(+207)</span>‎ . . <abbr class='newpage' title='This edit created a new page'>N</abbr> <a href="/Installing_Sensu_Ruby_Gems_With_Fpm" title="Installing Sensu Ruby Gems With Fpm">Installing Sensu Ruby Gems With Fpm</a> ‎ <span class="comment" dir="auto">(Created page with &quot; fpm -s gem -t deb --gem-gem=/opt/sensu/embedded/bin/gem --gem-package-name-prefix=sensu-rubygem redis    # And then:  package { &#039;sensu-rubygem-redis&#039;: ensure =&gt; &#039;3.0.6&#039; }  [[...&quot;)</span> <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Mco_Examples&amp;oldid=3449" title="Mco Examples">18:43, 27 November 2013</a> (<a href="/index.php?title=Mco_Examples&amp;diff=prev&amp;oldid=3449" title="Mco Examples">diff</a> | <a href="/index.php?title=Mco_Examples&amp;action=history" title="Mco Examples">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="1,710 bytes after change">(+169)</span>‎ . .  <a href="/Mco_Examples" title="Mco Examples">Mco Examples</a> ‎ <span class="comment" dir="auto">(<a href="/Mco_Examples#Fancy_RPC_Magic" title="Mco Examples">→</a>‎<span dir="auto"><span class="autocomment">Fancy RPC Magic</span></span>)</span> <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Fpm_makefile&amp;oldid=3448" title="Fpm makefile">13:54, 27 November 2013</a> (diff | <a href="/index.php?title=Fpm_makefile&amp;action=history" title="Fpm makefile">hist</a>) . . <strong dir="ltr" class="mw-plusminus-pos" title="904 bytes after change">(+904)</strong>‎ . . <abbr class='newpage' title='This edit created a new page'>N</abbr> <a href="/Fpm_makefile" title="Fpm makefile">Fpm makefile</a> ‎ <span class="comment" dir="auto">(Created page with &quot;&lt;pre&gt; .PHONY: clean  PROJECT=&quot;my-cool-package&quot;  VERSION=0.11.0 DEST=&quot;/opt/package&quot; PACKAGE_VERSION=$(VERSION) URL=&quot;http://example.comp&quot;  # FPM args / deb control fields USER=&quot;...&quot;)</span> <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Rspec-system-puppet&amp;oldid=3447" title="Rspec-system-puppet">19:11, 23 November 2013</a> (<a href="/index.php?title=Rspec-system-puppet&amp;diff=prev&amp;oldid=3447" title="Rspec-system-puppet">diff</a> | <a href="/index.php?title=Rspec-system-puppet&amp;action=history" title="Rspec-system-puppet">hist</a>) . . <strong dir="ltr" class="mw-plusminus-neg" title="872 bytes after change">(-791)</strong>‎ . .  <a href="/Rspec-system-puppet" title="Rspec-system-puppet">Rspec-system-puppet</a> ‎ <span class="comment" dir="auto">(<a href="/Rspec-system-puppet#Install_Vagrant_Test_Boxes" title="Rspec-system-puppet">→</a>‎<span dir="auto"><span class="autocomment">Install Vagrant Test Boxes</span></span>)</span> <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Rspec-system-puppet&amp;oldid=3446" title="Rspec-system-puppet">19:08, 23 November 2013</a> (<a href="/index.php?title=Rspec-system-puppet&amp;diff=prev&amp;oldid=3446" title="Rspec-system-puppet">diff</a> | <a href="/index.php?title=Rspec-system-puppet&amp;action=history" title="Rspec-system-puppet">hist</a>) . . <span dir="ltr" class="mw-plusminus-null" title="1,663 bytes after change">(0)</span>‎ . .  <a href="/Rspec-system-puppet" title="Rspec-system-puppet">Rspec-system-puppet</a> ‎ <span class="comment" dir="auto">(<a href="/Rspec-system-puppet#Quick_Install" title="Rspec-system-puppet">→</a>‎<span dir="auto"><span class="autocomment">Quick Install</span></span>)</span>  </li>
+<li class=""><a href="/index.php?title=Rspec-system-puppet&amp;oldid=3445" title="Rspec-system-puppet">19:02, 23 November 2013</a> (<a href="/index.php?title=Rspec-system-puppet&amp;diff=prev&amp;oldid=3445" title="Rspec-system-puppet">diff</a> | <a href="/index.php?title=Rspec-system-puppet&amp;action=history" title="Rspec-system-puppet">hist</a>) . . <span dir="ltr" class="mw-plusminus-neg" title="1,663 bytes after change">(-37)</span>‎ . .  <a href="/Rspec-system-puppet" title="Rspec-system-puppet">Rspec-system-puppet</a> ‎  </li>
+<li class=""><a href="/index.php?title=Rspec-system-puppet&amp;oldid=3444" title="Rspec-system-puppet">16:47, 23 November 2013</a> (diff | <a href="/index.php?title=Rspec-system-puppet&amp;action=history" title="Rspec-system-puppet">hist</a>) . . <strong dir="ltr" class="mw-plusminus-pos" title="1,700 bytes after change">(+1,700)</strong>‎ . . <abbr class='newpage' title='This edit created a new page'>N</abbr> <a href="/Rspec-system-puppet" title="Rspec-system-puppet">Rspec-system-puppet</a> ‎ <span class="comment" dir="auto">(Created page with &quot;=== Quick Install ===  sudo gem install vagrant  # Must use gem version, not a system package, otherwise you won&#039;t get all the ruby bindings  === Install Vagrant Test Boxes ==...&quot;)</span>  </li>
+<li class=""><a href="/index.php?title=Category:Jekyll&amp;oldid=3443" title="Category:Jekyll">19:17, 16 November 2013</a> (diff | <a href="/index.php?title=Category:Jekyll&amp;action=history" title="Category:Jekyll">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="12 bytes after change">(+12)</span>‎ . . <abbr class='newpage' title='This edit created a new page'>N</abbr> <a href="/Category:Jekyll" title="Category:Jekyll">Category:Jekyll</a> ‎ <span class="comment" dir="auto">(Created page with &quot;Jekyll Stuff&quot;)</span> <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Jekyll&amp;oldid=3442" title="Jekyll">19:13, 16 November 2013</a> (<a href="/index.php?title=Jekyll&amp;diff=prev&amp;oldid=3442" title="Jekyll">diff</a> | <a href="/index.php?title=Jekyll&amp;action=history" title="Jekyll">hist</a>) . . <span dir="ltr" class="mw-plusminus-neg" title="30 bytes after change">(-6)</span>‎ . .  <a href="/index.php?title=Jekyll&amp;redirect=no" class="mw-redirect" title="Jekyll">Jekyll</a> ‎ <span class="comment" dir="auto">(Redirected page to <a href="/Category:Jekyll" title="Category:Jekyll">Category:Jekyll</a>)</span> <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Jekyll&amp;oldid=3441" title="Jekyll">19:12, 16 November 2013</a> (diff | <a href="/index.php?title=Jekyll&amp;action=history" title="Jekyll">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="36 bytes after change">(+36)</span>‎ . . <abbr class='newpage' title='This edit created a new page'>N</abbr> <a href="/index.php?title=Jekyll&amp;redirect=no" class="mw-redirect" title="Jekyll">Jekyll</a> ‎ <span class="comment" dir="auto">(Kyle moved page <a href="/Jekyll" class="mw-redirect" title="Jekyll">Jekyll</a> to <a href="/Jekyll_Getting_Started" title="Jekyll Getting Started">Jekyll Getting Started</a>)</span>  </li>
+<li class=""><a href="/index.php?title=Jekyll_Getting_Started&amp;oldid=3440" title="Jekyll Getting Started">19:12, 16 November 2013</a> (<a href="/index.php?title=Jekyll_Getting_Started&amp;diff=prev&amp;oldid=3440" title="Jekyll Getting Started">diff</a> | <a href="/index.php?title=Jekyll_Getting_Started&amp;action=history" title="Jekyll Getting Started">hist</a>) . . <span dir="ltr" class="mw-plusminus-null" title="285 bytes after change">(0)</span>‎ . . <abbr class='minoredit' title='This is a minor edit'>m</abbr> <a href="/Jekyll_Getting_Started" title="Jekyll Getting Started">Jekyll Getting Started</a> ‎ <span class="comment" dir="auto">(Kyle moved page <a href="/Jekyll" class="mw-redirect" title="Jekyll">Jekyll</a> to <a href="/Jekyll_Getting_Started" title="Jekyll Getting Started">Jekyll Getting Started</a>)</span> <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Jekyll_Getting_Started&amp;oldid=3439" title="Jekyll Getting Started">19:12, 16 November 2013</a> (diff | <a href="/index.php?title=Jekyll_Getting_Started&amp;action=history" title="Jekyll Getting Started">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="285 bytes after change">(+285)</span>‎ . . <abbr class='newpage' title='This edit created a new page'>N</abbr> <a href="/Jekyll_Getting_Started" title="Jekyll Getting Started">Jekyll Getting Started</a> ‎ <span class="comment" dir="auto">(Created page with &quot;=== Links === * https://github.com/shopify/liquid/wiki/liquid-for-designers * http://docs.shopify.com/themes/liquid-basics/logic * http://jekyllrb.com/docs/variables/ * http:/...&quot;)</span>  </li>
+<li class=""><a href="/index.php?title=Carbon_Collector&amp;oldid=3438" title="Carbon Collector">23:04, 13 November 2013</a> (<a href="/index.php?title=Carbon_Collector&amp;diff=prev&amp;oldid=3438" title="Carbon Collector">diff</a> | <a href="/index.php?title=Carbon_Collector&amp;action=history" title="Carbon Collector">hist</a>) . . <strong dir="ltr" class="mw-plusminus-neg" title="100 bytes after change">(-953)</strong>‎ . .  <a href="/Carbon_Collector" title="Carbon Collector">Carbon Collector</a> ‎ <span class="comment" dir="auto">(Replaced content with &quot;== Update == Use <a href="/Puppet" class="mw-redirect" title="Puppet">Puppet</a>: https://github.com/KrisBuytaert/puppet-graphite/  <a href="/Category:Graphite" title="Category:Graphite">Category:Graphite</a>&quot;)</span> <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Carbon_Collector&amp;oldid=3437" title="Carbon Collector">23:03, 13 November 2013</a> (<a href="/index.php?title=Carbon_Collector&amp;diff=prev&amp;oldid=3437" title="Carbon Collector">diff</a> | <a href="/index.php?title=Carbon_Collector&amp;action=history" title="Carbon Collector">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="1,053 bytes after change">(+86)</span>‎ . .  <a href="/Carbon_Collector" title="Carbon Collector">Carbon Collector</a> ‎  </li>
+<li class=""><a href="/index.php?title=Integrating_Nagios_With_Logstash&amp;oldid=3436" title="Integrating Nagios With Logstash">15:22, 5 November 2013</a> (diff | <a href="/index.php?title=Integrating_Nagios_With_Logstash&amp;action=history" title="Integrating Nagios With Logstash">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="88 bytes after change">(+88)</span>‎ . . <abbr class='newpage' title='This edit created a new page'>N</abbr> <a href="/Integrating_Nagios_With_Logstash" title="Integrating Nagios With Logstash">Integrating Nagios With Logstash</a> ‎ <span class="comment" dir="auto">(Created page with &quot;See https://gist.github.com/jordansissel/835639 <a href="/index.php?title=Category:Nagios&amp;action=edit&amp;redlink=1" class="new" title="Category:Nagios (page does not exist)">Category:Nagios</a><a href="/index.php?title=Category:Logstash&amp;action=edit&amp;redlink=1" class="new" title="Category:Logstash (page does not exist)">Category:Logstash</a>&quot;)</span> <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=SSH_Tricks&amp;oldid=3435" title="SSH Tricks">19:21, 4 November 2013</a> (<a href="/index.php?title=SSH_Tricks&amp;diff=prev&amp;oldid=3435" title="SSH Tricks">diff</a> | <a href="/index.php?title=SSH_Tricks&amp;action=history" title="SSH Tricks">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="291 bytes after change">(+138)</span>‎ . .  <a href="/SSH_Tricks" title="SSH Tricks">SSH Tricks</a> ‎ <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Install_OpenWrt_12.09_on_a_Seagate_Dockstar&amp;oldid=3434" title="Install OpenWrt 12.09 on a Seagate Dockstar">22:28, 3 November 2013</a> (<a href="/index.php?title=Install_OpenWrt_12.09_on_a_Seagate_Dockstar&amp;diff=prev&amp;oldid=3434" title="Install OpenWrt 12.09 on a Seagate Dockstar">diff</a> | <a href="/index.php?title=Install_OpenWrt_12.09_on_a_Seagate_Dockstar&amp;action=history" title="Install OpenWrt 12.09 on a Seagate Dockstar">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="2,948 bytes after change">(+2)</span>‎ . .  <a href="/Install_OpenWrt_12.09_on_a_Seagate_Dockstar" title="Install OpenWrt 12.09 on a Seagate Dockstar">Install OpenWrt 12.09 on a Seagate Dockstar</a> ‎ <span class="comment" dir="auto">(<a href="/Install_OpenWrt_12.09_on_a_Seagate_Dockstar#Installing_the_Openwrt_Kernel" title="Install OpenWrt 12.09 on a Seagate Dockstar">→</a>‎<span dir="auto"><span class="autocomment">Installing the Openwrt Kernel</span></span>)</span> <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=OpenWrt_on_a_TL-WR703N&amp;oldid=3433" title="OpenWrt on a TL-WR703N">20:12, 29 October 2013</a> (<a href="/index.php?title=OpenWrt_on_a_TL-WR703N&amp;diff=prev&amp;oldid=3433" title="OpenWrt on a TL-WR703N">diff</a> | <a href="/index.php?title=OpenWrt_on_a_TL-WR703N&amp;action=history" title="OpenWrt on a TL-WR703N">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="1,028 bytes after change">(+139)</span>‎ . .  <a href="/OpenWrt_on_a_TL-WR703N" title="OpenWrt on a TL-WR703N">OpenWrt on a TL-WR703N</a> ‎ <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Imagemagick&amp;oldid=3432" title="Imagemagick">12:03, 26 October 2013</a> (diff | <a href="/index.php?title=Imagemagick&amp;action=history" title="Imagemagick">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="100 bytes after change">(+100)</span>‎ . . <abbr class='newpage' title='This edit created a new page'>N</abbr> <a href="/Imagemagick" title="Imagemagick">Imagemagick</a> ‎ <span class="comment" dir="auto">(Created page with &quot;=== Split an image in to smaller tiles ===  convert Hugeimage.jpg -crop 2896x2048 +repage out_%d.jpg&quot;)</span> <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Using_Travis_CI_With_Puppet_Modules&amp;oldid=3431" title="Using Travis CI With Puppet Modules">17:17, 19 October 2013</a> (<a href="/index.php?title=Using_Travis_CI_With_Puppet_Modules&amp;diff=prev&amp;oldid=3431" title="Using Travis CI With Puppet Modules">diff</a> | <a href="/index.php?title=Using_Travis_CI_With_Puppet_Modules&amp;action=history" title="Using Travis CI With Puppet Modules">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="1,245 bytes after change">(+94)</span>‎ . .  <a href="/Using_Travis_CI_With_Puppet_Modules" title="Using Travis CI With Puppet Modules">Using Travis CI With Puppet Modules</a> ‎ <span class="comment" dir="auto">(<a href="/Using_Travis_CI_With_Puppet_Modules#Setup_A_.travis.yml_File" title="Using Travis CI With Puppet Modules">→</a>‎<span dir="auto"><span class="autocomment">Setup A .travis.yml File</span></span>)</span> <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Puppet_Module_Testing_Quickstart&amp;oldid=3430" title="Puppet Module Testing Quickstart">17:16, 19 October 2013</a> (<a href="/index.php?title=Puppet_Module_Testing_Quickstart&amp;diff=prev&amp;oldid=3430" title="Puppet Module Testing Quickstart">diff</a> | <a href="/index.php?title=Puppet_Module_Testing_Quickstart&amp;action=history" title="Puppet Module Testing Quickstart">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="1,675 bytes after change">(+65)</span>‎ . .  <a href="/Puppet_Module_Testing_Quickstart" title="Puppet Module Testing Quickstart">Puppet Module Testing Quickstart</a> ‎ <span class="comment" dir="auto">(<a href="/Puppet_Module_Testing_Quickstart#Setup_SPEC_infrastructure" title="Puppet Module Testing Quickstart">→</a>‎<span dir="auto"><span class="autocomment">Setup SPEC infrastructure</span></span>)</span> <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Pupppet_Vim_Syntax_Highlighting&amp;oldid=3429" title="Pupppet Vim Syntax Highlighting">13:53, 19 October 2013</a> (<a href="/index.php?title=Pupppet_Vim_Syntax_Highlighting&amp;diff=prev&amp;oldid=3429" title="Pupppet Vim Syntax Highlighting">diff</a> | <a href="/index.php?title=Pupppet_Vim_Syntax_Highlighting&amp;action=history" title="Pupppet Vim Syntax Highlighting">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="204 bytes after change">(+42)</span>‎ . .  <a href="/Pupppet_Vim_Syntax_Highlighting" title="Pupppet Vim Syntax Highlighting">Pupppet Vim Syntax Highlighting</a> ‎ <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Puppet_Testing_Debug&amp;oldid=3428" title="Puppet Testing Debug">15:06, 18 October 2013</a> (diff | <a href="/index.php?title=Puppet_Testing_Debug&amp;action=history" title="Puppet Testing Debug">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="494 bytes after change">(+494)</span>‎ . . <abbr class='newpage' title='This edit created a new page'>N</abbr> <a href="/Puppet_Testing_Debug" title="Puppet Testing Debug">Puppet Testing Debug</a> ‎ <span class="comment" dir="auto">(Created page with &quot;=== Send puppet debug messages to the console during rspec === &lt;pre&gt; it &quot;should do stuff&quot; do   Puppet::Util::Log.level = :debug   Puppet::Util::Log.newdestination(:console)   ...&quot;)</span> <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Category:PuppetDB&amp;oldid=3427" title="Category:PuppetDB">11:36, 15 October 2013</a> (diff | <a href="/index.php?title=Category:PuppetDB&amp;action=history" title="Category:PuppetDB">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="14 bytes after change">(+14)</span>‎ . . <abbr class='newpage' title='This edit created a new page'>N</abbr> <a href="/Category:PuppetDB" title="Category:PuppetDB">Category:PuppetDB</a> ‎ <span class="comment" dir="auto">(Created page with &quot;PuppetDB Stuff&quot;)</span> <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Puppetdb&amp;oldid=3426" title="Puppetdb">11:36, 15 October 2013</a> (diff | <a href="/index.php?title=Puppetdb&amp;action=history" title="Puppetdb">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="32 bytes after change">(+32)</span>‎ . . <abbr class='newpage' title='This edit created a new page'>N</abbr> <a href="/index.php?title=Puppetdb&amp;redirect=no" class="mw-redirect" title="Puppetdb">Puppetdb</a> ‎ <span class="comment" dir="auto">(Redirected page to <a href="/Category:PuppetDB" title="Category:PuppetDB">Category:PuppetDB</a>)</span> <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Sensu_Puppet_Quickstart&amp;oldid=3425" title="Sensu Puppet Quickstart">13:57, 12 October 2013</a> (<a href="/index.php?title=Sensu_Puppet_Quickstart&amp;diff=prev&amp;oldid=3425" title="Sensu Puppet Quickstart">diff</a> | <a href="/index.php?title=Sensu_Puppet_Quickstart&amp;action=history" title="Sensu Puppet Quickstart">hist</a>) . . <strong dir="ltr" class="mw-plusminus-pos" title="1,871 bytes after change">(+1,004)</strong>‎ . .  <a href="/Sensu_Puppet_Quickstart" title="Sensu Puppet Quickstart">Sensu Puppet Quickstart</a> ‎ <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Extracting_Secrets_From_the_Duo_Mobile_App&amp;oldid=3424" title="Extracting Secrets From the Duo Mobile App">19:51, 8 October 2013</a> (diff | <a href="/index.php?title=Extracting_Secrets_From_the_Duo_Mobile_App&amp;action=history" title="Extracting Secrets From the Duo Mobile App">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="326 bytes after change">(+326)</span>‎ . . <abbr class='newpage' title='This edit created a new page'>N</abbr> <a href="/Extracting_Secrets_From_the_Duo_Mobile_App" title="Extracting Secrets From the Duo Mobile App">Extracting Secrets From the Duo Mobile App</a> ‎ <span class="comment" dir="auto">(Created page with &quot;Get root on your device, and transfer the database:  scp root@192.168.1.75:/data/data/com.duosecurity.duomobile/databases/duo_dbs .  Optionally dump the db to see the secrets ...&quot;)</span> <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Vim_GPG&amp;oldid=3423" title="Vim GPG">14:57, 6 October 2013</a> (diff | <a href="/index.php?title=Vim_GPG&amp;action=history" title="Vim GPG">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="345 bytes after change">(+345)</span>‎ . . <abbr class='newpage' title='This edit created a new page'>N</abbr> <a href="/Vim_GPG" title="Vim GPG">Vim GPG</a> ‎ <span class="comment" dir="auto">(Created page with &quot;=== Preface === <a href="/index.php?title=Make_a_GPG_Key&amp;action=edit&amp;redlink=1" class="new" title="Make a GPG Key (page does not exist)">Make a GPG Key</a> first.  === Install ===  mkdir -p ~/.vim/plugin  wget -O ~/.vim/plugin/gnupg.vim http://www.vim.org/scripts/download_script.php?src_id=12200...&quot;)</span> <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Category:GPG&amp;oldid=3422" title="Category:GPG">14:46, 6 October 2013</a> (diff | <a href="/index.php?title=Category:GPG&amp;action=history" title="Category:GPG">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="12 bytes after change">(+12)</span>‎ . . <abbr class='newpage' title='This edit created a new page'>N</abbr> <a href="/Category:GPG" title="Category:GPG">Category:GPG</a> ‎ <span class="comment" dir="auto">(Created page with &quot;GPG articles&quot;)</span> <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Category:Hiera&amp;oldid=3421" title="Category:Hiera">14:46, 6 October 2013</a> (diff | <a href="/index.php?title=Category:Hiera&amp;action=history" title="Category:Hiera">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="14 bytes after change">(+14)</span>‎ . . <abbr class='newpage' title='This edit created a new page'>N</abbr> <a href="/Category:Hiera" title="Category:Hiera">Category:Hiera</a> ‎ <span class="comment" dir="auto">(Created page with &quot;Hiera articles&quot;)</span> <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Hiera-gpg&amp;oldid=3420" title="Hiera-gpg">14:46, 6 October 2013</a> (<a href="/index.php?title=Hiera-gpg&amp;diff=prev&amp;oldid=3420" title="Hiera-gpg">diff</a> | <a href="/index.php?title=Hiera-gpg&amp;action=history" title="Hiera-gpg">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="729 bytes after change">(+55)</span>‎ . .  <a href="/Hiera-gpg" title="Hiera-gpg">Hiera-gpg</a> ‎ <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Hiera-gpg&amp;oldid=3419" title="Hiera-gpg">14:45, 6 October 2013</a> (diff | <a href="/index.php?title=Hiera-gpg&amp;action=history" title="Hiera-gpg">hist</a>) . . <strong dir="ltr" class="mw-plusminus-pos" title="674 bytes after change">(+674)</strong>‎ . . <abbr class='newpage' title='This edit created a new page'>N</abbr> <a href="/Hiera-gpg" title="Hiera-gpg">Hiera-gpg</a> ‎ <span class="comment" dir="auto">(Created page with &quot;=== Installing ===  gem install hiera-gpg or  mkdir /tmp/gems  gem install --no-ri --no-rdoc --install-dir /tmp/gems hiera-gpg  find /tmp/gems/cache -name &#039;*.gem&#039; | xargs -rn1...&quot;)</span>  </li>
+<li class=""><a href="/index.php?title=Using_Travis_CI_With_Puppet_Modules&amp;oldid=3418" title="Using Travis CI With Puppet Modules">11:50, 6 October 2013</a> (<a href="/index.php?title=Using_Travis_CI_With_Puppet_Modules&amp;diff=prev&amp;oldid=3418" title="Using Travis CI With Puppet Modules">diff</a> | <a href="/index.php?title=Using_Travis_CI_With_Puppet_Modules&amp;action=history" title="Using Travis CI With Puppet Modules">hist</a>) . . <span dir="ltr" class="mw-plusminus-neg" title="1,151 bytes after change">(-103)</span>‎ . .  <a href="/Using_Travis_CI_With_Puppet_Modules" title="Using Travis CI With Puppet Modules">Using Travis CI With Puppet Modules</a> ‎ <span class="comment" dir="auto">(<a href="/Using_Travis_CI_With_Puppet_Modules#Setup_A_.travis.yml_File" title="Using Travis CI With Puppet Modules">→</a>‎<span dir="auto"><span class="autocomment">Setup A .travis.yml File</span></span>)</span>  </li>
+<li class=""><a href="/index.php?title=Puppet_Module_Testing_With_External_Module_Dependencies&amp;oldid=3417" title="Puppet Module Testing With External Module Dependencies">11:21, 6 October 2013</a> (diff | <a href="/index.php?title=Puppet_Module_Testing_With_External_Module_Dependencies&amp;action=history" title="Puppet Module Testing With External Module Dependencies">hist</a>) . . <strong dir="ltr" class="mw-plusminus-pos" title="1,023 bytes after change">(+1,023)</strong>‎ . . <abbr class='newpage' title='This edit created a new page'>N</abbr> <a href="/Puppet_Module_Testing_With_External_Module_Dependencies" title="Puppet Module Testing With External Module Dependencies">Puppet Module Testing With External Module Dependencies</a> ‎ <span class="comment" dir="auto">(Created page with &quot;=== Setup Fixtures === Say you have a module Foo that depends on the concat module. Your .fixtures.yml file would look like: &lt;pre&gt; fixtures:   repositories:     concat: &quot;git:/...&quot;)</span> <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Puppet_Module_Testing&amp;oldid=3416" title="Puppet Module Testing">11:07, 6 October 2013</a> (diff | <a href="/index.php?title=Puppet_Module_Testing&amp;action=history" title="Puppet Module Testing">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="46 bytes after change">(+46)</span>‎ . . <abbr class='newpage' title='This edit created a new page'>N</abbr> <a href="/index.php?title=Puppet_Module_Testing&amp;redirect=no" class="mw-redirect" title="Puppet Module Testing">Puppet Module Testing</a> ‎ <span class="comment" dir="auto">(Kyle moved page <a href="/Puppet_Module_Testing" class="mw-redirect" title="Puppet Module Testing">Puppet Module Testing</a> to <a href="/Puppet_Module_Testing_Quickstart" title="Puppet Module Testing Quickstart">Puppet Module Testing Quickstart</a>)</span> <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Puppet_Module_Testing_Quickstart&amp;oldid=3415" title="Puppet Module Testing Quickstart">11:07, 6 October 2013</a> (<a href="/index.php?title=Puppet_Module_Testing_Quickstart&amp;diff=prev&amp;oldid=3415" title="Puppet Module Testing Quickstart">diff</a> | <a href="/index.php?title=Puppet_Module_Testing_Quickstart&amp;action=history" title="Puppet Module Testing Quickstart">hist</a>) . . <span dir="ltr" class="mw-plusminus-null" title="1,610 bytes after change">(0)</span>‎ . . <abbr class='minoredit' title='This is a minor edit'>m</abbr> <a href="/Puppet_Module_Testing_Quickstart" title="Puppet Module Testing Quickstart">Puppet Module Testing Quickstart</a> ‎ <span class="comment" dir="auto">(Kyle moved page <a href="/Puppet_Module_Testing" class="mw-redirect" title="Puppet Module Testing">Puppet Module Testing</a> to <a href="/Puppet_Module_Testing_Quickstart" title="Puppet Module Testing Quickstart">Puppet Module Testing Quickstart</a>)</span>  </li>
+<li class=""><a href="/index.php?title=Category:Puppet_Testing&amp;oldid=3414" title="Category:Puppet Testing">11:06, 6 October 2013</a> (diff | <a href="/index.php?title=Category:Puppet_Testing&amp;action=history" title="Category:Puppet Testing">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="43 bytes after change">(+43)</span>‎ . . <abbr class='newpage' title='This edit created a new page'>N</abbr> <a href="/Category:Puppet_Testing" title="Category:Puppet Testing">Category:Puppet Testing</a> ‎ <span class="comment" dir="auto">(Created page with &quot;Articles on how to test <a href="/Puppet" class="mw-redirect" title="Puppet">Puppet</a> modules.&quot;)</span> <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Example_Puppet_Tests&amp;oldid=3413" title="Example Puppet Tests">10:58, 6 October 2013</a> (diff | <a href="/index.php?title=Example_Puppet_Tests&amp;action=history" title="Example Puppet Tests">hist</a>) . . <strong dir="ltr" class="mw-plusminus-pos" title="819 bytes after change">(+819)</strong>‎ . . <abbr class='newpage' title='This edit created a new page'>N</abbr> <a href="/Example_Puppet_Tests" title="Example Puppet Tests">Example Puppet Tests</a> ‎ <span class="comment" dir="auto">(Created page with &quot;=== Set Facts and Test for Class Existence === &lt;pre&gt; # spec/classes/transmission_daemon_spec.rb require &#039;spec_helper&#039;  describe &#039;transmission::daemon&#039;, :type =&gt; &#039;class&#039; do    ...&quot;)</span> <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Puppet_Module_Testing_Quickstart&amp;oldid=3412" title="Puppet Module Testing Quickstart">09:44, 6 October 2013</a> (<a href="/index.php?title=Puppet_Module_Testing_Quickstart&amp;diff=prev&amp;oldid=3412" title="Puppet Module Testing Quickstart">diff</a> | <a href="/index.php?title=Puppet_Module_Testing_Quickstart&amp;action=history" title="Puppet Module Testing Quickstart">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="1,610 bytes after change">(+95)</span>‎ . .  <a href="/Puppet_Module_Testing_Quickstart" title="Puppet Module Testing Quickstart">Puppet Module Testing Quickstart</a> ‎ <span class="comment" dir="auto">(<a href="/Puppet_Module_Testing_Quickstart#Setup_a_Gemfile_in_Module_Directory" title="Puppet Module Testing Quickstart">→</a>‎<span dir="auto"><span class="autocomment">Setup a Gemfile in Module Directory</span></span>)</span>  </li>
+<li class=""><a href="/index.php?title=Puppet_Module_Testing_Quickstart&amp;oldid=3411" title="Puppet Module Testing Quickstart">09:41, 6 October 2013</a> (<a href="/index.php?title=Puppet_Module_Testing_Quickstart&amp;diff=prev&amp;oldid=3411" title="Puppet Module Testing Quickstart">diff</a> | <a href="/index.php?title=Puppet_Module_Testing_Quickstart&amp;action=history" title="Puppet Module Testing Quickstart">hist</a>) . . <span dir="ltr" class="mw-plusminus-neg" title="1,515 bytes after change">(-1)</span>‎ . .  <a href="/Puppet_Module_Testing_Quickstart" title="Puppet Module Testing Quickstart">Puppet Module Testing Quickstart</a> ‎ <span class="comment" dir="auto">(<a href="/Puppet_Module_Testing_Quickstart#Writing_Tests" title="Puppet Module Testing Quickstart">→</a>‎<span dir="auto"><span class="autocomment">Writing Tests</span></span>)</span>  </li>
+<li class=""><a href="/index.php?title=Using_Travis_CI_With_Puppet_Modules&amp;oldid=3410" title="Using Travis CI With Puppet Modules">21:30, 5 October 2013</a> (<a href="/index.php?title=Using_Travis_CI_With_Puppet_Modules&amp;diff=prev&amp;oldid=3410" title="Using Travis CI With Puppet Modules">diff</a> | <a href="/index.php?title=Using_Travis_CI_With_Puppet_Modules&amp;action=history" title="Using Travis CI With Puppet Modules">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="1,254 bytes after change">(+33)</span>‎ . .  <a href="/Using_Travis_CI_With_Puppet_Modules" title="Using Travis CI With Puppet Modules">Using Travis CI With Puppet Modules</a> ‎ <span class="comment" dir="auto">(<a href="/Using_Travis_CI_With_Puppet_Modules#Setup_A_.travis.yml_File" title="Using Travis CI With Puppet Modules">→</a>‎<span dir="auto"><span class="autocomment">Setup A .travis.yml File</span></span>)</span>  </li>
+<li class=""><a href="/index.php?title=Using_Travis_CI_With_Puppet_Modules&amp;oldid=3409" title="Using Travis CI With Puppet Modules">21:23, 5 October 2013</a> (diff | <a href="/index.php?title=Using_Travis_CI_With_Puppet_Modules&amp;action=history" title="Using Travis CI With Puppet Modules">hist</a>) . . <strong dir="ltr" class="mw-plusminus-pos" title="1,221 bytes after change">(+1,221)</strong>‎ . . <abbr class='newpage' title='This edit created a new page'>N</abbr> <a href="/Using_Travis_CI_With_Puppet_Modules" title="Using Travis CI With Puppet Modules">Using Travis CI With Puppet Modules</a> ‎ <span class="comment" dir="auto">(Created page with &quot;=== Assumptions === * A Gemfile is setup that declares the gems you need to test * bundle exec rake spec - actually runs your tests  === First Setup: Signup === Link your [[Gi...&quot;)</span>  </li>
+<li class=""><a href="/index.php?title=Testing_Puppet_With_Hiera&amp;oldid=3408" title="Testing Puppet With Hiera">21:01, 5 October 2013</a> (diff | <a href="/index.php?title=Testing_Puppet_With_Hiera&amp;action=history" title="Testing Puppet With Hiera">hist</a>) . . <strong dir="ltr" class="mw-plusminus-pos" title="570 bytes after change">(+570)</strong>‎ . . <abbr class='newpage' title='This edit created a new page'>N</abbr> <a href="/Testing_Puppet_With_Hiera" title="Testing Puppet With Hiera">Testing Puppet With Hiera</a> ‎ <span class="comment" dir="auto">(Created page with &quot;=== Getting The Gem === Put this in your Gemfile or Gem install:  gem &#039;hiera-puppet-helper&#039;  # Then bundle install or   gem install hiera-puppet-helper  === Adding the Helper ...&quot;)</span> <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Puppet_Module_Testing_Quickstart&amp;oldid=3407" title="Puppet Module Testing Quickstart">20:29, 5 October 2013</a> (diff | <a href="/index.php?title=Puppet_Module_Testing_Quickstart&amp;action=history" title="Puppet Module Testing Quickstart">hist</a>) . . <strong dir="ltr" class="mw-plusminus-pos" title="1,516 bytes after change">(+1,516)</strong>‎ . . <abbr class='newpage' title='This edit created a new page'>N</abbr> <a href="/Puppet_Module_Testing_Quickstart" title="Puppet Module Testing Quickstart">Puppet Module Testing Quickstart</a> ‎ <span class="comment" dir="auto">(Created page with &quot;=== Prerequisites === &lt;pre&gt; sudo apt-get install bundler &lt;/pre&gt;  === Setup a Gemfile in Module Directory === &lt;pre&gt; source &#039;https://rubygems.org&#039;  group :development, :test do ...&quot;)</span>  </li>
+<li class=""><a href="/index.php?title=Wireshark&amp;oldid=3406" title="Wireshark">15:04, 4 October 2013</a> (diff | <a href="/index.php?title=Wireshark&amp;action=history" title="Wireshark">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="33 bytes after change">(+33)</span>‎ . . <abbr class='newpage' title='This edit created a new page'>N</abbr> <a href="/index.php?title=Wireshark&amp;redirect=no" class="mw-redirect" title="Wireshark">Wireshark</a> ‎ <span class="comment" dir="auto">(Redirected page to <a href="/index.php?title=Category:Wireshark&amp;action=edit&amp;redlink=1" class="new" title="Category:Wireshark (page does not exist)">Category:Wireshark</a>)</span> <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Mco_Examples&amp;oldid=3405" title="Mco Examples">18:19, 30 September 2013</a> (<a href="/index.php?title=Mco_Examples&amp;diff=prev&amp;oldid=3405" title="Mco Examples">diff</a> | <a href="/index.php?title=Mco_Examples&amp;action=history" title="Mco Examples">hist</a>) . . <span dir="ltr" class="mw-plusminus-neg" title="1,541 bytes after change">(-2)</span>‎ . .  <a href="/Mco_Examples" title="Mco Examples">Mco Examples</a> ‎ <span class="comment" dir="auto">(<a href="/Mco_Examples#List_Servers_with_a_package_installed" title="Mco Examples">→</a>‎<span dir="auto"><span class="autocomment">List Servers with a package installed</span></span>)</span>  </li>
+<li class=""><a href="/index.php?title=Sensu_Puppet_Quickstart&amp;oldid=3404" title="Sensu Puppet Quickstart">20:32, 29 September 2013</a> (diff | <a href="/index.php?title=Sensu_Puppet_Quickstart&amp;action=history" title="Sensu Puppet Quickstart">hist</a>) . . <strong dir="ltr" class="mw-plusminus-pos" title="867 bytes after change">(+867)</strong>‎ . . <abbr class='newpage' title='This edit created a new page'>N</abbr> <a href="/Sensu_Puppet_Quickstart" title="Sensu Puppet Quickstart">Sensu Puppet Quickstart</a> ‎ <span class="comment" dir="auto">(Created page with &quot;=== Install Puppet Modules ===  puppet module install example42/redis  puppet module install puppetlabs/rabbitmq  puppet module install sensu/sensu  === Sensu Server Puppet Co...&quot;)</span>  </li>
+<li class=""><a href="/index.php?title=Hiera&amp;oldid=3403" title="Hiera">17:25, 29 September 2013</a> (diff | <a href="/index.php?title=Hiera&amp;action=history" title="Hiera">hist</a>) . . <strong dir="ltr" class="mw-plusminus-pos" title="1,154 bytes after change">(+1,154)</strong>‎ . . <abbr class='newpage' title='This edit created a new page'>N</abbr> <a href="/Hiera" title="Hiera">Hiera</a> ‎ <span class="comment" dir="auto">(Created page with &quot;=== hiera.yaml === Start off with the basic hiera.yaml in either /etc/puppet/hiera.yaml or ~/.puppet/hiera.yaml &lt;pre&gt; --- :backends: yaml :yaml:   :datadir: /etc/puppet/hierad...&quot;)</span> <span class="mw-uctop">(top)</span> </li>
+<li class=""><a href="/index.php?title=Pupppet_Vim_Syntax_Highlighting&amp;oldid=3402" title="Pupppet Vim Syntax Highlighting">15:04, 29 September 2013</a> (diff | <a href="/index.php?title=Pupppet_Vim_Syntax_Highlighting&amp;action=history" title="Pupppet Vim Syntax Highlighting">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="162 bytes after change">(+162)</span>‎ . . <abbr class='newpage' title='This edit created a new page'>N</abbr> <a href="/Pupppet_Vim_Syntax_Highlighting" title="Pupppet Vim Syntax Highlighting">Pupppet Vim Syntax Highlighting</a> ‎ <span class="comment" dir="auto">(Created page with &quot; sudo apt-get install vim-puppet  vim-addon-manager install puppet  # Or System-wide  sudo vim-addon-manager -w install puppet  <a href="/Category:Puppet" title="Category:Puppet">Category:Puppet</a>[[Category:Vim]&quot;)</span>  </li>
+<li class=""><a href="/index.php?title=Git-annex&amp;oldid=3401" title="Git-annex">09:40, 29 September 2013</a> (diff | <a href="/index.php?title=Git-annex&amp;action=history" title="Git-annex">hist</a>) . . <span dir="ltr" class="mw-plusminus-pos" title="33 bytes after change">(+33)</span>‎ . . <abbr class='newpage' title='This edit created a new page'>N</abbr> <a href="/index.php?title=Git-annex&amp;redirect=no" class="mw-redirect" title="Git-annex">Git-annex</a> ‎ <span class="comment" dir="auto">(Redirected page to <a href="/index.php?title=Category:Git-annex&amp;action=edit&amp;redlink=1" class="new" title="Category:Git-annex (page does not exist)">Category:Git-annex</a>)</span> <span class="mw-uctop">(top)</span> </li>
+</ul>
+<p>(Latest | <a href="/index.php?title=Special:Contributions/Kyle&amp;dir=prev&amp;target=Kyle" title="Special:Contributions/Kyle" rel="last" class="mw-lastlink">Earliest</a>) View (newer 50  |  <a href="/index.php?title=Special:Contributions/Kyle&amp;offset=20130929164041&amp;target=Kyle" title="Special:Contributions/Kyle" rel="next" class="mw-nextlink">older 50</a>) (<a href="/index.php?title=Special:Contributions/Kyle&amp;offset=&amp;limit=20&amp;target=Kyle" title="Special:Contributions/Kyle" class="mw-numlink">20</a> | <a href="/index.php?title=Special:Contributions/Kyle&amp;offset=&amp;limit=50&amp;target=Kyle" title="Special:Contributions/Kyle" class="mw-numlink">50</a> | <a href="/index.php?title=Special:Contributions/Kyle&amp;offset=&amp;limit=100&amp;target=Kyle" title="Special:Contributions/Kyle" class="mw-numlink">100</a> | <a href="/index.php?title=Special:Contributions/Kyle&amp;offset=&amp;limit=250&amp;target=Kyle" title="Special:Contributions/Kyle" class="mw-numlink">250</a> | <a href="/index.php?title=Special:Contributions/Kyle&amp;offset=&amp;limit=500&amp;target=Kyle" title="Special:Contributions/Kyle" class="mw-numlink">500</a>)</p></div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="https://wiki.xkyle.com/Special:Contributions/Kyle">https://wiki.xkyle.com/Special:Contributions/Kyle</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks catlinks-allhidden'></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<!-- header -->
+		<div id="mw-head" class="noprint">
+			
+<!-- 0 -->
+<div id="p-personal" class="">
+	<h5>Personal tools</h5>
+	<ul>
+		<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=Special%3AContributions%2FKyle" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+	</ul>
+</div>
+
+<!-- /0 -->
+			<div id="left-navigation">
+				
+<!-- 0 -->
+<div id="p-namespaces" class="vectorTabs">
+	<h5>Namespaces</h5>
+	<ul>
+					<li  id="ca-nstab-special" class="selected"><span><a href="/Special:Contributions/Kyle"  title="This is a special page, you cannot edit the page itself">Special page</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" class="vectorMenu emptyPortlet">
+	<h4>
+		</h4>
+	<h5><span>Variants</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+			</div>
+			<div id="right-navigation">
+				
+<!-- 0 -->
+<div id="p-views" class="vectorTabs emptyPortlet">
+	<h5>Views</h5>
+	<ul>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+	<h5><span>Actions</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search">
+	<h5><label for="searchInput">Search</label></h5>
+	<form action="/index.php" id="searchform">
+				<div>
+			<input type="search" name="search" title="Search Kyle's Wiki [f]" accesskey="f" id="searchInput" />			<input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton" />			<input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton" />					<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+			</div>
+		</div>
+		<!-- /header -->
+		<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo"><a style="background-image: url(https://wiki.xkyle.com/images/logo.jpg);" href="/Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- Efforts -->
+<div class="portal" id='p-Efforts'>
+	<h5>Efforts</h5>
+	<div class="body">
+		<ul>
+			<li id="n-Plug-Computers"><a href="/Plug_Computers">Plug Computers</a></li>
+			<li id="n-Hack-This-Site"><a href="/Hack_This_Site">Hack This Site</a></li>
+			<li id="n-Games-Magazine"><a href="/Games_Magazine">Games Magazine</a></li>
+			<li id="n-CFEngine"><a href="/Category:CFEngine">CFEngine</a></li>
+			<li id="n-Puppet"><a href="/Category:Puppet">Puppet</a></li>
+			<li id="n-BackupPC"><a href="/Category:BackupPC">BackupPC</a></li>
+			<li id="n-IPv6"><a href="/Category:IPv6">IPv6</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /Efforts -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- TOOLBOX -->
+<div class="portal" id='p-tb'>
+	<h5>Toolbox</h5>
+	<div class="body">
+		<ul>
+			<li id="feedlinks"><a href="/api.php?action=feedcontributions&amp;user=Kyle&amp;feedformat=atom" id="feed-atom" rel="alternate" type="application/atom+xml" class="feedlink" title="Atom feed for this page">Atom</a></li>
+			<li id="t-contributions"><a href="/Special:Contributions/Kyle" title="A list of contributions of this user">User contributions</a></li>
+			<li id="t-log"><a href="/index.php?title=Special:Log&amp;user=Kyle">Logs</a></li>
+			<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- LANGUAGES -->
+
+<!-- /LANGUAGES -->
+                                <div class="portal" id='p-Meta'>
+
+                                <h5>Meta</h5>
+                                <div class="body">
+                                        <ul>
+                                                <li id="n-About-this-Wiki"><a href="/About">About this Wiki</a></li>
+                                                <li id="n-Email-Me"><a href="mailto:kyle@xkyle.com">Email Me</a></li>
+                                                <li id="n-Blog"><a href="https://xkyle.com/">My Blog</a></li>
+                                                <li id="n-Code"><a href="https://github.com/solarkennedy">Code (github)</a></li>
+                                                <li id="n-LinkedIn"><a href="http://www.linkedin.com/pub/kyle-anderson/6/671/2b0">LinkedIn</a></li>
+                                                <li id="n-Google+"><a href="https://plus.google.com/u/0/115227890884261811459" rel="author">Google+</a><li>
+                                        </ul>
+                                </div>
+                                </div>
+
+			</div>
+		<!-- /panel -->
+		<!-- footer -->
+                <div id="footer">
+                        <div style="clear:both"></div>
+                </div>
+
+		<!-- /footer -->
+		<script src="https://wiki.xkyle.com/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready"], null, true);
+}</script>
+<!-- Served in 0.964 secs. -->
+	</body>
+</html>
