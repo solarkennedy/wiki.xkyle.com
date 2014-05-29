@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for EACH in *
+do
+  if [[ -f $EACH ]]; then
+  mv $EACH $EACH.html
+  fi
+done
+
